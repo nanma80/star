@@ -16,7 +16,7 @@ const styles = {
 
 const mql = window.matchMedia(`(min-width: 800px)`);
 
-class App extends React.Component {
+class Page1 extends React.Component {
   constructor(props) {
     super(props);
 
@@ -58,7 +58,7 @@ class App extends React.Component {
   }
 
   render() {
-    console.log("rendering app.js");
+    console.log("rendering page1.js");
     const sidebar = <SidebarContent />;
 
     const contentHeader = (
@@ -83,32 +83,19 @@ class App extends React.Component {
       onSetOpen: this.onSetOpen
     };
 
-    const content = (<div style={styles.content}>
-            <p>
-            App page.
-            <br/>
-              This example will automatically dock the sidebar if the page width
-              is above 800px (which is currently {this.state.docked.toString()}
-              ).
-            </p>
-            <p>
-              This functionality should live in the component that renders the
-              sidebar. This way you&#39;re able to modify the sidebar and main
-              content based on the responsiveness data. For example, the menu
-              button in the header of the content is now{" "}
-              {this.state.docked ? "hidden" : "shown"} because the sidebar is{" "}
-              {!this.state.docked && "not"} visible.
-            </p>
-          </div>);
-
     return (
       <Sidebar {...sidebarProps}>
         <MaterialTitlePanel title={contentHeader}>
-          {content}
+          <div style={styles.content}>
+            <p>
+              content of page 1
+            </p>
+          </div>
         </MaterialTitlePanel>
       </Sidebar>
     );
   }
 }
 
-export default App;
+export default Page1;
+

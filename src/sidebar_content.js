@@ -31,16 +31,6 @@ const SidebarContent = props => {
     ? { ...styles.sidebar, ...props.style }
     : styles.sidebar;
 
-  const links = [];
-
-  for (let ind = 0; ind < 10; ind++) {
-    links.push(
-      <a key={ind} href="/#" style={styles.sidebarLink}>
-        Mock menu item {ind}
-      </a>
-    );
-  }
-
   return (
     <MaterialTitlePanel title="Menu" style={style}>
       <div style={styles.content}>
@@ -51,7 +41,9 @@ const SidebarContent = props => {
           Link: Click me page 1
         </Link>
         <div style={styles.divider} />
-        {links}
+        <Link to="/page1"  style={styles.sidebarLink}> 
+          Link 2: Click me page 1
+        </Link>
       </div>
     </MaterialTitlePanel>
   );

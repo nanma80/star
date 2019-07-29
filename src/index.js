@@ -9,9 +9,9 @@ import Page1 from './page1';
 ReactDOM.render(
   <BrowserRouter>
      <Switch>
-        <Route exact path='/index.html' component={Welcome} />
-        <Route exact path='/' component={Welcome} />
-        <Route path='/page1' component={Page1} />
+        <Route exact path={process.env.PUBLIC_URL + '/index.html'} component={Welcome} />
+        <Route exact path={process.env.PUBLIC_URL + '/'} component={Welcome} />
+        <Route path={process.env.PUBLIC_URL + '/page1'} component={Page1} />
      </Switch>
   </BrowserRouter>,
   document.getElementById('root')

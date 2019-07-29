@@ -34,14 +34,14 @@ const SidebarContent = props => {
   return (
     <MaterialTitlePanel title="Menu" style={style}>
       <div style={styles.content}>
-        <a href="/" style={styles.sidebarLink}>
+        <a href={process.env.PUBLIC_URL + '/'} style={styles.sidebarLink}>
           Home
         </a>
-        <Link to="/page1"  style={styles.sidebarLink}> 
+        <Link to={process.env.PUBLIC_URL + '/page1'}  style={styles.sidebarLink}> 
           Link: Click me page 1
         </Link>
         <div style={styles.divider} />
-        <Link to="/page1"  style={styles.sidebarLink}> 
+        <Link to={process.env.PUBLIC_URL + '/page1'}  style={styles.sidebarLink}> 
           Link 2: Click me page 1
         </Link>
       </div>

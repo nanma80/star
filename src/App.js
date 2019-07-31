@@ -2,6 +2,7 @@ import React from "react";
 import Sidebar from "react-sidebar";
 import MaterialTitlePanel from "./material_title_panel";
 import SidebarContent from "./sidebar_content";
+import './App.css';
 
 const styles = {
   contentHeaderMenuLink: {
@@ -23,7 +24,8 @@ class App extends React.Component {
     this.state = {
       docked: mql.matches,
       open: false,
-      content: "default content"
+      content: "default content",
+      contentHeader: (<span> Star Polytopes </span>)
     };
 
     this.mediaQueryChanged = this.mediaQueryChanged.bind(this);
@@ -73,7 +75,7 @@ class App extends React.Component {
             =
           </a>
         )}
-        <span> Star Polytopes </span>
+        {this.state.contentHeader}
       </span>
     );
 

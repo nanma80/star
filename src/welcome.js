@@ -9,6 +9,8 @@ class Welcome extends App {
     <h1>Welcome to star polytopes</h1>
     </div>)
     ;
+
+    this.state.contentHeader = (<span> Welcome to star polytopes! </span>)
   }
 }
 

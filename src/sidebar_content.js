@@ -17,7 +17,7 @@ const styles = {
   divider: {
     margin: "8px 0",
     height: 1,
-    backgroundColor: "#757575"
+    backgroundColor: "#757575",
   },
   content: {
     padding: "16px",
@@ -34,16 +34,36 @@ const SidebarContent = props => {
   return (
     <MaterialTitlePanel title="Menu" style={style}>
       <div style={styles.content}>
-        <a href={process.env.PUBLIC_URL + '/'} style={styles.sidebarLink}>
+        <Link to='/' style={styles.sidebarLink}> 
           Home
-        </a>
-        <Link to={process.env.PUBLIC_URL + '/page1'}  style={styles.sidebarLink}> 
-          Link: Click me page 1
         </Link>
-        <div style={styles.divider} />
-        <Link to={process.env.PUBLIC_URL + '/page1'}  style={styles.sidebarLink}> 
-          Link 2: Click me page 1
+        <div style={styles.divider}>2D:</div>
+        <Link to='/pentagram' style={styles.sidebarLink}> 
+          Pentagram
         </Link>
+        
+        <div style={styles.divider}>3D:</div>
+        <Link to='/polyhedron_5_3' style={styles.sidebarLink}> 
+          Dodecahedron
+        </Link>
+        <Link to='/polyhedron_3_5' style={styles.sidebarLink}> 
+          Icosahedron
+        </Link>
+        <Link to='/polyhedron_52_5' style={styles.sidebarLink}> 
+          Small stellated dodecahedron
+        </Link>
+        <Link to='/polyhedron_5_52' style={styles.sidebarLink}> 
+          Great dodecahedron
+        </Link>
+        <Link to='/polyhedron_52_3' style={styles.sidebarLink}> 
+          Great stellated dodecahedron
+        </Link>
+        <Link to='/polyhedron_3_52' style={styles.sidebarLink}> 
+          Great icosahedron
+        </Link>
+
+        <div style={styles.divider}>4D:</div>
+
       </div>
     </MaterialTitlePanel>
   );

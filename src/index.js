@@ -37,7 +37,18 @@ ReactDOM.render(
         <Route path='/polyhedron_52_5' component={Polyhedron_52_5} />
         <Route path='/polyhedron_5_3' component={Polyhedron_5_3} />
         <Route path='/polyhedron_5_52' component={Polyhedron_5_52} />
-        // add polytopes
+        <Route path='/polytope_5_3_3' component={Polytope_5_3_3} />
+        <Route path='/polytope_3_3_5' component={Polytope_3_3_5} />
+        <Route path='/polytope_3_5_52' component={Polytope_3_5_52} />
+        <Route path='/polytope_52_5_3' component={Polytope_52_5_3} />
+        <Route path='/polytope_5_52_5' component={Polytope_5_52_5} />
+        <Route path='/polytope_5_3_52' component={Polytope_5_3_52} />
+        <Route path='/polytope_52_3_5' component={Polytope_52_3_5} />
+        <Route path='/polytope_52_5_52' component={Polytope_52_5_52} />
+        <Route path='/polytope_5_52_3' component={Polytope_5_52_3} />
+        <Route path='/polytope_3_52_5' component={Polytope_3_52_5} />
+        <Route path='/polytope_3_3_52' component={Polytope_3_3_52} />
+        <Route path='/polytope_52_3_3' component={Polytope_52_3_3} />
      </Switch>
   </HashRouter>,
   document.getElementById('root')

@@ -8,21 +8,39 @@ const styles = {
     width: 256,
     height: "100%"
   },
+
   sidebarLink: {
     display: "block",
     padding: "16px 0px",
     color: "#757575",
     textDecoration: "none"
   },
+
   divider: {
     margin: "8px 0",
     height: 1,
     backgroundColor: "#757575",
   },
+
   content: {
     padding: "16px",
     height: "100%",
     backgroundColor: "white"
+  },
+
+  dividerLine: {
+    width: "100%", 
+    "text-align": "center", 
+    "line-height": "0.1",
+    margin: "8px 0",
+    backgroundColor: "#757575"
+  },
+
+  dividerText: { 
+    color: "#757575",
+    textDecoration: "none",
+    background:"#fff",
+    padding:"0 10px"
   }
 };
 
@@ -37,12 +55,12 @@ const SidebarContent = props => {
         <Link to='/' style={styles.sidebarLink}> 
           Home
         </Link>
-        <div style={styles.divider}>2D:</div>
+        <h2 style={styles.dividerLine}><span style={styles.dividerText}>2D</span></h2>
         <Link to='/pentagram' style={styles.sidebarLink}> 
           Pentagram
         </Link>
         
-        <div style={styles.divider}>3D:</div>
+        <h2 style={styles.dividerLine}><span style={styles.dividerText}>3D</span></h2>
         <Link to='/polyhedron_5_3' style={styles.sidebarLink}> 
           Dodecahedron
         </Link>
@@ -62,8 +80,43 @@ const SidebarContent = props => {
           Great icosahedron
         </Link>
 
-        <div style={styles.divider}>4D:</div>
-
+        <h2 style={styles.dividerLine}><span style={styles.dividerText}>4D</span></h2>
+        <Link to='/polytope_5_3_3' style={styles.sidebarLink}> 
+          120-cell
+        </Link>
+        <Link to='/polytope_3_3_5' style={styles.sidebarLink}> 
+          600-cell
+        </Link>
+        <Link to='/polytope_3_5_52' style={styles.sidebarLink}> 
+          {'{'} 3, 5, 5/2 {'}'}
+        </Link>
+        <Link to='/polytope_52_5_3' style={styles.sidebarLink}> 
+          {'{'} 5/2, 5, 3 {'}'}
+        </Link>
+        <Link to='/polytope_5_52_5' style={styles.sidebarLink}> 
+          {'{'} 5, 5/2, 5 {'}'}
+        </Link>
+        <Link to='/polytope_5_3_52' style={styles.sidebarLink}> 
+          {'{'} 5, 3, 5/2 {'}'}
+        </Link>
+        <Link to='/polytope_52_3_5' style={styles.sidebarLink}> 
+          {'{'} 5/2, 3, 5 {'}'}
+        </Link>
+        <Link to='/polytope_52_5_52' style={styles.sidebarLink}> 
+          {'{'} 5/2, 5, 5/2 {'}'}
+        </Link>
+        <Link to='/polytope_5_52_3' style={styles.sidebarLink}> 
+          {'{'} 5, 5/2, 3 {'}'}
+        </Link>
+        <Link to='/polytope_3_52_5' style={styles.sidebarLink}> 
+          {'{'} 3, 5/2, 5 {'}'}
+        </Link>
+        <Link to='/polytope_3_3_52' style={styles.sidebarLink}> 
+          {'{'} 3, 3, 5/2 {'}'}
+        </Link>
+        <Link to='/polytope_52_3_3' style={styles.sidebarLink}> 
+          {'{'} 5/2, 3, 3 {'}'}
+        </Link>
       </div>
     </MaterialTitlePanel>
   );

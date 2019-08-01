@@ -3,13 +3,8 @@
   "name": "Star Polytopes",
   "icons": [
       {
-          "src": "/star/android-chrome-192x192.png",
+          "src": "http://nan.ma/star/android-chrome-192x192.png?v=vMQk7lPLJN",
           "sizes": "192x192",
-          "type": "image/png"
-      },
-      {
-          "src": "/star/android-chrome-256x256.png",
-          "sizes": "256x256",
           "type": "image/png"
       }
   ],

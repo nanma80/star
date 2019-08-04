@@ -53,7 +53,7 @@ const SidebarContent = props => {
     <MaterialTitlePanel title="Menu" style={style}>
       <div style={styles.content}>
         <Link to='/' style={styles.sidebarLink}> 
-          Home
+          Welcome
         </Link>
         <h2 style={styles.dividerLine}><span style={styles.dividerText}>2D</span></h2>
         <Link to='/pentagram' style={styles.sidebarLink}> 

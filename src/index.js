@@ -4,6 +4,8 @@ import { Route, Switch, HashRouter } from 'react-router-dom';
 import './index.css';
 import Welcome from './welcome';
 import Pentagram from './pentagram';
+import Heptagram from './heptagram';
+import Hexagram from './hexagram';
 
 import Polyhedron_3_5 from './polyhedron_3_5';
 import Polyhedron_3_52 from './polyhedron_3_52';
@@ -31,6 +33,8 @@ ReactDOM.render(
         <Route exact path='/index.html' component={Welcome} />
         <Route exact path='/' component={Welcome} />
         <Route path='/pentagram' component={Pentagram} />
+        <Route path='/heptagram' component={Heptagram} />
+        <Route path='/hexagram' component={Hexagram} />
         <Route path='/polyhedron_3_5' component={Polyhedron_3_5} />
         <Route path='/polyhedron_3_52' component={Polyhedron_3_52} />
         <Route path='/polyhedron_52_3' component={Polyhedron_52_3} />

@@ -12,7 +12,7 @@ class Pentagram extends App {
     	)
     ;
 
-    this.state.contentHeader = (<span> 2D: Pentagram </span>);
+    this.state.contentHeader = (<span> Pentagram </span>);
   }
 }
 

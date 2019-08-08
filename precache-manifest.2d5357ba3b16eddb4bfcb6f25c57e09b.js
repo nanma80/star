@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "735724699ec1194621190c67c96af32f",
+    "revision": "ecd54a5053069ce5aaaf8e4ba69fab11",
     "url": "/star/index.html"
   },
   {
-    "revision": "a948e53d16c613797e3c",
-    "url": "/star/static/css/main.277c9172.chunk.css"
+    "revision": "adafe4d32da88e8e306f",
+    "url": "/star/static/css/main.0eddef35.chunk.css"
   },
   {
     "revision": "1e6200aa282abe471921",
     "url": "/star/static/js/2.576a3d0f.chunk.js"
   },
   {
-    "revision": "a948e53d16c613797e3c",
-    "url": "/star/static/js/main.663cff38.chunk.js"
+    "revision": "adafe4d32da88e8e306f",
+    "url": "/star/static/js/main.bcb42d54.chunk.js"
   },
   {
     "revision": "2898011e16a63222a549",
@@ -30,6 +30,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7019d981aa25aba9e1189a02b7b590dd",
     "url": "/star/static/media/polygon_5_2.7019d981.png"
+  },
+  {
+    "revision": "b587046d394c7e38df678d8317539387",
+    "url": "/star/static/media/polygon_6_2.b587046d.png"
+  },
+  {
+    "revision": "49774c8581e6bc062a2b5d87316677bf",
+    "url": "/star/static/media/polygon_7_1.49774c85.png"
+  },
+  {
+    "revision": "7021b22f22e899952a4097361050ee4d",
+    "url": "/star/static/media/polygon_7_2.7021b22f.png"
+  },
+  {
+    "revision": "79a2fa111d2ab67d61b4262c909e2d00",
+    "url": "/star/static/media/polygon_7_3.79a2fa11.png"
   },
   {
     "revision": "00ad4b25755c696f863cb6dfe2b33989",

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/star/static/css/main.277c9172.chunk.css",
-    "main.js": "/star/static/js/main.f6da6bdf.chunk.js",
-    "main.js.map": "/star/static/js/main.f6da6bdf.chunk.js.map",
+    "main.js": "/star/static/js/main.663cff38.chunk.js",
+    "main.js.map": "/star/static/js/main.663cff38.chunk.js.map",
     "runtime~main.js": "/star/static/js/runtime~main.81a9ca3b.js",
     "runtime~main.js.map": "/star/static/js/runtime~main.81a9ca3b.js.map",
-    "static/js/2.419d70c9.chunk.js": "/star/static/js/2.419d70c9.chunk.js",
-    "static/js/2.419d70c9.chunk.js.map": "/star/static/js/2.419d70c9.chunk.js.map",
+    "static/js/2.576a3d0f.chunk.js": "/star/static/js/2.576a3d0f.chunk.js",
+    "static/js/2.576a3d0f.chunk.js.map": "/star/static/js/2.576a3d0f.chunk.js.map",
     "index.html": "/star/index.html",
-    "precache-manifest.da270acc24ff6b18e6225f70c6b8a206.js": "/star/precache-manifest.da270acc24ff6b18e6225f70c6b8a206.js",
+    "precache-manifest.79d3ffdfa8e742a195e1627a3ef09d79.js": "/star/precache-manifest.79d3ffdfa8e742a195e1627a3ef09d79.js",
     "service-worker.js": "/star/service-worker.js",
     "static/css/main.277c9172.chunk.css.map": "/star/static/css/main.277c9172.chunk.css.map",
     "static/media/explodeGreatStellatedDodecahedron.gif": "/star/static/media/explodeGreatStellatedDodecahedron.747e397a.gif",
@@ -16,6 +16,7 @@
     "static/media/polygon_5_2.png": "/star/static/media/polygon_5_2.7019d981.png",
     "static/media/povGreatStellatedDodecahedron.png": "/star/static/media/povGreatStellatedDodecahedron.00ad4b25.png",
     "static/media/pov_whole_SmallStellatedDodecahedron.png": "/star/static/media/pov_whole_SmallStellatedDodecahedron.b1ec9eff.png",
-    "static/media/pov_whole_polytope_52_3_5.png": "/star/static/media/pov_whole_polytope_52_3_5.ef7946f1.png"
+    "static/media/pov_whole_polytope_52_3_5.png": "/star/static/media/pov_whole_polytope_52_3_5.ef7946f1.png",
+    "static/media/wrong_polygon_5_2.png": "/star/static/media/wrong_polygon_5_2.7fb4f8a2.png"
   }
 }

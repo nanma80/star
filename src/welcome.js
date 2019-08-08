@@ -7,12 +7,12 @@ class Welcome extends App {
 
     this.state.content = (<div>
     	<div>
-    		In geometry, a <a href="https://en.wikipedia.org/wiki/Polytope">polytope</a> is a generic term for polygons 
+    		In geometry, a <a href="https://en.wikipedia.org/wiki/Polytope" target="_blank" rel="noopener noreferrer">polytope</a> is a generic term for polygons 
             in a 2D plane, or polyhedra in a 
     		3D space, or similar objects in a 4D hyperspace and beyond. It is an amazing 
     		subject generating great mathematical ideas and artistic inspiration. 
     		This website visualizes a specific type of polytopes, 
-            called <a href="https://en.wikipedia.org/wiki/Star_polyhedron#Star_polytopes">star polytopes</a>.
+            called <a href="https://en.wikipedia.org/wiki/Star_polyhedron#Star_polytopes" target="_blank" rel="noopener noreferrer">star polytopes</a>.
     	</div>
         <figure>
             <img src = {require('./images/polygon/polygon_5_2.png')} alt = 'static'/>

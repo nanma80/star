@@ -1,5 +1,6 @@
 import React from 'react';
 import App from './App';
+import { Link } from 'react-router-dom';
 
 class Heptagram extends App {
   constructor(props) {
@@ -7,12 +8,69 @@ class Heptagram extends App {
 
     this.state.content = (
     	<div>
-    		Heptagram is ...
+            <figure>
+                <img src = {require('./images/polygon/polygon_7_1.png')} alt = 'static'/>
+                <figcaption>regular heptagon {'{'}7{'}'}</figcaption>
+            </figure>
+
+
+            <figure>
+                <img src = {require('./images/polygon/polygon_7_2.png')} alt = 'static'/>
+                <figcaption>regular heptagram {'{'}7/2{'}'}</figcaption>
+            </figure>
+
+            <figure>
+                <img src = {require('./images/polygon/polygon_7_3.png')} alt = 'static'/>
+                <figcaption>regular heptagram {'{'}7/3{'}'}</figcaption>
+            </figure>
+
+            <h4>Two heptagrams</h4>
+            <div>
+            Unlike pentagram, which has only one version, there are two types of heptagrams. 
+            The Schläfli symbols are {'{'}7/2{'}'}, and {'{'}7/3{'}'}.
+            When we follow the construction methods for <Link to='/pentagram'>pentagram</Link>, 
+            we have more choices. 
+            </div>
+            <ul>
+            <li>
+            If we connect the vertices of a heptagon to get edges, 
+            we can skip one vertex to get {'{'}7/2{'}'} or two vertices to get {'{'}7/3{'}'}. 
+            </li>
+            <li>
+            If we extend the edges of a heptagon, we can stop when the edges meet for the first time or the second time.
+            You can see a heptagon in the middle of {'{'}7/2{'}'}. That is the original heptagon we extend from. Similarly, 
+            you can see a heptagon, and also a {'{'}7/2{'}'} inside {'{'}7/3{'}'}.
+            </li>
+            </ul>
+
+            <div>
+            Just like we traced the vertices and edges on a pentagram, if start from a vertex of a heptagram and 
+            go along the edges and vertices, when we come back to the starting vertex, we may have gone around the center
+            by 2 rounds for {'{'}7/2{'}'} and 3 rounds for {'{'}7/3{'}'}.
+            </div>
+            <br/>
+            <div>
+            Heptagrams are actually not used as faces of any 3D or 4D regular star polytope. But {'{'}7/2{'}'} can be seen in 
+            tessellations in the hyperbolic plane. It appears as faces 
+            of <a href="https://en.wikipedia.org/wiki/Order-7_heptagrammic_tiling" target="_blank" rel="noopener noreferrer">{'{'}7/2, 7{'}'}</a> and as vertex figures of the dual 
+            tessellation <a href="https://en.wikipedia.org/wiki/Heptagrammic-order_heptagonal_tiling"  target="_blank" rel="noopener noreferrer">{'{'}7, 7/2{'}'}</a>. The
+            hyperbolic tessellations are out of scope of this website.
+            </div>
+
+
+            <h4>General star polygons</h4>
+            <div>
+            After going through the exercise of heptagon, you can easily think of a general star polygon as {'{'}p/q{'}'}. 
+            You start from a regular p-gon, and connect edges by skipping q-1 vertices. The only caveat is that when p and q 
+            are not coprime, you come back to the starting vertex sooner than p edges. You have a degenerated star polygon. 
+            We will see an example of <Link to='/hexagram'>hexagram</Link> in the next page.
+            </div>
+
     	</div>
     	)
     ;
 
-    this.state.contentHeader = (<span> 2D: Heptagram </span>);
+    this.state.contentHeader = (<span> Heptagrams </span>);
   }
 }
 

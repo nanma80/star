@@ -60,7 +60,7 @@ const SidebarContent = props => {
           Pentagram
         </Link>
         <Link to='/heptagram' style={styles.sidebarLink}> 
-          Heptagram
+          Heptagrams
         </Link>
         <Link to='/hexagram' style={styles.sidebarLink}> 
           Hexagram

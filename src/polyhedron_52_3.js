@@ -7,16 +7,29 @@ class Polyhedron_52_3 extends App {
 
     this.state.content = (
     	<div>
-    		<span>
             The Great Stellated Dodecahedron is ...
-            </span>
-            <div>
-            <img src = {require('./images/polyhedron_52_3/povGreatStellatedDodecahedron.png')} alt = 'static'/>
-            <img src = {require('./images/polyhedron_52_3/povGreatStellatedDodecahedron.png')} alt = 'static'/>
-            </div>
-            <div>
-            <img src = {require('./images/polyhedron_52_3/explodeGreatStellatedDodecahedron.gif')} alt = 'animation'/>
-            </div>
+
+        <div class = "figure-div">
+        <figure>
+            <img src = {require('./images/GreatStellatedDodecahedron/pov_whole_GreatStellatedDodecahedron.png')} alt = 'static'/>
+            <figcaption>great stellated dodecahedron</figcaption>
+        </figure>
+        </div>
+
+        <div class = "figure-div">
+        <figure>
+            <img src = {require('./images/GreatStellatedDodecahedron/pov_north_pole_whole_GreatStellatedDodecahedron.png')} alt = 'static'/>
+            <figcaption>great stellated dodecahedron from the north pole</figcaption>
+        </figure>
+        </div>
+
+        <div class = "figure-div">
+        <figure>
+            <img src = {require('./images/GreatStellatedDodecahedron/exploded_GreatStellatedDodecahedron.gif')} alt = 'static'/>
+            <figcaption>great stellated dodecahedron, exploded view</figcaption>
+        </figure>
+        </div>
+
     	</div>
     	)
     ;

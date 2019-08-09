@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/star/static/css/main.b3bcc08f.chunk.css",
-    "main.js": "/star/static/js/main.e6f7369c.chunk.js",
-    "main.js.map": "/star/static/js/main.e6f7369c.chunk.js.map",
+    "main.js": "/star/static/js/main.465c9f8b.chunk.js",
+    "main.js.map": "/star/static/js/main.465c9f8b.chunk.js.map",
     "runtime~main.js": "/star/static/js/runtime~main.81a9ca3b.js",
     "runtime~main.js.map": "/star/static/js/runtime~main.81a9ca3b.js.map",
     "static/js/2.576a3d0f.chunk.js": "/star/static/js/2.576a3d0f.chunk.js",
     "static/js/2.576a3d0f.chunk.js.map": "/star/static/js/2.576a3d0f.chunk.js.map",
     "index.html": "/star/index.html",
-    "precache-manifest.3cc698bd493aada1ef3fefc39941e4b7.js": "/star/precache-manifest.3cc698bd493aada1ef3fefc39941e4b7.js",
+    "precache-manifest.1a8c9f763945e5d989b199d5aa19c4e8.js": "/star/precache-manifest.1a8c9f763945e5d989b199d5aa19c4e8.js",
     "service-worker.js": "/star/service-worker.js",
     "static/css/main.b3bcc08f.chunk.css.map": "/star/static/css/main.b3bcc08f.chunk.css.map",
     "static/media/explodeGreatStellatedDodecahedron.gif": "/star/static/media/explodeGreatStellatedDodecahedron.747e397a.gif",

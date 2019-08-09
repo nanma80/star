@@ -52,7 +52,7 @@ class Heptagram extends App {
             </div>
             <br/>
             <div>
-            Heptagrams are actually not used as faces of any 3D or 4D regular star polytope. But {'{'}7/2{'}'} can be seen in 
+            Heptagrams are not used as faces of any 3D or 4D regular star polytope. But {'{'}7/2{'}'} can be seen in 
             tessellations in the hyperbolic plane. It appears as faces 
             of <a href="https://en.wikipedia.org/wiki/Order-7_heptagrammic_tiling" target="_blank" rel="noopener noreferrer">{'{'}7/2, 7{'}'}</a> and as vertex figures of the dual 
             tessellation <a href="https://en.wikipedia.org/wiki/Heptagrammic-order_heptagonal_tiling"  target="_blank" rel="noopener noreferrer">{'{'}7, 7/2{'}'}</a>. The
@@ -62,8 +62,8 @@ class Heptagram extends App {
 
             <h4>General star polygons</h4>
             <div>
-            After going through the exercise of heptagon, you can easily think of a general star polygon as {'{'}p/q{'}'}. 
-            You start from a regular p-gon, and connect edges by skipping q-1 vertices. The only caveat is that when p and q 
+            After going through the exercise of heptagon, you can easily think of a general star polygon as {'{'}p/q{'}'} by
+            starting from a regular p-gon, and connecting edges by skipping q-1 vertices. The only caveat is that when p and q 
             are not coprime, you come back to the starting vertex before creating p edges. 
             We will see an example of <Link to='/hexagram'>hexagram</Link> in the next page.
             </div>

@@ -8,6 +8,7 @@ class Pentagram extends App {
 
     this.state.content = (
     	<div>
+            <div class = "figure-div">
             <figure>
                 <img src = {require('./images/polygon/polygon_5_2.png')} alt = 'static'/>
                 <figcaption>regular pentagram in the context of star polytopes</figcaption>
@@ -22,12 +23,12 @@ class Pentagram extends App {
                 <img src = {require('./images/polygon/polygon_5_1.png')} alt = 'static'/>
                 <figcaption>regular pentagon</figcaption>
             </figure>
-
+            </div>
             <div>
                 <h4>Definition</h4>
                 <div>
                 A pentagram is a <a href="https://en.wikipedia.org/wiki/Star_polygon" target="_blank" rel="noopener noreferrer">star polygon</a>, and the simplest star polytope. Although everyone knows
-                what it looks like, people may disagree about the numbers of vertices and edges on a pentagram.
+                what it looks like, people may disagree on the numbers of vertices and edges on a pentagram.
                 </div>
                 <ul>
                 <li>
@@ -40,11 +41,12 @@ class Pentagram extends App {
                 </li>
                 </ul>
                 <div>
-                Under the definition we use, a regular pentagram is very similar to a regular pentagon. Suppose we are given 
-                the coordinates of 5 vertices, and 5 edges connecting 5 pairs of vertices. A regular pentagram and a regular pentagon
+                Using the first definition, the structure of a pentagram is very similar to that of a pentagon.
+                There are 5 vertices and 5 edges. Two edges meet at a vertex and two vertices are connected by an edge.
+                We can also talk about a regular pentagram, just like a regular pentagon. They
                 share the following properties: the lengths of edges are all the same, and the angles at the vertices are all the same.
                 We can distinguish these two figures only when we carefully examine if the edges intersect with each other or not,
-                or, when we check if all the vertices are on the same side of edges (convexity). In this sense, a pentagram is
+                or, when we check if all the vertices are on the same side of edges (convexity). A pentagram is
                 a relaxed version of a pentagon.
                 </div>
                 <br/>

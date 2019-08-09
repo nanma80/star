@@ -14,6 +14,7 @@ class Welcome extends App {
     		This website visualizes a specific type of polytopes, 
             called <a href="https://en.wikipedia.org/wiki/Star_polyhedron#Star_polytopes" target="_blank" rel="noopener noreferrer">star polytopes</a>.
     	</div>
+        <div class = "figure-div">
         <figure>
             <img src = {require('./images/polygon/polygon_5_2.png')} alt = 'static'/>
             <figcaption>pentagram</figcaption>
@@ -22,6 +23,7 @@ class Welcome extends App {
             <img src = {require('./images/polygon/polygon_5_1.png')} alt = 'static'/>
             <figcaption>pentagon</figcaption>
         </figure>
+        </div>
 
         <br/>
     	<div>
@@ -37,6 +39,7 @@ class Welcome extends App {
             a gallery of pictures with some explanations. The goal is to understand their
             structures intuitively. Here is a sneak peek of 3D and 4D shapes that you will read about.
         </div>
+        <div class = "figure-div">
         <figure>
             <img src = {require('./images/SmallStellatedDodecahedron/pov_whole_SmallStellatedDodecahedron.png')} alt = 'static'/>
             <figcaption>Small stellated dodecahedron</figcaption>
@@ -45,7 +48,7 @@ class Welcome extends App {
             <img src = {require('./images/polytope_52_3_5/pov_whole_polytope_52_3_5.png')} alt = 'static'/>
             <figcaption>Great stellated 120-cell</figcaption>
         </figure>
-
+        </div>
 	</div>)
     ;
 

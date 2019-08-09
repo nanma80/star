@@ -5,8 +5,7 @@ import MaterialTitlePanel from "./material_title_panel";
 
 const styles = {
   sidebar: {
-    width: 256,
-    height: "100%"
+    width: 256
   },
 
   sidebarLink: {

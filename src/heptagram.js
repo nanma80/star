@@ -8,12 +8,7 @@ class Heptagram extends App {
 
     this.state.content = (
     	<div>
-            <figure>
-                <img src = {require('./images/polygon/polygon_7_1.png')} alt = 'static'/>
-                <figcaption>regular heptagon {'{'}7{'}'}</figcaption>
-            </figure>
-
-
+            <div class = "figure-div">
             <figure>
                 <img src = {require('./images/polygon/polygon_7_2.png')} alt = 'static'/>
                 <figcaption>regular heptagram {'{'}7/2{'}'}</figcaption>
@@ -24,9 +19,16 @@ class Heptagram extends App {
                 <figcaption>regular heptagram {'{'}7/3{'}'}</figcaption>
             </figure>
 
+            <figure>
+                <img src = {require('./images/polygon/polygon_7_1.png')} alt = 'static'/>
+                <figcaption>regular heptagon {'{'}7{'}'}</figcaption>
+            </figure>
+
+            </div>
+
             <h4>Two heptagrams</h4>
             <div>
-            Unlike pentagram, which has only one version, there are two types of heptagrams. 
+            Unlike pentagram, which has a single shape, there are two types of heptagrams. 
             The Schläfli symbols are {'{'}7/2{'}'}, and {'{'}7/3{'}'}.
             When we follow the construction methods for <Link to='/pentagram'>pentagram</Link>, 
             we have more choices. 
@@ -44,8 +46,8 @@ class Heptagram extends App {
             </ul>
 
             <div>
-            Just like we traced the vertices and edges on a pentagram, if start from a vertex of a heptagram and 
-            go along the edges and vertices, when we come back to the starting vertex, we may have gone around the center
+            When we start from a vertex of a heptagram and go along the edges and vertices, 
+            when we come back to the starting vertex, we may have gone around the center
             by 2 rounds for {'{'}7/2{'}'} and 3 rounds for {'{'}7/3{'}'}.
             </div>
             <br/>
@@ -62,10 +64,9 @@ class Heptagram extends App {
             <div>
             After going through the exercise of heptagon, you can easily think of a general star polygon as {'{'}p/q{'}'}. 
             You start from a regular p-gon, and connect edges by skipping q-1 vertices. The only caveat is that when p and q 
-            are not coprime, you come back to the starting vertex sooner than p edges. You have a degenerated star polygon. 
+            are not coprime, you come back to the starting vertex before creating p edges. 
             We will see an example of <Link to='/hexagram'>hexagram</Link> in the next page.
             </div>
-
     	</div>
     	)
     ;

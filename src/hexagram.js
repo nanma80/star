@@ -8,10 +8,12 @@ class Hexagram extends App {
 
     this.state.content = (
     	<div>
+            <div class = "figure-div">
             <figure>
                 <img src = {require('./images/polygon/polygon_6_2.png')} alt = 'static'/>
                 <figcaption>regular hexagram {'{'}6/2{'}'}</figcaption>
             </figure>
+            </div>
 
             <div>
     		As we attempt to create general star polygons {'{'}p/q{'}'} in the previous page for <Link to='/heptagram'>heptagrams</Link>,
@@ -19,7 +21,8 @@ class Hexagram extends App {
             </div>
             <br/>
             <div>
-            We start from a hexagon and apply our trick like for pentagram or heptagram, we end up with the figure above. 
+            We start from a hexagon and apply our tricks to construct star polygons like pentagram or heptagram, 
+            we end up with the figure above. 
             It has 6 vertices and 6 edges. Remember the intersections of edges don't count as vertices. It is nothing but two overlapping
             equilateral triangles. It is a <a href="https://en.wikipedia.org/wiki/Polytope_compound" target="_blank" rel="noopener noreferrer">compound</a> of multiple polygons 
             rather than one polygon.
@@ -28,7 +31,7 @@ class Hexagram extends App {
             <div>
             When we define a polygon or a polytope, we require that all vertices and edges are connected. One should be able to start from
             any vertex, following the edges connecting (incident) to it, and the vertex connecting to that, and so on, to get to any vertex.
-            This criterion exclude the figure of two unconnected triangles as one polygon. 
+            This criterions exclude the figure of two unconnected triangles as one polygon. 
             This hexagram fails to pass this criterion, and is therefore not a polygon, or polytope.
             </div>
             <br/>
@@ -37,7 +40,6 @@ class Hexagram extends App {
             since it is not a polytope, we will skip it and any compounds in this website. They are beyond the scope. Regular polytope 
             compounds could well be another interesting topic.
             </div>
-
     	</div>
     	)
     ;

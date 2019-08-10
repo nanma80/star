@@ -11,7 +11,7 @@ class Pentagram extends App {
             <div class = "figure-div">
             <figure>
                 <img src = {require('./images/polygon/polygon_5_2.png')} alt = 'static'/>
-                <figcaption>regular pentagram in the context of star polytopes</figcaption>
+                <figcaption>Regular pentagram in the context of star polytopes</figcaption>
             </figure>
 
             <figure>
@@ -21,7 +21,7 @@ class Pentagram extends App {
 
             <figure>
                 <img src = {require('./images/polygon/polygon_5_1.png')} alt = 'static'/>
-                <figcaption>regular pentagon</figcaption>
+                <figcaption>Regular pentagon</figcaption>
             </figure>
             </div>
             <div>

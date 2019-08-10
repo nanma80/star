@@ -11,17 +11,17 @@ class Heptagram extends App {
             <div class = "figure-div">
             <figure>
                 <img src = {require('./images/polygon/polygon_7_2.png')} alt = 'static'/>
-                <figcaption>regular heptagram {'{'}7/2{'}'}</figcaption>
+                <figcaption>Regular heptagram {'{'}7/2{'}'}</figcaption>
             </figure>
 
             <figure>
                 <img src = {require('./images/polygon/polygon_7_3.png')} alt = 'static'/>
-                <figcaption>regular heptagram {'{'}7/3{'}'}</figcaption>
+                <figcaption>Regular heptagram {'{'}7/3{'}'}</figcaption>
             </figure>
 
             <figure>
                 <img src = {require('./images/polygon/polygon_7_1.png')} alt = 'static'/>
-                <figcaption>regular heptagon {'{'}7{'}'}</figcaption>
+                <figcaption>Regular heptagon {'{'}7{'}'}</figcaption>
             </figure>
 
             </div>

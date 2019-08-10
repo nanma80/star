@@ -102,7 +102,7 @@ class App extends React.Component {
           </div>
           <div style={styles.footer}>
           <a onClick={this.toggleOpen} href="/#" >
-            Toggle menu
+            Open menu
           </a>
           </div>
         </MaterialTitlePanel>

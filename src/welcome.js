@@ -17,11 +17,11 @@ class Welcome extends App {
         <div class = "figure-div">
         <figure>
             <img src = {require('./images/polygon/polygon_5_2.png')} alt = 'static'/>
-            <figcaption>pentagram</figcaption>
+            <figcaption>Pentagram</figcaption>
         </figure>
         <figure>
             <img src = {require('./images/polygon/polygon_5_1.png')} alt = 'static'/>
-            <figcaption>pentagon</figcaption>
+            <figcaption>Pentagon</figcaption>
         </figure>
         </div>
 
@@ -52,11 +52,11 @@ class Welcome extends App {
         <div class = "figure-div">
         <figure>
             <img src = {require('./images/SmallStellatedDodecahedron/pov_whole_SmallStellatedDodecahedron.png')} alt = 'static'/>
-            <figcaption>Small stellated dodecahedron</figcaption>
+            <figcaption>3D: Small stellated dodecahedron</figcaption>
         </figure>
         <figure>
             <img src = {require('./images/polytope_52_3_5/pov_whole_polytope_52_3_5.png')} alt = 'static'/>
-            <figcaption>Great stellated 120-cell</figcaption>
+            <figcaption>4D: Great stellated 120-cell</figcaption>
         </figure>
         </div>
 	</div>)

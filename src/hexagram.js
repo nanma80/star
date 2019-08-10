@@ -11,7 +11,7 @@ class Hexagram extends App {
             <div class = "figure-div">
             <figure>
                 <img src = {require('./images/polygon/polygon_6_2.png')} alt = 'static'/>
-                <figcaption>regular hexagram {'{'}6/2{'}'}</figcaption>
+                <figcaption>Regular hexagram {'{'}6/2{'}'}</figcaption>
             </figure>
             </div>
 

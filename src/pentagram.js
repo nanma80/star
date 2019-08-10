@@ -71,7 +71,19 @@ class Pentagram extends App {
 
                 <h4>Construction</h4>
                 <div>
-                We can construct a pentagram by starting from a regular pentagon, and doing either of the following.
+                We can construct a pentagram by starting from a regular pentagon, and doing either of the following methods.
+                <div class = "figure-div">
+                <figure>
+                    <img src = {require('./images/polygon/pentagram_diagonal_5_1.png')} alt = 'static'/>
+                    <figcaption>Method 1: constructing a diagonal</figcaption>
+                </figure>
+
+                <figure>
+                    <img src = {require('./images/polygon/pentagram_extend_5_1.png')} alt = 'static'/>
+                    <figcaption>Method 2: extending edges to create a new vertex</figcaption>
+                </figure>
+                </div>
+
                 <ol>
                     <li>
                     Constructing diagonals. We keep the original vertices of the pentagon and construct new edges. Starting from

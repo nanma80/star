@@ -25,6 +25,13 @@ class Polyhedron_3_52 extends App {
 
         <div class = "figure-div">
         <figure>
+            <img src = {require('./images/GreatIcosahedron/pov_vertex_figure_GreatIcosahedron.png')} alt = 'static'/>
+            <figcaption>vertex figure</figcaption>
+        </figure>
+        </div>
+
+        <div class = "figure-div">
+        <figure>
             <img src = {require('./images/GreatIcosahedron/exploded_GreatIcosahedron.gif')} alt = 'static'/>
             <figcaption>great icosahedron, exploded view</figcaption>
         </figure>

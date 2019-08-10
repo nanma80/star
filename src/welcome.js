@@ -37,7 +37,17 @@ class Welcome extends App {
             introduce generalizations of the pentagram in 3D and 4D spaces in this website.
             I am not trying to make it a rigorous tutorial about these shapes, but rather
             a gallery of pictures with some explanations. The goal is to understand their
-            structures intuitively. Here is a sneak peek of 3D and 4D shapes that you will read about.
+            structures intuitively. I restrict the discussion to regular polytopes. 
+        </div>
+        <br/>
+        <div>
+            This website is inspired by 
+            the <a href="http://eusebeia.dyndns.org/4d/" target="_blank" rel="noopener noreferrer">Eusebeia 4D visualization</a> page.
+            It includes a comprehensive list of 3D and 4D shapes but doesn't include the star polytopes.
+        </div>
+        <br/>
+        <div>
+            Here is a sneak peek of 3D and 4D shapes that you will read about.
         </div>
         <div class = "figure-div">
         <figure>

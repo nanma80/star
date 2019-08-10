@@ -7,7 +7,11 @@ class Polyhedron_3_5 extends App {
 
     this.state.content = (
     	<div>
-    		The regular icosahedron is ...
+        <div>
+        The regular icosahedron is another one of the five regular convex 
+        polyhedra (<a href="https://en.wikipedia.org/wiki/Platonic_solid" target="_blank" rel="noopener noreferrer">Platonic solids</a>).
+        There are 20 faces, each of which is a regular, equilateral triangle. 
+        </div>
 
         <div class = "figure-div">
         <figure>
@@ -20,6 +24,13 @@ class Polyhedron_3_5 extends App {
         <figure>
             <img src = {require('./images/Icosahedron/pov_north_pole_whole_Icosahedron.png')} alt = 'static'/>
             <figcaption>regular icosahedron from the north pole</figcaption>
+        </figure>
+        </div>
+
+        <div class = "figure-div">
+        <figure>
+            <img src = {require('./images/Icosahedron/pov_vertex_figure_Icosahedron.png')} alt = 'static'/>
+            <figcaption>vertex figure</figcaption>
         </figure>
         </div>
 

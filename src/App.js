@@ -12,6 +12,10 @@ const styles = {
   },
   content: {
     padding: "16px"
+  },
+  footer: {
+    "textAlign": "right", 
+    padding: 15
   }
 };
 
@@ -93,7 +97,14 @@ class App extends React.Component {
     return (
       <Sidebar {...sidebarProps}>
         <MaterialTitlePanel title={contentHeader}>
+          <div>
           {content}
+          </div>
+          <div style={styles.footer}>
+          <a onClick={this.toggleOpen} href="/#" >
+            Toggle menu
+          </a>
+          </div>
         </MaterialTitlePanel>
       </Sidebar>
     );

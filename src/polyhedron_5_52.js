@@ -26,6 +26,13 @@ class Polyhedron_5_52 extends App {
 
         <div class = "figure-div">
         <figure>
+            <img src = {require('./images/GreatDodecahedron/pov_vertex_figure_GreatDodecahedron.png')} alt = 'static'/>
+            <figcaption>vertex figure</figcaption>
+        </figure>
+        </div>
+
+        <div class = "figure-div">
+        <figure>
             <img src = {require('./images/GreatDodecahedron/exploded_GreatDodecahedron.gif')} alt = 'static'/>
             <figcaption>great dodecahedron, exploded view</figcaption>
         </figure>

@@ -21,14 +21,12 @@ class Polyhedron_3_5 extends App {
             <img src = {require('./images/Icosahedron/pov_whole_Icosahedron.png')} alt = 'static'/>
             <figcaption>Regular icosahedron</figcaption>
         </figure>
-        </div>
-
-        <div class = "figure-div">
         <figure>
             <img src = {require('./images/Icosahedron/pov_vertex_figure_Icosahedron.png')} alt = 'static'/>
             <figcaption>Vertex figure</figcaption>
         </figure>
         </div>
+
 
         <h4>The north pole</h4>
         <div>
@@ -38,10 +36,20 @@ class Polyhedron_3_5 extends App {
         <br/>
         In the <Link to='/Polyhedron_5_3'>dodecahedron page</Link> we described the "north pole"
         as one of the face centers. The dual icosahedron will have a vertex at the "north pole".
-        There are 5 neighboring vertices to the north pole, which are on the northern hemisphere.
-        The same structure exists on the southern hemisphere.
+        There are 5 neighboring vertices to the north pole, which are on the northern hemisphere 
+        with the same latitude.
+        The same structure exists on the southern hemisphere. 
+
+        From north to south, we have four "rings" of vertices.
+        The rings contain 1, 5, 5, 1 vertices, respectively.
+
         When we view the icosahedron directly above the north pole, the projection also has
         a 5-fold symmetry. 
+
+        </div>
+        <br/>
+        <div>
+
         For consistency across the duality relationship, in any 3D shapes here, we call the "north pole"
         the face center of a dodecahedron, or a vertex of an icosahedron.
         </div>

@@ -29,7 +29,13 @@ class Polyhedron_5_3 extends App {
         By symmetry, the other 6 faces form the "southern hemisphere". 
         Putting these two parts together gives the whole dodecahedron.
         The seam between the two hemisphere is a loop of ten line segments, which is 
-        roughly the "equator". These terms sound arbitrary. But I find them useful to 
+        roughly the "equator". From north to south, we have four "rings" of faces.
+        The rings contain 1, 5, 5, 1 faces, respectively.
+        </div>
+        <br/>
+        <div>
+
+        These terms sound arbitrary. But I find them useful to 
         create a mental image of the faces and useful in imagining 4D shapes.
         </div>
         <div class = "figure-div">

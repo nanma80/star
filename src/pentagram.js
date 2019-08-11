@@ -80,7 +80,7 @@ class Pentagram extends App {
 
                 <figure>
                     <img src = {require('./images/polygon/pentagram_extend_5_1.png')} alt = 'static'/>
-                    <figcaption>Method 2: extending edges to create a new vertex</figcaption>
+                    <figcaption>Method 2: stellation</figcaption>
                 </figure>
                 </div>
 
@@ -90,7 +90,7 @@ class Pentagram extends App {
                     each vertex, we skip the nearest neighbor and connect to the second vertex to get an edge.
                     </li>
                     <li>
-                    Extending edges in both directions until they meet. In this process, we keep the edges 
+                    Stellaton. Extending edges in both directions until they meet. In this process, we keep the edges 
                     (if you think of them as unbounded straight lines) and create new vertices. 
                     You can see a pentagon in the middle of a pentagram. That is the original pentagon we extend from. 
 

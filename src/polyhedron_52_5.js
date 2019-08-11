@@ -8,10 +8,18 @@ class Polyhedron_52_5 extends App {
 
     this.state.content = (
     	<div>
+        <div>
     		The small stellated dodecahedron is one of the four regular
-            star polyhedra in 3D. The Schläfli symbol is 
-        {'{'}5/2, 5{'}'} because each face is a {'{'}5/2{'}'} (<Link to='/pentagram'>pentagram</Link>), and each
-        vertex figure is a pentagon. This means five faces meet at each vertex.
+            star polyhedra, known as <a href="https://en.wikipedia.org/wiki/Kepler%E2%80%93Poinsot_polyhedron" target="_blank" rel="noopener noreferrer">Kepler–Poinsot polyhedra</a>.
+        </div>
+        <br/>
+        <div>
+
+            The Schläfli symbol of the small stellated dodecahedron
+        is {'{'}5/2, 5{'}'} because each face is a {'{'}5/2{'}'} (<Link to='/pentagram'>pentagram</Link>), and each
+        vertex figure is a pentagon. This means five faces meet at each vertex. There are 12 faces and 12 vertices.
+        </div>
+
         <div class = "figure-div">
         <figure>
             <img src = {require('./images/SmallStellatedDodecahedron/pov_whole_SmallStellatedDodecahedron.png')} alt = 'static'/>
@@ -22,18 +30,41 @@ class Polyhedron_52_5 extends App {
 
         <div class = "figure-div">
         <figure>
-            <img src = {require('./images/SmallStellatedDodecahedron/pov_north_pole_whole_SmallStellatedDodecahedron.png')} alt = 'static'/>
-            <figcaption>Projection centered at the north pole</figcaption>
+            <img src = {require('./images/SmallStellatedDodecahedron/pov_highlight_face_SmallStellatedDodecahedron.png')} alt = 'static'/>
+            <figcaption>Highlight a face {'{'}5/2{'}'}</figcaption>
         </figure>
-        </div>
-
-        <div class = "figure-div">
         <figure>
             <img src = {require('./images/SmallStellatedDodecahedron/pov_vertex_figure_SmallStellatedDodecahedron.png')} alt = 'static'/>
-            <figcaption>Vertex figure</figcaption>
+            <figcaption>Vertex figure {'{'}5{'}'}</figcaption>
         </figure>
         </div>
 
+        <h4>Construction</h4>
+        <div>
+        From a dodecahedron:
+        The 12 pentagrammic faces can be seen as the stellation of the 12 faces of dodecahedron.
+        The whole polyhedron can be constructed as placing pentagonal prism on top of the faces of
+        dodecahedron.
+        </div>
+        <br/>
+        <div>
+        From an icosahedron:
+        The 12 vertices are the vertices of an icosahedron. 
+        We first recall that in an <Link to='/Polyhedron_3_5'>icosahedron</Link>, if we think of a vertex as the north pole, there are 5 other
+        vertices on the northern hemisphere with the same latitude. These 5 vertices form
+        a pentagon. We can construct a pentagram inside this pentagon by constructing diagonals.
+        Such pentagram is a face of the small stellated dodecahedron.
+        </div>
+
+
+        <h4>Exploded view</h4>
+        <div>
+        Since all the faces on this star polyhedron overlap and intersect with each other, 
+        it is easier to see the faces when we explode them. In this animation, 
+        I move the faces
+        away from the center. 
+        You may focus on a face to see how it fits together with other faces.
+        </div>
 
         <div class = "figure-div">
         <figure>

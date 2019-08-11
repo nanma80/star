@@ -100,11 +100,13 @@ class App extends React.Component {
           <div>
           {content}
           </div>
-          <div style={styles.footer}>
-          <a onClick={this.toggleOpen} href="/#" >
-            Open menu
-          </a>
-          </div>
+          {!this.state.docked && (
+            <div style={styles.footer}>
+            <a onClick={this.toggleOpen} href="/#" >
+              Open menu
+            </a>
+            </div>
+          )}
         </MaterialTitlePanel>
       </Sidebar>
     );

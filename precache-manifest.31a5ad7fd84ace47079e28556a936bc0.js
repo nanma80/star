@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e9d96632642524e4e4e93c761155dad8",
+    "revision": "1a4e8fbb18cdb0dfe02165678d74ffb9",
     "url": "/star/index.html"
   },
   {
-    "revision": "c6db120c4f27f4668a5f",
+    "revision": "18221a96c5862bcf3d09",
     "url": "/star/static/css/main.b3bcc08f.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/star/static/js/2.576a3d0f.chunk.js"
   },
   {
-    "revision": "c6db120c4f27f4668a5f",
-    "url": "/star/static/js/main.49985bfd.chunk.js"
+    "revision": "18221a96c5862bcf3d09",
+    "url": "/star/static/js/main.59e5f9b2.chunk.js"
   },
   {
     "revision": "2898011e16a63222a549",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ea212300a5e26812e09e1904a861d206",
     "url": "/star/static/media/pentagram_extend_5_1.ea212300.png"
+  },
+  {
+    "revision": "31d89682cc765ad7869a813d1cab363c",
+    "url": "/star/static/media/pentagram_inside_outside.31d89682.png"
   },
   {
     "revision": "51bfdab14781b85eb10f6543df5e71c8",

@@ -30,16 +30,16 @@ class Heptagram extends App {
             <div>
             Unlike pentagram, which has a single shape, there are two types of heptagrams. 
             The Schläfli symbols are {'{'}7/2{'}'}, and {'{'}7/3{'}'}.
-            When we follow the construction methods for <Link to='/pentagram'>pentagram</Link>, 
+            When we follow the construction methods, faceting or stellation, as for <Link to='/pentagram'>pentagram</Link>, 
             we have more choices. 
             </div>
             <ul>
             <li>
-            If we connect the vertices of a heptagon to get edges, 
+            Faceting: If we connect the vertices of a heptagon to get edges, 
             we can skip one vertex to get {'{'}7/2{'}'} or two vertices to get {'{'}7/3{'}'}. 
             </li>
             <li>
-            If we extend the edges of a heptagon, we can stop when the edges meet for the first time or the second time.
+            Stellation: If we extend the edges of a heptagon, we can stop when the edges meet for the first time or the second time.
             You can see a heptagon in the middle of {'{'}7/2{'}'}. That is the original heptagon we extend from. Similarly, 
             you can see a heptagon, and also a {'{'}7/2{'}'} inside {'{'}7/3{'}'}.
             </li>

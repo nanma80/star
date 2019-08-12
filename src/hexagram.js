@@ -21,7 +21,7 @@ class Hexagram extends App {
             </div>
             <br/>
             <div>
-            We start from a hexagon and apply our tricks to construct star polygons like pentagram or heptagram, 
+            We start from a hexagon and apply faceting or stellation, 
             we end up with the figure above. 
             It has 6 vertices and 6 edges. Remember the intersections of edges don't count as vertices. It is nothing but two overlapping
             equilateral triangles. It is a <a href="https://en.wikipedia.org/wiki/Polytope_compound" target="_blank" rel="noopener noreferrer">compound</a> of multiple polygons 

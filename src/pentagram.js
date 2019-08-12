@@ -75,7 +75,7 @@ class Pentagram extends App {
                 <div class = "figure-div">
                 <figure>
                     <img src = {require('./images/polygon/pentagram_diagonal_5_1.png')} alt = 'static'/>
-                    <figcaption>Method 1: constructing a diagonal</figcaption>
+                    <figcaption>Method 1: faceting</figcaption>
                 </figure>
 
                 <figure>
@@ -86,11 +86,13 @@ class Pentagram extends App {
 
                 <ol>
                     <li>
-                    Constructing diagonals. We keep the original vertices of the pentagon and construct new edges. Starting from
-                    each vertex, we skip the nearest neighbor and connect to the second vertex to get an edge.
+                    <a href="https://en.wikipedia.org/wiki/Faceting" target="_blank" rel="noopener noreferrer">Faceting</a>: 
+                    In this process, we create new edges and keep existing vertices. Starting from
+                    each vertex, we skip the nearest neighbor and connect to the second vertex to get an edge (a diagonal of the pentagon).
                     </li>
                     <li>
-                    Stellaton. Extending edges in both directions until they meet. In this process, we keep the edges 
+                    <a href="https://en.wikipedia.org/wiki/Stellation" target="_blank" rel="noopener noreferrer">Stellaton</a>:
+                    Extending edges in both directions until they meet. In this process, we keep the edges 
                     (if you think of them as unbounded straight lines) and create new vertices. 
                     You can see a pentagon in the middle of a pentagram. That is the original pentagon we extend from. 
 
@@ -100,7 +102,19 @@ class Pentagram extends App {
                 </ol>
                 One can see the duality between these two processes. If we swap "vertices" and "edges", and swap
                 "connecting 2 vertices to form an edge" and "extend 2 edges to form a vertex", 
-                one process becomes the other.
+                one process becomes the other. We can draw both processes in the same picture as below. In the core of the 
+                pentagram, we have a red pentagon. On the outside we have a pentagon with green edges. The pentagram can be
+                created by stellating the inner pentagon or faceting the outer pentagon.
+
+                <div class = "figure-div">
+                <figure>
+                    <img src = {require('./images/polygon/pentagram_inside_outside.png')} alt = 'static'/>
+                    <figcaption>Faceting and stellation in the same image</figcaption>
+                </figure>
+                </div>
+
+                
+
                 </div>
                 <h4>Notation</h4>
                 <div>

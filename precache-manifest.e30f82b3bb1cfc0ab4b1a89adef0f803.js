@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1a4e8fbb18cdb0dfe02165678d74ffb9",
+    "revision": "b8bd8f7f05dc693eaa85f4e10619122f",
     "url": "/star/index.html"
   },
   {
-    "revision": "18221a96c5862bcf3d09",
-    "url": "/star/static/css/main.b3bcc08f.chunk.css"
+    "revision": "1711467f3f42cf278f54",
+    "url": "/star/static/css/main.c659c60d.chunk.css"
   },
   {
-    "revision": "1e6200aa282abe471921",
-    "url": "/star/static/js/2.576a3d0f.chunk.js"
+    "revision": "a723dad90d4a9e40fec1",
+    "url": "/star/static/js/2.0cdcb066.chunk.js"
   },
   {
-    "revision": "18221a96c5862bcf3d09",
-    "url": "/star/static/js/main.59e5f9b2.chunk.js"
+    "revision": "1711467f3f42cf278f54",
+    "url": "/star/static/js/main.f4879aa7.chunk.js"
   },
   {
     "revision": "2898011e16a63222a549",
@@ -72,16 +72,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/star/static/media/polygon_7_3.79a2fa11.png"
   },
   {
+    "revision": "647c424099bddf32ecf3ed192d17ef1f",
+    "url": "/star/static/media/pov_highlight_face_GreatDodecahedron.647c4240.png"
+  },
+  {
     "revision": "e1457b678da2dff61c4e558dd82f5bfe",
     "url": "/star/static/media/pov_highlight_face_SmallStellatedDodecahedron.e1457b67.png"
   },
   {
     "revision": "9769159f3ff9e03cb2438290c9bdadf4",
     "url": "/star/static/media/pov_north_pole_whole_Dodecahedron.9769159f.png"
-  },
-  {
-    "revision": "a4f5f50604e102fff57570364613487f",
-    "url": "/star/static/media/pov_north_pole_whole_GreatDodecahedron.a4f5f506.png"
   },
   {
     "revision": "fa44c1ad361bd6579e98d99a8d67bfcb",

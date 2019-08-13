@@ -12,7 +12,7 @@ class Polyhedron_5_3 extends App {
         Before going into star polyhedra, let us warm up ourselves by some non-star polyhedra.
 		The regular dodecahedron is one of the five regular convex 
         polyhedra (<a href="https://en.wikipedia.org/wiki/Platonic_solid" target="_blank" rel="noopener noreferrer">Platonic solids</a>).
-        There are 12 faces, each of which is a regular pentagon. 
+        There are 12 faces, each of which is a regular pentagon. Three faces meet at every vertex.
         </div>
         <div class = "figure-div">
         <figure>

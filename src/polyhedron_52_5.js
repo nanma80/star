@@ -11,13 +11,16 @@ class Polyhedron_52_5 extends App {
         <div>
     		The small stellated dodecahedron is one of the four regular
             star polyhedra, known as <a href="https://en.wikipedia.org/wiki/Kepler%E2%80%93Poinsot_polyhedron" target="_blank" rel="noopener noreferrer">Kepler–Poinsot polyhedra</a>.
+            The faces of these polyhedra are identical regular polygons or star polygons, and 
+            the vertex figures are identical regular polygons or star polygons.
+            They are natural extensions of the five Platonic solids into the "star" domain.
         </div>
         <br/>
         <div>
-
             The Schläfli symbol of the small stellated dodecahedron
         is {'{'}5/2, 5{'}'} because each face is a {'{'}5/2{'}'} (<Link to='/pentagram'>pentagram</Link>), and each
         vertex figure is a pentagon. This means five faces meet at each vertex. There are 12 faces and 12 vertices.
+        The dual polyhedra is {'{'}5, 5/2{'}'}, aka <Link to='/Polyhedron_5_52'>great dodecahedron</Link>.
         </div>
 
         <div class = "figure-div">
@@ -40,21 +43,22 @@ class Polyhedron_52_5 extends App {
         </div>
 
         <h4>Construction</h4>
-        <div>
-        From a dodecahedron:
+        <ul>
+        <li>
+        Stellation from a dodecahedron:
         The 12 pentagrammic faces can be seen as the stellation of the 12 faces of dodecahedron.
         The whole polyhedron can be constructed as placing pentagonal prism on top of the faces of
         dodecahedron.
-        </div>
-        <br/>
-        <div>
-        From an icosahedron:
+        </li>
+        <li>
+        Faceting from an icosahedron:
         The 12 vertices are the vertices of an icosahedron. 
         We first recall that in an <Link to='/Polyhedron_3_5'>icosahedron</Link>, if we think of a vertex as the north pole, there are 5 other
         vertices on the northern hemisphere with the same latitude. These 5 vertices form
         a pentagon. We can construct a pentagram inside this pentagon by constructing diagonals.
         Such pentagram is a face of the small stellated dodecahedron.
-        </div>
+        </li>
+        </ul>
 
 
         <h4>Exploded view</h4>

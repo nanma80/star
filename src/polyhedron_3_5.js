@@ -33,7 +33,12 @@ class Polyhedron_3_5 extends App {
         The regular icosahedron is the dual of the regular dodecahedron. It means the faces
         of one shape correspond to the vertices of the other. Specifically, if you place a
         vertex at the center of each face on a dodecahedron, the new vertices form an icosahedron.
+        This dual relationship can be seen in the Schläfli symbols. The dodecahedron is {'{'}5, 3{'}'}
+        and the icosahedron is {'{'}3, 5{'}'}. You can revert the Schläfli symbols to get the dual.
+        </div>
         <br/>
+        <div>
+
         In the <Link to='/Polyhedron_5_3'>dodecahedron page</Link> we described the "north pole"
         as one of the face centers. The dual icosahedron will have a vertex at the "north pole".
         There are 5 neighboring vertices to the north pole, which are on the northern hemisphere 

@@ -1,20 +1,22 @@
 {
   "files": {
     "main.css": "/star/static/css/main.c659c60d.chunk.css",
-    "main.js": "/star/static/js/main.f4879aa7.chunk.js",
-    "main.js.map": "/star/static/js/main.f4879aa7.chunk.js.map",
+    "main.js": "/star/static/js/main.93755970.chunk.js",
+    "main.js.map": "/star/static/js/main.93755970.chunk.js.map",
     "runtime~main.js": "/star/static/js/runtime~main.81a9ca3b.js",
     "runtime~main.js.map": "/star/static/js/runtime~main.81a9ca3b.js.map",
     "static/js/2.0cdcb066.chunk.js": "/star/static/js/2.0cdcb066.chunk.js",
     "static/js/2.0cdcb066.chunk.js.map": "/star/static/js/2.0cdcb066.chunk.js.map",
     "index.html": "/star/index.html",
-    "precache-manifest.e30f82b3bb1cfc0ab4b1a89adef0f803.js": "/star/precache-manifest.e30f82b3bb1cfc0ab4b1a89adef0f803.js",
+    "precache-manifest.4a00aaac7c921a89bfe0bcf11798d7f3.js": "/star/precache-manifest.4a00aaac7c921a89bfe0bcf11798d7f3.js",
     "service-worker.js": "/star/service-worker.js",
     "static/css/main.c659c60d.chunk.css.map": "/star/static/css/main.c659c60d.chunk.css.map",
     "static/media/exploded_GreatDodecahedron.gif": "/star/static/media/exploded_GreatDodecahedron.f4b5fd3d.gif",
     "static/media/exploded_GreatIcosahedron.gif": "/star/static/media/exploded_GreatIcosahedron.6f86a37c.gif",
     "static/media/exploded_GreatStellatedDodecahedron.gif": "/star/static/media/exploded_GreatStellatedDodecahedron.c5b7a947.gif",
     "static/media/exploded_SmallStellatedDodecahedron.gif": "/star/static/media/exploded_SmallStellatedDodecahedron.19cc0362.gif",
+    "static/media/icosahedron_faceting_pentagon.png": "/star/static/media/icosahedron_faceting_pentagon.80c3ecc0.png",
+    "static/media/icosahedron_faceting_pentagram.png": "/star/static/media/icosahedron_faceting_pentagram.2ed22b23.png",
     "static/media/pentagram_diagonal_5_1.png": "/star/static/media/pentagram_diagonal_5_1.e233a00b.png",
     "static/media/pentagram_extend_5_1.png": "/star/static/media/pentagram_extend_5_1.ea212300.png",
     "static/media/pentagram_inside_outside.png": "/star/static/media/pentagram_inside_outside.31d89682.png",
@@ -43,6 +45,7 @@
     "static/media/pov_whole_Icosahedron.png": "/star/static/media/pov_whole_Icosahedron.241b3a62.png",
     "static/media/pov_whole_SmallStellatedDodecahedron.png": "/star/static/media/pov_whole_SmallStellatedDodecahedron.b1ec9eff.png",
     "static/media/pov_whole_polytope_52_3_5.png": "/star/static/media/pov_whole_polytope_52_3_5.ef7946f1.png",
+    "static/media/stellated_dodecahedron.png": "/star/static/media/stellated_dodecahedron.9f3bdd85.png",
     "static/media/wrong_polygon_5_2.png": "/star/static/media/wrong_polygon_5_2.7fb4f8a2.png"
   }
 }

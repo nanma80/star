@@ -49,6 +49,13 @@ class Polyhedron_52_5 extends App {
         The 12 pentagrammic faces can be seen as the stellation of the 12 faces of dodecahedron.
         The whole polyhedron can be constructed as placing pentagonal prism on top of the faces of
         dodecahedron.
+        <div class = "figure-div">
+        <figure>
+            <img src = {require('./images/Dodecahedron/stellated_dodecahedron.png')} alt = 'static'/>
+            <figcaption>Stellation from a dodecahedron</figcaption>
+        </figure>
+        </div>
+
         </li>
         <li>
         Faceting from an icosahedron:
@@ -57,6 +64,13 @@ class Polyhedron_52_5 extends App {
         vertices on the northern hemisphere with the same latitude. These 5 vertices form
         a pentagon. We can construct a pentagram inside this pentagon by constructing diagonals.
         Such pentagram is a face of the small stellated dodecahedron.
+        <div class = "figure-div">
+        <figure>
+            <img src = {require('./images/Icosahedron/icosahedron_faceting_pentagram.png')} alt = 'static'/>
+            <figcaption>Faceting from an icosahedron</figcaption>
+        </figure>
+        </div>
+
         </li>
         </ul>
 

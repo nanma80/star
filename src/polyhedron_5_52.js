@@ -73,6 +73,13 @@ class Polyhedron_5_52 extends App {
         if we think of a vertex as the north pole, there are 5 other
         vertices on the northern hemisphere with the same latitude. These 5 vertices form
         a pentagon. Each pentagon is a face of the great dodecahedron.
+        <div class = "figure-div">
+        <figure>
+            <img src = {require('./images/Icosahedron/icosahedron_faceting_pentagon.png')} alt = 'static'/>
+            <figcaption>Faceting from an icosahedron</figcaption>
+        </figure>
+        </div>
+
         </li>
         </ul>
 

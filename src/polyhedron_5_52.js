@@ -53,7 +53,8 @@ class Polyhedron_5_52 extends App {
         the convex hulls, which are pentagons, to form the faces of the great dodecahedron.
         Overall, we extend <strong>each face</strong> of dodecahedron from a small pentagon 
         to a bigger one.
-        Another view of new edges is that an edge is the intersection of the "north face"
+        
+        Another view is that an edge is the intersection of the "north face"
         and a face in the southern hemisphere (second image below).
         <div class = "figure-div">
         <figure>

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/star/static/css/main.c659c60d.chunk.css",
-    "main.js": "/star/static/js/main.93755970.chunk.js",
-    "main.js.map": "/star/static/js/main.93755970.chunk.js.map",
+    "main.js": "/star/static/js/main.5d49703f.chunk.js",
+    "main.js.map": "/star/static/js/main.5d49703f.chunk.js.map",
     "runtime~main.js": "/star/static/js/runtime~main.81a9ca3b.js",
     "runtime~main.js.map": "/star/static/js/runtime~main.81a9ca3b.js.map",
     "static/js/2.0cdcb066.chunk.js": "/star/static/js/2.0cdcb066.chunk.js",
     "static/js/2.0cdcb066.chunk.js.map": "/star/static/js/2.0cdcb066.chunk.js.map",
     "index.html": "/star/index.html",
-    "precache-manifest.4a00aaac7c921a89bfe0bcf11798d7f3.js": "/star/precache-manifest.4a00aaac7c921a89bfe0bcf11798d7f3.js",
+    "precache-manifest.50f1909e645be9e4109e52456e9bcaa6.js": "/star/precache-manifest.50f1909e645be9e4109e52456e9bcaa6.js",
     "service-worker.js": "/star/service-worker.js",
     "static/css/main.c659c60d.chunk.css.map": "/star/static/css/main.c659c60d.chunk.css.map",
     "static/media/exploded_GreatDodecahedron.gif": "/star/static/media/exploded_GreatDodecahedron.f4b5fd3d.gif",
@@ -46,6 +46,7 @@
     "static/media/pov_whole_SmallStellatedDodecahedron.png": "/star/static/media/pov_whole_SmallStellatedDodecahedron.b1ec9eff.png",
     "static/media/pov_whole_polytope_52_3_5.png": "/star/static/media/pov_whole_polytope_52_3_5.ef7946f1.png",
     "static/media/stellated_dodecahedron.png": "/star/static/media/stellated_dodecahedron.9f3bdd85.png",
+    "static/media/stellated_dodecahedron_2.png": "/star/static/media/stellated_dodecahedron_2.0218155d.png",
     "static/media/wrong_polygon_5_2.png": "/star/static/media/wrong_polygon_5_2.7fb4f8a2.png"
   }
 }

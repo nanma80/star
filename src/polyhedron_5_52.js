@@ -52,13 +52,20 @@ class Polyhedron_5_52 extends App {
         Here, we take the pentagrammic faces of the small stellated dodecahedron and create
         the convex hulls, which are pentagons, to form the faces of the great dodecahedron.
         Overall, we extend <strong>each face</strong> of dodecahedron from a small pentagon 
-        to a bigger one. 
+        to a bigger one.
+        Another view of new edges is that an edge is the intersection of the "north face"
+        and a face in the southern hemisphere (second image below).
         <div class = "figure-div">
         <figure>
             <img src = {require('./images/polygon/pentagram_inside_outside.png')} alt = 'static'/>
-            <figcaption>Connections among faces of dodecahedron (red), 
-            small stellated dodecahedron (blue edges), and great dodecahedron (green edges)</figcaption>
+            <figcaption>Connections among faces of <br/>dodecahedron (red), 
+            <br/>small stellated dodecahedron (blue edges), <br/>and great dodecahedron (green edges)</figcaption>
         </figure>
+        <figure>
+            <img src = {require('./images/Dodecahedron/stellated_dodecahedron_2.png')} alt = 'static'/>
+            <figcaption>Extend two faces to get an new edge</figcaption>
+        </figure>
+
         </div>
 
         The concept of stellation not only includes extending edges 

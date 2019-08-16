@@ -40,7 +40,7 @@ class Polyhedron_52_3 extends App {
 
         <figure>
             <img src = {require('./images/GreatStellatedDodecahedron/pov_vertex_figure_GreatStellatedDodecahedron.png')} alt = 'static'/>
-            <figcaption>vertex figure {'{'}3{'}'}</figcaption>
+            <figcaption>Vertex figure {'{'}3{'}'}</figcaption>
         </figure>
         </div>
 
@@ -106,7 +106,7 @@ class Polyhedron_52_3 extends App {
         <div class = "figure-div">
         <figure>
             <img src = {require('./images/GreatStellatedDodecahedron/exploded_GreatStellatedDodecahedron.gif')} alt = 'static'/>
-            <figcaption>great stellated dodecahedron, exploded view</figcaption>
+            <figcaption>Great stellated dodecahedron, exploded view</figcaption>
         </figure>
         </div>
 

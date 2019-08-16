@@ -105,7 +105,7 @@ class Polyhedron_5_52 extends App {
         <div class = "figure-div">
         <figure>
             <img src = {require('./images/GreatDodecahedron/exploded_GreatDodecahedron.gif')} alt = 'static'/>
-            <figcaption>great dodecahedron, exploded view</figcaption>
+            <figcaption>Great dodecahedron, exploded view</figcaption>
         </figure>
         </div>
 

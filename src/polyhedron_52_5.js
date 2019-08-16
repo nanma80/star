@@ -87,7 +87,7 @@ class Polyhedron_52_5 extends App {
         <div class = "figure-div">
         <figure>
             <img src = {require('./images/SmallStellatedDodecahedron/exploded_SmallStellatedDodecahedron.gif')} alt = 'static'/>
-            <figcaption>small stellated dodecahedron, exploded view</figcaption>
+            <figcaption>Small stellated dodecahedron, exploded view</figcaption>
         </figure>
         </div>
 

@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f31b0ff4b981c8f09be44e9ecde6a5c",
+    "revision": "9eacef75eaf532738256f2f29104a98f",
     "url": "/star/index.html"
   },
   {
-    "revision": "b8dfc0beb3e46a93d40a",
-    "url": "/star/static/css/main.b3bcc08f.chunk.css"
+    "revision": "16ccb97e33e28edfe080",
+    "url": "/star/static/css/main.bb639918.chunk.css"
   },
   {
     "revision": "02e49dc323ea064a0c86",
     "url": "/star/static/js/2.f38017e6.chunk.js"
   },
   {
-    "revision": "b8dfc0beb3e46a93d40a",
-    "url": "/star/static/js/main.76a53c29.chunk.js"
+    "revision": "16ccb97e33e28edfe080",
+    "url": "/star/static/js/main.dfdf7c79.chunk.js"
   },
   {
     "revision": "2898011e16a63222a549",
@@ -170,6 +170,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0218155dd3138887dcbe3f420ca177f3",
     "url": "/star/static/media/stellated_dodecahedron_2.0218155d.png"
+  },
+  {
+    "revision": "bd57a33cc8b56f62bc8ec2f5456ccad0",
+    "url": "/star/static/media/stellated_dodecahedron_3.bd57a33c.png"
   },
   {
     "revision": "7fb4f8a24bab3ac1e73ce6b7e5a53b26",

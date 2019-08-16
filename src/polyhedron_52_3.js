@@ -59,19 +59,6 @@ class Polyhedron_52_3 extends App {
 
         Just like in great dodecahedron, a new edge also is the intersection of the "north face"
         and a face in the southern hemisphere. But the edge here is longer than the one in the great dodecahedron.
-
-        </li>
-        <li>
-        Faceting from a dodecahedron:
-
-        The 20 vertices are the vertices of a dodecahedron. We first recall that in 
-        a <Link to='/Polyhedron_5_3'>dodecahedron</Link>, there is a loop consisting of 10 line segments 
-        near the "equator". It contains 10 vertices, 5 of which in the northern hemisphere and 5 in the southern.
-        If we pick the 5 vertices in the northern hemisphere and connect them into a pentagram, we have a face of
-        the great stellated dodecahedron.
-        </li>
-        </ul>
-
         <div class = "figure-div">
         <figure>
             <img src = {require('./images/polygon/pentagram_inside_outside_2.png')} alt = 'static'/>
@@ -80,11 +67,30 @@ class Polyhedron_52_3 extends App {
             <br/>great stellated dodecahedron (purple edges) </figcaption>
         </figure>
         <figure>
+            <img src = {require('./images/GreatDodecahedron/stellated_dodecahedron_3.png')} alt = 'static'/>
+            <figcaption>Extending edges of a great dodecahedron</figcaption>
+        </figure>
+        </div>
+        </li>
+
+        <li>
+        Faceting from a dodecahedron:
+
+        The 20 vertices are the vertices of a dodecahedron. We first recall that in 
+        a <Link to='/Polyhedron_5_3'>dodecahedron</Link>, there is a loop consisting of 10 line segments 
+        near the "equator". It contains 10 vertices, 5 of which in the northern hemisphere and 5 in the southern.
+        If we pick the 5 vertices in the northern hemisphere and connect them into a pentagram, we have a face of
+        the great stellated dodecahedron.
+        <div class = "figure-div">
+        <figure>
             <img src = {require('./images/Dodecahedron/dodecahedron_faceting_pentagram.png')} alt = 'static'/>
             <figcaption>Faceting from a dodecahedron</figcaption>
         </figure>
-
         </div>
+
+        </li>
+        </ul>
+
 
 
 

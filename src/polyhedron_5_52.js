@@ -25,6 +25,13 @@ class Polyhedron_5_52 extends App {
         around each vertex, making a star-like path.
         </div>
 
+        <br/>
+        <div>
+        Although the edges of the great dodecahedron are identical to the edges of
+        the regular icosahedron, the faces are different. 
+        And they are different solids.
+        </div>
+
         <div class = "figure-div">
         <figure>
             <img src = {require('./images/GreatDodecahedron/pov_whole_GreatDodecahedron.png')} alt = 'static'/>

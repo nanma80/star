@@ -17,6 +17,14 @@ class Polyhedron_3_52 extends App {
         There are 20 faces and 12 vertices.
            The dual polyhedra is {'{'}5/2, 3{'}'}, aka <Link to='/Polyhedron_52_3'>great stellated dodecahedron</Link>.
         </div>
+        <br/>
+        <div>
+        Although the edges of the great icosahedron are identical 
+        to the edges of
+        the <Link to='/Polyhedron_52_5'>small stellated dodecahedron</Link>, 
+        the faces are different. 
+        And they are different solids.
+        </div>
 
         <div class = "figure-div">
         <figure>

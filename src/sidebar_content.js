@@ -66,6 +66,9 @@ const SidebarContent = props => {
         </Link>
         
         <h2 style={styles.dividerLine}><span style={styles.dividerText}>3D</span></h2>
+        <Link to='/intro_3d' style={styles.sidebarLink}> 
+          Overview of 3D star polyhedra
+        </Link>
         <Link to='/polyhedron_5_3' style={styles.sidebarLink}> 
           Dodecahedron
         </Link>
@@ -86,6 +89,9 @@ const SidebarContent = props => {
         </Link>
 
         <h2 style={styles.dividerLine}><span style={styles.dividerText}>4D</span></h2>
+        <Link to='/intro_4d' style={styles.sidebarLink}> 
+          Overview of 4D star polytopes
+        </Link>
         <Link to='/polytope_5_3_3' style={styles.sidebarLink}> 
           120-cell
         </Link>

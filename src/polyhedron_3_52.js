@@ -45,11 +45,16 @@ class Polyhedron_3_52 extends App {
         The great icosahedron is the only stellation based on an icosahedron among
         all the four Kepler–Poinsot polyhedra.
 
-        A new edge is the intersection of the x face and the y face. 
+        A new edge is the intersection of the a face and the face 
+        next to the opposite of the first one. These two faces are the "farthest"
+        pair of faces on an icosahedron that are not parallel to each other.
+        Their intersection is the farthest line from the origin.
+        The only farther pair is a pair of opposite faces. But they don't intersect
+        at all.
         <div class = "figure-div">
         <figure>
-            <img src = {require('./images/GreatDodecahedron/stellated_dodecahedron_3.png')} alt = 'static'/>
-            <figcaption>Stellation of an icosahedron [to be updated]</figcaption>
+            <img src = {require('./images/Icosahedron/stellated_icosahedron.png')} alt = 'static'/>
+            <figcaption>Stellating an icosahedron to form an edge</figcaption>
         </figure>
         </div>
         </li>
@@ -67,8 +72,8 @@ class Polyhedron_3_52 extends App {
 
         <div class = "figure-div">
         <figure>
-            <img src = {require('./images/Dodecahedron/dodecahedron_faceting_pentagram.png')} alt = 'static'/>
-            <figcaption>Faceting from an icosahedron [to be updated]</figcaption>
+            <img src = {require('./images/Icosahedron/icosahedron_faceting_2.png')} alt = 'static'/>
+            <figcaption>Faceting from an icosahedron</figcaption>
         </figure>
         </div>
 

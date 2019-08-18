@@ -51,11 +51,12 @@ class Intro3D extends App {
         </div>
 
         <div>
-        It turns out all four regular star polyhedra have the same symmetry
-        as the (convex) dodecahedron and icosahedron. They can be constructed by
-        stellating and faceting of dodecahedron and icosahedron. Therefore
-        we will start talking about dodecahedron and icosahedron to warm up.
-        We will introduce several concepts, notations, 
+        It turns out all four regular star polyhedra have the
+        same <a href="https://en.wikipedia.org/wiki/Icosahedral_symmetry" target="_blank" rel="noopener noreferrer">symmetry</a> as
+        the (convex) dodecahedron and icosahedron. They can be constructed by
+        stellating and faceting the dodecahedron and the icosahedron. 
+        We start from dodecahedron and icosahedron to warm up.
+        We introduce several concepts, notations, 
         and get familiar with certain 3D visualizations. 
         Then we move on to the star polyhedra.
         </div>

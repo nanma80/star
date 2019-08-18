@@ -10,7 +10,7 @@ class Polyhedron_52_3 extends App {
     	<div>
         <div>
             The great stellated dodecahedron is one of the four regular
-            star polyhedra, known as <a href="https://en.wikipedia.org/wiki/Kepler%E2%80%93Poinsot_polyhedron" target="_blank" rel="noopener noreferrer">Kepler–Poinsot polyhedra</a>.
+            star polyhedra, known as the <a href="https://en.wikipedia.org/wiki/Kepler%E2%80%93Poinsot_polyhedron" target="_blank" rel="noopener noreferrer">Kepler–Poinsot polyhedra</a>.
             The Schläfli symbol is {'{'}5/2, 3{'}'}. 
              Each face is a {'{'}5/2{'}'} (<Link to='/pentagram'>pentagram</Link>). Each
         vertex figure is a {'{'}3{'}'} (triangle).
@@ -19,7 +19,7 @@ class Polyhedron_52_3 extends App {
         </div>
         <br/>
         <div>
-            Comparing the great stellated dodecahedron {'{'}5/2, 3{'}'} and the small stellated dodecahedron {'{'}5/2, 5{'}'},
+            Comparing the great stellated dodecahedron {'{'}5/2, 3{'}'} to the small stellated dodecahedron {'{'}5/2, 5{'}'},
             the faces on both solids are regular pentagrams. But the great one has 3 faces meeting at each vertex and the small one has 5.
             The great one appears spikier than the small one. If the sizes of the pentagrams are the same, the faces on the great stellated
             dodecahedron will be closer to the center.
@@ -55,7 +55,7 @@ class Polyhedron_52_3 extends App {
         edges of the <Link to='/Polyhedron_5_52'>great dodecahedron</Link>, so that each face is changed
         from a pentagon to a pentagram.
         We can illustrate the face together
-        with the previous stellations as follows.
+        with the previous stellations as the picture below.
 
         Just like in great dodecahedron, a new edge also is the intersection of the "north face"
         and a face in the southern hemisphere. But the edge here is longer than the one in the great dodecahedron.

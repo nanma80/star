@@ -11,8 +11,8 @@ class Polyhedron_3_5 extends App {
         <div>
         The regular icosahedron is another one of the five regular convex 
         polyhedra (<a href="https://en.wikipedia.org/wiki/Platonic_solid" target="_blank" rel="noopener noreferrer">Platonic solids</a>).
-        The <a href="https://en.wikipedia.org/wiki/Schl%C3%A4fli_symbol" target="_blank" rel="noopener noreferrer">Schläfli symbol</a> is 
-        {'{'}3, 5{'}'} because each face is a {'{'}3{'}'} (triangle), and each
+        The <a href="https://en.wikipedia.org/wiki/Schl%C3%A4fli_symbol" target="_blank" rel="noopener noreferrer">Schläfli symbol</a> is {'{'}3, 5{'}'} because 
+        each face is a {'{'}3{'}'} (triangle), and each
         vertex figure is a {'{'}5{'}'} (pentagon).
         </div>
 
@@ -33,15 +33,15 @@ class Polyhedron_3_5 extends App {
         The regular icosahedron is the dual of the regular dodecahedron. It means the faces
         of one shape correspond to the vertices of the other. Specifically, if you place a
         vertex at the center of each face on a dodecahedron, the new vertices form an icosahedron.
-        This dual relationship can be seen in the Schläfli symbols. The dodecahedron is {'{'}5, 3{'}'}
-        and the icosahedron is {'{'}3, 5{'}'}. You can revert the Schläfli symbols to get the dual.
+        This dual relationship can be seen in the Schläfli symbols. The dodecahedron is {'{'}5, 3{'}'} and
+        the icosahedron is {'{'}3, 5{'}'}. You can revert the Schläfli symbols to get the dual.
         </div>
         <br/>
         <div>
 
         In the <Link to='/Polyhedron_5_3'>dodecahedron page</Link> we described the "north pole"
         as one of the face centers. The dual icosahedron will have a vertex at the "north pole".
-        There are 5 neighboring vertices to the north pole, which are on the northern hemisphere 
+        The north pole vertex has 5 adjacent vertices, which are on the northern hemisphere 
         with the same latitude.
         The same structure exists on the southern hemisphere. 
 
@@ -55,8 +55,10 @@ class Polyhedron_3_5 extends App {
         <br/>
         <div>
 
-        For consistency across the duality relationship, in any 3D shapes here, we call the "north pole"
+        For consistency across the duality relationship, in any 3D shapes here, 
+        we call the "north pole"
         the face center of a dodecahedron, or a vertex of an icosahedron.
+        We typically keep the north pole on top of the pictures.
         </div>
         <div class = "figure-div">
         <figure>

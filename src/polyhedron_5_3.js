@@ -22,21 +22,23 @@ class Polyhedron_5_3 extends App {
         </div>
         <h4>The north face</h4>
         <div>
-        I think of the faces in the following way. I call the direction of one of the face as "north". 
-        Maybe this face is called "north face". And the face center is the "north pole".
-        There are 5 neighboring faces adjacent to the north face. These 6 faces roughly form 
+        I think of the faces in the following way. 
+        I call the direction of one of the face as "north". 
+        Maybe this face is called "north face". 
+        And the face center is the "north pole".
+        The north face has 5 adjacent faces. These 6 faces roughly form 
         the "northern hemisphere". The shape is like a bowl.
         By symmetry, the other 6 faces form the "southern hemisphere". 
         Putting these two parts together gives the whole dodecahedron.
         The seam between the two hemisphere is a loop of ten line segments, which is 
-        roughly the "equator". From north to south, we have four "rings" of faces.
+        roughly the "equator". From north to south, we have four groups of faces.
         The rings contain 1, 5, 5, 1 faces, respectively.
         </div>
         <br/>
         <div>
-
         These terms sound arbitrary. But I find them useful to 
         create a mental image of the faces and useful in imagining 4D shapes.
+        After all, it is easier to track 4 groups of objects rather than 12 objects.
         </div>
         <div class = "figure-div">
         <figure>
@@ -62,18 +64,22 @@ class Polyhedron_5_3 extends App {
         </div>
         <div>
         If we slice off a little tip of a vertex of the dodecahedron with a plane, the section will be a small
-        triangle. The shape is the same as long as the cut is shallow enough to avoid cutting over other vertices.
+        triangle. If we cut deeper, the triangle is bigger.
+        But the shape is still the same
+        as long as the cut is shallow enough to avoid cutting over other vertices.
         This shape is called the <a href="https://en.wikipedia.org/wiki/Vertex_figure" target="_blank" rel="noopener noreferrer">vertex figure</a>. 
-        The vertex figure of the regular dodecahedron is a an <strong>equilateral</strong> (regular) triangle, which
+        The vertex figure of the regular dodecahedron is an <strong>equilateral</strong> (regular) triangle, which
         implies the symmetry of the vertex. 
         Regular polyhedra are required to have regular vertex figures.
         </div>
 
         <h4>Notation</h4>
         <div>
-        The <a href="https://en.wikipedia.org/wiki/Schl%C3%A4fli_symbol" target="_blank" rel="noopener noreferrer">Schläfli symbol</a> denotes 
-        the regular dodecahedron as {'{'}5, 3{'}'} because each face is a {'{'}5{'}'} (pentagon), and each
-        vertex figure is a {'{'}3{'}'} (triangle). Alternatively, the number 3 means there are 3 edges and 3 faces 
+        The <a href="https://en.wikipedia.org/wiki/Schl%C3%A4fli_symbol" target="_blank" rel="noopener noreferrer">Schläfli symbol</a> of 
+        the regular dodecahedron is {'{'}5, 3{'}'} because 
+        each face is a {'{'}5{'}'} (pentagon), and each
+        vertex figure is a {'{'}3{'}'} (triangle). 
+        Alternatively, the number 3 means there are 3 edges and 3 faces 
         meeting at each vertex.
         </div>
         <br/>

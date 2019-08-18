@@ -10,7 +10,7 @@ class Polyhedron_52_5 extends App {
     	<div>
         <div>
     		The small stellated dodecahedron is one of the four regular
-            star polyhedra, known as <a href="https://en.wikipedia.org/wiki/Kepler%E2%80%93Poinsot_polyhedron" target="_blank" rel="noopener noreferrer">Kepler–Poinsot polyhedra</a>.
+            star polyhedra, known as the <a href="https://en.wikipedia.org/wiki/Kepler%E2%80%93Poinsot_polyhedron" target="_blank" rel="noopener noreferrer">Kepler–Poinsot polyhedra</a>.
             The faces of these polyhedra are identical regular polygons or star polygons, and 
             the vertex figures are identical regular polygons or star polygons.
             They are natural extensions of the five Platonic solids into the "star" domain.
@@ -46,8 +46,12 @@ class Polyhedron_52_5 extends App {
         <ul>
         <li>
         Stellation from a dodecahedron:
-        The 12 pentagrammic faces can be seen as the stellation of the 12 faces of dodecahedron.
-        The whole polyhedron can be constructed as placing pentagonal prism on top of the faces of
+        The 12 pentagrammic faces can be seen as the stellation 
+        of the 12 pentagonal faces of dodecahedron.
+        We can extend the edges of a dodecahedron to get 
+        the small stellated dodecahedron.
+        The whole polyhedron can also be constructed as 
+        placing pentagonal prism on top of the faces of
         dodecahedron.
         <div class = "figure-div">
         <figure>
@@ -63,7 +67,7 @@ class Polyhedron_52_5 extends App {
         We first recall that in an <Link to='/Polyhedron_3_5'>icosahedron</Link>, if we think of a vertex as the north pole, there are 5 other
         vertices on the northern hemisphere with the same latitude. These 5 vertices form
         a pentagon. We can construct a pentagram inside this pentagon by constructing diagonals.
-        Such pentagram is a face of the small stellated dodecahedron.
+        Such a pentagram is a face of the small stellated dodecahedron.
         <div class = "figure-div">
         <figure>
             <img src = {require('./images/Icosahedron/icosahedron_faceting_pentagram.png')} alt = 'static'/>

@@ -10,7 +10,7 @@ class Polyhedron_3_52 extends App {
     	<div>
         <div>
             The great icosahedron is one of the four regular
-            star polyhedra, known as <a href="https://en.wikipedia.org/wiki/Kepler%E2%80%93Poinsot_polyhedron" target="_blank" rel="noopener noreferrer">Kepler–Poinsot polyhedra</a>.
+            star polyhedra, known as the <a href="https://en.wikipedia.org/wiki/Kepler%E2%80%93Poinsot_polyhedron" target="_blank" rel="noopener noreferrer">Kepler–Poinsot polyhedra</a>.
              The Schläfli symbol is {'{'}3, 5/2{'}'}. 
              Each face is a {'{'}3{'}'} (triangle). Each
         vertex figure is a {'{'}5/2{'}'} (<Link to='/pentagram'>pentagram</Link>). 
@@ -71,8 +71,8 @@ class Polyhedron_3_52 extends App {
         Faceting from an icosahedron:
 
         The 12 vertices are the vertices of an icosahedron. 
-        Start from a face on an icosahedron. 
-        Find its three adjacent faces. There are three vertices 
+        Start from a face on an icosahedron and 
+        find its three adjacent faces. There are three vertices 
         from the adjacent faces that are not 
         the vertices of the starting face. If we connect these 
         3 vertices, we have an equilateral triangle. That is a 

@@ -28,7 +28,8 @@ class Heptagram extends App {
 
             <h4>Two heptagrams</h4>
             <div>
-            Unlike pentagram, which has a single shape, there are two types of heptagrams. 
+            Unlike pentagram, which has a single shape, 
+            there are two types of heptagrams. 
             The Schläfli symbols are {'{'}7/2{'}'}, and {'{'}7/3{'}'}.
             When we follow the construction methods, faceting or stellation, as for <Link to='/pentagram'>pentagram</Link>, 
             we have more choices. 
@@ -47,7 +48,7 @@ class Heptagram extends App {
 
             <div>
             When we start from a vertex of a heptagram and go along the edges and vertices, 
-            when we come back to the starting vertex, we may have gone around the center
+            when we come back to the starting vertex, we go around the center
             by 2 rounds for {'{'}7/2{'}'} and 3 rounds for {'{'}7/3{'}'}.
             </div>
             <br/>

@@ -10,7 +10,7 @@ class Polyhedron_5_52 extends App {
     	<div>
         <div>
     		The great dodecahedron is one of the four regular
-            star polyhedra, known as <a href="https://en.wikipedia.org/wiki/Kepler%E2%80%93Poinsot_polyhedron" target="_blank" rel="noopener noreferrer">Kepler–Poinsot polyhedra</a>.
+            star polyhedra, known as the <a href="https://en.wikipedia.org/wiki/Kepler%E2%80%93Poinsot_polyhedron" target="_blank" rel="noopener noreferrer">Kepler–Poinsot polyhedra</a>.
              The Schläfli symbol is {'{'}5, 5/2{'}'}. 
              Each face is a {'{'}5{'}'} (pentagon). Each
         vertex figure is a {'{'}5/2{'}'} (<Link to='/pentagram'>pentagram</Link>). 
@@ -58,8 +58,8 @@ class Polyhedron_5_52 extends App {
         extending edges.
         Here, we take the pentagrammic faces of the small stellated dodecahedron and create
         the convex hulls, which are pentagons, to form the faces of the great dodecahedron.
-        Overall, we extend <strong>each face</strong> of dodecahedron from a small pentagon 
-        to a bigger one.
+        Overall, we extend <strong>each face</strong> of dodecahedron 
+        to get a bigger pentagon.
         
         Another view is that an edge is the intersection of the "north face"
         and a face in the southern hemisphere (second image below).

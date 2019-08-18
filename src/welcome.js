@@ -7,12 +7,13 @@ class Welcome extends App {
 
     this.state.content = (<div>
     	<div>
-    		In geometry, a <a href="https://en.wikipedia.org/wiki/Polytope" target="_blank" rel="noopener noreferrer">polytope</a> is a generic term for polygons 
-            in a 2D plane, or polyhedra in a 
-    		3D space, or similar objects in a 4D hyperspace and beyond. It is an amazing 
+    		In geometry, a <a href="https://en.wikipedia.org/wiki/Polytope" target="_blank" rel="noopener noreferrer">polytope</a> is 
+            a polygon 
+            in a 2D plane, or a polyhedron in a 
+    		3D space, or a similar object in a 4D hyperspace and beyond. It is an amazing 
     		subject generating great mathematical ideas and artistic inspiration. 
     		This website visualizes a specific type of polytopes, 
-            called <a href="https://en.wikipedia.org/wiki/Star_polyhedron#Star_polytopes" target="_blank" rel="noopener noreferrer">star polytopes</a>.
+            called the <a href="https://en.wikipedia.org/wiki/Star_polyhedron#Star_polytopes" target="_blank" rel="noopener noreferrer">star polytopes</a>.
     	</div>
         <div class = "figure-div">
         <figure>
@@ -34,16 +35,17 @@ class Welcome extends App {
         <br/>
         <div>
             We will start from the 2D star polygons like the pentagram. Then we will
-            introduce generalizations of the pentagram in 3D and 4D spaces in this website.
+            introduce generalizations of the pentagram in 3D and 4D spaces.
             I am not trying to make it a rigorous tutorial about these shapes, but rather
-            a gallery of pictures with some explanations. The goal is to understand their
-            structures intuitively. I restrict the discussion to regular polytopes. 
+            a gallery of pictures with some explanations. The goal is to help us 
+            to intuitively understand their
+            structures. I restrict the discussion to regular polytopes. 
         </div>
         <br/>
         <div>
             This website is inspired by 
-            the <a href="http://eusebeia.dyndns.org/4d/" target="_blank" rel="noopener noreferrer">Eusebeia 4D visualization</a> page.
-            It includes a comprehensive list of 3D and 4D shapes but doesn't include the star polytopes.
+            the <a href="http://eusebeia.dyndns.org/4d/" target="_blank" rel="noopener noreferrer">Eusebeia 4D visualization</a> website,
+            which includes a comprehensive list of 3D and 4D shapes but doesn't include the star polytopes.
         </div>
         <br/>
         <div>

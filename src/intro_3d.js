@@ -53,10 +53,10 @@ class Intro3D extends App {
         <div>
         It turns out all four regular star polyhedra have the
         same <a href="https://en.wikipedia.org/wiki/Icosahedral_symmetry" target="_blank" rel="noopener noreferrer">symmetry</a> as
-        the (convex) dodecahedron and icosahedron. They can be constructed by
+        the (convex) dodecahedron and the icosahedron. They can be constructed by
         stellating and faceting the dodecahedron and the icosahedron. 
-        We start from dodecahedron and icosahedron to warm up.
-        We introduce several concepts, notations, 
+        We start from the dodecahedron and the icosahedron to warm up.
+        We introduce several concepts and notations, 
         and get familiar with certain 3D visualizations. 
         Then we move on to the star polyhedra.
         </div>
@@ -75,7 +75,7 @@ class Intro3D extends App {
         <div>
         We will not cover the regular compounds. They are 3D objects 
         similar to the <Link to='/hexagram'>hexagram</Link>. 
-        There are five of them in 3D. But they are out of scope of this website.
+        There are five of them in 3D. They are out of scope of this website.
         You can visit a <a href="https://en.wikipedia.org/wiki/Polytope_compound#Regular_compounds" target="_blank" rel="noopener noreferrer">Wikipedia
         </a> page to see them.
 

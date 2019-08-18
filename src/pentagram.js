@@ -37,7 +37,7 @@ class Pentagram extends App {
                 In the first image,
                 It has only 5 vertices on the outside. 
                 There are 5 edges which intersect with each other. 
-                But we don't count the intersections as vertices of the pentagram. 
+                However, we don't count the intersections as vertices of the pentagram. 
                 </li>
                 <li>
                 We do <strong>not</strong> use the second image 

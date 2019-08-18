@@ -29,7 +29,7 @@ class Polyhedron_5_52 extends App {
         <div>
         Although the edges of the great dodecahedron are identical to the edges of
         the regular icosahedron, the faces are different. 
-        And they are different solids.
+        Therefore they are different solids.
         </div>
 
         <div class = "figure-div">

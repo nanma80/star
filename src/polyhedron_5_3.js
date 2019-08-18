@@ -24,8 +24,8 @@ class Polyhedron_5_3 extends App {
         <div>
         I think of the faces in the following way. 
         I call the direction of one of the face as "north". 
-        Maybe this face is called "north face". 
-        And the face center is the "north pole".
+        Maybe this face is called "north face",
+        and the face center is the "north pole".
         The north face has 5 adjacent faces. These 6 faces roughly form 
         the "northern hemisphere". The shape is like a bowl.
         By symmetry, the other 6 faces form the "southern hemisphere". 
@@ -36,7 +36,7 @@ class Polyhedron_5_3 extends App {
         </div>
         <br/>
         <div>
-        These terms sound arbitrary. But I find them useful to 
+        These terms sound arbitrary, but I find them useful to 
         create a mental image of the faces and useful in imagining 4D shapes.
         After all, it is easier to track 4 groups of objects rather than 12 objects.
         </div>
@@ -65,8 +65,8 @@ class Polyhedron_5_3 extends App {
         <div>
         If we slice off a little tip of a vertex of the dodecahedron with a plane, the section will be a small
         triangle. If we cut deeper, the triangle is bigger.
-        But the shape is still the same
-        as long as the cut is shallow enough to avoid cutting over other vertices.
+        The shape remains the same as long as 
+        the cut is shallow enough to avoid cutting over other vertices.
         This shape is called the <a href="https://en.wikipedia.org/wiki/Vertex_figure" target="_blank" rel="noopener noreferrer">vertex figure</a>. 
         The vertex figure of the regular dodecahedron is an <strong>equilateral</strong> (regular) triangle, which
         implies the symmetry of the vertex. 

@@ -23,7 +23,7 @@ class Polyhedron_3_52 extends App {
         to the edges of
         the <Link to='/Polyhedron_52_5'>small stellated dodecahedron</Link>, 
         the faces are different. 
-        And they are different solids.
+        Therefore they are different solids.
         </div>
 
         <div class = "figure-div">
@@ -53,11 +53,11 @@ class Polyhedron_3_52 extends App {
         The great icosahedron is the only stellation based on an icosahedron among
         all the four Kepler–Poinsot polyhedra.
 
-        A new edge is the intersection of the a face and the face 
+        A new edge is the intersection between a face and the face 
         next to the opposite of the first one. These two faces are the "farthest"
         pair of faces on an icosahedron that are not parallel to each other.
         Their intersection is the farthest line from the origin.
-        The only farther pair is a pair of opposite faces. But they don't intersect
+        The only farther pair is a pair of opposite faces. However, they don't intersect
         at all.
         <div class = "figure-div">
         <figure>

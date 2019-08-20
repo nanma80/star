@@ -58,7 +58,8 @@ class Polyhedron_52_3 extends App {
         with the previous stellations as the picture below.
 
         Just like in great dodecahedron, a new edge also is the intersection of the "north face"
-        and a face in the southern hemisphere. The edge here is longer than the one in the great dodecahedron.
+        and a face in the southern hemisphere. The edge here is longer than the 
+        one in the great dodecahedron. 
         <div class = "figure-div">
         <figure>
             <img src = {require('./images/polygon/pentagram_inside_outside_2.png')} alt = 'static'/>

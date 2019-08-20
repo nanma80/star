@@ -59,7 +59,7 @@ class Polyhedron_5_52 extends App {
         Here, we take the pentagrammic faces of the small stellated dodecahedron and create
         the convex hulls, which are pentagons, to form the faces of the great dodecahedron.
         Overall, we extend <strong>each face</strong> of dodecahedron 
-        to get a bigger pentagon.
+        to get a bigger pentagon. 
         
         Another view is that an edge is the intersection of the "north face"
         and a face in the southern hemisphere (second image below).
@@ -78,7 +78,8 @@ class Polyhedron_5_52 extends App {
 
         The concept of stellation not only includes extending edges 
         (1D components) but also extending faces (2D components). In higher dimensions it also 
-        includes extending 3D components (cells).
+        includes extending 3D components (cells). We say the small stellated dodecahedron is the first stellation
+        of the dodecahedron and the great dodecahedron is the second stellation.
 
         </li>
         <li>

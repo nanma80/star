@@ -9,7 +9,7 @@ class Intro4D extends App {
         <div>
         In the 4D Euclidean space, there are six regular convex 
         polytopes.
-        On these polytopes, the cells (3D boundaries) are identical
+        On these polytopes, the cells (3D "faces") are identical
         regular convex polyhedra and all vertex figures are identical
         regular convex polyhedra.
         The 2D faces are identical convex polygons.

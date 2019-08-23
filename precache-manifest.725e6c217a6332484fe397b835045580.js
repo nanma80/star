@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "25f113b107a56560a6d2f124144f2fff",
+    "revision": "900b8a1421b39dd613f4c7e210d998a4",
     "url": "/star/index.html"
   },
   {
-    "revision": "63063a768b7485249dbf",
+    "revision": "f9f6cc0c5ff242c8559c",
     "url": "/star/static/css/main.bb639918.chunk.css"
   },
   {
-    "revision": "08c6398d6cf84b9bd183",
-    "url": "/star/static/js/2.1622aac6.chunk.js"
+    "revision": "8d91f07348569ea5b9d5",
+    "url": "/star/static/js/2.9a0b412c.chunk.js"
   },
   {
-    "revision": "63063a768b7485249dbf",
-    "url": "/star/static/js/main.8ad3947e.chunk.js"
+    "revision": "f9f6cc0c5ff242c8559c",
+    "url": "/star/static/js/main.a0783f9e.chunk.js"
   },
   {
     "revision": "2898011e16a63222a549",
@@ -124,10 +124,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/star/static/media/polytope_3_3_52_layers_8_8.1936171a.gif"
   },
   {
-    "revision": "7ddbc9dd35eb0a629d11c494c18cb265",
-    "url": "/star/static/media/polytope_3_3_5_cell600_layers_1_1.7ddbc9dd.gif"
-  },
-  {
     "revision": "c8ae791b250ff93e20903894604d3798",
     "url": "/star/static/media/polytope_3_3_5_cell600_layers_2_2.c8ae791b.gif"
   },
@@ -154,6 +150,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "771fca810ba78d2e915b5e5d13dad868",
     "url": "/star/static/media/polytope_3_3_5_cell600_layers_8_8.771fca81.gif"
+  },
+  {
+    "revision": "cb75c9aeb1348881228a6cc1400a19f7",
+    "url": "/star/static/media/polytope_3_3_5_cell600_vertex_explode.cb75c9ae.gif"
   },
   {
     "revision": "5e3e21f38ea824606a5ebd6db2fabe62",
@@ -268,8 +268,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/star/static/media/polytope_5_3_3_cell120_layers_5_5.47351595.gif"
   },
   {
-    "revision": "9cec82cbe2b8e3ad0bbd838ce75a2bca",
-    "url": "/star/static/media/polytope_5_3_3_cell120_vertex_explode.9cec82cb.gif"
+    "revision": "5c3d47630ed11ad3aa9292cdb53b3f07",
+    "url": "/star/static/media/polytope_5_3_3_cell120_vertex_explode.5c3d4763.gif"
   },
   {
     "revision": "6ca06f2bbe3a6a98960022e27cae0ac2",
@@ -454,6 +454,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e04ea24bd0582885c6ac61fd4923be4c",
     "url": "/star/static/media/stellated_icosahedron.e04ea24b.png"
+  },
+  {
+    "revision": "e044d80973aca307614b9040dcacb983",
+    "url": "/star/static/media/vertex_figure_polytope_3_3_5_cell600.e044d809.png"
   },
   {
     "revision": "a6304ef25760c9cb57a9fd96c0859881",

@@ -7,23 +7,34 @@ class Intro4D extends App {
 
     this.state.content = (<div>
         <div>
+        Now let us talk about the <a href="https://en.wikipedia.org/wiki/Four-dimensional_space" target="_blank" rel="noopener noreferrer">4D space</a>. 
+        First, I'd like to clarify that we are not including time as a dimension. We are not talking about
+        the <a href="https://en.wikipedia.org/wiki/Minkowski_space" target="_blank" rel="noopener noreferrer">Minkowski spacetime</a>, which is 
+        used in relativity. In a 4D space (<strong>no time</strong>), all 4 dimensions are equivalent spatial dimensions. We 
+        can talk about symmetries among all dimensions and rotate objects in all dimensions.
+        </div>
+        <br/>
+        <div>
         In the 4D Euclidean space, there are six regular convex 
         polytopes.
-        On these polytopes, the cells (3D "faces") are identical
-        regular convex polyhedra and all vertex figures are identical
+
+        The boundaries of 4D polytopes are 3D faces called cells.
+        The cells of the six regular convex polytopes are identical
+        regular convex polyhedra, and all vertex figures are identical
         regular convex polyhedra.
         The 2D faces are identical convex polygons.
         The cells around each 1D edge are arranged symmetrically.
-        They are the analog of Platonic solids.
+        
+        These 6 polytopes are the analog of Platonic solids.
 
         The <a href="http://eusebeia.dyndns.org/4d/regular" target="_blank" rel="noopener noreferrer">Eusebeia website</a> has 
-        a great summary of these six polytopes. They also have 
-        a <a href="http://eusebeia.dyndns.org/4d/vis/vis" target="_blank" rel="noopener noreferrer">section</a> about
-        what the 4D space is and how to visualize it by projection.
+        a great summary of these six polytopes. Eusebeia also has
+        a <a href="http://eusebeia.dyndns.org/4d/vis/vis" target="_blank" rel="noopener noreferrer">section</a> explaining
+        the meaning of the 4D space and visualization by projection.
         Wikipedia also has a
         good <a href="https://en.wikipedia.org/wiki/Regular_4-polytope#Regular_convex_4-polytopes" target="_blank" rel="noopener noreferrer">summary</a> of them.
         
-        I assume viewers of this website to be comfortable 
+        I assume that viewers of this website are comfortable 
         with 4D polytopes going forward.
         </div>
         <br/>
@@ -94,13 +105,12 @@ class Intro4D extends App {
 
         <br/>
         <div>
-        It turns out all 10 regular star polyhedra have the
+        All 10 regular star polytopes have the
         same H4 symmetry as
         the 120-cell and the 600-cell. They can be constructed by
         stellating and faceting the 120-cell and the 600-cell.
         We start from the 120-cell and the 600-cell to warm up.
-        Again we introduce several concepts, notations, 
-        and get familiar with 4D visualization by projection.
+        We will get familiar with 4D visualization by projection.
         Then we move on to the 10 star polytopes.
         </div>
 

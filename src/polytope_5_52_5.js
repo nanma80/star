@@ -1,5 +1,6 @@
 import React from 'react';
 import App from './App';
+import { Link } from 'react-router-dom';
 
 class Polyhedron_5_52_5 extends App {
   constructor(props) {

@@ -12,15 +12,15 @@ class Polyhedron_5_3_3 extends App {
             The 120-cell is a convex regular polytope in 4D. 
             The Schläfli symbol is {'{'}5, 3, 3{'}'}.
             The first two numbers of the Schläfli symbol 
-            is {'{'}5, 3{'}'}, which is the symbol of each cell (the dodecahedron).
+            are {'{'}5, 3{'}'}, which are the symbol of each cell (the dodecahedron).
             The third number of the Schläfli symbol, 3, is the number of cells around each edge.
-            The last two numbers of the Schläfli symbol, {'{'}3, 3{'}'}, gives the vertex figure 
+            The last two numbers of the Schläfli symbol, {'{'}3, 3{'}'}, give the vertex figure 
             (the tetrahedron). The 120-cell can be considered as the equivalent of
             the dodecahedron in 4D.
             </div>
             <br/>
             <div>
-            Over all, a 120-cell contains 120 dodecahedral cells, 720 pentagonal faces, 
+            Overall, a 120-cell contains 120 dodecahedral cells, 720 pentagonal faces, 
             1200 edges, and 600 vertices. More information can be found in            
             the <a href="https://en.wikipedia.org/wiki/120-cell" target="_blank" rel="noopener noreferrer">wikipedia page</a> and
             the <a href="http://eusebeia.dyndns.org/4d/120-cell" target="_blank" rel="noopener noreferrer">Eusebeia page</a>.
@@ -33,7 +33,7 @@ class Polyhedron_5_3_3 extends App {
             The best projection I find for the 120-cell is cell-first. This means in the projection,
             we have a cell in the middle. The center cell is not distorted and all the other cells 
             are distored because the direction of the projection is at an angle of the cells.
-            This is equivalent to the projection of 
+            This is equivalent to the face-first projection of 
             the <Link to='/Polyhedron_5_3'>dodecahedron</Link> with a pentagon in the middle.
             See the pictures below to compare these two projections.
             The projection of the dodecahedron to 2D has a 5-fold rotational symmetry. 
@@ -54,8 +54,8 @@ class Polyhedron_5_3_3 extends App {
 
             <h4>Structure</h4>
             <div>
-            The first image above packs 120 dodecahedra. We cannot really see the structure from this picture.
-            In this section, let us start from the center cell and see how the other cells are arranged, layer by layer.
+            The first image above packs 120 dodecahedra together. We cannot really see the structure from this picture.
+            In this section, we start from the center cell and see how the other cells are arranged, layer by layer.
 
             Following the terminology from the <Link to='/Polyhedron_5_3'>dodecahedron page</Link>, I 
             call the centered cell in projection the "north cell". 
@@ -84,8 +84,10 @@ class Polyhedron_5_3_3 extends App {
             </div>
 
             <div>
-            Layer 3: After placing the Layer 2 cells, we can see small pits at the places where three Layer 2 cells meet. There
-            are 20 such pits. We can fit 20 cells to them. They are the Layer 3 cells. They are in the middle of the north pole
+            Layer 3: After placing the Layer 2 cells, we can see small pits at the places where every three Layer 2 cells meet. 
+            There
+            are 20 such pits. We can fit 20 cells in them. They are the Layer 3 cells. They are in the middle 
+            between the north pole
             and the equator. Therefore they are the "middle latitude" cells. The centers of them form the vertices of 
             a dodecahedron.
             </div>
@@ -140,16 +142,17 @@ class Polyhedron_5_3_3 extends App {
             </div>
 
             <div>
-            The definition of the vertex figure is similar to the one in for 3D polyhedra, as we introduced in 
+            The definition of the vertex figure for a 4D polytope is similar to the one in for 3D polyhedra, as we introduced in 
             the <Link to='/Polyhedron_5_3'>dodecahedron page</Link>. We use a hyperplane to slice off a vertex 
-            of the 120-cell. In the projection, we create a new polyhedron at the location of the vertex, and we
-            truncate the cells nearby.
+            of the polytope to truncate the cells nearby and
+            create a new polyhedron. This new polyhedron is the vertex figure.
 
-            Since there are 4 dodecahedral cells around each vertex, the cutting hyperplane
-            intersects with these four cells, generating 4 faces on the new polyhedron. 
-            The new polyhedron is the vertex figure, which is a tetrahedron in this case.
-            One can directly get the Schläfli symbol of the vertex figure from the last two numbers of the Schläfli
-            symbol of the whole polytope. In this case it is {'{'}3, 3{'}'}.
+            In the 120-cell, there are 4 dodecahedral cells around each vertex. The cutting hyperplane
+            intersects with these four cells and generates 4 faces for the new polyhedron. 
+            Therefore, the vertex figure is a tetrahedron.
+            One can directly get the Schläfli symbol of the vertex figure from the last two numbers {'{'}3, 3{'}'} 
+            of the Schläfli
+            symbol of the whole polytope, {'{'}5, 3, 3{'}'}.
             </div>
 
     	</div>

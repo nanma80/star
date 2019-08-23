@@ -75,6 +75,13 @@ class Polyhedron_3_3_52 extends App {
             </figure>
             </div>
 
+            <div class = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_3_3_52/polytope_3_3_52_layers_1_8.gif')} alt = 'static'/>
+                <figcaption>Exploded view: the whole northern hemisphere and equator</figcaption>
+            </figure>
+            </div>
+
     	</div>
     	)
     ;

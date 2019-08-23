@@ -122,12 +122,21 @@ class Polyhedron_5_3_3 extends App {
             perpendicular to the direction of the projection. They are centered on the "equator" of the polytope.
             The centers of these cells are the edge centers of the regular dodecahedron or the regular icosahedron.
             </div>
-            <br/>
+
+            <div class = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_5_3_3_cell120/polytope_5_3_3_cell120_layers_2_5.gif')} alt = 'static'/>
+                <figcaption>Exploded view: the whole northern hemisphere and equator</figcaption>
+            </figure>
+            </div>
             <div>
             So far we have seen 5 layers of cells, from the north pole to the equator. The counts of the cells are
             1, 12, 20, 12, and 30. If we continue to the southern hemi-hypersphere, we continue with the same layers with
-            12, 20, 12, and 1 cell. They add up to the total of 120 cells.
+            12, 20, 12, and 1 cell. They add up to the total of 120 cells. 
             </div>
+
+
+
 
             <h4>Vertex figure</h4>
             <div class = "figure-div">

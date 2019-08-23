@@ -158,7 +158,13 @@ class Polyhedron_3_3_5 extends App {
             convex pentagonal faces.
             </div>
 
-            <br/>
+            <div class = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_3_3_5_cell600/polytope_3_3_5_cell600_layers_1_8.gif')} alt = 'static'/>
+                <figcaption>Exploded view: the whole northern hemisphere and equator</figcaption>
+            </figure>
+            </div>
+
             <div>
             So far we have seen 8 layers of cells, from the north pole to the equator. The counts of the first 7 layers are
             20, 20, 30, 60, 60, 60, 20. They belong to the northern hemisphere. The total is 270. There are 270 other cells in 

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/star/static/css/main.6a63c1f0.chunk.css",
-    "main.js": "/star/static/js/main.fc41e944.chunk.js",
-    "main.js.map": "/star/static/js/main.fc41e944.chunk.js.map",
+    "main.css": "/star/static/css/main.bb639918.chunk.css",
+    "main.js": "/star/static/js/main.8ad3947e.chunk.js",
+    "main.js.map": "/star/static/js/main.8ad3947e.chunk.js.map",
     "runtime~main.js": "/star/static/js/runtime~main.81a9ca3b.js",
     "runtime~main.js.map": "/star/static/js/runtime~main.81a9ca3b.js.map",
-    "static/js/2.cedb52a7.chunk.js": "/star/static/js/2.cedb52a7.chunk.js",
-    "static/js/2.cedb52a7.chunk.js.map": "/star/static/js/2.cedb52a7.chunk.js.map",
+    "static/js/2.1622aac6.chunk.js": "/star/static/js/2.1622aac6.chunk.js",
+    "static/js/2.1622aac6.chunk.js.map": "/star/static/js/2.1622aac6.chunk.js.map",
     "index.html": "/star/index.html",
-    "precache-manifest.42da6c9daab4c7e3ecf0da21c0ab83a8.js": "/star/precache-manifest.42da6c9daab4c7e3ecf0da21c0ab83a8.js",
+    "precache-manifest.2cbd59234d590458f88abb83ac6f3f99.js": "/star/precache-manifest.2cbd59234d590458f88abb83ac6f3f99.js",
     "service-worker.js": "/star/service-worker.js",
-    "static/css/main.6a63c1f0.chunk.css.map": "/star/static/css/main.6a63c1f0.chunk.css.map",
+    "static/css/main.bb639918.chunk.css.map": "/star/static/css/main.bb639918.chunk.css.map",
     "static/media/dodecahedron_faceting_pentagram.png": "/star/static/media/dodecahedron_faceting_pentagram.6aa53725.png",
     "static/media/exploded_GreatDodecahedron.gif": "/star/static/media/exploded_GreatDodecahedron.319aafda.gif",
     "static/media/exploded_GreatIcosahedron.gif": "/star/static/media/exploded_GreatIcosahedron.be041561.gif",
@@ -73,6 +73,7 @@
     "static/media/polytope_5_3_3_cell120_layers_3_3.gif": "/star/static/media/polytope_5_3_3_cell120_layers_3_3.7ab66c6e.gif",
     "static/media/polytope_5_3_3_cell120_layers_4_4.gif": "/star/static/media/polytope_5_3_3_cell120_layers_4_4.91567ee3.gif",
     "static/media/polytope_5_3_3_cell120_layers_5_5.gif": "/star/static/media/polytope_5_3_3_cell120_layers_5_5.47351595.gif",
+    "static/media/polytope_5_3_3_cell120_vertex_explode.gif": "/star/static/media/polytope_5_3_3_cell120_vertex_explode.9cec82cb.gif",
     "static/media/polytope_5_3_52_layers_2_2.gif": "/star/static/media/polytope_5_3_52_layers_2_2.6ca06f2b.gif",
     "static/media/polytope_5_3_52_layers_3_3.gif": "/star/static/media/polytope_5_3_52_layers_3_3.67dd6eb1.gif",
     "static/media/polytope_5_3_52_layers_4_4.gif": "/star/static/media/polytope_5_3_52_layers_4_4.0132a825.gif",
@@ -119,6 +120,7 @@
     "static/media/stellated_dodecahedron_2.png": "/star/static/media/stellated_dodecahedron_2.0218155d.png",
     "static/media/stellated_dodecahedron_3.png": "/star/static/media/stellated_dodecahedron_3.bd57a33c.png",
     "static/media/stellated_icosahedron.png": "/star/static/media/stellated_icosahedron.e04ea24b.png",
+    "static/media/vertex_figure_polytope_5_3_3_cell120.png": "/star/static/media/vertex_figure_polytope_5_3_3_cell120.a6304ef2.png",
     "static/media/wrong_polygon_5_2.png": "/star/static/media/wrong_polygon_5_2.7fb4f8a2.png"
   }
 }

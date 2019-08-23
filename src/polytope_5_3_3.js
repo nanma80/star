@@ -130,15 +130,24 @@ class Polyhedron_5_3_3 extends App {
             <h4>Vertex figure</h4>
             <div class = "figure-div">
             <figure>
-                <img src = {require('./images/polytope_5_3_3_cell120/pov_whole_polytope_5_3_3_cell120.png')} alt = 'static'/>
-                <figcaption>Vertex figure [to be updated]</figcaption>
+                <img src = {require('./images/polytope_5_3_3_cell120/vertex_figure_polytope_5_3_3_cell120.png')} alt = 'static'/>
+                <figcaption>Vertex figure</figcaption>
+            </figure>
+            <figure>
+                <img src = {require('./images/polytope_5_3_3_cell120/polytope_5_3_3_cell120_vertex_explode.gif')} alt = 'static'/>
+                <figcaption>4 cells meeting at a vertex</figcaption>
             </figure>
             </div>
+
             <div>
             The definition of the vertex figure is similar to the one in for 3D polyhedra, as we introduced in 
             the <Link to='/Polyhedron_5_3'>dodecahedron page</Link>. We use a hyperplane to slice off a vertex 
-            of the 120-cell. Since there are 4 dodecahedral cells around each vertex, the cutting hyperplane
-            intersects with four cells, generating 4 faces. The vertex figure is a tetrahedron.
+            of the 120-cell. In the projection, we create a new polyhedron at the location of the vertex, and we
+            truncate the cells nearby.
+
+            Since there are 4 dodecahedral cells around each vertex, the cutting hyperplane
+            intersects with these four cells, generating 4 faces on the new polyhedron. 
+            The new polyhedron is the vertex figure, which is a tetrahedron in this case.
             One can directly get the Schläfli symbol of the vertex figure from the last two numbers of the Schläfli
             symbol of the whole polytope. In this case it is {'{'}3, 3{'}'}.
             </div>

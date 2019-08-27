@@ -36,7 +36,7 @@ class ObservableEmbed extends App {
               return rotated4dViewOriginal( this,
                                   explode( polytopeData, explodeAmt ),
                                   [ [[1],[],[],[]], [[1],[],[],[]], strutLength ],
-                                  { renderWidth: ref.current.offsetWidth * 0.9, orbitControl: false }
+                                  { renderWidth: ref.current.offsetWidth, orbitControl: false }
                                  )
             }
         );
@@ -54,17 +54,21 @@ class ObservableEmbed extends App {
                 Scott Vorthmann, the creator
                 of <a href="http://vzome.com/home" target="_blank" rel="noopener noreferrer">vZome</a>, 
                 worked with me to 
-                create <a href="https://observablehq.com/@vorth/exploding-4d-star-polytopes" target="_blank" rel="noopener noreferrer">this Observable page</a>.
+                create <a href="https://observablehq.com/@vorth/exploding-4d-star-polytopes" target="_blank" rel="noopener noreferrer">this Observable notebook</a>.
                 You can use the sliders to control the factor of explosion between the cells
                 and the length of the edges. You can also use the mouse or the touch screen
                 to rotate, pan, and zoom.
                 This component, just like the desktop App vZome, simulates the ZomeTool.
 
                 </div>
-                <div class="observable-div">
+                <div className="observable-div">
                     <div ref={this.animationRef}></div>
-                    <div ref={this.viewOfExplosionRef}></div>
-                    <div ref={this.viewOfStrutScaleRef}></div>
+                    <br/>
+                    <div className="observable-control">
+                      <div ref={this.viewOfExplosionRef}></div>
+                      <div className="observable-control-separator"/>
+                      <div ref={this.viewOfStrutScaleRef}></div>
+                    </div>
                 </div>
             </div>
         );

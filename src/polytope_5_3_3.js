@@ -42,7 +42,7 @@ class Polyhedron_5_3_3 extends App {
             </div>
 
 
-            <div class = "figure-div">
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_5_3_3_cell120/pov_whole_polytope_5_3_3_cell120.png')} alt = 'static'/>
                 <figcaption>Cell-first projection of the 120-cell {'{'}5, 3, 3{'}'} to 3D</figcaption>
@@ -64,7 +64,7 @@ class Polyhedron_5_3_3 extends App {
             This single cell is the core, or Layer 1 of the projection.
             </div>
 
-            <div class = "figure-div">
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_5_3_3_cell120/polytope_5_3_3_cell120_layers_2_2.gif')} alt = 'static'/>
                 <figcaption>Exploded view: layer 2</figcaption>
@@ -77,7 +77,7 @@ class Polyhedron_5_3_3 extends App {
             the name of the "arctic circle" because they are close to the north pole.
             </div>
 
-            <div class = "figure-div">
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_5_3_3_cell120/polytope_5_3_3_cell120_layers_3_3.gif')} alt = 'static'/>
                 <figcaption>Exploded view: layer 3</figcaption>
@@ -93,7 +93,7 @@ class Polyhedron_5_3_3 extends App {
             a dodecahedron.
             </div>
 
-            <div class = "figure-div">
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_5_3_3_cell120/polytope_5_3_3_cell120_layers_4_4.gif')} alt = 'static'/>
                 <figcaption>Exploded view: layer 4</figcaption>
@@ -110,7 +110,7 @@ class Polyhedron_5_3_3 extends App {
             </div>
 
 
-            <div class = "figure-div">
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_5_3_3_cell120/polytope_5_3_3_cell120_layers_5_5.gif')} alt = 'static'/>
                 <figcaption>Exploded view: layer 5</figcaption>
@@ -124,7 +124,7 @@ class Polyhedron_5_3_3 extends App {
             The centers of these cells are the edge centers of the regular dodecahedron or the regular icosahedron.
             </div>
 
-            <div class = "figure-div">
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_5_3_3_cell120/polytope_5_3_3_cell120_layers_2_5.gif')} alt = 'static'/>
                 <figcaption>Exploded view: the whole northern hemisphere and equator</figcaption>
@@ -139,7 +139,7 @@ class Polyhedron_5_3_3 extends App {
             <ObservableEmbed name="{5,3,3}"/>
 
             <h4>Vertex figure</h4>
-            <div class = "figure-div">
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_5_3_3_cell120/vertex_figure_polytope_5_3_3_cell120.png')} alt = 'static'/>
                 <figcaption>Vertex figure</figcaption>

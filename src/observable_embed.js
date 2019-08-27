@@ -8,26 +8,11 @@ class ObservableEmbed extends App {
     viewOfExplosionRef = React.createRef();
     viewOfStrutScaleRef = React.createRef();
     animationRef = React.createRef();
+    observableRef = null;
 
-    componentDidMount() {
-        const runtime = new Runtime();
-        const main = runtime.module(notebook, name => {
-            console.log(name);
-          if (name === "mainView") {
-            return new Inspector(this.animationRef.current);
-          };
-          if (name === "viewof explosion") {
-            return new Inspector(this.viewOfExplosionRef.current);
-          };
-          if (name === "viewof strutScale") {
-            return new Inspector(this.viewOfStrutScaleRef.current);
-          };
-
-        });
-
+    redefineObservableView = () => {
         var ref = this.animationRef;
-
-        main.redefine("mainView", 
+        this.observableRef.redefine("mainView", 
             ["explosion","polytopes","name","grmul","strutScale","rotated4dViewOriginal","explode","polytopeData"], 
             function(explosion,polytopes,name,grmul,strutScale,rotated4dViewOriginal,explode,polytopeData)
             {
@@ -40,11 +25,37 @@ class ObservableEmbed extends App {
                                  )
             }
         );
+    }
 
-        main.redefine("name", this.props.name);
+    loadObservable = () => {
+        const runtime = new Runtime();
+        this.observableRef = runtime.module(notebook, name => {
+          if (name === "mainView") {
+            return new Inspector(this.animationRef.current);
+          };
+          if (name === "viewof explosion") {
+            return new Inspector(this.viewOfExplosionRef.current);
+          };
+          if (name === "viewof strutScale") {
+            return new Inspector(this.viewOfStrutScaleRef.current);
+          };
+        });
+
+        this.observableRef.redefine("name", this.props.name);
+        this.redefineObservableView();
+    }
+
+    onWindowResize = () => {
+      this.redefineObservableView();
+    }
+
+    componentDidMount() {
+        window.addEventListener('resize', this.onWindowResize);
+        this.loadObservable();
     }
 
     render() {
+        console.log("rendering obserbable embed");
         return (
             <div>
                 <h4>Interactive exploded view</h4>

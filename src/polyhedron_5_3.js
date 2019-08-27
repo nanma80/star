@@ -14,7 +14,7 @@ class Polyhedron_5_3 extends App {
         polyhedra (<a href="https://en.wikipedia.org/wiki/Platonic_solid" target="_blank" rel="noopener noreferrer">Platonic solids</a>).
         There are 12 faces, each of which is a regular pentagon. Three faces meet at every vertex.
         </div>
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/Dodecahedron/pov_whole_Dodecahedron.png')} alt = 'static'/>
             <figcaption>Regular dodecahedron</figcaption>
@@ -40,7 +40,7 @@ class Polyhedron_5_3 extends App {
         create a mental image of the faces and useful in imagining 4D shapes.
         After all, it is easier to track 4 groups of objects rather than 12 objects.
         </div>
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/Dodecahedron/pov_north_pole_whole_Dodecahedron.png')} alt = 'static'/>
             <figcaption>Projection centered at the north pole</figcaption>
@@ -56,7 +56,7 @@ class Polyhedron_5_3 extends App {
         has a 5-fold rotational symmetry.
     	</div>
         <h4>Vertex figure</h4>
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/Dodecahedron/pov_vertex_figure_Dodecahedron.png')} alt = 'static'/>
             <figcaption>Slice off a vertex to see the vertex figure</figcaption>

@@ -25,14 +25,14 @@ class Polyhedron_52_3 extends App {
             dodecahedron will be closer to the center.
         </div>
 
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/GreatStellatedDodecahedron/pov_whole_GreatStellatedDodecahedron.png')} alt = 'static'/>
             <figcaption>Great stellated dodecahedron</figcaption>
         </figure>
         </div>
 
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/GreatStellatedDodecahedron/pov_highlight_face_GreatStellatedDodecahedron.png')} alt = 'static'/>
             <figcaption>Highlight a face {'{'}5/2{'}'}</figcaption>
@@ -60,7 +60,7 @@ class Polyhedron_52_3 extends App {
         Just like in great dodecahedron, a new edge also is the intersection of the "north face"
         and a face in the southern hemisphere. The edge here is longer than the 
         one in the great dodecahedron. 
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/polygon/pentagram_inside_outside_2.png')} alt = 'static'/>
             <figcaption>Connections among faces of <br/>dodecahedron (red), 
@@ -82,7 +82,7 @@ class Polyhedron_52_3 extends App {
         near the "equator". It contains 10 vertices, 5 of which in the northern hemisphere and 5 in the southern.
         If we pick the 5 vertices in the northern hemisphere and connect them into a pentagram, we have a face of
         the great stellated dodecahedron.
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/Dodecahedron/dodecahedron_faceting_pentagram.png')} alt = 'static'/>
             <figcaption>Faceting from a dodecahedron</figcaption>
@@ -104,7 +104,7 @@ class Polyhedron_52_3 extends App {
         You may focus on a face to see how it fits together with other faces.
         </div>
 
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/GreatStellatedDodecahedron/exploded_GreatStellatedDodecahedron.gif')} alt = 'static'/>
             <figcaption>Great stellated dodecahedron, exploded view</figcaption>

@@ -29,8 +29,8 @@ const styles = {
 
   dividerLine: {
     width: "100%", 
-    "text-align": "center", 
-    "line-height": "0.1",
+    textAlign: "center", 
+    lineHeight: "0.1",
     margin: "8px 0",
     backgroundColor: "#757575"
   },

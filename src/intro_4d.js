@@ -46,7 +46,7 @@ class Intro4D extends App {
         </div>
 
 
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/polytope_3_5_52/pov_whole_polytope_3_5_52.png')} alt = 'static'/>
             <figcaption>{'{'}3, 5, 5/2{'}'}</figcaption>
@@ -57,7 +57,7 @@ class Intro4D extends App {
         </figure>
         </div>
 
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/polytope_5_52_5/pov_whole_polytope_5_52_5.png')} alt = 'static'/>
             <figcaption>{'{'}5, 5/2, 5{'}'}</figcaption>
@@ -69,7 +69,7 @@ class Intro4D extends App {
 
         </div>
 
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/polytope_5_3_52/pov_whole_polytope_5_3_52.png')} alt = 'static'/>
             <figcaption>{'{'}5, 3, 5/2{'}'}</figcaption>
@@ -80,7 +80,7 @@ class Intro4D extends App {
         </figure>
         </div>
 
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/polytope_5_52_3/pov_whole_polytope_5_52_3.png')} alt = 'static'/>
             <figcaption>{'{'}5, 5/2, 3{'}'}</figcaption>
@@ -91,7 +91,7 @@ class Intro4D extends App {
         </figure>
         </div>
 
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/polytope_3_3_52/pov_whole_polytope_3_3_52.png')} alt = 'static'/>
             <figcaption>{'{'}3, 3, 5/2{'}'}</figcaption>
@@ -114,7 +114,7 @@ class Intro4D extends App {
         Then we move on to the 10 star polytopes.
         </div>
 
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/polytope_5_3_3_cell120/pov_whole_polytope_5_3_3_cell120.png')} alt = 'static'/>
             <figcaption>120-cell {'{'}5, 3, 3{'}'}</figcaption>

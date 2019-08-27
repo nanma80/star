@@ -28,7 +28,7 @@ class Intro3D extends App {
         They are two pairs of dual solids.
         </div>
 
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/SmallStellatedDodecahedron/pov_whole_SmallStellatedDodecahedron.png')} alt = 'static'/>
             <figcaption>Small stellated dodecahedron {'{'}5/2, 5{'}'}</figcaption>
@@ -39,7 +39,7 @@ class Intro3D extends App {
         </figure>
         </div>
 
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/GreatStellatedDodecahedron/pov_whole_GreatStellatedDodecahedron.png')} alt = 'static'/>
             <figcaption>Great stellated dodecahedron {'{'}5/2, 3{'}'}</figcaption>
@@ -61,7 +61,7 @@ class Intro3D extends App {
         Then we move on to the star polyhedra.
         </div>
 
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/Dodecahedron/pov_whole_Dodecahedron.png')} alt = 'static'/>
             <figcaption>Dodecahedron</figcaption>

@@ -1,6 +1,7 @@
 import React from 'react';
 import App from './App';
 import { Link } from 'react-router-dom';
+import ObservableEmbed from "./observable_embed";
 
 class Polyhedron_3_3_5 extends App {
   constructor(props) {
@@ -42,7 +43,7 @@ class Polyhedron_3_3_5 extends App {
             The vertex-first projection of the 600-cell to 3D has an icosahedral symmetry.
             </div>
 
-            <div class = "figure-div">
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_3_3_5_cell600/pov_whole_polytope_3_3_5_cell600.png')} alt = 'static'/>
                 <figcaption>Vertex-first projection of 600-cell {'{'}3, 3, 5{'}'}</figcaption>
@@ -59,7 +60,7 @@ class Polyhedron_3_3_5 extends App {
             call the centered vertex in projection the "north pole".
             </div>
 
-            <div class = "figure-div">
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_3_3_5_cell600/polytope_3_3_5_cell600_vertex_explode.gif')} alt = 'static'/>
                 <figcaption>Exploded view: layer 1</figcaption>
@@ -80,7 +81,7 @@ class Polyhedron_3_3_5 extends App {
             vertex figure of the 600-cell. The 12 vertices of this icosahedron are the neighbors of the centered vertex.
             </div>
 
-            <div class = "figure-div">
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_3_3_5_cell600/polytope_3_3_5_cell600_layers_2_2.gif')} alt = 'static'/>
                 <figcaption>Exploded view: layer 2</figcaption>
@@ -99,7 +100,7 @@ class Polyhedron_3_3_5 extends App {
             are in the positions of the edges of an icosahedron.
             </div>
 
-            <div class = "figure-div">
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_3_3_5_cell600/polytope_3_3_5_cell600_layers_4_4.gif')} alt = 'static'/>
                 <figcaption>Exploded view: layer 4</figcaption>
@@ -124,7 +125,7 @@ class Polyhedron_3_3_5 extends App {
             </div>
 
 
-            <div class = "figure-div">
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_3_3_5_cell600/polytope_3_3_5_cell600_layers_6_6.gif')} alt = 'static'/>
                 <figcaption>Exploded view: layer 6</figcaption>
@@ -143,7 +144,7 @@ class Polyhedron_3_3_5 extends App {
             Layer 7: We have 20 small pits after the first 6 layers. We use 20 cells to fill in.
             </div>
 
-            <div class = "figure-div">
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_3_3_5_cell600/polytope_3_3_5_cell600_layers_8_8.gif')} alt = 'static'/>
                 <figcaption>Exploded view: layer 8</figcaption>
@@ -158,7 +159,7 @@ class Polyhedron_3_3_5 extends App {
             convex pentagonal faces.
             </div>
 
-            <div class = "figure-div">
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_3_3_5_cell600/polytope_3_3_5_cell600_layers_1_8.gif')} alt = 'static'/>
                 <figcaption>Exploded view: the whole northern hemisphere and equator</figcaption>
@@ -172,9 +173,10 @@ class Polyhedron_3_3_5 extends App {
             is 270 * 2 + 60 = 600.
             </div>
 
+            <ObservableEmbed name="{3,3,5}"/>
 
             <h4>Vertex figure</h4>
-            <div class = "figure-div">
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_3_3_5_cell600/vertex_figure_polytope_3_3_5_cell600.png')} alt = 'static'/>
                 <figcaption>Vertex figure</figcaption>

@@ -1,6 +1,7 @@
 import React from 'react';
 import App from './App';
 import { Link } from 'react-router-dom';
+import ObservableEmbed from "./observable_embed";
 
 class Polyhedron_52_3_3 extends App {
   constructor(props) {
@@ -12,47 +13,50 @@ class Polyhedron_52_3_3 extends App {
             52_3_3 is ...
             </div>
 
-            <div class = "figure-div">
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_52_3_3/pov_whole_polytope_52_3_3.png')} alt = 'static'/>
                 <figcaption>{'{'}5/2, 3, 3{'}'}</figcaption>
             </figure>
             </div>
 
-            <div class = "figure-div">
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_52_3_3/polytope_52_3_3_layers_2_2.gif')} alt = 'static'/>
                 <figcaption>Exploded view: layer 2</figcaption>
             </figure>
             </div>
 
-            <div class = "figure-div">
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_52_3_3/polytope_52_3_3_layers_3_3.gif')} alt = 'static'/>
                 <figcaption>Exploded view: layer 3</figcaption>
             </figure>
             </div>
 
-            <div class = "figure-div">
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_52_3_3/polytope_52_3_3_layers_4_4.gif')} alt = 'static'/>
                 <figcaption>Exploded view: layer 4</figcaption>
             </figure>
             </div>
 
-            <div class = "figure-div">
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_52_3_3/polytope_52_3_3_layers_5_5.gif')} alt = 'static'/>
                 <figcaption>Exploded view: layer 5</figcaption>
             </figure>
             </div>
 
-            <div class = "figure-div">
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_52_3_3/polytope_52_3_3_layers_2_5.gif')} alt = 'static'/>
                 <figcaption>Exploded view: the whole northern hemisphere and equator</figcaption>
             </figure>
             </div>
+
+            <ObservableEmbed name="{5/2,3,3}"/>
+
     	</div>
     	)
     ;

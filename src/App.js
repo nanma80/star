@@ -99,7 +99,6 @@ class App extends React.Component {
         <MaterialTitlePanel title={contentHeader}>
           <div>
           {content}
-          </div>
           {!this.state.docked && (
             <div style={styles.footer}>
             <a onClick={this.toggleOpen} href="/#" >
@@ -107,6 +106,7 @@ class App extends React.Component {
             </a>
             </div>
           )}
+          </div>
         </MaterialTitlePanel>
       </Sidebar>
     );

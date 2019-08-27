@@ -32,14 +32,14 @@ class Polyhedron_5_52 extends App {
         Therefore they are different solids.
         </div>
 
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/GreatDodecahedron/pov_whole_GreatDodecahedron.png')} alt = 'static'/>
             <figcaption>Great dodecahedron</figcaption>
         </figure>
         </div>
 
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/GreatDodecahedron/pov_highlight_face_GreatDodecahedron.png')} alt = 'static'/>
             <figcaption>Highlight a face {'{'}5{'}'}</figcaption>
@@ -63,7 +63,7 @@ class Polyhedron_5_52 extends App {
         
         Another view is that an edge is the intersection of the "north face"
         and a face in the southern hemisphere (second image below).
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/polygon/pentagram_inside_outside.png')} alt = 'static'/>
             <figcaption>Connections among faces of <br/>dodecahedron (red), 
@@ -89,7 +89,7 @@ class Polyhedron_5_52 extends App {
         if we think of a vertex as the north pole, there are 5 other
         vertices on the northern hemisphere with the same latitude. These 5 vertices form
         a pentagon. Each pentagon is a face of the great dodecahedron.
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/Icosahedron/icosahedron_faceting_pentagon.png')} alt = 'static'/>
             <figcaption>Faceting from an icosahedron</figcaption>
@@ -110,7 +110,7 @@ class Polyhedron_5_52 extends App {
         </div>
 
 
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/GreatDodecahedron/exploded_GreatDodecahedron.gif')} alt = 'static'/>
             <figcaption>Great dodecahedron, exploded view</figcaption>

@@ -1,33 +1,14 @@
 import React from 'react';
 import App from './App';
 import { Link } from 'react-router-dom';
-import {Runtime, Inspector} from "@observablehq/runtime";
-import notebook from "@vorth/exploding-4d-star-polytopes";
+import ObservableEmbed from "./observable_embed";
 
 class Polyhedron_5_3_3 extends App {
-    viewOfNameRef = React.createRef();
-    animationRef = React.createRef();
-
-    componentDidMount() {
-    const runtime = new Runtime();
-        runtime.module(notebook, name => {
-          if (name === undefined) {
-            return new Inspector(this.animationRef.current);
-          };
-          if (name === "viewof name") {
-            return new Inspector(this.viewOfNameRef.current);
-          }
-        });
-    }
-
   constructor(props) {
     super(props);
 
     this.state.content = (
     	<div>
-            <div ref={this.viewOfNameRef}></div>
-            <div ref={this.animationRef}></div>
-    		
             <div>
             The 120-cell is a convex regular polytope in 4D. 
             The Schläfli symbol is {'{'}5, 3, 3{'}'}.
@@ -155,8 +136,7 @@ class Polyhedron_5_3_3 extends App {
             12, 20, 12, and 1 cell. They add up to the total of 120 cells. 
             </div>
 
-
-
+            <ObservableEmbed name="{5,3,3}"/>
 
             <h4>Vertex figure</h4>
             <div class = "figure-div">
@@ -183,7 +163,6 @@ class Polyhedron_5_3_3 extends App {
             of the Schläfli
             symbol of the whole polytope, {'{'}5, 3, 3{'}'}.
             </div>
-
     	</div>
     	)
     ;

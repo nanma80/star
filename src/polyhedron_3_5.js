@@ -16,7 +16,7 @@ class Polyhedron_3_5 extends App {
         vertex figure is a {'{'}5{'}'} (pentagon).
         </div>
 
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/Icosahedron/pov_whole_Icosahedron.png')} alt = 'static'/>
             <figcaption>Regular icosahedron</figcaption>
@@ -60,7 +60,7 @@ class Polyhedron_3_5 extends App {
         the face center of a dodecahedron, or a vertex of an icosahedron.
         We typically keep the north pole on top of the pictures.
         </div>
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/Icosahedron/pov_north_pole_whole_Icosahedron.png')} alt = 'static'/>
             <figcaption>Projection centered at the north pole</figcaption>

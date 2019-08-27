@@ -8,7 +8,7 @@ class Pentagram extends App {
 
     this.state.content = (
     	<div>
-            <div class = "figure-div">
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polygon/polygon_5_2.png')} alt = 'static'/>
                 <figcaption>Regular pentagram in the context of star polytopes</figcaption>
@@ -74,7 +74,7 @@ class Pentagram extends App {
                 <div>
                 We can construct a pentagram based on a regular pentagon, and doing either of the following methods.
                 </div>
-                <div class = "figure-div">
+                <div className = "figure-div">
                 <figure>
                     <img src = {require('./images/polygon/pentagram_diagonal_5_1.png')} alt = 'static'/>
                     <figcaption>Method 1: faceting</figcaption>
@@ -114,7 +114,7 @@ class Pentagram extends App {
                 pentagram, we have a red pentagon. On the outside we have a pentagon with green edges. The pentagram can be
                 created by stellating the inner pentagon or faceting the outer pentagon.
                 </div>
-                <div class = "figure-div">
+                <div className = "figure-div">
                 <figure>
                     <img src = {require('./images/polygon/pentagram_inside_outside.png')} alt = 'static'/>
                     <figcaption>Faceting and stellation in the same image</figcaption>

@@ -26,14 +26,14 @@ class Polyhedron_3_52 extends App {
         Therefore they are different solids.
         </div>
 
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/GreatIcosahedron/pov_whole_GreatIcosahedron.png')} alt = 'static'/>
             <figcaption>Great icosahedron</figcaption>
         </figure>
         </div>
 
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/GreatIcosahedron/pov_highlight_face_GreatIcosahedron.png')} alt = 'static'/>
             <figcaption>Highlight a face {'{'}3{'}'}</figcaption>
@@ -59,7 +59,7 @@ class Polyhedron_3_52 extends App {
         Their intersection is the farthest line from the origin.
         The only farther pair is a pair of opposite faces. However, they don't intersect
         at all.
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/Icosahedron/stellated_icosahedron.png')} alt = 'static'/>
             <figcaption>Stellating an icosahedron to form an edge</figcaption>
@@ -78,7 +78,7 @@ class Polyhedron_3_52 extends App {
         3 vertices, we have an equilateral triangle. That is a 
         face of the great icosahedron.
 
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/Icosahedron/icosahedron_faceting_2.png')} alt = 'static'/>
             <figcaption>Faceting from an icosahedron</figcaption>
@@ -101,7 +101,7 @@ class Polyhedron_3_52 extends App {
         </div>
 
 
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/GreatIcosahedron/exploded_GreatIcosahedron.gif')} alt = 'static'/>
             <figcaption>Great icosahedron, exploded view</figcaption>

@@ -8,7 +8,7 @@ class Heptagram extends App {
 
     this.state.content = (
     	<div>
-            <div class = "figure-div">
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polygon/polygon_7_2.png')} alt = 'static'/>
                 <figcaption>Regular heptagram {'{'}7/2{'}'}</figcaption>

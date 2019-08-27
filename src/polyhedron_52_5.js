@@ -23,7 +23,7 @@ class Polyhedron_52_5 extends App {
         The dual polyhedra is {'{'}5, 5/2{'}'}, aka <Link to='/Polyhedron_5_52'>great dodecahedron</Link>.
         </div>
 
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/SmallStellatedDodecahedron/pov_whole_SmallStellatedDodecahedron.png')} alt = 'static'/>
             <figcaption>Small stellated dodecahedron</figcaption>
@@ -31,7 +31,7 @@ class Polyhedron_52_5 extends App {
         </div>
 
 
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/SmallStellatedDodecahedron/pov_highlight_face_SmallStellatedDodecahedron.png')} alt = 'static'/>
             <figcaption>Highlight a face {'{'}5/2{'}'}</figcaption>
@@ -53,7 +53,7 @@ class Polyhedron_52_5 extends App {
         The whole polyhedron can also be constructed as 
         placing pentagonal prism on top of the faces of
         dodecahedron.
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/Dodecahedron/stellated_dodecahedron.png')} alt = 'static'/>
             <figcaption>Stellation from a dodecahedron</figcaption>
@@ -68,7 +68,7 @@ class Polyhedron_52_5 extends App {
         vertices on the northern hemisphere with the same latitude. These 5 vertices form
         a pentagon. We can construct a pentagram inside this pentagon by constructing diagonals.
         Such a pentagram is a face of the small stellated dodecahedron.
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/Icosahedron/icosahedron_faceting_pentagram.png')} alt = 'static'/>
             <figcaption>Faceting from an icosahedron</figcaption>
@@ -88,7 +88,7 @@ class Polyhedron_52_5 extends App {
         You may focus on a face to see how it fits together with other faces.
         </div>
 
-        <div class = "figure-div">
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/SmallStellatedDodecahedron/exploded_SmallStellatedDodecahedron.gif')} alt = 'static'/>
             <figcaption>Small stellated dodecahedron, exploded view</figcaption>

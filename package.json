@@ -4,8 +4,8 @@
   "private": true,
   "homepage": "http://nan.ma/star",
   "dependencies": {
+    "@nanma80/exploding-4d-star-polytopes": "https://api.observablehq.com/@nanma80/exploding-4d-star-polytopes.tgz?v=3",
     "@observablehq/runtime": "^4.4.1",
-    "@vorth/exploding-4d-star-polytopes": "https://api.observablehq.com/@vorth/exploding-4d-star-polytopes.tgz?v=3",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

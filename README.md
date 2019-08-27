@@ -72,5 +72,7 @@ How to do it?
 https://observablehq.com/@observablehq/how-to-embed-a-notebook-in-a-react-app
 
 Which observable to embed?
+https://observablehq.com/@nanma80/exploding-4d-star-polytopes
+This is a fork of:
 https://observablehq.com/@vorth/exploding-4d-star-polytopes
 

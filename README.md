@@ -66,3 +66,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Embedding observable in react:
+How to do it?
+https://observablehq.com/@observablehq/how-to-embed-a-notebook-in-a-react-app
+
+Which observable to embed?
+https://observablehq.com/@vorth/exploding-4d-star-polytopes
+

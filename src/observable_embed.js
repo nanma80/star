@@ -50,8 +50,9 @@ class ObservableEmbed extends App {
     }
 
     componentDidMount() {
-        window.addEventListener('resize', this.onWindowResize);
-        this.loadObservable();
+      window.addEventListener("orientationchange", this.onWindowResize);
+      window.addEventListener('resize', this.onWindowResize);
+      this.loadObservable();
     }
 
     render() {

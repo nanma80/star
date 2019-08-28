@@ -49,14 +49,24 @@ class ObservableEmbed extends App {
       this.redefineObservableView();
     }
 
+    onOrientationChange = () => {
+      this.redefineObservableView();
+    }
+
     componentDidMount() {
-      window.addEventListener("orientationchange", this.onWindowResize);
+      window.addEventListener("orientationchange", this.onOrientationChange);
       window.addEventListener('resize', this.onWindowResize);
       this.loadObservable();
     }
 
+    componentDidUpdate(){
+      setTimeout(
+        ()=>{
+          this.redefineObservableView();
+        }, 100);
+    }
+
     render() {
-        console.log("rendering obserbable embed");
         return (
             <div>
                 <h4>Interactive exploded view</h4>

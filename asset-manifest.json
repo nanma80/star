@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/star/static/css/main.f5828775.chunk.css",
-    "main.js": "/star/static/js/main.18d0c02f.chunk.js",
-    "main.js.map": "/star/static/js/main.18d0c02f.chunk.js.map",
+    "main.js": "/star/static/js/main.0a4b821e.chunk.js",
+    "main.js.map": "/star/static/js/main.0a4b821e.chunk.js.map",
     "runtime~main.js": "/star/static/js/runtime~main.81a9ca3b.js",
     "runtime~main.js.map": "/star/static/js/runtime~main.81a9ca3b.js.map",
     "static/js/2.ade348a4.chunk.js": "/star/static/js/2.ade348a4.chunk.js",
     "static/js/2.ade348a4.chunk.js.map": "/star/static/js/2.ade348a4.chunk.js.map",
     "index.html": "/star/index.html",
-    "precache-manifest.f081aa2b5c5a11224a6b2b82ba87137c.js": "/star/precache-manifest.f081aa2b5c5a11224a6b2b82ba87137c.js",
+    "precache-manifest.5495740392e3f4d7a7843080cbd72cf6.js": "/star/precache-manifest.5495740392e3f4d7a7843080cbd72cf6.js",
     "service-worker.js": "/star/service-worker.js",
     "static/css/main.f5828775.chunk.css.map": "/star/static/css/main.f5828775.chunk.css.map",
     "static/media/dodecahedron_faceting_pentagram.png": "/star/static/media/dodecahedron_faceting_pentagram.6aa53725.png",

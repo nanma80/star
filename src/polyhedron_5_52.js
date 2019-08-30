@@ -61,14 +61,24 @@ class Polyhedron_5_52 extends App {
         Overall, we extend <strong>each face</strong> of dodecahedron 
         to get a bigger pentagon. 
         
-        Another view is that an edge is the intersection of the "north face"
-        and a face in the southern hemisphere (second image below).
         <div className = "figure-div">
         <figure>
             <img src = {require('./images/polygon/pentagram_inside_outside.png')} alt = 'static'/>
-            <figcaption>Connections among faces of <br/>dodecahedron (red), 
-            <br/>small stellated dodecahedron (blue edges), <br/>and great dodecahedron (green edges)</figcaption>
+            <figcaption>Connections among the faces of <br/>the dodecahedron (red), 
+            <br/>the small stellated dodecahedron (blue edges), 
+            <br/>and the great dodecahedron (yellow edges)</figcaption>
         </figure>
+        <figure>
+            <img src = {require('./images/SmallStellatedDodecahedron/stellated_dodecahedron_4.png')} alt = 'static'/>
+            <figcaption>Extend a face of the small stellated dodecahedron</figcaption>
+        </figure>
+        </div>
+
+        If we directly stellate the dodecahedron to get the great dodecahedron, 
+        we extend the "north face" and a face in the southern hemisphere until they meet,
+        to get an edge.
+
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/Dodecahedron/stellated_dodecahedron_2.png')} alt = 'static'/>
             <figcaption>Extend two faces to get an new edge</figcaption>

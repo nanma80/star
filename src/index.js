@@ -14,6 +14,7 @@ import Polyhedron_52_3 from './polyhedron_52_3';
 import Polyhedron_52_5 from './polyhedron_52_5';
 import Polyhedron_5_3 from './polyhedron_5_3';
 import Polyhedron_5_52 from './polyhedron_5_52';
+import Summary3D from './summary_3d';
 
 import Intro4D from './intro_4d';
 import Polytope_5_3_3 from './polytope_5_3_3';
@@ -44,6 +45,7 @@ ReactDOM.render(
         <Route path='/polyhedron_52_5' component={Polyhedron_52_5} />
         <Route path='/polyhedron_5_3' component={Polyhedron_5_3} />
         <Route path='/polyhedron_5_52' component={Polyhedron_5_52} />
+        <Route path='/summary_3d' component={Summary3D} />
         <Route path='/intro_4d' component={Intro4D} />
         <Route path='/polytope_5_3_3' component={Polytope_5_3_3} />
         <Route path='/polytope_3_3_5' component={Polytope_3_3_5} />

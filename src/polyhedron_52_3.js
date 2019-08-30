@@ -63,9 +63,10 @@ class Polyhedron_52_3 extends App {
         <div className = "figure-div">
         <figure>
             <img src = {require('./images/polygon/pentagram_inside_outside_2.png')} alt = 'static'/>
-            <figcaption>Connections among faces of <br/>dodecahedron (red), 
-            <br/>small stellated dodecahedron (blue edges), <br/>great dodecahedron (green edges), 
-            <br/>great stellated dodecahedron (purple edges) </figcaption>
+            <figcaption>Connections among the faces of <br/>the dodecahedron (red), 
+            <br/>the small stellated dodecahedron (blue edges), 
+            <br/>the great dodecahedron (yellow edges), 
+            <br/>the great stellated dodecahedron (purple edges) </figcaption>
         </figure>
         <figure>
             <img src = {require('./images/GreatDodecahedron/stellated_dodecahedron_3.png')} alt = 'static'/>

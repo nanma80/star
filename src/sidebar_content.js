@@ -87,7 +87,9 @@ const SidebarContent = props => {
         <Link to='/polyhedron_3_52' style={styles.sidebarLink}> 
           Great icosahedron
         </Link>
-
+        <Link to='/summary_3d' style={styles.sidebarLink}> 
+          Summary of stellation in 3D
+        </Link>
         <h2 style={styles.dividerLine}><span style={styles.dividerText}>4D</span></h2>
         <Link to='/intro_4d' style={styles.sidebarLink}> 
           Overview of 4D star polytopes

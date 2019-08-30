@@ -111,7 +111,7 @@ class Pentagram extends App {
                 <br/>
                 <div>
                 We can draw both processes in the same picture as below. In the core of the 
-                pentagram, we have a red pentagon. On the outside we have a pentagon with green edges. The pentagram can be
+                pentagram, we have a red pentagon. On the outside we have a pentagon with yellow edges. The pentagram can be
                 created by stellating the inner pentagon or faceting the outer pentagon.
                 </div>
                 <div className = "figure-div">

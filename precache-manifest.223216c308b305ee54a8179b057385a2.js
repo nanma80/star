@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f99c2e3b29a1dc1629e1a229f674f3c7",
+    "revision": "29cbe916ac5eeabbe65498a48ed3f43b",
     "url": "/star/index.html"
   },
   {
-    "revision": "12ee63af1c6134a1eca6",
+    "revision": "1b919737c8d3da5bb534",
     "url": "/star/static/css/main.f5828775.chunk.css"
   },
   {
-    "revision": "ff731ab64e89e6dc79c4",
-    "url": "/star/static/js/2.ade348a4.chunk.js"
+    "revision": "703e9f9484b7383d63ec",
+    "url": "/star/static/js/2.bb98cf15.chunk.js"
   },
   {
-    "revision": "12ee63af1c6134a1eca6",
-    "url": "/star/static/js/main.afa3704d.chunk.js"
+    "revision": "1b919737c8d3da5bb534",
+    "url": "/star/static/js/main.bf30a20c.chunk.js"
   },
   {
     "revision": "2898011e16a63222a549",
     "url": "/star/static/js/runtime~main.81a9ca3b.js"
   },
   {
-    "revision": "6aa5372548110dc0568754ed842e48ba",
-    "url": "/star/static/media/dodecahedron_faceting_pentagram.6aa53725.png"
+    "revision": "e6a96aea25b03458e1d2a3813eb106b5",
+    "url": "/star/static/media/dodecahedron_faceting_pentagram.e6a96aea.png"
   },
   {
     "revision": "319aafda0c4c990291bc2a1e302645b1",
@@ -44,12 +44,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/star/static/media/icosahedron_faceting_2.87c879e2.png"
   },
   {
-    "revision": "80c3ecc02d4717b5054273b5ab88d226",
-    "url": "/star/static/media/icosahedron_faceting_pentagon.80c3ecc0.png"
+    "revision": "8702124e323978b78fbd75debe01c280",
+    "url": "/star/static/media/icosahedron_faceting_pentagon.8702124e.png"
   },
   {
-    "revision": "2ed22b23cea09441d31ea9271ac6bb76",
-    "url": "/star/static/media/icosahedron_faceting_pentagram.2ed22b23.png"
+    "revision": "05492fc30e4c5f238f3f6e5115539ec1",
+    "url": "/star/static/media/icosahedron_faceting_pentagram.05492fc3.png"
   },
   {
     "revision": "e233a00bbfe509e5a0e26561181a9fa2",
@@ -60,12 +60,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/star/static/media/pentagram_extend_5_1.ea212300.png"
   },
   {
-    "revision": "0049857c2ae357c2990d762874f9a54a",
-    "url": "/star/static/media/pentagram_inside_outside.0049857c.png"
+    "revision": "5c9db8bb0622514d572f6a765ec48125",
+    "url": "/star/static/media/pentagram_inside_outside.5c9db8bb.png"
   },
   {
-    "revision": "81353e9a9e67d1f284718f1ae55faafc",
-    "url": "/star/static/media/pentagram_inside_outside_2.81353e9a.png"
+    "revision": "7157f790d9a053db8c0d471bdd00f38d",
+    "url": "/star/static/media/pentagram_inside_outside_2.7157f790.png"
   },
   {
     "revision": "51bfdab14781b85eb10f6543df5e71c8",
@@ -488,16 +488,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/star/static/media/pov_whole_polytope_5_52_5.3735e498.png"
   },
   {
-    "revision": "9f3bdd85822d110058400ddb8840cbe0",
-    "url": "/star/static/media/stellated_dodecahedron.9f3bdd85.png"
+    "revision": "dd34bf06cd5cfad7fe29d1e709da837d",
+    "url": "/star/static/media/stellated_dodecahedron.dd34bf06.png"
   },
   {
-    "revision": "0218155dd3138887dcbe3f420ca177f3",
-    "url": "/star/static/media/stellated_dodecahedron_2.0218155d.png"
+    "revision": "7d91d1ced5de84f34704554ad6b3ea37",
+    "url": "/star/static/media/stellated_dodecahedron_2.7d91d1ce.png"
   },
   {
     "revision": "bd57a33cc8b56f62bc8ec2f5456ccad0",
     "url": "/star/static/media/stellated_dodecahedron_3.bd57a33c.png"
+  },
+  {
+    "revision": "3bca888742cff269dd211ff9f73edbd5",
+    "url": "/star/static/media/stellated_dodecahedron_4.3bca8887.png"
   },
   {
     "revision": "e04ea24bd0582885c6ac61fd4923be4c",

@@ -81,6 +81,7 @@ class ObservableEmbed extends App {
                 and the length of the edges. You can also use the mouse or the touch screen
                 to rotate, pan, and zoom.
                 This component, just like the desktop App vZome, simulates the ZomeTool.
+                This component works the best on a big screen.
 
                 </div>
                 <div className="observable-div">

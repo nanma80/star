@@ -14,7 +14,10 @@ class Polyhedron_5_52 extends App {
              The Schläfli symbol is {'{'}5, 5/2{'}'}. 
              Each face is a {'{'}5{'}'} (pentagon). Each
         vertex figure is a {'{'}5/2{'}'} (<Link to='/pentagram'>pentagram</Link>). 
-        There are 12 faces and 12 vertices.
+        There are 12 faces, 30 edges and 12 vertices. The famous Euler's polyhedron formula,
+        V - E + F = 2, does <strong>not</strong> hold. 
+        In general, the star
+        polytopes don't have to satisfy the formula.
            The dual polyhedra is {'{'}5/2, 5{'}'}, aka <Link to='/Polyhedron_52_5'>small stellated dodecahedron</Link>.
         </div>
         <br/>

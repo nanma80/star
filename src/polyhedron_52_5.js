@@ -19,7 +19,11 @@ class Polyhedron_52_5 extends App {
         <div>
             The Schläfli symbol of the small stellated dodecahedron
         is {'{'}5/2, 5{'}'} because each face is a {'{'}5/2{'}'} (<Link to='/pentagram'>pentagram</Link>), and each
-        vertex figure is a pentagon. This means five faces meet at each vertex. There are 12 faces and 12 vertices.
+        vertex figure is a pentagon. This means five faces meet at each vertex. 
+        There are 12 faces, 30 edges and 12 vertices. The famous Euler's polyhedron formula,
+        V - E + F = 2, does <strong>not</strong> hold. 
+        In general, the star
+        polytopes don't have to satisfy the formula.
         The dual polyhedra is {'{'}5, 5/2{'}'}, aka <Link to='/Polyhedron_5_52'>great dodecahedron</Link>.
         </div>
 

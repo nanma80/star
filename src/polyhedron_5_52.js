@@ -18,7 +18,7 @@ class Polyhedron_5_52 extends App {
         V - E + F = 2, does <strong>not</strong> hold. 
         In general, the star
         polytopes don't have to satisfy the formula.
-           The dual polyhedra is {'{'}5/2, 5{'}'}, aka <Link to='/Polyhedron_52_5'>small stellated dodecahedron</Link>.
+           The dual polyhedra is {'{'}5/2, 5{'}'}, aka the <Link to='/Polyhedron_52_5'>small stellated dodecahedron</Link>.
         </div>
         <br/>
         <div>

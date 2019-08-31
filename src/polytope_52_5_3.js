@@ -18,7 +18,7 @@ class Polyhedron_52_5_3 extends App {
             </div>
             <br/>
             <div>
-            Each cell is a {'{'}5/2, 5{'}'}, aka <Link to='/Polyhedron_52_5'>small stellated dodecahedron</Link>.
+            Each cell is a {'{'}5/2, 5{'}'}, aka the <Link to='/Polyhedron_52_5'>small stellated dodecahedron</Link>.
             </div>
 
             <div className = "figure-div">

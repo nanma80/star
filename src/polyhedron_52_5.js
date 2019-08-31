@@ -24,7 +24,7 @@ class Polyhedron_52_5 extends App {
         V - E + F = 2, does <strong>not</strong> hold. 
         In general, the star
         polytopes don't have to satisfy the formula.
-        The dual polyhedra is {'{'}5, 5/2{'}'}, aka <Link to='/Polyhedron_5_52'>great dodecahedron</Link>.
+        The dual polyhedra is {'{'}5, 5/2{'}'}, aka the <Link to='/Polyhedron_5_52'>great dodecahedron</Link>.
         </div>
 
         <div className = "figure-div">

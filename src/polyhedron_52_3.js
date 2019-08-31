@@ -18,7 +18,7 @@ class Polyhedron_52_3 extends App {
         V - E + F = 2, happen to hold. 
         However, in general, the star
         polytopes don't have to satisfy the formula. 
-           The dual polyhedra is {'{'}3, 5/2{'}'}, aka <Link to='/Polyhedron_3_52'>great icosahedron</Link>.
+           The dual polyhedra is {'{'}3, 5/2{'}'}, aka the <Link to='/Polyhedron_3_52'>great icosahedron</Link>.
         </div>
         <br/>
         <div>

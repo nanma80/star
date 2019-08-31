@@ -76,7 +76,7 @@ class App extends React.Component {
             href="/#"
             style={styles.contentHeaderMenuLink}
           >
-          <i class="material-icons">menu</i>
+          <i className="material-icons">menu</i>
           </a>
         )}
         {this.state.contentHeader}

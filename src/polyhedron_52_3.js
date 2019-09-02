@@ -89,8 +89,13 @@ class Polyhedron_52_3 extends App {
         <div className = "figure-div">
         <figure>
             <img src = {require('./images/Dodecahedron/dodecahedron_faceting_pentagram.png')} alt = 'static'/>
+            <figcaption>Faceting from a dodecahedron to get one face</figcaption>
+        </figure>
+        <figure>
+            <img src = {require('./images/GreatStellatedDodecahedron/dodecahedron_faceting_2.png')} alt = 'static'/>
             <figcaption>Faceting from a dodecahedron</figcaption>
         </figure>
+
         </div>
 
         </li>

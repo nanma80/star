@@ -19,6 +19,7 @@ class Polyhedron_52_5_3 extends App {
             <br/>
             <div>
             Each cell is a {'{'}5/2, 5{'}'}, aka the <Link to='/Polyhedron_52_5'>small stellated dodecahedron</Link>.
+            There are 120 cells, 720 pentagrammic faces, 1200 edges, and 120 vertices.
             </div>
 
             <div className = "figure-div">
@@ -41,6 +42,23 @@ class Polyhedron_52_5_3 extends App {
             </div>
             <br/>
             <div>
+            Let's see how the stellation process affects the number of cells, faces, edges, and vertices.
+            
+            Since each cell of the 120-cell {'{'}5, 3{'}'} becomes {'{'}5/2, 5{'}'},
+            the number of cells remains the same: 120. 
+
+            Since each face of the 120-cell {'{'}5{'}'} becomes {'{'}5/2{'}'}, the number of faces 
+            remains the same: 720.
+
+            Since each edge gets longer, the number of edges 
+            remains the same: 1200.
+
+            The vertices of the 120-cell are all abandoned. The new vertices coincide with those
+            of the 600-cell. There are 120 new vertices.
+
+            </div>
+            <br/>
+            <div>
             This polytope is called the first stellation of the 120-cell. It is the 4D analog of the small stellated dodecahedron,
             which is the first stellation of the dodecahedron in 3D. Both are constructed by simply extending the edges.
             </div>
@@ -58,7 +76,19 @@ class Polyhedron_52_5_3 extends App {
             </li>
             <li>
             Faceting from the <Link to='/Polytope_3_3_5'>600-cell</Link>:
-            [to be completed]
+            Recall that the first layer of the 600-cell forms a 4D pyramid with 
+            an icosahedral base. That is, the projection of these cells is an icosahedron.
+
+            When you inscribe a small stellated dodecahedron 
+            in the icosahedron using the same vertices, 
+            you get a cell in {'{'}5/2, 5, 3{'}'}.
+            <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_3_3_5_cell600/polytope_3_3_5_cell600_vertex_explode.gif')} alt = 'static'/>
+                <figcaption>The first layer of the 600-cell</figcaption>
+            </figure>
+            </div>
+
             </li>
             </ul>
 
@@ -102,6 +132,25 @@ class Polyhedron_52_5_3 extends App {
             </figure>
             </div>
             <ObservableEmbed name="{5/2,5,3}"/>
+
+            <h4>Vertex figure</h4>
+            <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_52_5_3/vertex_figure_polytope_52_5_3.png')} alt = 'static'/>
+                <figcaption>Vertex figure</figcaption>
+            </figure>
+            <figure>
+                <img src = {require('./images/polytope_52_5_3/polytope_52_5_3_vertex_explode.gif')} alt = 'static'/>
+                <figcaption>12 cells meeting at a vertex</figcaption>
+            </figure>
+            </div>
+            <div>
+            When we construct the {'{'}5/2, 5, 3{'}'} by stellating the 120-cell,
+            we know that the extension of 12 cells meet at one point
+            to create a new vertex. The vertex figure is a dodecahedron. Each
+            pentagonal face corresponds to the extension of a cell.
+            </div>
+
     	</div>
     	)
     ;

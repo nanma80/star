@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "736f427d202ec69129eff4b2373d8077",
+    "revision": "02ecc26b52ca43633f9701c30228812f",
     "url": "/star/index.html"
   },
   {
-    "revision": "c187ff779c723fb1765a",
+    "revision": "3dbc613ec19613156893",
     "url": "/star/static/css/main.77cf3420.chunk.css"
   },
   {
-    "revision": "6e8016ff79cced0f784f",
-    "url": "/star/static/js/2.d6521a39.chunk.js"
+    "revision": "2a2d3a877059e97966d0",
+    "url": "/star/static/js/2.b4bdb246.chunk.js"
   },
   {
-    "revision": "c187ff779c723fb1765a",
-    "url": "/star/static/js/main.73805f29.chunk.js"
+    "revision": "3dbc613ec19613156893",
+    "url": "/star/static/js/main.73323f2e.chunk.js"
   },
   {
     "revision": "2898011e16a63222a549",
@@ -206,6 +206,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b3afbb35c9e4286c8272ec8fae0d0d09",
     "url": "/star/static/media/polytope_3_5_52_layers_5_5.b3afbb35.gif"
+  },
+  {
+    "revision": "ea1a3e48644c2c7f8c70febde28916fe",
+    "url": "/star/static/media/polytope_3_5_52_vertex_explode.ea1a3e48.gif"
   },
   {
     "revision": "7edbb232f36584dff0ef711786b89062",
@@ -522,6 +526,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e044d80973aca307614b9040dcacb983",
     "url": "/star/static/media/vertex_figure_polytope_3_3_5_cell600.e044d809.png"
+  },
+  {
+    "revision": "f1941b38dea7356a7997823e1a531493",
+    "url": "/star/static/media/vertex_figure_polytope_3_5_52.f1941b38.png"
   },
   {
     "revision": "16b0efd6c77318930268e7c24e2c59d1",

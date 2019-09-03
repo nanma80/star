@@ -157,7 +157,7 @@ class Polyhedron_5_52_5 extends App {
             </figure>
             <figure>
                 <img src = {require('./images/polytope_5_52_5/polytope_5_52_5_vertex_explode.gif')} alt = 'static'/>
-                <figcaption>12 cells meeting at a vertex</figcaption>
+                <figcaption>Cells meeting at a vertex</figcaption>
             </figure>
             </div>
             <div>

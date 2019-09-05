@@ -184,7 +184,7 @@ class Polyhedron_5_52_5 extends App {
     	)
     ;
 
-    this.state.contentHeader = (<span> {'{'}5, 5/2, 5{'}'} </span>);
+    this.state.contentHeader = (<span> Great 120-cell {'{'}5, 5/2, 5{'}'} </span>);
   }
 }
 

@@ -171,20 +171,20 @@ class Polyhedron_3_5_52 extends App {
                 <figcaption>Cells meeting at a vertex</figcaption>
             </figure>
             </div>
+
+            <div>
             Each vertex is where 12 icosahedra meet. Each icosahedron brings 
             a pentagon to the vertex figure of the polytope. 
             The vertex figure is a great dodecahedron, which has 12 intersecting pentagonal faces.
             The 12 cells meeting at a vertex, for example,
             the north pole, are the second layer cells. 
-
-            <div>
             </div>
 
     	</div>
     	)
     ;
 
-    this.state.contentHeader = (<span> {'{'}3, 5, 5/2{'}'} </span>);
+    this.state.contentHeader = (<span> Icosahedral 120-cell {'{'}3, 5, 5/2{'}'} </span>);
   }
 }
 

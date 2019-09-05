@@ -180,7 +180,7 @@ class Polyhedron_52_5_3 extends App {
     	)
     ;
 
-    this.state.contentHeader = (<span> {'{'}5/2, 5, 3{'}'} </span>);
+    this.state.contentHeader = (<span>Small stellated 120-cell {'{'}5/2, 5, 3{'}'} </span>);
   }
 }
 

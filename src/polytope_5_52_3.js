@@ -55,6 +55,28 @@ class Polyhedron_5_52_3 extends App {
             </figure>
             </div>
             <ObservableEmbed name="{5,5/2,3}"/>
+
+            <h4>Vertex figure</h4>
+            <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_5_52_3/vertex_figure_polytope_5_52_3.png')} alt = 'static'/>
+                <figcaption>Vertex figure</figcaption>
+            </figure>
+            <figure>
+                <img src = {require('./images/polytope_5_52_3/polytope_5_52_3_vertex_explode.gif')} alt = 'static'/>
+                <figcaption>Cells meeting at a vertex</figcaption>
+            </figure>
+            </div>
+
+            <div>
+            [To be updated]
+            Each vertex is where 12 icosahedra meet. Each icosahedron brings 
+            a pentagon to the vertex figure of the polytope. 
+            The vertex figure is a great dodecahedron, which has 12 intersecting pentagonal faces.
+            The 12 cells meeting at a vertex, for example,
+            the north pole, are the second layer cells. 
+            </div>
+
     	</div>
     	)
     ;

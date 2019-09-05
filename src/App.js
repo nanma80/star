@@ -65,8 +65,7 @@ class App extends React.Component {
   }
 
   render() {
-    console.log("rendering app.js");
-    const sidebar = <SidebarContent />;
+    const sidebar = <SidebarContent currentPath={this.props.location.pathname}/>;
 
     const contentHeader = (
       <span>

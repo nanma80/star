@@ -49,13 +49,22 @@ const styles = {
     }
 };
 
+window.ref = React.createRef();
+
 const SidebarContentRow = props => {
-  const linkStyle = props.path === props.currentPath ? styles.activeSidebarLink : styles.sidebarLink;
-  return (
-      <Link to={props.path} style = {linkStyle}>
-          <span>{props.text}</span>
-      </Link>
-    );
+  if (props.currentPath === props.path){
+    return (
+        <Link to={props.path} style = {styles.activeSidebarLink}>
+            <span  ref={window.ref}>{props.text}</span>
+        </Link>
+      );
+  } else {
+    return (
+        <Link to={props.path} style = {styles.sidebarLink}>
+            <span>{props.text}</span>
+        </Link>
+      );
+  }
 };
 
 const SidebarDividerRow = props => {
@@ -66,101 +75,47 @@ const SidebarDividerRow = props => {
   );
 };
 
-
 const SidebarContent = props => {
   const style = props.style
     ? { ...styles.sidebar, ...props.style }
     : styles.sidebar;
 
-
-  console.log(props.currentPath);
-
   var links = (<div style={styles.content}>
         <SidebarContentRow path='/' currentPath={props.currentPath} text="Welcome"/>
 
         <SidebarDividerRow text="2D"/>
-        <SidebarContentRow path='/pentagram' currentPath={props.currentPath} text="
-          Pentagram
-        "/>
-        <SidebarContentRow path='/heptagram' currentPath={props.currentPath} text=" 
-          Heptagrams
-        "/>
-        <SidebarContentRow path='/hexagram' currentPath={props.currentPath} text=" 
-          Hexagram
-        "/>
+        <SidebarContentRow path='/pentagram' currentPath={props.currentPath} text="Pentagram"/>
+        <SidebarContentRow path='/heptagram' currentPath={props.currentPath} text="Heptagrams"/>
+        <SidebarContentRow path='/hexagram' currentPath={props.currentPath} text="Hexagram"/>
         
         <SidebarDividerRow text="3D"/>
 
-        <SidebarContentRow path='/intro_3d' currentPath={props.currentPath} text=" 
-          Overview of 3D star polyhedra
-        "/>
-        <SidebarContentRow path='/polyhedron_5_3' currentPath={props.currentPath} text=" 
-          Dodecahedron
-        "/>
-        <SidebarContentRow path='/polyhedron_3_5' currentPath={props.currentPath} text=" 
-          Icosahedron
-        "/>
-        <SidebarContentRow path='/polyhedron_52_5' currentPath={props.currentPath} text=" 
-          Small stellated dodecahedron
-        "/>
-        <SidebarContentRow path='/polyhedron_5_52' currentPath={props.currentPath} text=" 
-          Great dodecahedron
-        "/>
-        <SidebarContentRow path='/polyhedron_52_3' currentPath={props.currentPath} text=" 
-          Great stellated dodecahedron
-        "/>
-        <SidebarContentRow path='/polyhedron_3_52' currentPath={props.currentPath} text=" 
-          Great icosahedron
-        "/>
-        <SidebarContentRow path='/summary_3d' currentPath={props.currentPath} text=" 
-          Summary of stellation in 3D
-        "/>
+        <SidebarContentRow path='/intro_3d' currentPath={props.currentPath} text="Overview of 3D star polyhedra"/>
+        <SidebarContentRow path='/polyhedron_5_3' currentPath={props.currentPath} text="Dodecahedron"/>
+        <SidebarContentRow path='/polyhedron_3_5' currentPath={props.currentPath} text="Icosahedron"/>
+        <SidebarContentRow path='/polyhedron_52_5' currentPath={props.currentPath} text="Small stellated dodecahedron"/>
+        <SidebarContentRow path='/polyhedron_5_52' currentPath={props.currentPath} text="Great dodecahedron"/>
+        <SidebarContentRow path='/polyhedron_52_3' currentPath={props.currentPath} text="Great stellated dodecahedron"/>
+        <SidebarContentRow path='/polyhedron_3_52' currentPath={props.currentPath} text="Great icosahedron"/>
+        <SidebarContentRow path='/summary_3d' currentPath={props.currentPath} text="Summary of stellation in 3D"/>
 
         <SidebarDividerRow text="4D"/>
+        <SidebarContentRow path='/intro_4d' currentPath={props.currentPath} text="Overview of 4D star polytopes"/>
+        <SidebarContentRow path='/polytope_5_3_3' currentPath={props.currentPath} text="120-cell"/>
+        <SidebarContentRow path='/polytope_3_3_5' currentPath={props.currentPath} text="600-cell"/>
+        <SidebarContentRow path='/polytope_52_5_3' currentPath={props.currentPath} text="{ 5/2, 5, 3 }"/>
+        <SidebarContentRow path='/polytope_5_52_5' currentPath={props.currentPath} text="{ 5, 5/2, 5 }"/>
+        <SidebarContentRow path='/polytope_52_3_5' currentPath={props.currentPath} text="{ 5/2, 3, 5 }"/>
 
-
-        <SidebarContentRow path='/intro_4d' currentPath={props.currentPath} text=" 
-          Overview of 4D star polytopes
-        "/>
-        <SidebarContentRow path='/polytope_5_3_3' currentPath={props.currentPath} text=" 
-          120-cell
-        "/>
-        <SidebarContentRow path='/polytope_3_3_5' currentPath={props.currentPath} text=" 
-          600-cell
-        "/>
-        <SidebarContentRow path='/polytope_52_5_3' currentPath={props.currentPath} text=" 
-          { 5/2, 5, 3 }
-        "/>
-        <SidebarContentRow path='/polytope_5_52_5' currentPath={props.currentPath} text=" 
-          { 5, 5/2, 5 }
-        "/>
-        <SidebarContentRow path='/polytope_52_3_5' currentPath={props.currentPath} text=" 
-          { 5/2, 3, 5 }
-        "/>
-
-        <SidebarContentRow path='/polytope_3_5_52' currentPath={props.currentPath} text=" 
-          { 3, 5, 5/2 }
-        "/>
-
-        <SidebarContentRow path='/polytope_5_3_52' currentPath={props.currentPath} text=" 
-          { 5, 3, 5/2 }
-        "/>
-        <SidebarContentRow path='/polytope_52_5_52' currentPath={props.currentPath} text=" 
-          { 5/2, 5, 5/2 }
-        "/>
-        <SidebarContentRow path='/polytope_5_52_3' currentPath={props.currentPath} text=" 
-          { 5, 5/2, 3 }
-        "/>
-        <SidebarContentRow path='/polytope_3_52_5' currentPath={props.currentPath} text=" 
-          { 3, 5/2, 5 }
-        "/>
-        <SidebarContentRow path='/polytope_3_3_52' currentPath={props.currentPath} text=" 
-          { 3, 3, 5/2 }
-        "/>
-        <SidebarContentRow path='/polytope_52_3_3' currentPath={props.currentPath} text=" 
-          { 5/2, 3, 3 }
-        "/>
+        <SidebarContentRow path='/polytope_3_5_52' currentPath={props.currentPath} text="{ 3, 5, 5/2 }"/>
+        <SidebarContentRow path='/polytope_5_3_52' currentPath={props.currentPath} text="{ 5, 3, 5/2 }"/>
+        <SidebarContentRow path='/polytope_52_5_52' currentPath={props.currentPath} text="{ 5/2, 5, 5/2 }"/>
+        <SidebarContentRow path='/polytope_5_52_3' currentPath={props.currentPath} text="{ 5, 5/2, 3 }"/>
+        <SidebarContentRow path='/polytope_3_52_5' currentPath={props.currentPath} text="{ 3, 5/2, 5 }"/>
+        <SidebarContentRow path='/polytope_3_3_52' currentPath={props.currentPath} text="{ 3, 3, 5/2 }"/>
+        <SidebarContentRow path='/polytope_52_3_3' currentPath={props.currentPath} text="{ 5/2, 3, 3 }"/>
       </div>);
+
 
   return (
     <MaterialTitlePanel title="Menu" style={style}>

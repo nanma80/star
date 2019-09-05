@@ -64,6 +64,11 @@ class App extends React.Component {
     }
   }
 
+  componentDidMount() {
+    window.ref.current.scrollIntoView({block: "center"});
+  }
+
+
   render() {
     const sidebar = <SidebarContent currentPath={this.props.location.pathname}/>;
 

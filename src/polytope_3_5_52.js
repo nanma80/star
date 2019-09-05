@@ -58,7 +58,6 @@ class Polyhedron_3_5_52 extends App {
 
             All the edges of {'{'}5, 5/2, 5{'}'} are reused in the new polytope. The number of edges remains
             the same: 120.
-
             </div>
 
             <div className = "figure-div">
@@ -105,12 +104,30 @@ class Polyhedron_3_5_52 extends App {
                 <img src = {require('./images/polytope_3_5_52/polytope_3_5_52_layers_2_2.gif')} alt = 'static'/>
                 <figcaption>Exploded view: layer 2</figcaption>
             </figure>
+            </div>
+
+            <div>
+            The above animation is the exploded view of the second layer. Unlike the 
+            polytopes <Link to='/Polytope_5_3_3'>{'{'}5, 3, 3{'}'} (the 120-cell)</Link>, <Link to='/Polytope_5_52_5'>{'{'}5, 5/2, 5{'}'}</Link>, <Link to='/Polytope_52_5_3'>{'{'}5/2, 5, 3{'}'}</Link>,
+            and <Link to='/Polytope_52_3_5'>{'{'}5/2, 3, 5{'}'}</Link>,
+            the Layer 1 "north cell" and a cell in Layer 2 do not meet on a face. They intersect with each other but they don't share a face.
+            This is a property of the new faces in this polytope.
+
+            Two cells in Layer 2 that are not the closest but second closest meet on a face.
+            </div>
+
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_3_5_52/polytope_3_5_52_layers_3_3.gif')} alt = 'static'/>
                 <figcaption>Exploded view: layer 3</figcaption>
             </figure>
             </div>
 
+            <div>
+            The above animation is the exploded view of the third layer. 
+            The Layer 1 "north cell" and a cell in Layer 3 <strong>do</strong> meet on a face.
+            There are 20 cells in Layer 3. They touch the north cell (the icosahedron) on its 20 faces.
+            </div>
 
             <div className = "figure-div">
             <figure>
@@ -122,6 +139,7 @@ class Polyhedron_3_5_52 extends App {
                 <figcaption>Exploded view: layer 5</figcaption>
             </figure>
             </div>
+            Two closest cells in Layer 4 meet with each other on a face.
             Finally the exploded view of the whole polytope.
             
             <div className = "figure-div">
@@ -144,6 +162,9 @@ class Polyhedron_3_5_52 extends App {
                 <figcaption>Cells meeting at a vertex</figcaption>
             </figure>
             </div>
+            Each vertex is where 12 icosahedra meet. Each icosahedron brings 
+            a pentagon to the vertex figure of the polytope. 
+            The vertex figure is a great dodecahedron, which has 12 intersecting pentagonal faces.
             <div>
             </div>
 

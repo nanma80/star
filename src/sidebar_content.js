@@ -106,15 +106,16 @@ const SidebarContent = props => {
         <Link to='/polytope_5_52_5' style={styles.sidebarLink}> 
           {'{'} 5, 5/2, 5 {'}'}
         </Link>
+        <Link to='/polytope_52_3_5' style={styles.sidebarLink}> 
+          {'{'} 5/2, 3, 5 {'}'}
+        </Link>
 
         <Link to='/polytope_3_5_52' style={styles.sidebarLink}> 
           {'{'} 3, 5, 5/2 {'}'}
         </Link>
+
         <Link to='/polytope_5_3_52' style={styles.sidebarLink}> 
           {'{'} 5, 3, 5/2 {'}'}
-        </Link>
-        <Link to='/polytope_52_3_5' style={styles.sidebarLink}> 
-          {'{'} 5/2, 3, 5 {'}'}
         </Link>
         <Link to='/polytope_52_5_52' style={styles.sidebarLink}> 
           {'{'} 5/2, 5, 5/2 {'}'}

@@ -85,7 +85,11 @@ class Polyhedron_52_5_3 extends App {
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_3_3_5_cell600/polytope_3_3_5_cell600_vertex_explode.gif')} alt = 'static'/>
-                <figcaption>The first layer of the 600-cell</figcaption>
+                <figcaption>The first layer of the 600-cell forms an icosahedron</figcaption>
+            </figure>
+            <figure>
+                <img src = {require('./images/SmallStellatedDodecahedron/pov_whole_SmallStellatedDodecahedron.png')} alt = 'static'/>
+                <figcaption>Use the vertices of the icosahedron to create a cell</figcaption>
             </figure>
             </div>
 
@@ -100,6 +104,14 @@ class Polyhedron_52_5_3 extends App {
             All the cells here directly correspond to the cells of the 120-cell. They have the same layers of 1, 12, 20, 12, and 30 cells
             in the northern hemisphere and the equator.
             </div>
+            <br/>
+            <div>
+            Each pair of adjacent cells in 120-cell corresponds to a pair of 
+            adjacent cells in this star polytope. Here, the pair of cells intersect 
+            with each other and
+            the tips go into each other. However, they still meet at a pentagrammic face,
+            whose center is located at the same point as the pentagonal face in the 120-cell.
+            </div>
 
             <div className = "figure-div">
             <figure>
@@ -110,6 +122,10 @@ class Polyhedron_52_5_3 extends App {
                 <img src = {require('./images/polytope_52_5_3/polytope_52_5_3_layers_3_3.gif')} alt = 'static'/>
                 <figcaption>Exploded view: layer 3</figcaption>
             </figure>
+            </div>
+            <div>
+            You can see each cell in Layer 2 meets with the center "north cell". The pentagrammic faces
+            touch and the tips penetrate into the other cells.
             </div>
 
             <div className = "figure-div">
@@ -149,6 +165,15 @@ class Polyhedron_52_5_3 extends App {
             we know that the extension of 12 cells meet at one point
             to create a new vertex. The vertex figure is a dodecahedron. Each
             pentagonal face corresponds to the extension of a cell.
+            The 12 cells meeting at a vertex, for example,
+            the north pole, are the second layer cells. 
+
+            In the projection, they all 
+            cross the north cell and meet at the center (north pole). 
+            In fact,
+            the vertex they meet at is "above" the north cell, where the 
+            word "above" means having a larger value in the 
+            4th dimension that disappears in the projection.
             </div>
 
     	</div>

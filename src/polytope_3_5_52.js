@@ -81,8 +81,13 @@ class Polyhedron_3_5_52 extends App {
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_3_3_5_cell600/polytope_3_3_5_cell600_vertex_explode.gif')} alt = 'static'/>
-                <figcaption>The first layer of the 600-cell</figcaption>
+                <figcaption>The first layer of the 600-cell forms an icosahedron</figcaption>
             </figure>
+            <figure>
+                <img src = {require('./images/Icosahedron/pov_whole_Icosahedron.png')} alt = 'static'/>
+                <figcaption>Directly use this icosahedron as a cell in this star polytope</figcaption>
+            </figure>
+
             </div>
 
             </li>
@@ -107,13 +112,17 @@ class Polyhedron_3_5_52 extends App {
             </div>
 
             <div>
-            The above animation is the exploded view of the second layer. Unlike the 
+            The above animation is the exploded view of the second layer. Unlike the previously discussed
             polytopes <Link to='/Polytope_5_3_3'>{'{'}5, 3, 3{'}'} (the 120-cell)</Link>, <Link to='/Polytope_5_52_5'>{'{'}5, 5/2, 5{'}'}</Link>, <Link to='/Polytope_52_5_3'>{'{'}5/2, 5, 3{'}'}</Link>,
             and <Link to='/Polytope_52_3_5'>{'{'}5/2, 3, 5{'}'}</Link>,
-            the Layer 1 "north cell" and a cell in Layer 2 do not meet on a face. They intersect with each other but they don't share a face.
+            in this polytope, 
+            the Layer 1 "north cell" and a cell in Layer 2 do <strong>not</strong> meet on a face. 
+            They intersect with each other without sharing a face.
+            In this sense, they are topologically not adjacent although geometrically they are close by.
+            
             This is a property of the new faces in this polytope.
 
-            Two cells in Layer 2 that are not the closest but second closest meet on a face.
+            A pair of cells in Layer 2 that are not the closest but second-most closest meet on a face.
             </div>
 
             <div className = "figure-div">
@@ -165,6 +174,9 @@ class Polyhedron_3_5_52 extends App {
             Each vertex is where 12 icosahedra meet. Each icosahedron brings 
             a pentagon to the vertex figure of the polytope. 
             The vertex figure is a great dodecahedron, which has 12 intersecting pentagonal faces.
+            The 12 cells meeting at a vertex, for example,
+            the north pole, are the second layer cells. 
+
             <div>
             </div>
 

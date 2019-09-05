@@ -94,12 +94,16 @@ class Polyhedron_5_52_5 extends App {
             an icosahedral base. That is, the projection of these cells is an icosahedron.
 
             When you inscribe a great dodecahedron 
-            in the icosahedron using the same vertices, 
+            in the icosahedron using the same vertices and edges,
             you get a cell in {'{'}5, 5/2, 5{'}'}.
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_3_3_5_cell600/polytope_3_3_5_cell600_vertex_explode.gif')} alt = 'static'/>
-                <figcaption>The first layer of the 600-cell</figcaption>
+                <figcaption>The first layer of the 600-cell forms an icosahedron</figcaption>
+            </figure>
+            <figure>
+                <img src = {require('./images/GreatDodecahedron/pov_whole_GreatDodecahedron.png')} alt = 'static'/>
+                <figcaption>Inscribe a great dodecahedral cell in the icosahedron</figcaption>
             </figure>
             </div>
 
@@ -114,9 +118,14 @@ class Polyhedron_5_52_5 extends App {
             All the cells here directly correspond to the cells of the 120-cell. They have the same layers of 1, 12, 20, 12, and 30 cells
             in the northern hemisphere and the equator.
             </div>
-
-
-
+            <br/>
+            <div>
+            Each pair of adjacent cells in 120-cell corresponds to a pair of 
+            adjacent cells in this star polytope. Here, the cells intersect 
+            with each other and
+            parts of the cells go into each other. However, they still meet at a pentagonal face,
+            whose center is located at the same point as the pentagonal face in the 120-cell.
+            </div>
 
             <div className = "figure-div">
             <figure>
@@ -127,6 +136,10 @@ class Polyhedron_5_52_5 extends App {
                 <img src = {require('./images/polytope_5_52_5/polytope_5_52_5_layers_3_3.gif')} alt = 'static'/>
                 <figcaption>Exploded view: layer 3</figcaption>
             </figure>
+            </div>
+            <div>
+            You can see each cell in Layer 2 meets with the center "north cell". The pentagonal faces
+            touch and the parts above the faces penetrate into the other cells.
             </div>
 
             <div className = "figure-div">
@@ -161,7 +174,12 @@ class Polyhedron_5_52_5 extends App {
             </figure>
             </div>
             <div>
+            From the Schläfli symbol we know the vertex figure is {'{'}5/2, 5{'}'}.
+            Each pentagrammic face corresponds to a tip of the cell.
+            The 12 cells meeting at a vertex, for example,
+            the north pole, are the second layer cells.
             </div>
+
     	</div>
     	)
     ;

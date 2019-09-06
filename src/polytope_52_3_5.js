@@ -42,7 +42,7 @@ class Polyhedron_52_3_5 extends App {
 
             Then, we extend its edges to stellate each cell 
             to construct a great stellated dodecahedron.
-            This way, we have a {'{'}5/2, 3, 5{'}'}.
+            The result is a {'{'}5/2, 3, 5{'}'}.
             </div>
             <br/>
             <div>

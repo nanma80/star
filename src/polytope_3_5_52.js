@@ -40,7 +40,7 @@ class Polyhedron_3_5_52 extends App {
             a great dodecahedron, {'{'}5, 5/2{'}'}.
             Then, we take the convex hull of each cell 
             to construct an icosahedral cell, {'{'}3, 5{'}'}.
-            This way, the whole polytope becomes the {'{'}3, 5, 5/2{'}'}.
+            The result is the {'{'}3, 5, 5/2{'}'}.
 
             Overall we construct brand new faces.
             </div>

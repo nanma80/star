@@ -52,7 +52,7 @@ const styles = {
 window.ref = React.createRef();
 
 const SidebarContentRow = props => {
-  if (props.currentPath === props.path){
+  if (props.currentPath.toLowerCase() === props.path.toLowerCase()){
     return (
         <Link to={props.path} style = {styles.activeSidebarLink}>
             <span  ref={window.ref}>{props.text}</span>

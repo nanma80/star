@@ -58,40 +58,40 @@ class Summary3D extends App {
         <div className = "figure-div">
         <figure>
             <img src = {require('./images/Dodecahedron/pov_whole_Dodecahedron.png')} alt = 'static'/>
-            <figcaption>Step 0: Regular dodecahedron</figcaption>
+            <figcaption>Step 0: <Link to='/Polyhedron_5_3'>regular dodecahedron</Link></figcaption>
         </figure>
         </div>
 
         <div className = "figure-div">
         <figure>
             <img src = {require('./images/Dodecahedron/stellated_dodecahedron.png')} alt = 'static'/>
-            <figcaption>From 0 to 1: Stellating the dodecahedron</figcaption>
+            <figcaption>From 0 to 1: stellating the dodecahedron</figcaption>
         </figure>
         <figure>
             <img src = {require('./images/SmallStellatedDodecahedron/pov_whole_SmallStellatedDodecahedron.png')} alt = 'static'/>
-            <figcaption>Step 1: Small stellated dodecahedron {'{'}5/2, 5{'}'}</figcaption>
+            <figcaption>Step 1: <Link to='/Polyhedron_52_5'>small stellated dodecahedron {'{'}5/2, 5{'}'}</Link></figcaption>
         </figure>
         </div>
 
         <div className = "figure-div">
         <figure>
             <img src = {require('./images/SmallStellatedDodecahedron/stellated_dodecahedron_4.png')} alt = 'static'/>
-            <figcaption>From 1 to 2: Stellating the small stellated dodecahedron</figcaption>
+            <figcaption>From 1 to 2: stellating the small stellated dodecahedron</figcaption>
         </figure>
         <figure>
             <img src = {require('./images/GreatDodecahedron/pov_whole_GreatDodecahedron.png')} alt = 'static'/>
-            <figcaption>Step 2: Great dodecahedron {'{'}5, 5/2{'}'}</figcaption>
+            <figcaption>Step 2: <Link to='/Polyhedron_5_52'>great dodecahedron {'{'}5, 5/2{'}'}</Link></figcaption>
         </figure>
         </div>
 
         <div className = "figure-div">
         <figure>
             <img src = {require('./images/GreatDodecahedron/stellated_dodecahedron_3.png')} alt = 'static'/>
-            <figcaption>From 2 to 3: Stellating the great dodecahedron</figcaption>
+            <figcaption>From 2 to 3: stellating the great dodecahedron</figcaption>
         </figure>
         <figure>
             <img src = {require('./images/GreatStellatedDodecahedron/pov_whole_GreatStellatedDodecahedron.png')} alt = 'static'/>
-            <figcaption>Step 3: Great stellated dodecahedron {'{'}5/2, 3{'}'}</figcaption>
+            <figcaption>Step 3: <Link to='/Polyhedron_52_3'>great stellated dodecahedron {'{'}5/2, 3{'}'}</Link></figcaption>
         </figure>
         </div>
 

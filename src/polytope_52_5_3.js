@@ -36,8 +36,8 @@ class Polyhedron_52_5_3 extends App {
             <div>
             Stellation from the <Link to='/Polytope_5_3_3'>120-cell</Link>:
             On the 120-cell, we stellate each cell from the dodecahedron {'{'}5, 3{'}'} to form a small stellated 
-            dodecahedron {'{'}5/2, 5{'}'} by extending the edges until they meet. The whole polytope is changed from
-            {'{'}5, 3, 3{'}'} into {'{'}5/2, 5, 3{'}'}. The last number, 3, is not changed because the number of cells
+            dodecahedron {'{'}5/2, 5{'}'} by extending the edges until they meet. The whole polytope is changed
+            from {'{'}5, 3, 3{'}'} into {'{'}5/2, 5, 3{'}'}. The last number, 3, is not changed because the number of cells
             around each edge (3) is not change. Each edge only gets longer. 
             </div>
             <br/>

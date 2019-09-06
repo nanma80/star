@@ -30,7 +30,6 @@ class Polyhedron_5_3_52 extends App {
             </figure>
             </div>
 
-
             <h4>Construction</h4>
             <ul>
             <li>
@@ -83,7 +82,6 @@ class Polyhedron_5_3_52 extends App {
                 <img src = {require('./images/Dodecahedron/pov_whole_Dodecahedron.png')} alt = 'static'/>
                 <figcaption>Regular dodecahedron</figcaption>
             </figure>
-
             </div>
 
             </li>
@@ -95,40 +93,48 @@ class Polyhedron_5_3_52 extends App {
             In this section, let us start from the center vertex and see how the other cells are arranged, layer by layer.
 
             All the cells here directly correspond to the cells of the 120-cell. They have the same layers of 1, 12, 20, 12, and 30 cells
-            in the northern hemisphere and the equator.
+            in the northern hemisphere and the equator. The adjacency relation of the cells is different from the 120-cell.
             </div>
-            <br/>
-            <div>
-            The adjacency relation of the cells is different.
-            </div>
-
 
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_5_3_52/polytope_5_3_52_layers_2_2.gif')} alt = 'static'/>
                 <figcaption>Exploded view: layer 2</figcaption>
             </figure>
-            </div>
-
-            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_5_3_52/polytope_5_3_52_layers_3_3.gif')} alt = 'static'/>
                 <figcaption>Exploded view: layer 3</figcaption>
             </figure>
+
             </div>
+
+            <div>
+            Above is the view of 12 cells in Layer 2 and 20 cells in Layer 3. 
+            Both layers go deep into and intersect with the "north cell". The 20 cells in Layer 3 meet at a single point, the north pole.
+            </div>
+
 
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_5_3_52/polytope_5_3_52_layers_4_4.gif')} alt = 'static'/>
                 <figcaption>Exploded view: layer 4</figcaption>
             </figure>
-            </div>
-
-            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_5_3_52/polytope_5_3_52_layers_5_5.gif')} alt = 'static'/>
                 <figcaption>Exploded view: layer 5</figcaption>
             </figure>
+            </div>
+
+            <div>
+            Above is the view of 12 cells in Layer 4 and 30 cells in Layer 5. 
+            Layer 4 still overlaps with the projection of the north cell.
+            Remember that there is a Layer 4 in the northern hemisphere, and there's a counterpart in the southern hemisphere.
+            The Layer 4 cells in the <strong>southern</strong> hemisphere meet with the north cell on faces. In other words, the Layer 4 (low latitude) cells
+            in the southern hemisphere are adjacent to the north cell.
+            </div>
+            <br/>
+            <div>
+            Finally here is the exploded view of the whole polytope.
             </div>
             
             <div className = "figure-div">
@@ -137,7 +143,48 @@ class Polyhedron_5_3_52 extends App {
                 <figcaption>Exploded view: the whole northern hemisphere and equator</figcaption>
             </figure>
             </div>
+            
             <ObservableEmbed name="{5,3,5/2}"/>
+
+            <h4>Comparison with the 120-cell</h4>
+            <div>
+            In the exploded view, you may have seen the similarity between this star polytope and the 120-cell.
+            When we explode the cells of this star polytope by moving the cells away from the center, at some point, 
+            they form the 120-cell. This is because the corresponding cells are oriented in the same way as the 120-cell.
+            In the visualization above using vZome, if you set the "explode / Implode" factor to 32, you see the classical
+            projection of the 120-cell.
+            </div>
+            <br/>
+            <div>
+            In the view of exploded Layer 2, in {'{'}5, 3, 5/2{'}'}, cells can overlap. In the 120-cell, cells just touch
+            with each other without overlapping.
+            </div>            
+            <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_5_3_52/polytope_5_3_52_layers_2_2.gif')} alt = 'static'/>
+                <figcaption>Exploded Layer 2 of {'{'}5, 3, 5/2{'}'}</figcaption>
+            </figure>
+            <figure>
+                <img src = {require('./images/polytope_5_3_3_cell120/polytope_5_3_3_cell120_layers_2_2.gif')} alt = 'static'/>
+                <figcaption>Exploded Layer 2 of the 120-cell {'{'}5, 3, 3{'}'}</figcaption>
+            </figure>
+            </div>
+
+            <div>
+            Below are the animations showing the partial explosion of {'{'}5, 3, 5/2{'}'} until it becomes the 120-cell.
+            </div>            
+
+            <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_5_3_52/polytope_5_3_52_layers_2_5.gif')} alt = 'static'/>
+                <figcaption>Exploded view of {'{'}5, 3, 5/2{'}'}</figcaption>
+            </figure>
+            <figure>
+                <img src = {require('./images/polytope_5_3_3_cell120/polytope_5_3_3_cell120_layers_2_5.gif')} alt = 'static'/>
+                <figcaption>Exploded view of the 120-cell {'{'}5, 3, 3{'}'}</figcaption>
+            </figure>
+            </div>
+
 
             <h4>Vertex figure</h4>
             <div className = "figure-div">
@@ -152,12 +199,11 @@ class Polyhedron_5_3_52 extends App {
             </div>
 
             <div>
-            [To be updated]
-            Each vertex is where 12 icosahedra meet. Each icosahedron brings 
-            a pentagon to the vertex figure of the polytope. 
-            The vertex figure is a great dodecahedron, which has 12 intersecting pentagonal faces.
-            The 12 cells meeting at a vertex, for example,
-            the north pole, are the second layer cells. 
+            Each vertex is where 20 dodecahedra meet. Each dodecahedron brings 
+            a triangle to the vertex figure of the polytope. 
+            The vertex figure is a great icosahedron, which has 20 intersecting triangular faces.
+            The 20 cells meeting at a vertex, for example,
+            the north pole, are the Layer 3 cells. 
             </div>
 
     	</div>

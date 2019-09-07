@@ -44,10 +44,12 @@ class Polyhedron_52_5_3 extends App {
             <div>
             Let's see how the stellation process affects the number of cells, faces, edges, and vertices.
             
-            Since each cell of the 120-cell {'{'}5, 3{'}'} becomes {'{'}5/2, 5{'}'},
+            Each cell of the 120-cell {'{'}5, 3{'}'} becomes {'{'}5/2, 5{'}'}. Since
+            there is no new cell created and no old cell discarded,
             the number of cells remains the same: 120. 
 
-            Since each face of the 120-cell {'{'}5{'}'} becomes {'{'}5/2{'}'}, the number of faces 
+            Each face of the 120-cell {'{'}5{'}'} becomes {'{'}5/2{'}'}. Since
+            no new face gets created and no old face gets discarded, the number of faces 
             remains the same: 720.
 
             Since each edge gets longer, the number of edges 

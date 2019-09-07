@@ -61,7 +61,7 @@ class Polyhedron_5_52_5 extends App {
             There are the same number
             of edges per cell (30). However, previously each edge is shared by 3 cells. Now, 
             each edge is shared by 5 cells. 
-            The number of edges dropped to 3/5 of the preivous count, 
+            The number of edges drops to 3/5 of the preivous count, 
             from 1200 to 720.
 
             The vertices of the {'{'}5/2, 5, 3{'}'} are reused. 

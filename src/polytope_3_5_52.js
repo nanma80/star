@@ -99,7 +99,8 @@ class Polyhedron_3_5_52 extends App {
             In this section, let us start from the center vertex and see how the other cells are arranged, layer by layer.
 
             All the cells here directly correspond to the cells of the 120-cell. They have the same layers of 1, 12, 20, 12, and 30 cells
-            in the northern hemisphere and the equator.
+            in the northern hemisphere and the equator. However, the adjacency relation 
+            among the cells is different from the 120-cell.
             </div>
 
 

@@ -21,7 +21,7 @@ class Polyhedron_3_3_5 extends App {
             </div>
             <br/>
             <div>
-            The 600-cell contains 600 icosahedral cells, 1200 pentagonal faces, 
+            The 600-cell contains 600 tetrahedral cells, 1200 triangular faces, 
             720 edges, and 120 vertices. More information can be found in            
             the <a href="https://en.wikipedia.org/wiki/600-cell" target="_blank" rel="noopener noreferrer">wikipedia page</a> and
             the <a href="http://eusebeia.dyndns.org/4d/600-cell" target="_blank" rel="noopener noreferrer">Eusebeia page</a>.

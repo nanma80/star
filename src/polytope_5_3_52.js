@@ -105,12 +105,12 @@ class Polyhedron_5_3_52 extends App {
                 <img src = {require('./images/polytope_5_3_52/polytope_5_3_52_layers_3_3.gif')} alt = 'static'/>
                 <figcaption>Exploded view: layer 3</figcaption>
             </figure>
-
             </div>
 
             <div>
             Above is the view of 12 cells in Layer 2 and 20 cells in Layer 3. 
-            Both layers go deep into and intersect with the "north cell". The 20 cells in Layer 3 meet at a single point, the north pole.
+            Both layers go deep into and intersect with the "north cell". 
+            The 20 cells in Layer 3 meet at a single point, the north pole.
             </div>
 
 
@@ -128,8 +128,10 @@ class Polyhedron_5_3_52 extends App {
             <div>
             Above is the view of 12 cells in Layer 4 and 30 cells in Layer 5. 
             Layer 4 still overlaps with the projection of the north cell.
-            Remember that there is a Layer 4 in the northern hemisphere, and there's a counterpart in the southern hemisphere.
-            The Layer 4 cells in the <strong>southern</strong> hemisphere meet with the north cell on faces. In other words, the Layer 4 (low latitude) cells
+            Remember that there is a Layer 4 in the northern hemisphere, 
+            and there's a counterpart in the southern hemisphere.
+            The Layer 4 cells in the <strong>southern</strong> hemisphere 
+            meet with the north cell on faces. In other words, the Layer 4 (low latitude) cells
             in the southern hemisphere are adjacent to the north cell.
             </div>
             <br/>
@@ -151,8 +153,11 @@ class Polyhedron_5_3_52 extends App {
             In the exploded view, you may have seen the similarity between this star polytope and the 120-cell.
             When we explode the cells of this star polytope by moving the cells away from the center, at some point, 
             they form the 120-cell. This is because the corresponding cells are oriented in the same way as the 120-cell.
-            In the visualization above using vZome, if you set the "explode / Implode" factor to 32, you see the classical
-            projection of the 120-cell.
+            In the visualization above using vZome, 
+            if you set the "explode / Implode" slider to 32, you see the classical and unexploded
+            projection of the 120-cell. You can use two windows
+            to compare {'{'}5, 3, 5/2{'}'} with explode factor = 32 
+            and the 120-cell with explode factor = 0.
             </div>
             <br/>
             <div>
@@ -172,7 +177,7 @@ class Polyhedron_5_3_52 extends App {
 
             <div>
             Below are the animations showing the partial explosion of {'{'}5, 3, 5/2{'}'} until it becomes the 120-cell.
-            </div>            
+            </div>
 
             <div className = "figure-div">
             <figure>
@@ -185,6 +190,11 @@ class Polyhedron_5_3_52 extends App {
             </figure>
             </div>
 
+            <div>
+            We can also see this relationship between the pentagon and the pentagram. 
+            If you explode a pentagram and move each edge outward away from the center,
+            at some point they will form the pentagon.
+            </div>
 
             <h4>Vertex figure</h4>
             <div className = "figure-div">

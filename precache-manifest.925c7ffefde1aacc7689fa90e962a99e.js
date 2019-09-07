@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c747479a8e13737d3ba5448ccd92ad19",
+    "revision": "4eb17711d112061a3d159c278b19deaa",
     "url": "/star/index.html"
   },
   {
-    "revision": "c1f81992bf2d35a8afc5",
-    "url": "/star/static/css/main.8bb54d2a.chunk.css"
+    "revision": "5c9d1822a487be489c59",
+    "url": "/star/static/css/main.65fa4682.chunk.css"
   },
   {
-    "revision": "fb2e404c9f3db002d006",
-    "url": "/star/static/js/2.04477d8d.chunk.js"
+    "revision": "d976760b3cdffbfe807f",
+    "url": "/star/static/js/2.b7f9cacb.chunk.js"
   },
   {
-    "revision": "c1f81992bf2d35a8afc5",
-    "url": "/star/static/js/main.d6d0ef02.chunk.js"
+    "revision": "5c9d1822a487be489c59",
+    "url": "/star/static/js/main.f2b2ae02.chunk.js"
   },
   {
     "revision": "2898011e16a63222a549",
@@ -410,6 +410,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0a31f05a4451cb4116cec5ceff462467",
     "url": "/star/static/media/polytope_5_52_5_vertex_explode.0a31f05a.gif"
+  },
+  {
+    "revision": "3dfec9c00fbdbd2f1b65a6b33348cedc",
+    "url": "/star/static/media/pov_alternative_polytope_3_3_5_cell600.3dfec9c0.png"
+  },
+  {
+    "revision": "eb291e65119d6814bc8b60306f759208",
+    "url": "/star/static/media/pov_alternative_polytope_3_3_5_cell600_low_alt.eb291e65.png"
+  },
+  {
+    "revision": "70243797bd54276b40dfa871ae553f47",
+    "url": "/star/static/media/pov_alternative_polytope_5_3_3_cell120.70243797.png"
   },
   {
     "revision": "647c424099bddf32ecf3ed192d17ef1f",

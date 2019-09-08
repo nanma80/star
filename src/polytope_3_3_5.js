@@ -195,7 +195,7 @@ class Polyhedron_3_3_5 extends App {
     	)
     ;
 
-    this.state.contentHeader = (<span> 600-cell </span>);
+    this.state.contentHeader = (<span> 600-cell {'{'}3, 3, 5{'}'} </span>);
   }
 }
 

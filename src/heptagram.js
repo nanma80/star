@@ -61,6 +61,19 @@ class Heptagram extends App {
             hyperbolic tessellations are out of scope of this website.
             </div>
 
+            <h4>Explosion</h4>
+            <div>
+            We can "explode" the heptagram {'{'}7/3{'}'} by 
+            moving its edges away from the center.
+            The moving edges first form a different heptagram {'{'}7/2{'}'},
+            and then a heptagon {'{'}7{'}'}.
+            </div>
+            <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polygon/exploded_7_3.gif')} alt = 'static'/>
+                <figcaption>Exploded heptagram</figcaption>
+            </figure>
+            </div>
 
             <h4>General star polygons</h4>
             <div>
@@ -73,7 +86,7 @@ class Heptagram extends App {
     	)
     ;
 
-    this.state.contentHeader = (<span> Heptagrams </span>);
+    this.state.contentHeader = (<span> Heptagrams {'{'}7/2{'}'}, {'{'}7/3{'}'} </span>);
   }
 }
 

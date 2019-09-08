@@ -124,7 +124,7 @@ class Polyhedron_52_3 extends App {
     	)
     ;
 
-    this.state.contentHeader = (<span>Great stellated dodecahedron</span>);
+    this.state.contentHeader = (<span>Great stellated dodecahedron {'{'}5/2, 3{'}'}</span>);
   }
 }
 

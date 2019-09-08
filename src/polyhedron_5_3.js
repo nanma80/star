@@ -90,7 +90,7 @@ class Polyhedron_5_3 extends App {
     	)
     ;
 
-    this.state.contentHeader = (<span> Dodecahedron </span>);
+    this.state.contentHeader = (<span> Dodecahedron {'{'}5, 3{'}'} </span>);
   }
 }
 

@@ -151,6 +151,23 @@ class Pentagram extends App {
                 <div>
                 You will see how the notation generalize when we talk about <Link to='/heptagram'>heptagrams</Link> in the next page.
                 </div>
+
+                <h4>Explosion</h4>
+                <div>
+                We can "explode" the pentagram by moving its edges away from the center.
+                At some point, the moving edges form a pentagon.
+                In higher dimensions, we will explode the polyhedra and polytopes by moving
+                their faces or cells away from the center. We will see interesting connections
+                between star polytopes and non-star polytopes, just like the
+                connection we see now between the pentagram and the pentagon.
+                </div>
+                <div className = "figure-div">
+                <figure>
+                    <img src = {require('./images/polygon/exploded_5_2.gif')} alt = 'static'/>
+                    <figcaption>Exploded pentagram</figcaption>
+                </figure>
+                </div>
+
             </div>
 
 
@@ -158,7 +175,7 @@ class Pentagram extends App {
     	)
     ;
 
-    this.state.contentHeader = (<span> Pentagram </span>);
+    this.state.contentHeader = (<span> Pentagram {'{'}5/2{'}'} </span>);
   }
 }
 

@@ -192,8 +192,15 @@ class Polyhedron_5_3_52 extends App {
 
             <div>
             We can also see this relationship between the pentagon and the pentagram. 
-            If you explode a pentagram and move each edge outward away from the center,
+            If you explode a pentagram and move the edges away from the center,
             at some point they will form the pentagon.
+            </div>
+
+            <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polygon/exploded_5_2.gif')} alt = 'static'/>
+                <figcaption>Exploded pentagram</figcaption>
+            </figure>
             </div>
 
             <h4>Vertex figure</h4>

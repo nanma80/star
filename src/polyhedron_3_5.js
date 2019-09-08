@@ -78,7 +78,7 @@ class Polyhedron_3_5 extends App {
     	)
     ;
 
-    this.state.contentHeader = (<span> Icosahedron </span>);
+    this.state.contentHeader = (<span> Icosahedron {'{'}3, 5{'}'} </span>);
   }
 }
 

@@ -53,7 +53,7 @@ class Hexagram extends App {
     	)
     ;
 
-    this.state.contentHeader = (<span> Hexagram </span>);
+    this.state.contentHeader = (<span> Hexagram {'{'}6/2{'}'} </span>);
   }
 }
 

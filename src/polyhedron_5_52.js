@@ -134,7 +134,7 @@ class Polyhedron_5_52 extends App {
     	)
     ;
 
-    this.state.contentHeader = (<span> Great dodecahedron </span>);
+    this.state.contentHeader = (<span> Great dodecahedron {'{'}5, 5/2{'}'} </span>);
   }
 }
 

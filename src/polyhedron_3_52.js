@@ -115,7 +115,7 @@ class Polyhedron_3_52 extends App {
     	)
     ;
 
-    this.state.contentHeader = (<span> Great icosahedron </span>);
+    this.state.contentHeader = (<span> Great icosahedron {'{'}3, 5/2{'}'} </span>);
   }
 }
 

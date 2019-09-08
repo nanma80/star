@@ -181,12 +181,12 @@ class Polyhedron_5_3_52 extends App {
 
             <div className = "figure-div">
             <figure>
-                <img src = {require('./images/polytope_5_3_52/polytope_5_3_52_layers_2_5.gif')} alt = 'static'/>
-                <figcaption>Exploded view of {'{'}5, 3, 5/2{'}'}</figcaption>
+                <img src = {require('./images/polytope_5_3_52/polytope_5_3_52_diff_shapes_layers_2_2.gif')} alt = 'static'/>
+                <figcaption>Exploded view of Layer 2</figcaption>
             </figure>
             <figure>
-                <img src = {require('./images/polytope_5_3_3_cell120/polytope_5_3_3_cell120_layers_2_5.gif')} alt = 'static'/>
-                <figcaption>Exploded view of the 120-cell {'{'}5, 3, 3{'}'}</figcaption>
+                <img src = {require('./images/polytope_5_3_52/polytope_5_3_52_diff_shapes_layers_2_5.gif')} alt = 'static'/>
+                <figcaption>Exploded view of all layers</figcaption>
             </figure>
             </div>
 

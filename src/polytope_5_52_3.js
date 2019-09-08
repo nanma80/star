@@ -189,12 +189,12 @@ class Polyhedron_5_52_3 extends App {
 
             <div className = "figure-div">
             <figure>
-                <img src = {require('./images/polytope_5_52_3/polytope_5_52_3_layers_2_5.gif')} alt = 'static'/>
-                <figcaption>Exploded {'{'}5, 5/2, 3{'}'}</figcaption>
+                <img src = {require('./images/polytope_5_52_3/polytope_5_52_3_diff_shapes_layers_2_2.gif')} alt = 'static'/>
+                <figcaption>Exploded view of Layer 2</figcaption>
             </figure>
             <figure>
-                <img src = {require('./images/polytope_5_52_5/polytope_5_52_5_layers_2_5.gif')} alt = 'static'/>
-                <figcaption>Exploded {'{'}5, 5/2, 5{'}'}</figcaption>
+                <img src = {require('./images/polytope_5_52_3/polytope_5_52_3_diff_shapes_layers_2_5.gif')} alt = 'static'/>
+                <figcaption>Exploded view of all layers</figcaption>
             </figure>
             </div>
 

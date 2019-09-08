@@ -198,14 +198,15 @@ class Polyhedron_52_3_3 extends App {
 
             <div className = "figure-div">
             <figure>
-                <img src = {require('./images/polytope_52_3_3/polytope_52_3_3_layers_2_5.gif')} alt = 'static'/>
-                <figcaption>Exploded {'{'}5/2, 3, 3{'}'}</figcaption>
+                <img src = {require('./images/polytope_52_3_3/polytope_52_3_3_diff_shapes_layers_2_2.gif')} alt = 'static'/>
+                <figcaption>Exploded view of Layer 2</figcaption>
             </figure>
             <figure>
-                <img src = {require('./images/polytope_52_3_5/polytope_52_3_5_layers_2_5.gif')} alt = 'static'/>
-                <figcaption>Exploded {'{'}5/2, 3, 5{'}'}</figcaption>
+                <img src = {require('./images/polytope_52_3_3/polytope_52_3_3_diff_shapes_layers_2_5.gif')} alt = 'static'/>
+                <figcaption>Exploded view of all layers</figcaption>
             </figure>
             </div>
+
 
             <h4>Vertex figure</h4>
             <div className = "figure-div">

@@ -29,6 +29,7 @@ import Polytope_5_52_3 from './polytope_5_52_3';
 import Polytope_3_52_5 from './polytope_3_52_5';
 import Polytope_3_3_52 from './polytope_3_3_52';
 import Polytope_52_3_3 from './polytope_52_3_3';
+import Summary4D from './summary_4d';
 
 ReactDOM.render(
   <HashRouter basename='/'>
@@ -59,6 +60,7 @@ ReactDOM.render(
         <Route path='/polytope_3_52_5' component={Polytope_3_52_5} />
         <Route path='/polytope_3_3_52' component={Polytope_3_3_52} />
         <Route path='/polytope_52_3_3' component={Polytope_52_3_3} />
+        <Route path='/summary_4d' component={Summary4D} />
      </Switch>
   </HashRouter>,
   document.getElementById('root')

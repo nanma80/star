@@ -45,8 +45,9 @@ class Polyhedron_3_3_52 extends App {
             is such that the stellated cell touches another stellated cell from 
             somewhere in the other hemisphere. 
 
-            I know the angle between the two cell centers, seen from the origin, is
-            arccos((1 - 3*Sqrt(5))/8). However, I don't have a good way to
+            The angle between the centers of two adjacent cell centers, 
+            seen from the origin, is
+            arccos((1 - 3*Sqrt(5))/8). However, I don't know an intuitive way to
             describe the relationship between these two cells.
             </div>
             </li>
@@ -106,8 +107,6 @@ class Polyhedron_3_3_52 extends App {
             </figure>
             </div>
 
-            [Layer 4 is broken. Need to fix.]
-
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_3_3_52/polytope_3_3_52_layers_5_5.gif')} alt = 'static'/>
@@ -139,6 +138,51 @@ class Polyhedron_3_3_52 extends App {
 
             <ObservableEmbed name="{3,3,5/2}"/>
 
+            <h4>Comparison with the 600-cell</h4>
+            <div>
+            In the exploded view of {'{'}3, 3, 5/2{'}'}, 
+            at some point right after the explosion begins,
+            the cells were arranged just like in 
+            the 600-cell, {'{'}3, 3, 5{'}'}.
+
+            In the visualization above using vZome, if you set the 
+            "explode / Implode" slider to 34, you see the unexploded
+            projection of {'{'}3, 3, 5{'}'}. You can use two windows
+            to compare this polytope {'{'}3, 3, 5/2{'}'} with explode factor = 34 
+            and the 600-cell {'{'}3, 3, 5{'}'} with explode factor = 0.
+            </div>
+            <br/>
+            <div>
+            Here are the exploded views of Layer 1 for comparison.
+            </div>         
+            <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_3_3_52/polytope_3_3_52_layers_1_1.gif')} alt = 'static'/>
+                <figcaption>Exploded Layer 1 of {'{'}3, 3, 5/2{'}'}</figcaption>
+            </figure>
+            <figure>
+                <img src = {require('./images/polytope_3_3_5_cell600/polytope_3_3_5_cell600_vertex_explode.gif')} alt = 'static'/>
+                <figcaption>Exploded Layer 1 of {'{'}3, 3, 5{'}'}</figcaption>
+            </figure>
+            </div>
+
+            <div>
+            Below are the animations showing the partial 
+            explosion of {'{'}3, 3, 5/2{'}'} until it becomes {'{'}3, 3, 5{'}'}.
+            </div>
+
+            <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_3_3_52/polytope_3_3_52_diff_shapes_layers_1_1.gif')} alt = 'static'/>
+                <figcaption>Exploded view of Layer 1</figcaption>
+            </figure>
+            <figure>
+                <img src = {require('./images/polytope_3_3_52/polytope_3_3_52_diff_shapes_layers_1_8.gif')} alt = 'static'/>
+                <figcaption>Exploded view of all layers</figcaption>
+            </figure>
+            </div>
+
+
             <h4>Vertex figure</h4>
             <div className = "figure-div">
             <figure>
@@ -152,12 +196,13 @@ class Polyhedron_3_3_52 extends App {
             </div>
 
             <div>
-            [To be updated]
-            Each vertex is where 12 icosahedra meet. Each icosahedron brings 
-            a pentagon to the vertex figure of the polytope. 
-            The vertex figure is a great dodecahedron, which has 12 intersecting pentagonal faces.
-            The 12 cells meeting at a vertex, for example,
-            the north pole, are the second layer cells. 
+            Each vertex is where 20 tetrahedra meet. Each tetrahedron brings 
+            a triangle to the vertex figure of the polytope. 
+            The vertex figure is a great icosahedron 
+            with 20 intersecting triangular faces.
+            The 20 cells meeting at a vertex, for example,
+            the north pole, are the Layer 7 cells. This layer has the 
+            lowest latitude above the equator.
             </div>
     	</div>
     	)

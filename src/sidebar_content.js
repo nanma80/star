@@ -114,6 +114,8 @@ const SidebarContent = props => {
         <SidebarContentRow path='/polytope_52_3_3' currentPath={props.currentPath} text="{ 5/2, 3, 3 }"/>
         <SidebarContentRow path='/polytope_3_52_5' currentPath={props.currentPath} text="{ 3, 5/2, 5 }"/>
         <SidebarContentRow path='/polytope_3_3_52' currentPath={props.currentPath} text="{ 3, 3, 5/2 }"/>
+        <SidebarContentRow path='/summary_4d' currentPath={props.currentPath} text="Summary of stellation in 4D"/>
+
       </div>);
 
 

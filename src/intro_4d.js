@@ -48,25 +48,24 @@ class Intro4D extends App {
 
         <div className = "figure-div">
         <figure>
-            <img src = {require('./images/polytope_3_5_52/pov_whole_polytope_3_5_52.png')} alt = 'static'/>
-            <figcaption>{'{'}3, 5, 5/2{'}'}</figcaption>
-        </figure>
-        <figure>
             <img src = {require('./images/polytope_52_5_3/pov_whole_polytope_52_5_3.png')} alt = 'static'/>
             <figcaption>{'{'}5/2, 5, 3{'}'}</figcaption>
+        </figure>
+        <figure>
+            <img src = {require('./images/polytope_5_52_5/pov_whole_polytope_5_52_5.png')} alt = 'static'/>
+            <figcaption>{'{'}5, 5/2, 5{'}'}</figcaption>
         </figure>
         </div>
 
         <div className = "figure-div">
         <figure>
-            <img src = {require('./images/polytope_5_52_5/pov_whole_polytope_5_52_5.png')} alt = 'static'/>
-            <figcaption>{'{'}5, 5/2, 5{'}'}</figcaption>
+            <img src = {require('./images/polytope_52_3_5/pov_whole_polytope_52_3_5.png')} alt = 'static'/>
+            <figcaption>{'{'}5/2, 3, 5{'}'}</figcaption>
         </figure>
         <figure>
-            <img src = {require('./images/polytope_52_5_52/pov_whole_polytope_52_5_52.png')} alt = 'static'/>
-            <figcaption>{'{'}5/2, 5, 5/2{'}'}</figcaption>
+            <img src = {require('./images/polytope_3_5_52/pov_whole_polytope_3_5_52.png')} alt = 'static'/>
+            <figcaption>{'{'}3, 5, 5/2{'}'}</figcaption>
         </figure>
-
         </div>
 
         <div className = "figure-div">
@@ -75,8 +74,8 @@ class Intro4D extends App {
             <figcaption>{'{'}5, 3, 5/2{'}'}</figcaption>
         </figure>
         <figure>
-            <img src = {require('./images/polytope_52_3_5/pov_whole_polytope_52_3_5.png')} alt = 'static'/>
-            <figcaption>{'{'}5/2, 3, 5{'}'}</figcaption>
+            <img src = {require('./images/polytope_52_5_52/pov_whole_polytope_52_5_52.png')} alt = 'static'/>
+            <figcaption>{'{'}5/2, 5, 5/2{'}'}</figcaption>
         </figure>
         </div>
 
@@ -86,24 +85,22 @@ class Intro4D extends App {
             <figcaption>{'{'}5, 5/2, 3{'}'}</figcaption>
         </figure>
         <figure>
-            <img src = {require('./images/polytope_3_52_5/pov_whole_polytope_3_52_5.png')} alt = 'static'/>
-            <figcaption>{'{'}3, 5/2, 5{'}'}</figcaption>
-        </figure>
-        </div>
-
-        <div className = "figure-div">
-        <figure>
-            <img src = {require('./images/polytope_3_3_52/pov_whole_polytope_3_3_52.png')} alt = 'static'/>
-            <figcaption>{'{'}3, 3, 5/2{'}'}</figcaption>
-        </figure>
-        <figure>
             <img src = {require('./images/polytope_52_3_3/pov_whole_polytope_52_3_3.png')} alt = 'static'/>
             <figcaption>{'{'}5/2, 3, 3{'}'}</figcaption>
         </figure>
         </div>
 
+        <div className = "figure-div">
+        <figure>
+            <img src = {require('./images/polytope_3_52_5/pov_whole_polytope_3_52_5.png')} alt = 'static'/>
+            <figcaption>{'{'}3, 5/2, 5{'}'}</figcaption>
+        </figure>
+        <figure>
+            <img src = {require('./images/polytope_3_3_52/pov_whole_polytope_3_3_52.png')} alt = 'static'/>
+            <figcaption>{'{'}3, 3, 5/2{'}'}</figcaption>
+        </figure>
+        </div>
 
-        <br/>
         <div>
         All 10 regular star polytopes have the
         same H4 symmetry as

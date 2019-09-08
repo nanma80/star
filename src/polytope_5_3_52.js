@@ -156,7 +156,7 @@ class Polyhedron_5_3_52 extends App {
             In the visualization above using vZome, 
             if you set the "explode / Implode" slider to 32, you see the classical and unexploded
             projection of the 120-cell. You can use two windows
-            to compare {'{'}5, 3, 5/2{'}'} with explode factor = 32 
+            to compare this polytope {'{'}5, 3, 5/2{'}'} with explode factor = 32 
             and the 120-cell with explode factor = 0.
             </div>
             <br/>

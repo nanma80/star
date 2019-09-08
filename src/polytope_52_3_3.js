@@ -173,12 +173,12 @@ class Polyhedron_52_3_3 extends App {
             In the visualization above using vZome, if you set the 
             "explode / Implode" slider to 6 or 7, you see the unexploded
             projection of {'{'}5/2, 3, 5{'}'}. You can use two windows
-            to compare {'{'}5/2, 3, 3{'}'} with explode factor = 6 
+            to compare this polytope {'{'}5/2, 3, 3{'}'} with explode factor = 6 
             and {'{'}5/2, 3, 5{'}'} with explode factor = 0.
             </div>
             <br/>
             <div>
-            Here are the exploded views of Layer 2 and the whole polytopes for comparison.
+            Here are the exploded views of Layer 2 for comparison.
             </div>         
             <div className = "figure-div">
             <figure>

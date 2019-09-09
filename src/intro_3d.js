@@ -84,7 +84,7 @@ class Intro3D extends App {
 	</div>)
     ;
 
-    this.state.contentHeader = (<span>Overview of 3D star polyhedra</span>)
+    this.state.contentHeader = (<span>Overview of star polyhedra</span>)
   }
 }
 

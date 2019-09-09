@@ -90,14 +90,14 @@ const SidebarContent = props => {
         
         <SidebarDividerRow text="3D"/>
 
-        <SidebarContentRow path='/intro_3d' currentPath={props.currentPath} text="Overview of 3D star polyhedra"/>
+        <SidebarContentRow path='/intro_3d' currentPath={props.currentPath} text="Overview of star polyhedra"/>
         <SidebarContentRow path='/polyhedron_5_3' currentPath={props.currentPath} text="Dodecahedron"/>
         <SidebarContentRow path='/polyhedron_3_5' currentPath={props.currentPath} text="Icosahedron"/>
         <SidebarContentRow path='/polyhedron_52_5' currentPath={props.currentPath} text="Small stellated dodecahedron"/>
         <SidebarContentRow path='/polyhedron_5_52' currentPath={props.currentPath} text="Great dodecahedron"/>
         <SidebarContentRow path='/polyhedron_52_3' currentPath={props.currentPath} text="Great stellated dodecahedron"/>
         <SidebarContentRow path='/polyhedron_3_52' currentPath={props.currentPath} text="Great icosahedron"/>
-        <SidebarContentRow path='/summary_3d' currentPath={props.currentPath} text="Summary of stellation in 3D"/>
+        <SidebarContentRow path='/summary_3d' currentPath={props.currentPath} text="Summary of star polyhedra"/>
 
         <SidebarDividerRow text="4D"/>
         <SidebarContentRow path='/intro_4d' currentPath={props.currentPath} text="Overview of 4D star polytopes"/>
@@ -114,7 +114,7 @@ const SidebarContent = props => {
         <SidebarContentRow path='/polytope_52_3_3' currentPath={props.currentPath} text="{ 5/2, 3, 3 }"/>
         <SidebarContentRow path='/polytope_3_52_5' currentPath={props.currentPath} text="{ 3, 5/2, 5 }"/>
         <SidebarContentRow path='/polytope_3_3_52' currentPath={props.currentPath} text="{ 3, 3, 5/2 }"/>
-        <SidebarContentRow path='/summary_4d' currentPath={props.currentPath} text="Summary of stellation in 4D"/>
+        <SidebarContentRow path='/summary_4d' currentPath={props.currentPath} text="Summary of 4D star polytopes"/>
 
       </div>);
 

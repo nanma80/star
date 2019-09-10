@@ -14,16 +14,16 @@ class Summary3D extends App {
           .setDefaultEdgeLabel(function() { return {}; });
 
         g.setNode(0,  { 
-            label: "<a href=/#/Polyhedron_5_3>Regular dodecahedron {5, 3}</a>"
+            label: "<a href=/star/#/Polyhedron_5_3>Regular dodecahedron {5, 3}</a>"
             });
         g.setNode(1,  { 
-            label: "<a href=/#/Polyhedron_52_5>Small stellated dodecahedron {5/2, 5}</a>"
+            label: "<a href=/star/#/Polyhedron_52_5>Small stellated dodecahedron {5/2, 5}</a>"
             });
         g.setNode(2,  { 
-            label: "<a href=/#/Polyhedron_5_52>Great dodecahedron {5, 5/2}</a>"
+            label: "<a href=/star/#/Polyhedron_5_52>Great dodecahedron {5, 5/2}</a>"
             });
         g.setNode(3,  { 
-            label: "<a href=/#/Polyhedron_52_3>Great stellated dodecahedron {5/2, 3}</a>"
+            label: "<a href=/star/#/Polyhedron_52_3>Great stellated dodecahedron {5/2, 3}</a>"
             });
 
         g.setEdge(0, 1, {color: "red"});

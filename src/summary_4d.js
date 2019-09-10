@@ -1,6 +1,5 @@
 import React from "react";
 import App from './App';
-import { Link } from 'react-router-dom';
 import * as d3 from 'd3';
 import dagreD3 from 'dagre-d3';
 
@@ -17,43 +16,43 @@ class Summary4D extends App {
     var gen2color = "#fdd";
 
         g.setNode("5_3_3",  { 
-            label: "<a href=/#/polytope_5_3_3>{5, 3, 3}</a>"
+            label: "<a href=/star/#/polytope_5_3_3>{5, 3, 3}</a>"
             , color: gen1color
             });
         g.setNode("52_5_3",  { 
-            label: "<a href=/#/polytope_52_5_3>{5/2, 5, 3}</a>"
+            label: "<a href=/star/#/polytope_52_5_3>{5/2, 5, 3}</a>"
             , color: gen1color
             });
         g.setNode("5_52_5",  { 
-            label: "<a href=/#/polytope_5_52_5>{5, 5/2, 5}</a>"
+            label: "<a href=/star/#/polytope_5_52_5>{5, 5/2, 5}</a>"
             , color: gen1color
             });
         g.setNode("52_3_5",  { 
-            label: "<a href=/#/polytope_52_3_5>{5/2, 3, 5}</a>"
+            label: "<a href=/star/#/polytope_52_3_5>{5/2, 3, 5}</a>"
             , color: gen1color
             });
         g.setNode("3_5_52",  { 
-            label: "<a href=/#/polytope_3_5_52>{3, 5, 5/2}</a>"
+            label: "<a href=/star/#/polytope_3_5_52>{3, 5, 5/2}</a>"
             , color: gen1color
             });
         g.setNode("5_3_52",  { 
-            label: "<a href=/#/polytope_5_3_52>{5, 3, 5/2}</a>"
+            label: "<a href=/star/#/polytope_5_3_52>{5, 3, 5/2}</a>"
             , color: gen2color
             });
         g.setNode("52_5_52",  { 
-            label: "<a href=/#/polytope_52_5_52>{5/2, 5, 5/2}</a>"
+            label: "<a href=/star/#/polytope_52_5_52>{5/2, 5, 5/2}</a>"
             , color: gen2color
             });
         g.setNode("5_52_3",  { 
-            label: "<a href=/#/polytope_5_52_3>{5, 5/2, 3}</a>"
+            label: "<a href=/star/#/polytope_5_52_3>{5, 5/2, 3}</a>"
             , color: gen2color
             });
         g.setNode("52_3_3",  { 
-            label: "<a href=/#/polytope_52_3_3>{5/2, 3, 3}</a>"
+            label: "<a href=/star/#/polytope_52_3_3>{5/2, 3, 3}</a>"
             , color: gen2color
             });
         g.setNode("3_52_5",  { 
-            label: "<a href=/#/polytope_3_52_5>{3, 5/2, 5}</a>"
+            label: "<a href=/star/#/polytope_3_52_5>{3, 5/2, 5}</a>"
             , color: gen2color
             });
 

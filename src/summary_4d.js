@@ -12,8 +12,8 @@ class Summary4D extends App {
           .setGraph({})
           .setDefaultEdgeLabel(function() { return {}; });
 
-    var gen1color = "#ddf";
-    var gen2color = "#fdd";
+        var gen1color = "#ddf";
+        var gen2color = "#fdd";
 
         g.setNode("5_3_3",  { 
             label: "<a href=/star/#/polytope_5_3_3>{5, 3, 3}</a>"
@@ -166,6 +166,13 @@ class Summary4D extends App {
         {'{'}3, 3, 5{'}'}, {'{'}3, 5, 5/2{'}'}, {'{'}5, 5/2, 5{'}'}, {'{'}5, 3, 5/2{'}'}.
         <div className = "figure-div">
             <figure>
+                <img src = {require('./images/polytope_3_3_5_cell600/pov_wireframe_polytope_3_3_5_cell600.png')} alt = 'static'/>
+                <figcaption>The common wireframe shared by all polytopes in Group 1</figcaption>
+            </figure>
+        </div>
+
+        <div className = "figure-div">
+            <figure>
                 <img src = {require('./images/polytope_3_3_5_cell600/pov_whole_polytope_3_3_5_cell600.png')} alt = 'static'/>
                 <figcaption>{'{'}3, 3, 5{'}'}</figcaption>
             </figure>
@@ -191,6 +198,13 @@ class Summary4D extends App {
         {'{'}3, 3, 5/2{'}'}, {'{'}3, 5/2, 5{'}'}, {'{'}5/2, 5, 5/2{'}'}, {'{'}5/2, 3, 5{'}'}.
         <div className = "figure-div">
             <figure>
+                <img src = {require('./images/polytope_3_3_52/pov_wireframe_polytope_3_3_52.png')} alt = 'static'/>
+                <figcaption>The common wireframe shared by all polytopes in Group 2</figcaption>
+            </figure>
+        </div>
+
+        <div className = "figure-div">
+            <figure>
                 <img src = {require('./images/polytope_3_3_52/pov_whole_polytope_3_3_52.png')} alt = 'static'/>
                 <figcaption>{'{'}3, 3, 5/2{'}'}</figcaption>
             </figure>
@@ -214,6 +228,13 @@ class Summary4D extends App {
 
         <li>
         {'{'}5/2, 5, 3{'}'}, {'{'}5, 5/2, 3{'}'}.
+        <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_52_5_3/pov_wireframe_polytope_52_5_3.png')} alt = 'static'/>
+                <figcaption>The common wireframe shared by both polytopes in Group 3</figcaption>
+            </figure>
+        </div>
+
         <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_52_5_3/pov_whole_polytope_52_5_3.png')} alt = 'static'/>

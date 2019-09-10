@@ -193,6 +193,13 @@ class Summary3D extends App {
         Their difference is in the faces. They share the same edge arrangement.
         </div>
         <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/Icosahedron/pov_wireframe_Icosahedron.png')} alt = 'static'/>
+                <figcaption>The common wireframe shared by the icosahedron and the great dodecahedron</figcaption>
+            </figure>
+        </div>
+
+        <div className = "figure-div">
         <figure>
             <img src = {require('./images/Icosahedron/pov_whole_Icosahedron.png')} alt = 'static'/>
             <figcaption>Icosahedron</figcaption>
@@ -205,6 +212,13 @@ class Summary3D extends App {
         <div>
         Similarly, the small stellated dodecahedron and the great icosahedron share the same edge arrangement.
         </div>
+        <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/SmallStellatedDodecahedron/pov_wireframe_SmallStellatedDodecahedron.png')} alt = 'static'/>
+                <figcaption>The common wireframe shared by the small stellated dodecahedron and the great icosahedron</figcaption>
+            </figure>
+        </div>
+
         <div className = "figure-div">
         <figure>
             <img src = {require('./images/SmallStellatedDodecahedron/pov_whole_SmallStellatedDodecahedron.png')} alt = 'static'/>

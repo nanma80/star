@@ -13,52 +13,90 @@ class Summary4D extends App {
           .setGraph({})
           .setDefaultEdgeLabel(function() { return {}; });
 
-        g.setNode(0,  { 
-            label: "<a href=/#/Polyhedron_5_3>Regular dodecahedron</a>"
+    var gen1color = "#ddf";
+    var gen2color = "#fdd";
+
+        g.setNode("5_3_3",  { 
+            label: "<a href=/#/polytope_5_3_3>{5, 3, 3}</a>"
+            , color: gen1color
             });
-        g.setNode(1,  { 
-            label: "<a href=/#/Polyhedron_52_5>Small stellated dodecahedron {5/2, 5}</a>"
+        g.setNode("52_5_3",  { 
+            label: "<a href=/#/polytope_52_5_3>{5/2, 5, 3}</a>"
+            , color: gen1color
             });
-        g.setNode(2,  { 
-            label: "<a href=/#/Polyhedron_5_52>Great dodecahedron {5, 5/2}</a>"
+        g.setNode("5_52_5",  { 
+            label: "<a href=/#/polytope_5_52_5>{5, 5/2, 5}</a>"
+            , color: gen1color
             });
-        g.setNode(3,  { 
-            label: "<a href=/#/Polyhedron_52_3>Great stellated dodecahedron {5/2, 3}</a>"
+        g.setNode("52_3_5",  { 
+            label: "<a href=/#/polytope_52_3_5>{5/2, 3, 5}</a>"
+            , color: gen1color
+            });
+        g.setNode("3_5_52",  { 
+            label: "<a href=/#/polytope_3_5_52>{3, 5, 5/2}</a>"
+            , color: gen1color
+            });
+        g.setNode("5_3_52",  { 
+            label: "<a href=/#/polytope_5_3_52>{5, 3, 5/2}</a>"
+            , color: gen2color
+            });
+        g.setNode("52_5_52",  { 
+            label: "<a href=/#/polytope_52_5_52>{5/2, 5, 5/2}</a>"
+            , color: gen2color
+            });
+        g.setNode("5_52_3",  { 
+            label: "<a href=/#/polytope_5_52_3>{5, 5/2, 3}</a>"
+            , color: gen2color
+            });
+        g.setNode("52_3_3",  { 
+            label: "<a href=/#/polytope_52_3_3>{5/2, 3, 3}</a>"
+            , color: gen2color
+            });
+        g.setNode("3_52_5",  { 
+            label: "<a href=/#/polytope_3_52_5>{3, 5/2, 5}</a>"
+            , color: gen2color
             });
 
-        g.setEdge(0, 1, {label: "Extend edges"});
-        g.setEdge(1, 2, {label: "Take convex hull of faces"});
-        g.setEdge(2, 3, {label: "Extend edges"});
+        g.setEdge("5_3_3", "52_5_3", {color: "red"});
+        g.setEdge("52_5_3", "5_52_5", {color: "blue"});
+        g.setEdge("5_52_5", "52_3_5", {color: "red"});
+        g.setEdge("5_52_5", "3_5_52", {color: "green"});
+        g.setEdge("52_3_5", "5_3_52", {color: "purple"});
+        g.setEdge("5_3_52", "52_5_52", {color: "red"});
+        g.setEdge("52_5_52", "5_52_3", {color: "blue"});
+        g.setEdge("5_52_3", "52_3_3", {color: "red"});
+        g.setEdge("52_5_52", "3_52_5", {color: "green"});
 
 
         g.nodes().forEach(function(v) {
             var node = g.node(v);
-            node.rx = node.ry = 5;
+            node.rx = node.ry = 10;
+            node.width = 70;
+            node.height = 20;
+            node.alignmentBaseline = "center";
             node.labelType = "html";
-            node.style = "fill: none; font-weight: bold";
+            node.style = "fill: " + node.color + "; font-weight: bold";
         });
 
         g.edges().forEach(function(e) {
             var edge = g.edge(e);
-            var color = "black";
-            if (edge.label === "Extend edges") {
-                color = "red";
-            }
-            edge.labelStyle = "fill: " + color;
-            edge.style = "stroke: " + color;
-            edge.arrowheadStyle = "fill: " + color;
-
+            edge.style = "fill: white; stroke-width: 2px; stroke: " + edge.color+ ";";
+            edge.arrowheadStyle = "fill: " + edge.color + ";";
+            edge.lineInterpolate = 'basis';
         });
-
+        
         var render = new dagreD3.render();
         var svgCanvas = d3.select(this.chartRef.current)
             .append("svg")
-            .attr("width", 350)
-            .attr("height", 400)
-            .style("border", "1px solid black");
+            .attr("width", 300)
+            .attr("height", 800);
         var inner = svgCanvas.append("g");
 
+        d3.selectAll(".node .label")
+            .attr("text-anchor", "middle");
+
         render(inner, g);
+
         var xCenterOffset = (svgCanvas.attr("width") - g.graph().width) / 2;
         inner.attr("transform", "translate(" + xCenterOffset + ", 20)");
         svgCanvas.attr("height", g.graph().height + 40);
@@ -74,142 +112,196 @@ class Summary4D extends App {
     super(props);
 
     this.state.content = (<div>
-        <h4>Relationship among the convex dodecahedron and the three stellations</h4>
+        <h4>Relationship among the 120-cell and the 9 stellations</h4>
 
         <div>
-        Before moving on to 4D, let us summarize the stellation process among 
-        the four star polyhedra. Except for the great icosahedron, which is a 
-        stellated icosahedron,
-        the other 
-        three polyhedra can be constructed by stellating the regular dodecahedron.
-        The relationship among the dodecahedron and the stellations can be summarized 
-        as follows.
+        Among the 10 star polytopes in 4D, 9 can be constructed by stellating the 
+        120-cell, 1 can be constructed by stellating the 600-cell. Let us 
+        summarize the stellation process from the 120-cell. All the steps are 
+        already explained in the individual pages. Let us view all of them in a chart.
         </div>
 
-        <div className = "figure-div">
-        <figure>
-            <div ref={this.chartRef} className = 'chart-div'></div>
-            <figcaption>Connections among the dodecahedron and its stellations</figcaption>
-        </figure>
-        <figure>
-            <img src = {require('./images/polygon/pentagram_inside_outside_2.png')} alt = 'static'/>
-            <figcaption>Connections among the faces of 
-            <br/>the dodecahedron and its stellations</figcaption>
-        </figure>
-        </div>
+
+        <div ref={this.chartRef} className = 'chart-div'></div>
+        <figcaption>
+            Connections among the 120-cell and its stellations.
+        </figcaption>
+
+        <br/>
         <div>
-        If we start from a dodecahedron and focus on one of the pentagonal faces, we can
-        construct the faces of the stellated polyhedra in the image above.
-        <ul>
+        In this
+        chart, <span style={{color: "red"}}>the red arrows mean extending edges 
+        so that a pentagon becomes a pentagram</span>. <span style={{color: "blue"}}>The 
+        blue arrows mean taking the convex hull of pentagramic faces
+        so that they become pentagons</span>. <span style={{color: "green"}}>The 
+        green arrows mean replacing the cells by 
+        the other cells with the same edge arrangement</span>. <span style={{color: "purple"}}>The 
+        purple arrow means taking the convex hull of cells
+        so that star polyhedra become convex polyhedra</span>. 
+        </div>
+        <br/>
+        <div>
+        <span style={{backgroundColor: "#ddf"}}>The nodes with light blue background 
+         represent polytopes in the first generation</span>. <span style={{backgroundColor: "#fdd"}}>
+        The nodes with light red background 
+        represent polytopes in the second generation</span>. 
+        </div>
+        <br/>
+        <div>
+        One may see that the structure between the nodes and 
+        the edges in first and the second generations 
+        are the same. If you explode a polytope in the second generation partially,
+        at some point, it becomes the counterpart in the first generation. The only
+        exception is {'{'}3, 5, 5/2{'}'} and {'{'}3, 5/2, 5{'}'} because they
+        don't have the same cells.
+        </div>
+
+        <h4>Categorized by edge arrangements</h4>
+
+        <div>
+        If we only consider the edges of the polytopes and look at them as wireframes, just
+        like the vZome models,
+        we see three groups. The polytopes in each group share the same edge arrangement.
+        <ol>
         <li>
-        The face of the dodecahedron is the red pentagon in the middle. 
+        {'{'}3, 3, 5{'}'}, {'{'}3, 5, 5/2{'}'}, {'{'}5, 5/2, 5{'}'}, {'{'}5, 3, 5/2{'}'}.
+        <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_3_3_5_cell600/pov_whole_polytope_3_3_5_cell600.png')} alt = 'static'/>
+                <figcaption>{'{'}3, 3, 5{'}'}</figcaption>
+            </figure>
+            <figure>
+                <img src = {require('./images/polytope_3_5_52/pov_whole_polytope_3_5_52.png')} alt = 'static'/>
+                <figcaption>{'{'}3, 5, 5/2{'}'}</figcaption>
+            </figure>
+        </div>
+
+        <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_5_52_5/pov_whole_polytope_5_52_5.png')} alt = 'static'/>
+                <figcaption>{'{'}5, 5/2, 5{'}'}</figcaption>
+            </figure>
+            <figure>
+                <img src = {require('./images/polytope_5_3_52/pov_whole_polytope_5_3_52.png')} alt = 'static'/>
+                <figcaption>{'{'}5, 3, 5/2{'}'}</figcaption>
+            </figure>
+        </div>
         </li>
+
         <li>
-        In the first
-        stellation, we extend the edges to form the blue pentagram. The polyhedron is 
-        the small stellated dodecahedron.
+        {'{'}3, 3, 5/2{'}'}, {'{'}3, 5/2, 5{'}'}, {'{'}5/2, 5, 5/2{'}'}, {'{'}5/2, 3, 5{'}'}.
+        <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_3_3_52/pov_whole_polytope_3_3_52.png')} alt = 'static'/>
+                <figcaption>{'{'}3, 3, 5/2{'}'}</figcaption>
+            </figure>
+            <figure>
+                <img src = {require('./images/polytope_3_52_5/pov_whole_polytope_3_52_5.png')} alt = 'static'/>
+                <figcaption>{'{'}3, 5/2, 5{'}'}</figcaption>
+            </figure>
+        </div>
+
+        <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_52_5_52/pov_whole_polytope_52_5_52.png')} alt = 'static'/>
+                <figcaption>{'{'}5/2, 5, 5/2{'}'}</figcaption>
+            </figure>
+            <figure>
+                <img src = {require('./images/polytope_52_3_5/pov_whole_polytope_52_3_5.png')} alt = 'static'/>
+                <figcaption>{'{'}5/2, 3, 5{'}'}</figcaption>
+            </figure>
+        </div>
         </li>
+
         <li>
-        In the second
-        stellation, we construct the convex hull of the blue pentagram to get
-        the yellow pentagon. The polyhedron is 
-        the great dodecahedron.
+        {'{'}5/2, 5, 3{'}'}, {'{'}5, 5/2, 3{'}'}.
+        <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_52_5_3/pov_whole_polytope_52_5_3.png')} alt = 'static'/>
+                <figcaption>{'{'}5/2, 5, 3{'}'}</figcaption>
+            </figure>
+            <figure>
+                <img src = {require('./images/polytope_5_52_3/pov_whole_polytope_5_52_3.png')} alt = 'static'/>
+                <figcaption>{'{'}5, 5/2, 3{'}'}</figcaption>
+            </figure>
+        </div>
         </li>
+        </ol>
+        </div>
+
+
+        <h4>Categorized by face arrangements</h4>
+
+        <div>
+        If we only consider the faces of the polytopes but ignore the cells,
+        we see four pairs. Each pair of polytopes shares the same face arrangement.
+        If two polytopes share the same face arrangement, they necessarily share the same
+        edges. Actually, the four pairs belong to the first two groups of polytopes
+        with the same edge arrangements.
+        <ol>
         <li>
-        In the third
-        stellation, we extend the edges of the yellow pentagon to form the purple
-        pentagram. The polyhedron is 
-        the great stellated dodecahedron.
+        {'{'}3, 3, 5{'}'}, {'{'}3, 5, 5/2{'}'}.
+        <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_3_3_5_cell600/pov_whole_polytope_3_3_5_cell600.png')} alt = 'static'/>
+                <figcaption>{'{'}3, 3, 5{'}'}</figcaption>
+            </figure>
+            <figure>
+                <img src = {require('./images/polytope_3_5_52/pov_whole_polytope_3_5_52.png')} alt = 'static'/>
+                <figcaption>{'{'}3, 5, 5/2{'}'}</figcaption>
+            </figure>
+        </div>
         </li>
-        </ul>
-        </div>
 
-        <div>
-        See the following images for the whole polyhedra. In each stellation image,
-        I am only showing the extension or addition of one vertex or one face to keep
-        the image simple.
-        </div>
-
+        <li>
+        {'{'}5, 5/2, 5{'}'}, {'{'}5, 3, 5/2{'}'}.
         <div className = "figure-div">
-        <figure>
-            <img src = {require('./images/Dodecahedron/pov_whole_Dodecahedron.png')} alt = 'static'/>
-            <figcaption>Step 0: <Link to='/Polyhedron_5_3'>regular dodecahedron</Link></figcaption>
-        </figure>
+            <figure>
+                <img src = {require('./images/polytope_5_52_5/pov_whole_polytope_5_52_5.png')} alt = 'static'/>
+                <figcaption>{'{'}5, 5/2, 5{'}'}</figcaption>
+            </figure>
+            <figure>
+                <img src = {require('./images/polytope_5_3_52/pov_whole_polytope_5_3_52.png')} alt = 'static'/>
+                <figcaption>{'{'}5, 3, 5/2{'}'}</figcaption>
+            </figure>
         </div>
+        </li>
 
+
+        <li>
+        {'{'}3, 3, 5/2{'}'}, {'{'}3, 5/2, 5{'}'}.
         <div className = "figure-div">
-        <figure>
-            <img src = {require('./images/Dodecahedron/stellated_dodecahedron.png')} alt = 'static'/>
-            <figcaption>From 0 to 1: stellating the dodecahedron</figcaption>
-        </figure>
-        <figure>
-            <img src = {require('./images/SmallStellatedDodecahedron/pov_whole_SmallStellatedDodecahedron.png')} alt = 'static'/>
-            <figcaption>Step 1: <Link to='/Polyhedron_52_5'>small stellated dodecahedron {'{'}5/2, 5{'}'}</Link></figcaption>
-        </figure>
+            <figure>
+                <img src = {require('./images/polytope_3_3_52/pov_whole_polytope_3_3_52.png')} alt = 'static'/>
+                <figcaption>{'{'}3, 3, 5/2{'}'}</figcaption>
+            </figure>
+            <figure>
+                <img src = {require('./images/polytope_3_52_5/pov_whole_polytope_3_52_5.png')} alt = 'static'/>
+                <figcaption>{'{'}3, 5/2, 5{'}'}</figcaption>
+            </figure>
         </div>
+        </li>
 
+        <li>
+        {'{'}5/2, 5, 5/2{'}'}, {'{'}5/2, 3, 5{'}'}.
         <div className = "figure-div">
-        <figure>
-            <img src = {require('./images/SmallStellatedDodecahedron/stellated_dodecahedron_4.png')} alt = 'static'/>
-            <figcaption>From 1 to 2: stellating the small stellated dodecahedron</figcaption>
-        </figure>
-        <figure>
-            <img src = {require('./images/GreatDodecahedron/pov_whole_GreatDodecahedron.png')} alt = 'static'/>
-            <figcaption>Step 2: <Link to='/Polyhedron_5_52'>great dodecahedron {'{'}5, 5/2{'}'}</Link></figcaption>
-        </figure>
+            <figure>
+                <img src = {require('./images/polytope_52_5_52/pov_whole_polytope_52_5_52.png')} alt = 'static'/>
+                <figcaption>{'{'}5/2, 5, 5/2{'}'}</figcaption>
+            </figure>
+            <figure>
+                <img src = {require('./images/polytope_52_3_5/pov_whole_polytope_52_3_5.png')} alt = 'static'/>
+                <figcaption>{'{'}5/2, 3, 5{'}'}</figcaption>
+            </figure>
+        </div>
+        </li>
+        </ol>
         </div>
 
-        <div className = "figure-div">
-        <figure>
-            <img src = {require('./images/GreatDodecahedron/stellated_dodecahedron_3.png')} alt = 'static'/>
-            <figcaption>From 2 to 3: stellating the great dodecahedron</figcaption>
-        </figure>
-        <figure>
-            <img src = {require('./images/GreatStellatedDodecahedron/pov_whole_GreatStellatedDodecahedron.png')} alt = 'static'/>
-            <figcaption>Step 3: <Link to='/Polyhedron_52_3'>great stellated dodecahedron {'{'}5/2, 3{'}'}</Link></figcaption>
-        </figure>
-        </div>
-
-
-        <div>
-        At the end, I'd like to mention the great icosahedron. It is the only stellation 
-        of the regular icosahedron as a regular star polyhedron. If you choose to 
-        stellate the icosahedron in other ways, you may get star polyhedra with 
-        non-regular faces, or non-regular vertex figures, or a compound.
-        </div>
-
-        <h4>Categorized by edge arrangement</h4>
-        <div>
-        If we only consider the edges of the polyhedra, we see that the convex regular icosahedron and the great dodecahedron are the same.
-        Their difference is in the faces. They share the same edge arrangement.
-        </div>
-        <div className = "figure-div">
-        <figure>
-            <img src = {require('./images/Icosahedron/pov_whole_Icosahedron.png')} alt = 'static'/>
-            <figcaption>Icosahedron</figcaption>
-        </figure>
-        <figure>
-            <img src = {require('./images/GreatDodecahedron/pov_whole_GreatDodecahedron.png')} alt = 'static'/>
-            <figcaption>Great dodecahedron {'{'}5, 5/2{'}'}</figcaption>
-        </figure>
-        </div>
-        <div>
-        Similarly, the small stellated dodecahedron and the great icosahedron share the same edge arrangement.
-        </div>
-        <div className = "figure-div">
-        <figure>
-            <img src = {require('./images/SmallStellatedDodecahedron/pov_whole_SmallStellatedDodecahedron.png')} alt = 'static'/>
-            <figcaption>Small stellated dodecahedron {'{'}5/2, 5{'}'}</figcaption>
-        </figure>
-        <figure>
-            <img src = {require('./images/GreatIcosahedron/pov_whole_GreatIcosahedron.png')} alt = 'static'/>
-            <figcaption>Great icosahedron {'{'}3, 5/2{'}'}</figcaption>
-        </figure>
-        </div>
     </div>)
     ;
 
-    this.state.contentHeader = (<span>Summary of 4D star polytopes</span>)
+    this.state.contentHeader = (<span>Summary of star polyhedra</span>)
   }
 }
 

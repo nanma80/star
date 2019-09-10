@@ -14,7 +14,7 @@ class Summary3D extends App {
           .setDefaultEdgeLabel(function() { return {}; });
 
         g.setNode(0,  { 
-            label: "<a href=/#/Polyhedron_5_3>Regular dodecahedron</a>"
+            label: "<a href=/#/Polyhedron_5_3>Regular dodecahedron {5, 3}</a>"
             });
         g.setNode(1,  { 
             label: "<a href=/#/Polyhedron_52_5>Small stellated dodecahedron {5/2, 5}</a>"
@@ -26,36 +26,32 @@ class Summary3D extends App {
             label: "<a href=/#/Polyhedron_52_3>Great stellated dodecahedron {5/2, 3}</a>"
             });
 
-        g.setEdge(0, 1, {label: "Extend edges"});
-        g.setEdge(1, 2, {label: "Take convex hull of faces"});
-        g.setEdge(2, 3, {label: "Extend edges"});
+        g.setEdge(0, 1, {color: "red"});
+        g.setEdge(1, 2, {color: "blue"});
+        g.setEdge(2, 3, {color: "red"});
 
 
         g.nodes().forEach(function(v) {
             var node = g.node(v);
-            node.rx = node.ry = 5;
+            node.rx = node.ry = 10;
+            node.width = 280;
+            node.height = 30;
             node.labelType = "html";
-            node.style = "fill: none; font-weight: bold";
+            node.style = "fill: #ddf; font-weight: bold";
         });
 
         g.edges().forEach(function(e) {
             var edge = g.edge(e);
-            var color = "black";
-            if (edge.label === "Extend edges") {
-                color = "red";
-            }
-            edge.labelStyle = "fill: " + color;
-            edge.style = "stroke: " + color;
-            edge.arrowheadStyle = "fill: " + color;
-
+            edge.labelStyle = "fill: " + edge.color;
+            edge.style = "stroke-width: 2px; stroke: " + edge.color;
+            edge.arrowheadStyle = "fill: " + edge.color;
         });
 
         var render = new dagreD3.render();
         var svgCanvas = d3.select(this.chartRef.current)
             .append("svg")
-            .attr("width", 350)
-            .attr("height", 400)
-            .style("border", "1px solid black");
+            .attr("width", 300)
+            .attr("height", 400);
         var inner = svgCanvas.append("g");
 
         render(inner, g);
@@ -86,20 +82,33 @@ class Summary3D extends App {
         as follows.
         </div>
 
+        <div ref={this.chartRef} className = 'chart-div'></div>
+        <figcaption>
+            Connections among the dodecahedron and its stellations.
+        </figcaption>
+
+        <br/>
+        <div>
+        In this
+        chart, <span style={{color: "red"}}>the red arrows mean extending edges 
+        so that a pentagon becomes a pentagram</span>. <span style={{color: "blue"}}>The 
+        blue arrow means taking the convex hull
+        so that a pentagram becomes a pentagon.</span>
+        </div>
+
+
+        <br/>
+        <div>
+        If we start from a dodecahedron and focus on one of the faces, we can
+        construct the faces of the stellated polyhedra in the image below.
         <div className = "figure-div">
-        <figure>
-            <div ref={this.chartRef} className = 'chart-div'></div>
-            <figcaption>Connections among the dodecahedron and its stellations</figcaption>
-        </figure>
         <figure>
             <img src = {require('./images/polygon/pentagram_inside_outside_2.png')} alt = 'static'/>
             <figcaption>Connections among the faces of 
             <br/>the dodecahedron and its stellations</figcaption>
         </figure>
         </div>
-        <div>
-        If we start from a dodecahedron and focus on one of the pentagonal faces, we can
-        construct the faces of the stellated polyhedra in the image above.
+
         <ul>
         <li>
         The face of the dodecahedron is the red pentagon in the middle. 
@@ -178,7 +187,7 @@ class Summary3D extends App {
         non-regular faces, or non-regular vertex figures, or a compound.
         </div>
 
-        <h4>Categorized by edge arrangement</h4>
+        <h4>Categorized by edge arrangements</h4>
         <div>
         If we only consider the edges of the polyhedra, we see that the convex regular icosahedron and the great dodecahedron are the same.
         Their difference is in the faces. They share the same edge arrangement.

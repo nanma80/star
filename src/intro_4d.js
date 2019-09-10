@@ -121,6 +121,19 @@ class Intro4D extends App {
             <figcaption>600-cell {'{'}3, 3, 5{'}'}</figcaption>
         </figure>
         </div>
+        <div>
+        When I render images for polyhedra and 
+        polytopes in this website, I use colors to indicate the shape of polyhedra or cells. 
+        Here are the shapes with 
+        colors: <span style={{color: "red"}}>dodecahedron
+        </span>, <span style={{color: "green"}}>icosahedron
+        </span>, <span style={{color: "cyan"}}>tetrahedron
+        </span>, <span style={{color: "blue"}}>small stellated dodecahedron
+        </span>, <span style={{color: "yellow"}}>great dodecahedron
+        </span>, <span style={{color: "magenta"}}>great stellated dodecahedron
+        </span>, and <span style={{color: "orange"}}>great icosahedron
+        </span>.
+        </div>
 
 	</div>)
     ;

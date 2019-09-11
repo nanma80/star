@@ -7,6 +7,23 @@ class Summary4D extends App {
 
   chartRef = React.createRef();
 
+  useZoomWorkaround = () => {
+    var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+    return window.devicePixelRatio > 1 && isChrome;
+  };
+
+  zoomWorkaroundBeforeDagreRender = (svg) => {
+    if(this.useZoomWorkaround())  {
+        svg.style.zoom = 1 / window.devicePixelRatio;
+    }
+  };
+
+  zoomWorkaroundAfterDagreRender = (svg) => {
+    if(this.useZoomWorkaround())  {
+        svg.style.zoom = 1;
+    }
+  };
+
   drawChart = () => {
     var g = new dagreD3.graphlib.Graph()
           .setGraph({nodesep: 20, ranker:"tight-tree"})
@@ -93,7 +110,11 @@ class Summary4D extends App {
         d3.selectAll(".node .label")
             .attr("text-anchor", "middle");
 
+        var svg = document.getElementsByTagName('svg')[0];
+        this.zoomWorkaroundBeforeDagreRender(svg);
         render(inner, g);
+        this.zoomWorkaroundAfterDagreRender(svg);
+
 
         var xCenterOffset = (svgCanvas.attr("width") - g.graph().width) / 2;
         inner.attr("transform", "translate(" + xCenterOffset + ", 20)");
@@ -113,8 +134,8 @@ class Summary4D extends App {
         <h4>Relationship among the 120-cell and the 9 stellations</h4>
 
         <div>
-        Among the 10 star polytopes in 4D, 9 can be constructed by stellating the 
-        120-cell, 1 can be constructed by stellating the 600-cell. Let us 
+        Among the ten star polytopes in 4D, nine can be constructed by stellating the 
+        120-cell, one can be constructed by stellating the 600-cell. Let us 
         summarize the stellation process from the 120-cell. All the steps are 
         already explained in the individual pages. Let us view all of them in a chart.
         </div>
@@ -153,8 +174,8 @@ class Summary4D extends App {
         </div>
         <br/>
         <div>
-        If we ignore the icosahedral polytopes, 
-        {'{'}3, 5/2, 5{'}'} and {'{'}3, 5, 5/2{'}'},
+        If we ignore the icosahedral 
+        polytopes, {'{'}3, 5/2, 5{'}'} and {'{'}3, 5, 5/2{'}'},
         the structure between the nodes and 
         the edges in first and the second generations 
         are the same. If you explode a polytope in 

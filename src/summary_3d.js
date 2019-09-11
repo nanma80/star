@@ -8,6 +8,24 @@ class Summary3D extends App {
 
   chartRef = React.createRef();
 
+  useZoomWorkaround = () => {
+    var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+    return window.devicePixelRatio > 1 && isChrome;
+  };
+
+  zoomWorkaroundBeforeDagreRender = (svg) => {
+    if(this.useZoomWorkaround())  {
+        svg.style.zoom = 1 / window.devicePixelRatio;
+    }
+  };
+
+  zoomWorkaroundAfterDagreRender = (svg) => {
+    if(this.useZoomWorkaround())  {
+        svg.style.zoom = 1;
+    }
+  };
+
+
   drawChart = () => {
     var g = new dagreD3.graphlib.Graph()
           .setGraph({})
@@ -54,7 +72,11 @@ class Summary3D extends App {
             .attr("height", 400);
         var inner = svgCanvas.append("g");
 
+        var svg = document.getElementsByTagName('svg')[0];
+        this.zoomWorkaroundBeforeDagreRender(svg);
         render(inner, g);
+        this.zoomWorkaroundAfterDagreRender(svg);
+
         var xCenterOffset = (svgCanvas.attr("width") - g.graph().width) / 2;
         inner.attr("transform", "translate(" + xCenterOffset + ", 20)");
         svgCanvas.attr("height", g.graph().height + 40);

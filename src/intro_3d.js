@@ -9,11 +9,11 @@ class Intro3D extends App {
     this.state.content = (<div>
         <div>
         In the 3D Euclidean space, there are five regular convex 
-        polyhedra, aka <a href="https://en.wikipedia.org/wiki/Platonic_solid" target="_blank" rel="noopener noreferrer">Platonic solids</a>.
+        polyhedra, aka the <a href="https://en.wikipedia.org/wiki/Platonic_solid" target="_blank" rel="noopener noreferrer">Platonic solids</a>.
         On these solids, the faces are identical regular 
         convex polygons and the vertex figures
         are also identical regular convex polygons. We will talk about the vertex figure 
-        in the page of <Link to='/Polyhedron_5_3'>dodecahedron</Link>.
+        in the page of the <Link to='/Polyhedron_5_3'>dodecahedron</Link>.
         </div>
         <br/>
         <div>
@@ -31,28 +31,28 @@ class Intro3D extends App {
         <div className = "figure-div">
         <figure>
             <img src = {require('./images/SmallStellatedDodecahedron/pov_whole_SmallStellatedDodecahedron.png')} alt = 'static'/>
-            <figcaption>Small stellated dodecahedron {'{'}5/2, 5{'}'}</figcaption>
+            <figcaption><Link to='/Polyhedron_52_5'>Small stellated dodecahedron {'{'}5/2, 5{'}'}</Link></figcaption>
         </figure>
         <figure>
             <img src = {require('./images/GreatDodecahedron/pov_whole_GreatDodecahedron.png')} alt = 'static'/>
-            <figcaption>Great dodecahedron {'{'}5, 5/2{'}'}</figcaption>
+            <figcaption><Link to='/Polyhedron_5_52'>Great dodecahedron {'{'}5, 5/2{'}'}</Link></figcaption>
         </figure>
         </div>
 
         <div className = "figure-div">
         <figure>
             <img src = {require('./images/GreatStellatedDodecahedron/pov_whole_GreatStellatedDodecahedron.png')} alt = 'static'/>
-            <figcaption>Great stellated dodecahedron {'{'}5/2, 3{'}'}</figcaption>
+            <figcaption><Link to='/Polyhedron_52_3'>Great stellated dodecahedron {'{'}5/2, 3{'}'}</Link></figcaption>
         </figure>
         <figure>
             <img src = {require('./images/GreatIcosahedron/pov_whole_GreatIcosahedron.png')} alt = 'static'/>
-            <figcaption>Great icosahedron {'{'}3, 5/2{'}'}</figcaption>
+            <figcaption><Link to='/Polyhedron_3_52'>Great icosahedron {'{'}3, 5/2{'}'}</Link></figcaption>
         </figure>
         </div>
 
         <div>
         It turns out all four regular star polyhedra have the
-        same <a href="https://en.wikipedia.org/wiki/Icosahedral_symmetry" target="_blank" rel="noopener noreferrer">symmetry</a> as
+        same <a href="https://en.wikipedia.org/wiki/Icosahedral_symmetry" target="_blank" rel="noopener noreferrer">icosahedral symmetry</a> as
         the (convex) dodecahedron and the icosahedron. They can be constructed by
         stellating and faceting the dodecahedron and the icosahedron. 
         We start from the dodecahedron and the icosahedron to warm up.
@@ -64,11 +64,11 @@ class Intro3D extends App {
         <div className = "figure-div">
         <figure>
             <img src = {require('./images/Dodecahedron/pov_whole_Dodecahedron.png')} alt = 'static'/>
-            <figcaption>Dodecahedron</figcaption>
+            <figcaption><Link to='/Polyhedron_5_3'>Dodecahedron</Link></figcaption>
         </figure>
         <figure>
             <img src = {require('./images/Icosahedron/pov_whole_Icosahedron.png')} alt = 'static'/>
-            <figcaption>Icosahedron</figcaption>
+            <figcaption><Link to='/Polyhedron_3_5'>Icosahedron</Link></figcaption>
         </figure>
         </div>
 

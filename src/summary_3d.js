@@ -93,7 +93,15 @@ class Summary3D extends App {
         chart, <span style={{color: "red"}}>the red arrows mean extending edges 
         so that a pentagon becomes a pentagram</span>. <span style={{color: "blue"}}>The 
         blue arrow means taking the convex hull
-        so that a pentagram becomes a pentagon.</span>
+        so that a pentagram becomes a pentagon</span>.
+        </div>
+        <br/>
+        <div>
+        In the names of the star polyhedra,
+        the word "stellated" refers to the the process of extending edges (the red arrows). 
+        The word "great" refers to replacing faces by larger faces in the same plane (the blue arrow).
+        The "great stellated dodecahedron" has its name because you need to stellate the great dodecahedron
+        to construct it.
         </div>
 
 

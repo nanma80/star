@@ -1,5 +1,6 @@
 import React from "react";
 import App from './App';
+import { Link } from 'react-router-dom';
 
 class Intro4D extends App {
   constructor(props) {
@@ -49,55 +50,55 @@ class Intro4D extends App {
         <div className = "figure-div">
         <figure>
             <img src = {require('./images/polytope_52_5_3/pov_whole_polytope_52_5_3.png')} alt = 'static'/>
-            <figcaption>{'{'}5/2, 5, 3{'}'}</figcaption>
+            <figcaption><Link to='/Polytope_52_5_3'>{'{'}5/2, 5, 3{'}'}</Link></figcaption>
         </figure>
         <figure>
             <img src = {require('./images/polytope_5_52_5/pov_whole_polytope_5_52_5.png')} alt = 'static'/>
-            <figcaption>{'{'}5, 5/2, 5{'}'}</figcaption>
+            <figcaption><Link to='/Polytope_5_52_5'>{'{'}5, 5/2, 5{'}'}</Link></figcaption>
         </figure>
         </div>
 
         <div className = "figure-div">
         <figure>
             <img src = {require('./images/polytope_52_3_5/pov_whole_polytope_52_3_5.png')} alt = 'static'/>
-            <figcaption>{'{'}5/2, 3, 5{'}'}</figcaption>
+            <figcaption><Link to='/Polytope_52_3_5'>{'{'}5/2, 3, 5{'}'}</Link></figcaption>
         </figure>
         <figure>
             <img src = {require('./images/polytope_3_5_52/pov_whole_polytope_3_5_52.png')} alt = 'static'/>
-            <figcaption>{'{'}3, 5, 5/2{'}'}</figcaption>
+            <figcaption><Link to='/Polytope_3_5_52'>{'{'}3, 5, 5/2{'}'}</Link></figcaption>
         </figure>
         </div>
 
         <div className = "figure-div">
         <figure>
             <img src = {require('./images/polytope_5_3_52/pov_whole_polytope_5_3_52.png')} alt = 'static'/>
-            <figcaption>{'{'}5, 3, 5/2{'}'}</figcaption>
+            <figcaption><Link to='/Polytope_5_3_52'>{'{'}5, 3, 5/2{'}'}</Link></figcaption>
         </figure>
         <figure>
             <img src = {require('./images/polytope_52_5_52/pov_whole_polytope_52_5_52.png')} alt = 'static'/>
-            <figcaption>{'{'}5/2, 5, 5/2{'}'}</figcaption>
+            <figcaption><Link to='/Polytope_52_5_52'>{'{'}5/2, 5, 5/2{'}'}</Link></figcaption>
         </figure>
         </div>
 
         <div className = "figure-div">
         <figure>
             <img src = {require('./images/polytope_5_52_3/pov_whole_polytope_5_52_3.png')} alt = 'static'/>
-            <figcaption>{'{'}5, 5/2, 3{'}'}</figcaption>
+            <figcaption><Link to='/Polytope_5_52_3'>{'{'}5, 5/2, 3{'}'}</Link></figcaption>
         </figure>
         <figure>
             <img src = {require('./images/polytope_52_3_3/pov_whole_polytope_52_3_3.png')} alt = 'static'/>
-            <figcaption>{'{'}5/2, 3, 3{'}'}</figcaption>
+            <figcaption><Link to='/Polytope_52_3_3'>{'{'}5/2, 3, 3{'}'}</Link></figcaption>
         </figure>
         </div>
 
         <div className = "figure-div">
         <figure>
             <img src = {require('./images/polytope_3_52_5/pov_whole_polytope_3_52_5.png')} alt = 'static'/>
-            <figcaption>{'{'}3, 5/2, 5{'}'}</figcaption>
+            <figcaption><Link to='/Polytope_3_52_5'>{'{'}3, 5/2, 5{'}'}</Link></figcaption>
         </figure>
         <figure>
             <img src = {require('./images/polytope_3_3_52/pov_whole_polytope_3_3_52.png')} alt = 'static'/>
-            <figcaption>{'{'}3, 3, 5/2{'}'}</figcaption>
+            <figcaption><Link to='/Polytope_3_3_52'>{'{'}3, 3, 5/2{'}'}</Link></figcaption>
         </figure>
         </div>
 
@@ -114,11 +115,11 @@ class Intro4D extends App {
         <div className = "figure-div">
         <figure>
             <img src = {require('./images/polytope_5_3_3_cell120/pov_whole_polytope_5_3_3_cell120.png')} alt = 'static'/>
-            <figcaption>120-cell {'{'}5, 3, 3{'}'}</figcaption>
+            <figcaption><Link to='/Polytope_5_3_3'>120-cell {'{'}5, 3, 3{'}'}</Link></figcaption>
         </figure>
         <figure>
             <img src = {require('./images/polytope_3_3_5_cell600/pov_whole_polytope_3_3_5_cell600.png')} alt = 'static'/>
-            <figcaption>600-cell {'{'}3, 3, 5{'}'}</figcaption>
+            <figcaption><Link to='/Polytope_3_3_5'>600-cell {'{'}3, 3, 5{'}'}</Link></figcaption>
         </figure>
         </div>
         <div>

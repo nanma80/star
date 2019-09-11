@@ -21,7 +21,7 @@ class Pentagram extends App {
 
             <figure>
                 <img src = {require('./images/polygon/polygon_5_1.png')} alt = 'static'/>
-                <figcaption>Regular pentagon</figcaption>
+                <figcaption>Regular (convex) pentagon</figcaption>
             </figure>
             </div>
             <div>
@@ -62,8 +62,8 @@ class Pentagram extends App {
                 <br/>
                 <div>
                 Having accepted the pentagram as a special 
-                and still legit pentagon, we can also talk about a regular 
-                pentagram as a special regular pentagon. 
+                and still legit pentagon, we can also talk about a <strong>regular</strong> pentagram
+                as a special regular pentagon. 
                 They share the following properties: the lengths of edges are all the same, 
                 and the angles at the vertices are all the same.
                 We can distinguish these two figures only by checking if the 
@@ -72,7 +72,7 @@ class Pentagram extends App {
 
                 <h4>Construction</h4>
                 <div>
-                We can construct a pentagram based on a regular pentagon, and doing either of the following methods.
+                We can construct a pentagram by applying either of the following two methods to a regular pentagon.
                 </div>
                 <div className = "figure-div">
                 <figure>
@@ -89,7 +89,7 @@ class Pentagram extends App {
                 <ol>
                     <li>
                     <a href="https://en.wikipedia.org/wiki/Faceting" target="_blank" rel="noopener noreferrer">Faceting</a>: 
-                    In this process, we create new edges and keep existing vertices. Starting from
+                    In this process, we create new edges and keep the existing vertices. Starting from
                     each vertex, we skip the nearest neighbor and connect to the second vertex to get an edge (a diagonal of the pentagon).
                     </li>
                     <li>

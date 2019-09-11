@@ -54,6 +54,12 @@ class Polyhedron_5_3_52 extends App {
             Taking convex hull doesn't affect vertices. All the 
             vertices are reused, and the number of the vertices is still 120.
             </div>
+            <br/>
+            <div>
+            Compared with the original 120-cell {'{'}5, 3, 3{'}'}, each cell in {'{'}5, 3, 5/2{'}'} is
+            still a dodecahedron. But it's a bigger dodecahedron than in the 120-cell. The operation of
+            replacing a cell by a larger one gives the word "grand" in the name of the "grand 120-cell".
+            </div>
 
             <div className = "figure-div">
             <figure>

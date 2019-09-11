@@ -10,7 +10,7 @@ class Polyhedron_3_5 extends App {
     	<div>
         <div>
         The regular icosahedron is another one of the five regular convex 
-        polyhedra (<a href="https://en.wikipedia.org/wiki/Platonic_solid" target="_blank" rel="noopener noreferrer">Platonic solids</a>).
+        polyhedra (the <a href="https://en.wikipedia.org/wiki/Platonic_solid" target="_blank" rel="noopener noreferrer">Platonic solids</a>).
         The <a href="https://en.wikipedia.org/wiki/Schl%C3%A4fli_symbol" target="_blank" rel="noopener noreferrer">Schläfli symbol</a> is {'{'}3, 5{'}'} because 
         each face is a {'{'}3{'}'} (triangle), and each
         vertex figure is a {'{'}5{'}'} (pentagon).

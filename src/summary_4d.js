@@ -9,50 +9,50 @@ class Summary4D extends App {
 
   drawChart = () => {
     var g = new dagreD3.graphlib.Graph()
-          .setGraph({})
+          .setGraph({nodesep: 20, ranker:"tight-tree"})
           .setDefaultEdgeLabel(function() { return {}; });
 
         var gen1color = "#ddf";
         var gen2color = "#fdd";
 
         g.setNode("5_3_3",  { 
-            label: "<a href=/star/#/polytope_5_3_3>{5, 3, 3}</a>"
+            label: "<a href=/star/#/polytope_5_3_3>120-cell<br/>{5, 3, 3}</a>"
             , color: gen1color
             });
         g.setNode("52_5_3",  { 
-            label: "<a href=/star/#/polytope_52_5_3>{5/2, 5, 3}</a>"
+            label: "<a href=/star/#/polytope_52_5_3>Small stellated<br/>120-cell<br/>{5/2, 5, 3}</a>"
             , color: gen1color
             });
         g.setNode("5_52_5",  { 
-            label: "<a href=/star/#/polytope_5_52_5>{5, 5/2, 5}</a>"
+            label: "<a href=/star/#/polytope_5_52_5>Great 120-cell<br/>{5, 5/2, 5}</a>"
             , color: gen1color
             });
         g.setNode("52_3_5",  { 
-            label: "<a href=/star/#/polytope_52_3_5>{5/2, 3, 5}</a>"
+            label: "<a href=/star/#/polytope_52_3_5>Great<br/>stellated<br/>120-cell<br/>{5/2, 3, 5}</a>"
             , color: gen1color
             });
         g.setNode("3_5_52",  { 
-            label: "<a href=/star/#/polytope_3_5_52>{3, 5, 5/2}</a>"
+            label: "<a href=/star/#/polytope_3_5_52>Icosahedral<br/>120-cell<br/>{3, 5, 5/2}</a>"
             , color: gen1color
             });
         g.setNode("5_3_52",  { 
-            label: "<a href=/star/#/polytope_5_3_52>{5, 3, 5/2}</a>"
+            label: "<a href=/star/#/polytope_5_3_52>Grand<br/>120-cell<br/>{5, 3, 5/2}</a>"
             , color: gen2color
             });
         g.setNode("52_5_52",  { 
-            label: "<a href=/star/#/polytope_52_5_52>{5/2, 5, 5/2}</a>"
+            label: "<a href=/star/#/polytope_52_5_52>Grand<br/>stellated<br/>120-cell<br/>{5/2, 5, 5/2}</a>"
             , color: gen2color
             });
         g.setNode("5_52_3",  { 
-            label: "<a href=/star/#/polytope_5_52_3>{5, 5/2, 3}</a>"
+            label: "<a href=/star/#/polytope_5_52_3>Great<br/>grand<br/>120-cell<br/>{5, 5/2, 3}</a>"
             , color: gen2color
             });
         g.setNode("52_3_3",  { 
-            label: "<a href=/star/#/polytope_52_3_3>{5/2, 3, 3}</a>"
+            label: "<a href=/star/#/polytope_52_3_3>Great<br/>grand<br/>stellated<br/>120-cell<br/>{5/2, 3, 3}</a>"
             , color: gen2color
             });
         g.setNode("3_52_5",  { 
-            label: "<a href=/star/#/polytope_3_52_5>{3, 5/2, 5}</a>"
+            label: "<a href=/star/#/polytope_3_52_5>Great<br/>icosahedral<br/>120-cell<br/>{3, 5/2, 5}</a>"
             , color: gen2color
             });
 
@@ -70,9 +70,8 @@ class Summary4D extends App {
         g.nodes().forEach(function(v) {
             var node = g.node(v);
             node.rx = node.ry = 10;
-            node.width = 70;
-            node.height = 20;
-            node.alignmentBaseline = "center";
+            node.width = 90;
+            node.height = 90;
             node.labelType = "html";
             node.style = "fill: " + node.color + "; font-weight: bold";
         });
@@ -134,25 +133,33 @@ class Summary4D extends App {
         blue arrows mean taking the convex hull of pentagramic faces
         so that they become pentagons</span>. <span style={{color: "green"}}>The 
         green arrows mean replacing the cells by 
-        the other cells with the same edge arrangement</span>. <span style={{color: "purple"}}>The 
+        the other cells with the same edges</span>. <span style={{color: "purple"}}>The 
         purple arrow means taking the convex hull of cells
         so that star polyhedra become convex polyhedra</span>. 
+
+        The <a href="https://en.wikipedia.org/wiki/Regular_4-polytope#Names" target="_blank" rel="noopener noreferrer">naming 
+        convention</a> says the word "stellated" means 
+        extending edges (roughly red arrows). 
+        The word "great" means replacing faces by larger faces (roughly blue arrows), 
+        and the word "grand" means replacing cells by larger cells (roughly the purple arrow).
         </div>
         <br/>
         <div>
         <span style={{backgroundColor: "#ddf"}}>The nodes with light blue background 
          represent polytopes in the first generation</span>. <span style={{backgroundColor: "#fdd"}}>
         The nodes with light red background 
-        represent polytopes in the second generation</span>. 
+        represent polytopes in the second generation</span>. The names of polytopes in
+        the second generation have "grand", except {'{'}3, 5/2, 5{'}'}.
         </div>
         <br/>
         <div>
-        One may see that the structure between the nodes and 
+        If we ignore the icosahedral polytopes, 
+        {'{'}3, 5/2, 5{'}'} and {'{'}3, 5, 5/2{'}'},
+        the structure between the nodes and 
         the edges in first and the second generations 
-        are the same. If you explode a polytope in the second generation partially,
-        at some point, it becomes the counterpart in the first generation. The only
-        exception is {'{'}3, 5/2, 5{'}'} because it
-        doesn't have the same cells as {'{'}3, 5, 5/2{'}'}.
+        are the same. If you explode a polytope in 
+        the second generation partially,
+        at some point, it becomes the counterpart in the first generation.
         </div>
 
         <h4>Categorized by edge arrangements</h4>

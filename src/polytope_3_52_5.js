@@ -10,7 +10,7 @@ class Polyhedron_3_52_5 extends App {
     this.state.content = (
     	<div>
             <div>
-            The polytope with 
+            The star polytope with 
             the Schläfli symbol {'{'}3, 5/2, 5{'}'} is
             a <a href="https://en.wikipedia.org/wiki/Regular_4-polytope#Regular_star_(Schl%C3%A4fli%E2%80%93Hess)_4-polytopes" target="_blank" rel="noopener noreferrer">Schläfli–Hess 4-polytope</a>.
             It is also
@@ -20,7 +20,7 @@ class Polyhedron_3_52_5 extends App {
             <br/>
             <div>
             Each cell is a {'{'}3, 5/2{'}'}, aka the <Link to='/Polyhedron_3_5'>great icosahedon</Link>.
-            There are 120 cells, 1200 pentagonal faces, 720 edges, and 120 vertices.
+            There are 120 cells, 1200 pentagonal faces, 720 edges, and 120 vertices in total.
             </div>
 
             <div className = "figure-div">
@@ -43,7 +43,7 @@ class Polyhedron_3_52_5 extends App {
             to construct a great icosahedral cell, {'{'}3, 5/2{'}'}.
             The result is the {'{'}3, 5/2, 5{'}'}.
 
-            Overall we construct brand new faces.
+            We construct brand new faces in this process.
             </div>
             <br/>
             <div>
@@ -73,7 +73,7 @@ class Polyhedron_3_52_5 extends App {
 
             In the vertex first projection of the 600-cell, we can see 12 points on the outside
             where five edges meet. They are highlighted in the first image below. They are the
-            "low altitude" vertices of the northern hemisphere.
+            "low latitude" vertices of the northern hemisphere.
             They are also the 12 vertices of an icosahedron.
 
             When you construct a great icosahedron using these 12 vertices,
@@ -94,12 +94,11 @@ class Polyhedron_3_52_5 extends App {
 
             <h4>Structure</h4>
             <div>
-            In this section, let us start from the center vertex and see how the other cells are arranged, layer by layer.
+            In this section, let us start from the centered cell and see how the other cells are arranged, layer by layer.
 
-            All the cells here directly correspond to the cells of the 120-cell. They have the same layers of 1, 12, 20, 12, and 30 cells
-            in the northern hemisphere and the equator. 
+            All the cells here directly correspond to the cells of the 120-cell. 
             The adjacency relation of the cells is different from the 120-cell.
-            It is as same as the relation in {'{'}3, 5, 5/2{'}'}.
+            It is as same as the relation in <Link to='/Polytope_3_5_52'>{'{'}3, 5, 5/2{'}'}</Link>.
             </div>
 
             <div className = "figure-div">
@@ -169,8 +168,7 @@ class Polyhedron_3_52_5 extends App {
             a pentagram to the vertex figure of the polytope. 
             The vertex figure is a small stellated dodecahedron, 
             which has 12 intersecting pentagrams.
-            The 12 cells meeting at a vertex, for example,
-            the north pole, are the cells from Layer 4.
+            The 12 cells meeting at the north pole are the cells from Layer 4.
             </div>
     	</div>
     	)

@@ -10,7 +10,7 @@ class Polyhedron_52_5_52 extends App {
     this.state.content = (
     	<div>
             <div>
-            The polytope with 
+            The star polytope with 
             the Schläfli symbol {'{'}5/2, 5, 5/2{'}'} is
             a <a href="https://en.wikipedia.org/wiki/Regular_4-polytope#Regular_star_(Schl%C3%A4fli%E2%80%93Hess)_4-polytopes" target="_blank" rel="noopener noreferrer">Schläfli–Hess 4-polytope</a>.
             It is also
@@ -19,7 +19,7 @@ class Polyhedron_52_5_52 extends App {
             <br/>
             <div>
             Each cell is a {'{'}5/2, 5{'}'}, aka the <Link to='/Polyhedron_52_5'>small stellated dodecahedron</Link>.
-            There are 120 cells, 720 pentagrammic faces, 720 edges, and 120 vertices.
+            There are 120 cells, 720 pentagrammic faces, 720 edges, and 120 vertices in total.
             </div>
 
             <div className = "figure-div">
@@ -36,7 +36,7 @@ class Polyhedron_52_5_52 extends App {
             <div>
             Stellation from the <Link to='/Polytope_5_3_3'>120-cell</Link>:
 
-            Previously, in the <Link to='/Polytope_52_5_3'>small stellated 120-cell {'{'}5/2, 5, 3{'}'}</Link>,
+            Previously, to construct the <Link to='/Polytope_52_5_3'>small stellated 120-cell {'{'}5/2, 5, 3{'}'}</Link>,
             we extended the edges of the 120-cell so that each cell was changed from 
             the regular dodecahedron {'{'}5, 3{'}'} to the small stellated dodecahedron {'{'}5/2, 5{'}'}.
             </div>
@@ -45,16 +45,16 @@ class Polyhedron_52_5_52 extends App {
             In the previous page, we constructed 
             another polytope where each cell is a regular dodecahedron:
             the <Link to='/Polytope_5_3_52'>grand 120-cell {'{'}5, 3, 5/2{'}'}</Link>.
-            We can apply the same trick to the 120-cell.
-            Again, we extend the edges of the grand 120-cell 
-            so that each cell was changed from 
+            We can apply the same trick we did to the 120-cell to the grand 120-cell.
+            Specifically, we extend the edges of the grand 120-cell 
+            so that each cell is changed from 
             the regular dodecahedron to the small stellated dodecahedron.
             The whole polytope is changed
             from {'{'}5, 3, 5/2{'}'} into {'{'}5/2, 5, 5/2{'}'}.
             </div>
             <br/>
             <div>
-            Since we started another process of stellation based on dodecahedral cells,
+            Since we just started another stellation process based on dodecahedral cells,
             I view {'{'}5, 3, 5/2{'}'} and {'{'}5/2, 5, 5/2{'}'} as
             the "second generation" of stellated 120-cell.
             The corresponding "first generation" polytopes are 
@@ -65,7 +65,7 @@ class Polyhedron_52_5_52 extends App {
             </div>
             <br/>
             <div>
-            When we stellate {'{'}5, 3, 5/2{'}'} to get {'{'}5/2, 5, 5/2{'}'},
+            When we stellated {'{'}5, 3, 5/2{'}'} to get {'{'}5/2, 5, 5/2{'}'},
             we did not create or discard any cell, face, or edge. The counts of these
             elements remain the same.
     
@@ -75,11 +75,11 @@ class Polyhedron_52_5_52 extends App {
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/Dodecahedron/pov_whole_Dodecahedron.png')} alt = 'static'/>
-                <figcaption>Each cell in {'{'}5, 3, 5/2{'}'}: dodecahedron</figcaption>
+                <figcaption>Each cell of {'{'}5, 3, 5/2{'}'} is a dodecahedron</figcaption>
             </figure>
             <figure>
                 <img src = {require('./images/SmallStellatedDodecahedron/pov_whole_SmallStellatedDodecahedron.png')} alt = 'static'/>
-                <figcaption>Each cell in {'{'}5/2, 5, 5/2{'}'}: small stellated dodecahedron</figcaption>
+                <figcaption>Each cell of {'{'}5/2, 5, 5/2{'}'} is a small stellated dodecahedron</figcaption>
             </figure>
             </div>
 
@@ -89,7 +89,7 @@ class Polyhedron_52_5_52 extends App {
 
             In the vertex first projection of the 600-cell, we can see 12 points on the outside
             where five edges meet. They are highlighted in the first image below. They are the
-            "low altitude" vertices of the northern hemisphere.
+            "low latitude" vertices of the northern hemisphere.
             They are also the 12 vertices of an icosahedron.
 
             When you construct a small stellated dodecahedron using these 12 vertices,
@@ -111,10 +111,9 @@ class Polyhedron_52_5_52 extends App {
 
             <h4>Structure</h4>
             <div>
-            In this section, let us start from the center vertex and see how the other cells are arranged, layer by layer.
+            In this section, let us start from the centered cell and see how the other cells are arranged, layer by layer.
 
-            All the cells here directly correspond to the cells of the 120-cell. They have the same layers of 1, 12, 20, 12, and 30 cells
-            in the northern hemisphere and the equator. 
+            All the cells here directly correspond to the cells of the 120-cell. 
             The adjacency relation of the cells is different from the 120-cell.
             It is as same as the relation in {'{'}5, 3, 5/2{'}'}.
             </div>
@@ -132,8 +131,8 @@ class Polyhedron_52_5_52 extends App {
 
             <div>
             Just like in {'{'}5, 3, 5/2{'}'},
-            the Layer 2 and Layer 3 cells go deep into 
-            and intersect with the "north cell". 
+            the Layer 2 and Layer 3 cells go deep into the north cell and 
+            and intersect with it.
             </div>
 
             <div className = "figure-div">
@@ -151,10 +150,10 @@ class Polyhedron_52_5_52 extends App {
             The 12 cells in Layer 4 meet at the north pole.
             Since the adjacency relation among the cells is as same as
             in {'{'}5, 3, 5/2{'}'},
-            the Layer 4 (low latitude) cells
+            the Layer 4 (low latitude) cells centered
             in the <strong>southern</strong> hemisphere are 
-            adjacent to the north cell, 
-            which means they share faces with the north cell.            
+            adjacent to the north cell,
+            which means they share pentagrammic faces with the north cell.            
             </div>
             <br/>
             <div>
@@ -173,11 +172,11 @@ class Polyhedron_52_5_52 extends App {
             <h4>Comparison with {'{'}5/2, 5, 3{'}'}</h4>
             <div>
             There are obvious similarities between {'{'}5/2, 5, 5/2{'}'} and {'{'}5/2, 5, 3{'}'}.
-            The cells are all {'{'}5/2, 5{'}'}, which I use the same color, blue, to render.
+            The cells are all {'{'}5/2, 5{'}'}.
             They play the same role in the first and second generation of stellated 120-cells.
 
             In the exploded view of {'{'}5/2, 5, 5/2{'}'}, you can see at certain point, 
-            the cells were arranged just like in {'{'}5/2, 5, 3{'}'}.
+            the cells are arranged just like in {'{'}5/2, 5, 3{'}'}.
 
             This is as same as the relationship between {'{'}5, 3, 5/2{'}'} and 
             the 120-cell discussed in the previous page.
@@ -236,8 +235,7 @@ class Polyhedron_52_5_52 extends App {
             Each vertex is where 12 small stellated dodecahedra meet. 
             The vertex figure is a great dodecahedron, 
             which has 12 intersecting pentagonal faces.
-            The 12 cells meeting at a vertex, for example,
-            the north pole, are Layer 4 cells. 
+            The 12 cells meeting at the north pole are Layer 4 cells. 
             </div>
     	</div>
     	)

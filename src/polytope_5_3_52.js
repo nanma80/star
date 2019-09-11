@@ -10,17 +10,17 @@ class Polyhedron_5_3_52 extends App {
     this.state.content = (
     	<div>
            <div>
-            The polytope with 
+            The star polytope with 
             the Schläfli symbol {'{'}5, 3, 5/2{'}'} is
             a <a href="https://en.wikipedia.org/wiki/Regular_4-polytope#Regular_star_(Schl%C3%A4fli%E2%80%93Hess)_4-polytopes" target="_blank" rel="noopener noreferrer">Schläfli–Hess 4-polytope</a>.
             It is also
             called the <a href="https://en.wikipedia.org/wiki/Grand_120-cell" 
-                target="_blank" rel="noopener noreferrer">Grand 120-cell</a>.
+                target="_blank" rel="noopener noreferrer">grand 120-cell</a>.
             </div>
             <br/>
             <div>
             Each cell is a {'{'}5, 3{'}'}, aka the <Link to='/polyhedron_5_3'>dodecahedron</Link>.
-            There are 120 cells, 720 faces, 720 edges, and 120 vertices.
+            There are 120 cells, 720 faces, 720 edges, and 120 vertices in total.
             </div>
 
             <div className = "figure-div">
@@ -46,14 +46,13 @@ class Polyhedron_5_3_52 extends App {
             </div>
             <br/>
             <div>
-            Let's see how the stellation process affects the number of cells, faces, edges, and vertices.
-
             Compared with {'{'}5/2, 3, 5{'}'}, each cell is replaced by its convex hull. 
             The number of cells remains the same: 120.
 
             Faces and edges are new. The counts are both 720.
 
-            Taking convex hull doesn't affect vertices. The number of new vertices is still 120.
+            Taking convex hull doesn't affect vertices. All the 
+            vertices are reused, and the number of the vertices is still 120.
             </div>
 
             <div className = "figure-div">
@@ -90,7 +89,7 @@ class Polyhedron_5_3_52 extends App {
 
             <h4>Structure</h4>
             <div>
-            In this section, let us start from the center vertex and see how the other cells are arranged, layer by layer.
+            In this section, let us start from the centered cell and see how the other cells are arranged, layer by layer.
 
             All the cells here directly correspond to the cells of the 120-cell. They have the same layers of 1, 12, 20, 12, and 30 cells
             in the northern hemisphere and the equator. The adjacency relation of the cells is different from the 120-cell.
@@ -108,7 +107,7 @@ class Polyhedron_5_3_52 extends App {
             </div>
 
             <div>
-            Above is the view of 12 cells in Layer 2 and 20 cells in Layer 3. 
+            Above are the views of 12 cells in Layer 2 and 20 cells in Layer 3. 
             Both layers go deep into and intersect with the "north cell". 
             The 20 cells in Layer 3 meet at a single point, the north pole.
             </div>
@@ -126,13 +125,20 @@ class Polyhedron_5_3_52 extends App {
             </div>
 
             <div>
-            Above is the view of 12 cells in Layer 4 and 30 cells in Layer 5. 
-            Layer 4 still overlaps with the projection of the north cell.
-            Remember that there is a Layer 4 in the northern hemisphere, 
-            and there's a counterpart in the southern hemisphere.
-            The Layer 4 cells in the <strong>southern</strong> hemisphere 
-            meet with the north cell on faces. In other words, the Layer 4 (low latitude) cells
+            Above are the views of 12 cells in Layer 4 (low latitude) and 30 cells in Layer 5 (equator). 
+
+            Since Layer 4 cells are close enough to the equator and are big,
+            a Layer 4 cell with the center in the northern hemisphere has some
+            faces in the southern hemisphere. There are also the counterparts
+            with centers in the southern hemisphere and some faces in the northern
+            hemisphere.
+
+            The Layer 4 cells with centers in the <strong>southern</strong> hemisphere 
+            meet with the north central cell on its faces. 
+            In other words, the Layer 4 (low latitude) cells
             in the southern hemisphere are adjacent to the north cell.
+            Similarly, the Layer 4 cells centered in the northern hemisphere
+            are adjacent to the south pole cell.
             </div>
             <br/>
             <div>
@@ -162,7 +168,7 @@ class Polyhedron_5_3_52 extends App {
             <br/>
             <div>
             In the view of exploded Layer 2, in {'{'}5, 3, 5/2{'}'}, cells can overlap. In the 120-cell, cells just touch
-            with each other without overlapping.
+            each other without overlapping.
             </div>            
             <div className = "figure-div">
             <figure>
@@ -191,7 +197,7 @@ class Polyhedron_5_3_52 extends App {
             </div>
 
             <div>
-            We can also see this relationship between the pentagon and the pentagram. 
+            We can also see the same relationship between the pentagon and the pentagram. 
             If you explode a pentagram and move the edges away from the center,
             at some point they will form the pentagon.
             </div>
@@ -219,8 +225,7 @@ class Polyhedron_5_3_52 extends App {
             Each vertex is where 20 dodecahedra meet. Each dodecahedron brings 
             a triangle to the vertex figure of the polytope. 
             The vertex figure is a great icosahedron, which has 20 intersecting triangular faces.
-            The 20 cells meeting at a vertex, for example,
-            the north pole, are the Layer 3 cells. 
+            The 20 cells meeting at the north pole are the Layer 3 cells. 
             </div>
 
     	</div>

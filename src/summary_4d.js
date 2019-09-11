@@ -151,8 +151,8 @@ class Summary4D extends App {
         the edges in first and the second generations 
         are the same. If you explode a polytope in the second generation partially,
         at some point, it becomes the counterpart in the first generation. The only
-        exception is {'{'}3, 5, 5/2{'}'} and {'{'}3, 5/2, 5{'}'} because they
-        don't have the same cells.
+        exception is {'{'}3, 5/2, 5{'}'} because it
+        doesn't have the same cells as {'{'}3, 5, 5/2{'}'}.
         </div>
 
         <h4>Categorized by edge arrangements</h4>
@@ -160,7 +160,7 @@ class Summary4D extends App {
         <div>
         If we only consider the edges of the polytopes and look at them as wireframes, just
         like the vZome models,
-        we see three groups. The polytopes in each group share the same edge arrangement.
+        we see three groups of polytopes. The polytopes in each group share the same edge arrangement.
         <ol>
         <li>
         {'{'}3, 3, 5{'}'}, {'{'}3, 5, 5/2{'}'}, {'{'}5, 5/2, 5{'}'}, {'{'}5, 3, 5/2{'}'}.
@@ -257,7 +257,7 @@ class Summary4D extends App {
         we see four pairs. Each pair of polytopes shares the same face arrangement.
         If two polytopes share the same face arrangement, they necessarily share the same
         edges. Actually, the four pairs belong to the first two groups of polytopes
-        with the same edge arrangements.
+        categorized by edge arrangements.
         <ol>
         <li>
         {'{'}3, 3, 5{'}'}, {'{'}3, 5, 5/2{'}'}.

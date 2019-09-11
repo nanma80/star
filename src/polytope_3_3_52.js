@@ -10,17 +10,17 @@ class Polyhedron_3_3_52 extends App {
     this.state.content = (
     	<div>
             <div>
-            The polytope with 
+            The star polytope with 
             the Schläfli symbol {'{'}3, 3, 5/2{'}'} is
             a <a href="https://en.wikipedia.org/wiki/Regular_4-polytope#Regular_star_(Schl%C3%A4fli%E2%80%93Hess)_4-polytopes" target="_blank" rel="noopener noreferrer">Schläfli–Hess 4-polytope</a>.
             It is also
             called the <a href="https://en.wikipedia.org/wiki/Grand_600-cell" 
-                target="_blank" rel="noopener noreferrer">Grand 600-cell</a>.
+                target="_blank" rel="noopener noreferrer">grand 600-cell</a>.
             </div>
             <br/>
             <div>
             Each cell is a {'{'}3, 3{'}'}, aka the tetrahedron.
-            There are 600 cells, 1200 pentagonal faces, 720 edges, and 120 vertices.
+            There are 600 cells, 1200 pentagonal faces, 720 edges, and 120 vertices in total.
             </div>
 
             <div className = "figure-div">
@@ -54,8 +54,9 @@ class Polyhedron_3_3_52 extends App {
             <li>
             Faceting from the <Link to='/Polytope_3_3_5'>600-cell</Link>:
 
-            Below is a cell first projection of the 600-cell. We didn't show this
-            projection in the 600-cell page. This projection has a tetrahedral symmetry,
+            Below is a cell-first projection of the 600-cell. This is different
+            from the vertex-first projection we showed in the 600-cell page. 
+            This projection has a tetrahedral symmetry,
             just as the centered cell has the same symmetry.
 
             We highlight the 4 vertices in the northern hemisphere with the lowest latitude.
@@ -76,7 +77,7 @@ class Polyhedron_3_3_52 extends App {
             <h4>Structure</h4>
             <div>
             In this section, let us start from the 
-            center vertex and see how the other cells are arranged, layer by layer.
+            centered vertex and see how the other cells are arranged, layer by layer.
 
             All the cells here directly correspond to the cells of the 600-cell. 
             They have the same layers of cells. Unlike in the 600-cell, where the 
@@ -141,8 +142,8 @@ class Polyhedron_3_3_52 extends App {
             <h4>Comparison with the 600-cell</h4>
             <div>
             In the exploded view of {'{'}3, 3, 5/2{'}'}, 
-            at some point right after the explosion begins,
-            the cells were arranged just like in 
+            at some point
+            the cells are arranged just like in 
             the 600-cell, {'{'}3, 3, 5{'}'}.
 
             In the visualization above using vZome, if you set the 
@@ -200,8 +201,7 @@ class Polyhedron_3_3_52 extends App {
             a triangle to the vertex figure of the polytope. 
             The vertex figure is a great icosahedron 
             with 20 intersecting triangular faces.
-            The 20 cells meeting at a vertex, for example,
-            the north pole, are the Layer 7 cells. This layer has the 
+            The 20 cells meeting at the north pole are the Layer 7 cells. This layer has the 
             lowest latitude above the equator.
             </div>
     	</div>

@@ -10,17 +10,17 @@ class Polyhedron_52_3_3 extends App {
     this.state.content = (
     	<div>
            <div>
-            The polytope with 
+            The star polytope with 
             the Schläfli symbol {'{'}5/2, 3, 3{'}'} is
             a <a href="https://en.wikipedia.org/wiki/Regular_4-polytope#Regular_star_(Schl%C3%A4fli%E2%80%93Hess)_4-polytopes" target="_blank" rel="noopener noreferrer">Schläfli–Hess 4-polytope</a>.
             It is also
             called the <a href="https://en.wikipedia.org/wiki/Great_grand_stellated_120-cell" 
-                target="_blank" rel="noopener noreferrer">Great grand stellated 120-cell</a>.
+                target="_blank" rel="noopener noreferrer">great grand stellated 120-cell</a>.
             </div>
             <br/>
             <div>
             Each cell is a {'{'}5/2, 3{'}'}, aka the <Link to='/Polyhedron_52_3'>great stellated dodecahedron</Link>.
-            There are 120 cells, 720 faces, 1200 edges, and 600 vertices.
+            There are 120 cells, 720 faces, 1200 edges, and 600 vertices in total.
             It is the only Schläfli–Hess polytope with 600 vertices. All the others have 120.
             </div>
 
@@ -61,18 +61,18 @@ class Polyhedron_52_3_3 extends App {
             <br/>
             <div>
             {'{'}5/2, 3, 3{'}'} is known as the final stellation of the 120-cell.
-            It is analogous to the 3D {'{'}5/2, 3{'}'}, aka the great stellated dodecahedron.
+            It is analogous to the great stellated dodecahedron, {'{'}5/2, 3{'}'}, in 3D.
             </div>
 
 
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/GreatDodecahedron/pov_whole_GreatDodecahedron.png')} alt = 'static'/>
-                <figcaption>Each cell in {'{'}5, 5/2, 3{'}'}: the great dodecahedron</figcaption>
+                <figcaption>Each cell of {'{'}5, 5/2, 3{'}'} is a great dodecahedron</figcaption>
             </figure>
             <figure>
                 <img src = {require('./images/GreatStellatedDodecahedron/pov_whole_GreatStellatedDodecahedron.png')} alt = 'static'/>
-                <figcaption>Extending edges to get a cell in {'{'}5/2, 3, 3{'}'}: the great stellated dodecahedron</figcaption>
+                <figcaption>Extending edges to get a cell of {'{'}5/2, 3, 3{'}'}, a great stellated dodecahedron</figcaption>
             </figure>
             </div>
 
@@ -110,10 +110,9 @@ class Polyhedron_52_3_3 extends App {
 
             <h4>Structure</h4>
             <div>
-            In this section, let us start from the center cell and see how the other cells are arranged, layer by layer.
+            In this section, let us start from the centered cell and see how the other cells are arranged, layer by layer.
 
-            All the cells here directly correspond to the cells of the 120-cell. They have the same layers of 1, 12, 20, 12, and 30 cells
-            in the northern hemisphere and the equator. 
+            All the cells here directly correspond to the cells of the 120-cell. 
             The adjacency relation of the cells is different from the 120-cell.
             It is as same as the relation 
             in the second generation star
@@ -168,7 +167,7 @@ class Polyhedron_52_3_3 extends App {
             Just like in previous second generation stellations,
             in the exploded view of {'{'}5/2, 3, 3{'}'}, 
             at some point right after the explosion begins,
-            the cells were arranged just like in {'{'}5/2, 3, 5{'}'}.
+            the cells are arranged just like in {'{'}5/2, 3, 5{'}'}.
 
             In the visualization above using vZome, if you set the 
             "explode / Implode" slider to 6 or 7, you see the unexploded
@@ -223,11 +222,19 @@ class Polyhedron_52_3_3 extends App {
             <div>
             Each vertex is where 4 great stellated dodecahedra meet. 
             The vertex figure is a tetrahedron.
-            The 4 cells meeting at a vertex is not any layer in the cell first projection,
+            The 4 cells meeting at a vertex is not any layer in the cell-first projection,
             which we showed in this page. 
-            They form a layer in a vertex first projection.
-            However, there are too many layers in the vertex first projection of the 120-cell,
-            or {'{'}5/2, 3, 3{'}'}. It would still be very hard to see the layers 
+            They form a layer in a <strong>vertex</strong>-first projection.
+            They are the layer with the lowest latitude in the vertex-first 
+            projection in the northern hemisphere.
+            </div>
+            <br/>
+            <div>
+            The vertex-first projection only has a tetrahedral symmetry, which is much 
+            smaller than the icosahedral symmetry for the cell-first projection.
+            The result is, there are too many layers in the 
+            vertex-first projection of the 120-cell. 
+            It would still be very hard to see the layers 
             in that projection.
             </div>
     	</div>

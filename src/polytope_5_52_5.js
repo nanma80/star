@@ -10,17 +10,17 @@ class Polyhedron_5_52_5 extends App {
     this.state.content = (
     	<div>
             <div>
-            The polytope with 
+            The star polytope with 
             the Schläfli symbol {'{'}5, 5/2, 5{'}'} is
             a <a href="https://en.wikipedia.org/wiki/Regular_4-polytope#Regular_star_(Schl%C3%A4fli%E2%80%93Hess)_4-polytopes" target="_blank" rel="noopener noreferrer">Schläfli–Hess 4-polytope</a>.
             It is also
             called the <a href="https://en.wikipedia.org/wiki/Great_120-cell" 
-                target="_blank" rel="noopener noreferrer">Great 120-cell</a>.
+                target="_blank" rel="noopener noreferrer">great 120-cell</a>.
             </div>
             <br/>
             <div>
             Each cell is a {'{'}5, 5/2{'}'}, aka the <Link to='/Polyhedron_5_52'>great dodecahedron</Link>.
-            There are 120 cells, 720 pentagonal faces, 720 edges, and 120 vertices.
+            There are 120 cells, 720 pentagonal faces, 720 edges, and 120 vertices in total.
             </div>
 
             <div className = "figure-div">
@@ -51,17 +51,21 @@ class Polyhedron_5_52_5 extends App {
             <div>
             Let's see how the stellation process affects the number of cells, faces, edges, and vertices.
             
-            Since each cell {'{'}5/2, 5{'}'} of the {'{'}5/2, 5, 3{'}'} becomes {'{'}5/2, 5{'}'},
+            Each cell {'{'}5/2, 5{'}'} of the {'{'}5/2, 5, 3{'}'} becomes {'{'}5/2, 5{'}'}.
+            Since
+            there is no new cell created and no old cell discarded,
             the number of cells remains the same: 120. 
 
-            Since each face of {'{'}5/2{'}'} becomes {'{'}5{'}'}, the number of faces 
+            Each face of {'{'}5/2{'}'} becomes {'{'}5{'}'}.
+            Since
+            no new face gets created and no old face gets discarded, the number of faces 
             remains the same: 720.
 
             The old edges are abandoned and new edges are constructed. 
             There are the same number
             of edges per cell (30). However, previously each edge is shared by 3 cells. Now, 
             each edge is shared by 5 cells. 
-            The number of edges drops to 3/5 of the preivous count, 
+            The number of edges drops to 3/5 of the previous count, 
             from 1200 to 720.
 
             The vertices of the {'{'}5/2, 5, 3{'}'} are reused. 
@@ -72,7 +76,7 @@ class Polyhedron_5_52_5 extends App {
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/SmallStellatedDodecahedron/pov_whole_SmallStellatedDodecahedron.png')} alt = 'static'/>
-                <figcaption>Each cell in {'{'}5/2, 5, 3{'}'}: the small stellated dodecahedron</figcaption>
+                <figcaption>Each cell of {'{'}5/2, 5, 3{'}'} is a small stellated dodecahedron</figcaption>
             </figure>
             <figure>
                 <img src = {require('./images/SmallStellatedDodecahedron/stellated_dodecahedron_4.png')} alt = 'static'/>
@@ -83,7 +87,7 @@ class Polyhedron_5_52_5 extends App {
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/GreatDodecahedron/pov_whole_GreatDodecahedron.png')} alt = 'static'/>
-                <figcaption>Each cell in {'{'}5, 5/2, 5{'}'}: the great dodecahedron</figcaption>
+                <figcaption>Each cell of {'{'}5, 5/2, 5{'}'} is a great dodecahedron</figcaption>
             </figure>
             </div>
 
@@ -113,7 +117,7 @@ class Polyhedron_5_52_5 extends App {
 
             <h4>Structure</h4>
             <div>
-            In this section, let us start from the center vertex and see how the other cells are arranged, layer by layer.
+            In this section, let us start from the centered cell and see how the other cells are arranged, layer by layer.
 
             All the cells here directly correspond to the cells of the 120-cell. They have the same layers of 1, 12, 20, 12, and 30 cells
             in the northern hemisphere and the equator.
@@ -124,7 +128,7 @@ class Polyhedron_5_52_5 extends App {
             adjacent cells in this star polytope. Here, the cells intersect 
             with each other and
             parts of the cells go into each other. However, they still meet at a pentagonal face,
-            whose center is located at the same point as the pentagonal face in the 120-cell.
+            which shares the same center with a pentagonal face in the 120-cell.
             </div>
 
             <div className = "figure-div">
@@ -138,8 +142,9 @@ class Polyhedron_5_52_5 extends App {
             </figure>
             </div>
             <div>
-            You can see each cell in Layer 2 meets with the center "north cell". The pentagonal faces
-            touch and the parts above the faces penetrate into the other cells.
+            You can see each cell in Layer 2 meets with the centered "north cell"
+            at a pentagonal face. The parts above the faces penetrate into the other cells.
+            All the Layer 2 cells meet at the north pole.
             </div>
 
             <div className = "figure-div">
@@ -176,8 +181,7 @@ class Polyhedron_5_52_5 extends App {
             <div>
             From the Schläfli symbol we know the vertex figure is {'{'}5/2, 5{'}'}.
             Each pentagrammic face corresponds to a tip of the cell.
-            The 12 cells meeting at a vertex, for example,
-            the north pole, are the second layer cells.
+            The 12 cells meeting at the north pole are the Layer 2 cells.
             </div>
 
     	</div>

@@ -10,17 +10,17 @@ class Polyhedron_3_5_52 extends App {
     this.state.content = (
     	<div>
             <div>
-            The polytope with 
+            The star polytope with 
             the Schläfli symbol {'{'}3, 5, 5/2{'}'} is
             a <a href="https://en.wikipedia.org/wiki/Regular_4-polytope#Regular_star_(Schl%C3%A4fli%E2%80%93Hess)_4-polytopes" target="_blank" rel="noopener noreferrer">Schläfli–Hess 4-polytope</a>.
             It is also
             called the <a href="https://en.wikipedia.org/wiki/Icosahedral_120-cell" 
-                target="_blank" rel="noopener noreferrer">Icosahedral 120-cell</a>.
+                target="_blank" rel="noopener noreferrer">icosahedral 120-cell</a>.
             </div>
             <br/>
             <div>
-            Each cell is a {'{'}3, 5{'}'}, aka the <Link to='/Polyhedron_3_5'>Icosahedon</Link>.
-            There are 120 cells, 1200 pentagonal faces, 720 edges, and 120 vertices.
+            Each cell is a {'{'}3, 5{'}'}, aka the <Link to='/Polyhedron_3_5'>icosahedon</Link>.
+            There are 120 cells, 1200 pentagonal faces, 720 edges, and 120 vertices in total.
             </div>
 
             <div className = "figure-div">
@@ -41,8 +41,7 @@ class Polyhedron_3_5_52 extends App {
             Then, we take the convex hull of each cell 
             to construct an icosahedral cell, {'{'}3, 5{'}'}.
             The result is the {'{'}3, 5, 5/2{'}'}.
-
-            Overall we construct brand new faces.
+            We construct brand new faces in this process.
             </div>
             <br/>
             <div>
@@ -53,21 +52,19 @@ class Polyhedron_3_5_52 extends App {
 
             The old faces are abandoned. All the faces are new. The new number of faces is 20 * 120 / 2 = 1200.
 
-            All the edges of {'{'}5, 5/2, 5{'}'} are reused in the new polytope. The number of edges remains
-            the same: 720.
-
-            All the edges of {'{'}5, 5/2, 5{'}'} are reused in the new polytope. The number of edges remains
-            the same: 120.
+            All the edges and vertices of {'{'}5, 5/2, 5{'}'} are reused in the new polytope. 
+            The numbers of edges and vertices remain
+            the same: 720 and 120, respectively.
             </div>
 
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/GreatDodecahedron/pov_whole_GreatDodecahedron.png')} alt = 'static'/>
-                <figcaption>Each cell in {'{'}5, 5/2, 5{'}'}: the great dodecahedron</figcaption>
+                <figcaption>Each cell of {'{'}5, 5/2, 5{'}'} is a great dodecahedron</figcaption>
             </figure>
             <figure>
                 <img src = {require('./images/Icosahedron/pov_whole_Icosahedron.png')} alt = 'static'/>
-                <figcaption>The new cell by taking the convex hull: the regular icosahedron</figcaption>
+                <figcaption>Each cell of {'{'}3, 5, 5/2{'}'} is a regular icosahedron</figcaption>
             </figure>
             </div>
 
@@ -85,7 +82,7 @@ class Polyhedron_3_5_52 extends App {
             </figure>
             <figure>
                 <img src = {require('./images/Icosahedron/pov_whole_Icosahedron.png')} alt = 'static'/>
-                <figcaption>Directly use this icosahedron as a cell in this star polytope</figcaption>
+                <figcaption>Directly use this icosahedron as a cell of {'{'}3, 5, 5/2{'}'}</figcaption>
             </figure>
 
             </div>
@@ -96,7 +93,7 @@ class Polyhedron_3_5_52 extends App {
 
             <h4>Structure</h4>
             <div>
-            In this section, let us start from the center vertex and see how the other cells are arranged, layer by layer.
+            In this section, let us start from the centered cell and see how the other cells are arranged, layer by layer.
 
             All the cells here directly correspond to the cells of the 120-cell. They have the same layers of 1, 12, 20, 12, and 30 cells
             in the northern hemisphere and the equator. However, the adjacency relation 
@@ -136,7 +133,7 @@ class Polyhedron_3_5_52 extends App {
             <div>
             The above animation is the exploded view of the third layer. 
             The Layer 1 "north cell" and a cell in Layer 3 <strong>do</strong> meet on a face.
-            There are 20 cells in Layer 3. They touch the north cell (the icosahedron) on its 20 faces.
+            There are 20 cells in Layer 3. They touch the north cell on its 20 faces.
             </div>
 
             <div className = "figure-div">
@@ -177,8 +174,7 @@ class Polyhedron_3_5_52 extends App {
             Each vertex is where 12 icosahedra meet. Each icosahedron brings 
             a pentagon to the vertex figure of the polytope. 
             The vertex figure is a great dodecahedron, which has 12 intersecting pentagonal faces.
-            The 12 cells meeting at a vertex, for example,
-            the north pole, are the second layer cells. 
+            The 12 cells meeting at the north pole are the Layer 2 cells. 
             </div>
 
     	</div>

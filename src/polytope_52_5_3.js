@@ -14,7 +14,7 @@ class Polyhedron_52_5_3 extends App {
             the Schläfli symbol {'{'}5/2, 5, 3{'}'} is
             a <a href="https://en.wikipedia.org/wiki/Regular_4-polytope#Regular_star_(Schl%C3%A4fli%E2%80%93Hess)_4-polytopes" target="_blank" rel="noopener noreferrer">Schläfli–Hess 4-polytope</a>.
             It is also
-            called the <a href="https://en.wikipedia.org/wiki/Small_stellated_120-cell" target="_blank" rel="noopener noreferrer">Small stellated 120-cell</a>.
+            called the <a href="https://en.wikipedia.org/wiki/Small_stellated_120-cell" target="_blank" rel="noopener noreferrer">small stellated 120-cell</a>.
             </div>
             <br/>
             <div>
@@ -67,11 +67,11 @@ class Polyhedron_52_5_3 extends App {
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/Dodecahedron/pov_whole_Dodecahedron.png')} alt = 'static'/>
-                <figcaption>Each cell in the 120-cell is a dodecahedron</figcaption>
+                <figcaption>Each cell of the 120-cell is a dodecahedron</figcaption>
             </figure>
             <figure>
                 <img src = {require('./images/SmallStellatedDodecahedron/pov_whole_SmallStellatedDodecahedron.png')} alt = 'static'/>
-                <figcaption>Each cell in {'{'}5/2, 5, 3{'}'} is a small stellated dodecahedron</figcaption>
+                <figcaption>Each cell of {'{'}5/2, 5, 3{'}'} is a small stellated dodecahedron</figcaption>
             </figure>
             </div>
 
@@ -113,7 +113,7 @@ class Polyhedron_52_5_3 extends App {
             adjacent cells in this star polytope. Here, the pair of cells intersect 
             with each other and
             the tips go into each other. However, they still meet at a pentagrammic face,
-            whose center is located at the same point as the pentagonal face in the 120-cell.
+            which is a stellation of a pentagonal face in the 120-cell.
             </div>
 
             <div className = "figure-div">
@@ -127,8 +127,10 @@ class Polyhedron_52_5_3 extends App {
             </figure>
             </div>
             <div>
-            You can see each cell in Layer 2 meets with the center "north cell". The pentagrammic faces
-            touch and the tips penetrate into the other cells.
+            You can see each cell in Layer 2 touches the center "north cell" at a pentagrammic face.
+            The tips penetrate into the other cells. Each Layer 2 cell has a tip 
+            that touches the north pole. The north pole is a vertex of the {'{'}5/2, 5, 3{'}'}.
+            It is also the center of the north cell.
             </div>
 
             <div className = "figure-div">
@@ -168,8 +170,7 @@ class Polyhedron_52_5_3 extends App {
             we know that the extension of 12 cells meet at one point
             to create a new vertex. The vertex figure is a dodecahedron. Each
             pentagonal face corresponds to the extension of a cell.
-            The 12 cells meeting at a vertex, for example,
-            the north pole, are the second layer cells. 
+            The 12 cells meeting at the north pole are the Layer 2 cells. 
 
             In the projection, they all 
             cross the north cell and meet at the center (north pole). 

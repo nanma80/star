@@ -10,17 +10,17 @@ class Polyhedron_52_3_5 extends App {
     this.state.content = (
     	<div>
            <div>
-            The polytope with 
+            The star polytope with 
             the Schläfli symbol {'{'}5/2, 3, 5{'}'} is
             a <a href="https://en.wikipedia.org/wiki/Regular_4-polytope#Regular_star_(Schl%C3%A4fli%E2%80%93Hess)_4-polytopes" target="_blank" rel="noopener noreferrer">Schläfli–Hess 4-polytope</a>.
             It is also
             called the <a href="https://en.wikipedia.org/wiki/Great_stellated_120-cell" 
-                target="_blank" rel="noopener noreferrer">Great stellated 120-cell</a>.
+                target="_blank" rel="noopener noreferrer">great stellated 120-cell</a>.
             </div>
             <br/>
             <div>
             Each cell is a {'{'}5/2, 3{'}'}, aka the <Link to='/Polyhedron_52_3'>great stellated dodecahedron</Link>.
-            There are 120 cells, 720 faces, 720 edges, and 120 vertices.
+            There are 120 cells, 720 faces, 720 edges, and 120 vertices in total.
             </div>
 
             <div className = "figure-div">
@@ -41,29 +41,27 @@ class Polyhedron_52_3_5 extends App {
             a great dodecahedron, {'{'}5, 5/2{'}'}.
 
             Then, we extend its edges to stellate each cell 
-            to construct a great stellated dodecahedron.
+            to construct a great stellated dodecahedron, {'{'}5/2, 3{'}'}.
             The result is a {'{'}5/2, 3, 5{'}'}.
             </div>
             <br/>
             <div>
-            Let's see how the stellation process affects the number of cells, faces, edges, and vertices.
-
             Compared with {'{'}5, 5/2, 5{'}'}, each cell is changed from a {'{'}5, 5/2{'}'} to 
             a {'{'}5/2, 3{'}'}. The number of cells remains the same: 120.
 
             Each face is changed from a pentagon to a pentagram. The number of faces remain the same: 720.
 
-            All the edges only got longer. The number of edges remains
+            All the edges only get longer. The number of edges remains
             the same: 720.
 
-            Extending edges creates new vertices. But it happens that the number of new vertices is as same
+            Extending edges creates new vertices. The number of new vertices happens to be as same
             as before, 120.
             </div>
 
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/GreatDodecahedron/pov_whole_GreatDodecahedron.png')} alt = 'static'/>
-                <figcaption>Each cell in {'{'}5, 5/2, 5{'}'}: the great dodecahedron</figcaption>
+                <figcaption>Each cell of {'{'}5, 5/2, 5{'}'} is a great dodecahedron</figcaption>
             </figure>
             <figure>
                 <img src = {require('./images/GreatDodecahedron/stellated_dodecahedron_3.png')} alt = 'static'/>
@@ -74,7 +72,7 @@ class Polyhedron_52_3_5 extends App {
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/GreatStellatedDodecahedron/pov_whole_GreatStellatedDodecahedron.png')} alt = 'static'/>
-                <figcaption>Each cell in {'{'}5/2, 3, 5{'}'}: the great stellated dodecahedron</figcaption>
+                <figcaption>Each cell of {'{'}5/2, 3, 5{'}'} is a great stellated dodecahedron</figcaption>
             </figure>
             </div>
 
@@ -84,7 +82,7 @@ class Polyhedron_52_3_5 extends App {
             Faceting from the <Link to='/Polytope_3_3_5'>600-cell</Link>:
             
             Recall that the projection of the first 3 layers of the 600-cell forms a
-            dodecahedron with concave faces. If we use the 20 vertices of this dodecahedron
+            dodecahedron with concave faces. If we take the 20 vertices of this dodecahedron
             and construct a great stellated dodecahedron, we get a cell of {'{'}5/2, 3, 5{'}'}.
             These vertices are the "middle latitude vertices" of the 600-cell.
 
@@ -107,7 +105,7 @@ class Polyhedron_52_3_5 extends App {
 
             <h4>Structure</h4>
             <div>
-            In this section, let us start from the center vertex and see how the other cells are arranged, layer by layer.
+            In this section, let us start from the centered cell and see how the other cells are arranged, layer by layer.
 
             All the cells here directly correspond to the cells of the 120-cell. They have the same layers of 1, 12, 20, 12, and 30 cells
             in the northern hemisphere and the equator.
@@ -118,7 +116,7 @@ class Polyhedron_52_3_5 extends App {
             adjacent cells in this star polytope. Here, the pair of cells intersect 
             with each other and
             the tips go into each other. However, they still meet at a pentagrammic face,
-            whose center is located at the same point as the pentagonal face in the 120-cell.
+            which shares the center with a pentagonal face in the 120-cell.
             </div>
 
             <div className = "figure-div">
@@ -134,7 +132,7 @@ class Polyhedron_52_3_5 extends App {
             Each cell is spiky, and they cross each other heavily when they meet. 
             The adjacent cells 
             touch each other on the pentagrammic faces. The adjacency relation is as same as 
-            the 120-cell. Each Layer 2 cell touches the center "north cell". Two close by 
+            the 120-cell. Each Layer 2 cell touches the center "north cell". Two adjacent 
             Layer 2 cells also touch each other. In the animation of exploded Layer 2, you
             can see two tips pointing towards us. When the cells meet, these two tips touch
             and create a thicker tip.
@@ -174,8 +172,7 @@ class Polyhedron_52_3_5 extends App {
             <div>
             From the Schläfli symbol we know the vertex figure is {'{'}3, 5{'}'}.
             Each triangular face corresponds to a tip of the cell, which is
-            a trigular prism. The 20 cells meeting at a vertex, for example,
-            the north pole, are the third layer cells.
+            a trigular prism. The 20 cells meeting at the north pole are the Layer 3 cells.
             </div>
     	</div>
     	)

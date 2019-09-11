@@ -18,17 +18,17 @@ class Intro4D extends App {
         In the 4D Euclidean space, there are six regular convex 
         polytopes.
 
-        The boundaries of 4D polytopes are 3D faces called cells.
-        The cells of the six regular convex polytopes are identical
+        The boundaries of 4D polytopes are 3D "faces" called cells.
+        The cells of each regular convex polytope are identical
         regular convex polyhedra, and all vertex figures are identical
         regular convex polyhedra.
         The 2D faces are identical convex polygons.
         The cells around each 1D edge are arranged symmetrically.
         
-        These 6 polytopes are the analog of Platonic solids.
+        These six polytopes are the analog of the Platonic solids.
 
         The <a href="http://eusebeia.dyndns.org/4d/regular" target="_blank" rel="noopener noreferrer">Eusebeia website</a> has 
-        a great summary of these six polytopes. Eusebeia also has
+        a great summary of these polytopes. Eusebeia also has
         a <a href="http://eusebeia.dyndns.org/4d/vis/vis" target="_blank" rel="noopener noreferrer">section</a> explaining
         the meaning of the 4D space and visualization by projection.
         Wikipedia also has a
@@ -39,10 +39,10 @@ class Intro4D extends App {
         </div>
         <br/>
         <div>
-        When we allow the cells and vertex figures to be regular star polyhedra, we have
+        When we allow the cells and vertex figures to be regular <strong>star</strong> polyhedra, we have
         10 more regular star polytopes in 4D, known
         as the <a href="https://en.wikipedia.org/wiki/Regular_4-polytope#Regular_star_(Schl%C3%A4fli%E2%80%93Hess)_4-polytopes" target="_blank" rel="noopener noreferrer">Schläfli–Hess 4-polytopes</a>.
-        They are the analog of the Kepler–Poinsot polyhedra.
+        They are the analog of the Kepler–Poinsot polyhedra. Below are the 3D projections.
         </div>
 
 
@@ -105,10 +105,10 @@ class Intro4D extends App {
         All 10 regular star polytopes have the
         same H4 symmetry as
         the 120-cell and the 600-cell. They can be constructed by
-        stellating and faceting the 120-cell and the 600-cell.
+        stellating or faceting the 120-cell and the 600-cell.
         We start from the 120-cell and the 600-cell to warm up.
         We will get familiar with 4D visualization by projection.
-        Then we move on to the 10 star polytopes.
+        Then, we move on to the 10 star polytopes.
         </div>
 
         <div className = "figure-div">
@@ -122,9 +122,8 @@ class Intro4D extends App {
         </figure>
         </div>
         <div>
-        When I render images for polyhedra and 
-        polytopes in this website, I use colors to indicate the shape of polyhedra or cells. 
-        Here are the shapes with 
+        When I render images in this website, I use colors to indicate the shape of polyhedra or cells. 
+        Here are the shapes with the corresponding
         colors: <span style={{color: "red"}}>dodecahedron
         </span>, <span style={{color: "green"}}>icosahedron
         </span>, <span style={{color: "cyan"}}>tetrahedron

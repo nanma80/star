@@ -124,11 +124,11 @@ class Polyhedron_52_3_5 extends App {
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_52_3_5/polytope_52_3_5_layers_2_2.gif')} alt = 'static'/>
-                <figcaption>Exploded view: layer 2</figcaption>
+                <figcaption>Exploded view: Layer 2</figcaption>
             </figure>
             <figure>
                 <img src = {require('./images/polytope_52_3_5/polytope_52_3_5_layers_3_3.gif')} alt = 'static'/>
-                <figcaption>Exploded view: layer 3</figcaption>
+                <figcaption>Exploded view: Layer 3</figcaption>
             </figure>
             </div>
             Each cell is spiky, and they cross each other heavily when they meet. 
@@ -142,11 +142,11 @@ class Polyhedron_52_3_5 extends App {
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_52_3_5/polytope_52_3_5_layers_4_4.gif')} alt = 'static'/>
-                <figcaption>Exploded view: layer 4</figcaption>
+                <figcaption>Exploded view: Layer 4</figcaption>
             </figure>
             <figure>
                 <img src = {require('./images/polytope_52_3_5/polytope_52_3_5_layers_5_5.gif')} alt = 'static'/>
-                <figcaption>Exploded view: layer 5</figcaption>
+                <figcaption>Exploded view: Layer 5</figcaption>
             </figure>
             </div>
 

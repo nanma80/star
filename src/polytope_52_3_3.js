@@ -123,11 +123,11 @@ class Polyhedron_52_3_3 extends App {
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_52_3_3/polytope_52_3_3_layers_2_2.gif')} alt = 'static'/>
-                <figcaption>Exploded view: layer 2</figcaption>
+                <figcaption>Exploded view: Layer 2</figcaption>
             </figure>
             <figure>
                 <img src = {require('./images/polytope_52_3_3/polytope_52_3_3_layers_3_3.gif')} alt = 'static'/>
-                <figcaption>Exploded view: layer 3</figcaption>
+                <figcaption>Exploded view: Layer 3</figcaption>
             </figure>
             </div>
 
@@ -141,11 +141,11 @@ class Polyhedron_52_3_3 extends App {
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_52_3_3/polytope_52_3_3_layers_4_4.gif')} alt = 'static'/>
-                <figcaption>Exploded view: layer 4</figcaption>
+                <figcaption>Exploded view: Layer 4</figcaption>
             </figure>
             <figure>
                 <img src = {require('./images/polytope_52_3_3/polytope_52_3_3_layers_5_5.gif')} alt = 'static'/>
-                <figcaption>Exploded view: layer 5</figcaption>
+                <figcaption>Exploded view: Layer 5</figcaption>
             </figure>
             </div>
             <div>

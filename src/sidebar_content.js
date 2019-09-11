@@ -101,19 +101,19 @@ const SidebarContent = props => {
 
         <SidebarDividerRow text="4D"/>
         <SidebarContentRow path='/intro_4d' currentPath={props.currentPath} text="Overview of 4D star polytopes"/>
-        <SidebarContentRow path='/polytope_5_3_3' currentPath={props.currentPath} text="120-cell { 5, 3, 3 }"/>
-        <SidebarContentRow path='/polytope_3_3_5' currentPath={props.currentPath} text="600-cell { 3, 3, 5 }"/>
-        <SidebarContentRow path='/polytope_52_5_3' currentPath={props.currentPath} text="{ 5/2, 5, 3 }"/>
-        <SidebarContentRow path='/polytope_5_52_5' currentPath={props.currentPath} text="{ 5, 5/2, 5 }"/>
-        <SidebarContentRow path='/polytope_52_3_5' currentPath={props.currentPath} text="{ 5/2, 3, 5 }"/>
-        <SidebarContentRow path='/polytope_3_5_52' currentPath={props.currentPath} text="{ 3, 5, 5/2 }"/>
+        <SidebarContentRow path='/polytope_5_3_3' currentPath={props.currentPath} text="120-cell {5, 3, 3}"/>
+        <SidebarContentRow path='/polytope_3_3_5' currentPath={props.currentPath} text="600-cell {3, 3, 5}"/>
+        <SidebarContentRow path='/polytope_52_5_3' currentPath={props.currentPath} text="{5/2, 5, 3}"/>
+        <SidebarContentRow path='/polytope_5_52_5' currentPath={props.currentPath} text="{5, 5/2, 5}"/>
+        <SidebarContentRow path='/polytope_52_3_5' currentPath={props.currentPath} text="{5/2, 3, 5}"/>
+        <SidebarContentRow path='/polytope_3_5_52' currentPath={props.currentPath} text="{3, 5, 5/2}"/>
 
-        <SidebarContentRow path='/polytope_5_3_52' currentPath={props.currentPath} text="{ 5, 3, 5/2 }"/>
-        <SidebarContentRow path='/polytope_52_5_52' currentPath={props.currentPath} text="{ 5/2, 5, 5/2 }"/>
-        <SidebarContentRow path='/polytope_5_52_3' currentPath={props.currentPath} text="{ 5, 5/2, 3 }"/>
-        <SidebarContentRow path='/polytope_52_3_3' currentPath={props.currentPath} text="{ 5/2, 3, 3 }"/>
-        <SidebarContentRow path='/polytope_3_52_5' currentPath={props.currentPath} text="{ 3, 5/2, 5 }"/>
-        <SidebarContentRow path='/polytope_3_3_52' currentPath={props.currentPath} text="{ 3, 3, 5/2 }"/>
+        <SidebarContentRow path='/polytope_5_3_52' currentPath={props.currentPath} text="{5, 3, 5/2}"/>
+        <SidebarContentRow path='/polytope_52_5_52' currentPath={props.currentPath} text="{5/2, 5, 5/2}"/>
+        <SidebarContentRow path='/polytope_5_52_3' currentPath={props.currentPath} text="{5, 5/2, 3}"/>
+        <SidebarContentRow path='/polytope_52_3_3' currentPath={props.currentPath} text="{5/2, 3, 3}"/>
+        <SidebarContentRow path='/polytope_3_52_5' currentPath={props.currentPath} text="{3, 5/2, 5}"/>
+        <SidebarContentRow path='/polytope_3_3_52' currentPath={props.currentPath} text="{3, 3, 5/2}"/>
         <SidebarContentRow path='/summary_4d' currentPath={props.currentPath} text="Summary of 4D star polytopes"/>
 
       </div>);

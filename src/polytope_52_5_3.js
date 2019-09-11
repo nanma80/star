@@ -10,7 +10,7 @@ class Polyhedron_52_5_3 extends App {
     this.state.content = (
     	<div>
             <div>
-            The polytope with 
+            The star polytope with 
             the Schläfli symbol {'{'}5/2, 5, 3{'}'} is
             a <a href="https://en.wikipedia.org/wiki/Regular_4-polytope#Regular_star_(Schl%C3%A4fli%E2%80%93Hess)_4-polytopes" target="_blank" rel="noopener noreferrer">Schläfli–Hess 4-polytope</a>.
             It is also
@@ -19,7 +19,7 @@ class Polyhedron_52_5_3 extends App {
             <br/>
             <div>
             Each cell is a {'{'}5/2, 5{'}'}, aka the <Link to='/Polyhedron_52_5'>small stellated dodecahedron</Link>.
-            There are 120 cells, 720 pentagrammic faces, 1200 edges, and 120 vertices.
+            There are 120 cells, 720 pentagrammic faces, 1200 edges, and 120 vertices in total.
             </div>
 
             <div className = "figure-div">
@@ -67,11 +67,11 @@ class Polyhedron_52_5_3 extends App {
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/Dodecahedron/pov_whole_Dodecahedron.png')} alt = 'static'/>
-                <figcaption>Each cell in the 120-cell: dodecahedron</figcaption>
+                <figcaption>Each cell in the 120-cell is a dodecahedron</figcaption>
             </figure>
             <figure>
                 <img src = {require('./images/SmallStellatedDodecahedron/pov_whole_SmallStellatedDodecahedron.png')} alt = 'static'/>
-                <figcaption>Each cell in {'{'}5/2, 5, 3{'}'}: small stellated dodecahedron</figcaption>
+                <figcaption>Each cell in {'{'}5/2, 5, 3{'}'} is a small stellated dodecahedron</figcaption>
             </figure>
             </div>
 
@@ -101,7 +101,8 @@ class Polyhedron_52_5_3 extends App {
 
             <h4>Structure</h4>
             <div>
-            In this section, let us start from the center vertex and see how the other cells are arranged, layer by layer.
+            In this section, let us start from the centered cell 
+            and see how the other cells are arranged, layer by layer.
 
             All the cells here directly correspond to the cells of the 120-cell. They have the same layers of 1, 12, 20, 12, and 30 cells
             in the northern hemisphere and the equator.
@@ -118,11 +119,11 @@ class Polyhedron_52_5_3 extends App {
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_52_5_3/polytope_52_5_3_layers_2_2.gif')} alt = 'static'/>
-                <figcaption>Exploded view: layer 2</figcaption>
+                <figcaption>Exploded view: Layer 2</figcaption>
             </figure>
             <figure>
                 <img src = {require('./images/polytope_52_5_3/polytope_52_5_3_layers_3_3.gif')} alt = 'static'/>
-                <figcaption>Exploded view: layer 3</figcaption>
+                <figcaption>Exploded view: Layer 3</figcaption>
             </figure>
             </div>
             <div>
@@ -133,11 +134,11 @@ class Polyhedron_52_5_3 extends App {
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_52_5_3/polytope_52_5_3_layers_4_4.gif')} alt = 'static'/>
-                <figcaption>Exploded view: layer 4</figcaption>
+                <figcaption>Exploded view: Layer 4</figcaption>
             </figure>
             <figure>
                 <img src = {require('./images/polytope_52_5_3/polytope_52_5_3_layers_5_5.gif')} alt = 'static'/>
-                <figcaption>Exploded view: layer 5</figcaption>
+                <figcaption>Exploded view: Layer 5</figcaption>
             </figure>
             </div>
 

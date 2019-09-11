@@ -32,7 +32,8 @@ class Polyhedron_3_3_5 extends App {
             The 600-cell is the dual polytope of the <Link to='/Polytope_5_3_3'>120-cell</Link>.
             The Schläfli symbol {'{'}3, 3, 5{'}'} is the reverted list of
             that of the 120-cell {'{'}5, 3, 3{'}'}. The cell centers and vertices of one polytope are the vertices and the cell centers
-            of the dual. The face centers and edge centers of one polytope are the edge centers and the face centers of the dual.
+            of the dual, respectively. The face centers and edge centers of one polytope are 
+            the edge centers and the face centers of the dual, respectively.
             </div>
 
             <h4>Projection</h4>
@@ -40,7 +41,7 @@ class Polyhedron_3_3_5 extends App {
             For the 120-cell, we looked at the cell-first projection. Because of the duality, a cell in the 120-cell is a vertex 
             in the 600-cell. We will look at the vertex-first projection of the 600-cell. The vertices of the 600-cell 
             have the same structure as the cells of the 120-cell.
-            The vertex-first projection of the 600-cell to 3D has an icosahedral symmetry.
+            The vertex-first projection of the 600-cell to 3D also has an icosahedral symmetry.
             </div>
 
             <div className = "figure-div">
@@ -54,7 +55,7 @@ class Polyhedron_3_3_5 extends App {
 
             <h4>Structure</h4>
             <div>
-            In this section, let us start from the center vertex and see how the other cells are arranged, layer by layer.
+            In this section, let us start from the centered vertex and see how the other cells are arranged, layer by layer.
 
             Following the terminology from the <Link to='/Polytope_5_3_3'>120-cell</Link>, I 
             call the centered vertex in projection the "north pole".
@@ -63,7 +64,7 @@ class Polyhedron_3_3_5 extends App {
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_3_3_5_cell600/polytope_3_3_5_cell600_vertex_explode.gif')} alt = 'static'/>
-                <figcaption>Exploded view: layer 1</figcaption>
+                <figcaption>Exploded view: Layer 1</figcaption>
             </figure>
             </div>
 
@@ -71,43 +72,47 @@ class Polyhedron_3_3_5 extends App {
             Layer 1: 
             Around the north pole, we have the first layer of 20 tetrahedral cells. 
             They are arranged as the faces of an icosahedron.
-            Combining the first layer, the whole shape is an icosahedron connected to the center. 
-            The whole icosahedron has the same value in the fourth dimension that we lose due to projection.
-            The center has a different value in the fourth dimension. They form a 4D pyramid with the 
-            icosahedron as the base and the center as the top.
+            Combining the first layer, the whole shape is an icosahedron. 
+            All the points on the surface of the icosahedron have the same value 
+            in the fourth dimension that we lose due to projection.
+            The north pole has a different value in the fourth dimension. 
+            Each cell connects a face of the icosahedron to the north pole.
+            The Layer 1 cells form a 4D pyramid with the 
+            icosahedron as the base and the north pole as the apex.
 
-            This structure is equivalent
-            to the pentagonal pyramid on top of the <Link to='/Polyhedron_3_5'>icosahedron</Link>. The icosahedron here is the 
+            This structure is analogous
+            to the pentagonal pyramid on top of the <Link to='/Polyhedron_3_5'>icosahedron</Link>. 
+            Since these cells surround a vertex, the icosahedron here is also the 
             vertex figure of the 600-cell. The 12 vertices of this icosahedron are the neighbors of the centered vertex.
             </div>
 
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_3_3_5_cell600/polytope_3_3_5_cell600_layers_2_2.gif')} alt = 'static'/>
-                <figcaption>Exploded view: layer 2</figcaption>
+                <figcaption>Exploded view: Layer 2</figcaption>
             </figure>
             <figure>
                 <img src = {require('./images/polytope_3_3_5_cell600/polytope_3_3_5_cell600_layers_3_3.gif')} alt = 'static'/>
-                <figcaption>Exploded view: layer 3</figcaption>
+                <figcaption>Exploded view: Layer 3</figcaption>
             </figure>
             </div>
             <div>
-            Layer 2: We attach 20 other cells to the 20 outer faces of Layer 1.
+            Layer 2: We attach 20 more cells to the 20 outer faces of Layer 1.
             </div>
             <br/>
             <div>
-            Layer 3: We attach 30 other cells to bridge the gaps from the Layer 2 cells. They 
+            Layer 3: We attach 30 more cells to bridge the gaps from the Layer 2 cells. They 
             are in the positions of the edges of an icosahedron.
             </div>
 
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_3_3_5_cell600/polytope_3_3_5_cell600_layers_4_4.gif')} alt = 'static'/>
-                <figcaption>Exploded view: layer 4</figcaption>
+                <figcaption>Exploded view: Layer 4</figcaption>
             </figure>
             <figure>
                 <img src = {require('./images/polytope_3_3_5_cell600/polytope_3_3_5_cell600_layers_5_5.gif')} alt = 'static'/>
-                <figcaption>Exploded view: layer 5</figcaption>
+                <figcaption>Exploded view: Layer 5</figcaption>
             </figure>
             </div>
 
@@ -128,11 +133,11 @@ class Polyhedron_3_3_5 extends App {
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_3_3_5_cell600/polytope_3_3_5_cell600_layers_6_6.gif')} alt = 'static'/>
-                <figcaption>Exploded view: layer 6</figcaption>
+                <figcaption>Exploded view: Layer 6</figcaption>
             </figure>
             <figure>
                 <img src = {require('./images/polytope_3_3_5_cell600/polytope_3_3_5_cell600_layers_7_7.gif')} alt = 'static'/>
-                <figcaption>Exploded view: layer 7</figcaption>
+                <figcaption>Exploded view: Layer 7</figcaption>
             </figure>            
             </div>
             <div>
@@ -147,7 +152,7 @@ class Polyhedron_3_3_5 extends App {
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_3_3_5_cell600/polytope_3_3_5_cell600_layers_8_8.gif')} alt = 'static'/>
-                <figcaption>Exploded view: layer 8</figcaption>
+                <figcaption>Exploded view: Layer 8</figcaption>
             </figure>
             </div>
             <div>

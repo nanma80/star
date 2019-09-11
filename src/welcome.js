@@ -54,12 +54,24 @@ class Welcome extends App {
         <div className = "figure-div">
         <figure>
             <img src = {require('./images/SmallStellatedDodecahedron/pov_whole_SmallStellatedDodecahedron.png')} alt = 'static'/>
-            <figcaption>3D: Small stellated dodecahedron</figcaption>
+            <figcaption>3D: small stellated dodecahedron</figcaption>
         </figure>
         <figure>
-            <img src = {require('./images/polytope_52_3_5/pov_whole_polytope_52_3_5.png')} alt = 'static'/>
-            <figcaption>4D: Great stellated 120-cell</figcaption>
+            <img src = {require('./images/GreatDodecahedron/exploded_GreatDodecahedron.gif')} alt = 'static'/>
+            <figcaption>3D: great dodecahedron, exploded view</figcaption>
         </figure>
+        </div>
+
+        <div className = "figure-div">
+        <figure>
+            <img src = {require('./images/polytope_52_3_5/pov_whole_polytope_52_3_5.png')} alt = 'static'/>
+            <figcaption>4D: great stellated 120-cell</figcaption>
+        </figure>
+        <figure>
+            <img src = {require('./images/polytope_5_3_52/polytope_5_3_52_layers_3_3.gif')} alt = 'static'/>
+            <figcaption>4D: grand 120-cell, Layer 3</figcaption>
+        </figure>
+
         </div>
 	</div>)
     ;

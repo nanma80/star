@@ -10,7 +10,8 @@ class Summary3D extends App {
 
   useZoomWorkaround = () => {
     var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-    return window.devicePixelRatio > 1 && isChrome;
+    var isWindows = /Win/.test(navigator.platform);
+    return window.devicePixelRatio > 1 && isChrome && isWindows;
   };
 
   zoomWorkaroundBeforeDagreRender = (svg) => {

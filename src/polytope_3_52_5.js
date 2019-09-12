@@ -59,11 +59,30 @@ class Polyhedron_3_52_5 extends App {
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/SmallStellatedDodecahedron/pov_whole_SmallStellatedDodecahedron.png')} alt = 'static'/>
-                <figcaption>Each cell in {'{'}5/2, 5, 5/2{'}'}: the small stellated dodecahedron</figcaption>
+                <figcaption>Each cell in {'{'}5/2, 5, 5/2{'}'} is a small stellated dodecahedron</figcaption>
             </figure>
             <figure>
                 <img src = {require('./images/GreatIcosahedron/pov_whole_GreatIcosahedron.png')} alt = 'static'/>
-                <figcaption>Each cell in {'{'}3, 5/2, 5{'}'}: the great icosahedron</figcaption>
+                <figcaption>Each cell in {'{'}3, 5/2, 5{'}'} is a great icosahedron</figcaption>
+            </figure>
+            </div>
+
+            <div>
+            A different way to get the great icosahedral 120-cell, {'{'}3, 5/2, 5{'}'}, 
+            is to stellate from the icosahedral 120-cell, <Link to='/Polytope_3_5_52'>{'{'}3, 5, 5/2{'}'}</Link>. Each cell of {'{'}3, 5, 5/2{'}'} is 
+            an icosahedron. We can stellate each icosahedron to construct a great icosahedron 
+            as explained in <Link to='/Polyhedron_3_52'>this page</Link>. The result is this star polytope, the great icosahedral 120-cell.
+            </div>
+
+            <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/Icosahedron/pov_whole_Icosahedron.png')} alt = 'static'/>
+                <figcaption>Each cell of {'{'}3, 5, 5/2{'}'} is a regular icosahedron</figcaption>
+            </figure>
+
+            <figure>
+                <img src = {require('./images/Icosahedron/stellated_icosahedron.png')} alt = 'static'/>
+                <figcaption>Stellating the icosahedron to form large triangular faces</figcaption>
             </figure>
             </div>
 

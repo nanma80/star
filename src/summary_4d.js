@@ -83,7 +83,7 @@ class Summary4D extends App {
         g.setEdge("52_5_52", "5_52_3", {color: "blue"});
         g.setEdge("5_52_3", "52_3_3", {color: "red"});
         g.setEdge("52_5_52", "3_52_5", {color: "green"});
-
+        // g.setEdge("3_5_52", "3_52_5", {color: "black"});
 
         g.nodes().forEach(function(v) {
             var node = g.node(v);

@@ -69,7 +69,7 @@ class ObservableEmbed extends App {
     render() {
         return (
             <div>
-                <h4>Interactive exploded view</h4>
+                <h4 id="interactive">Interactive exploded view</h4>
                 <div>
                 Although the animations of the exploding polytope look nice, I bet you
                 want to have more control over the view point and the speed of animation. 

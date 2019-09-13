@@ -1,6 +1,6 @@
 import React from 'react';
 import App from './App';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import ObservableEmbed from "./observable_embed";
 
 class Polyhedron_5_3_3 extends App {
@@ -27,7 +27,7 @@ class Polyhedron_5_3_3 extends App {
             the <a href="http://eusebeia.dyndns.org/4d/120-cell" target="_blank" rel="noopener noreferrer">Eusebeia page</a>.
             </div>
 
-            <h4>Projection</h4>
+            <h4 id="projection">Projection</h4>
             <div>
             To understand the structure of the 4D polytopes, 
             we heavily rely on projecting them to 3D, which is a space we are familiar with.
@@ -53,7 +53,7 @@ class Polyhedron_5_3_3 extends App {
             </figure>
             </div>
 
-            <h4>Structure</h4>
+            <h4 id="structure">Structure</h4>
             <div>
             The first image above packs 120 dodecahedra together. We cannot really see the structure from this picture.
             In this section, we start from the center cell and see how the other cells are arranged, layer by layer.
@@ -139,7 +139,7 @@ class Polyhedron_5_3_3 extends App {
 
             <ObservableEmbed name="{5,3,3}"/>
 
-            <h4>Vertex figure</h4>
+            <h4 id="vertex">Vertex figure</h4>
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_5_3_3_cell120/vertex_figure_polytope_5_3_3_cell120.png')} alt = 'static'/>

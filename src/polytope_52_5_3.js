@@ -1,6 +1,6 @@
 import React from 'react';
 import App from './App';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import ObservableEmbed from "./observable_embed";
 
 class Polyhedron_52_5_3 extends App {
@@ -30,7 +30,7 @@ class Polyhedron_52_5_3 extends App {
             </div>
 
 
-            <h4>Construction</h4>
+            <h4 id="construction">Construction</h4>
             <ul>
             <li>
             <div>
@@ -99,7 +99,7 @@ class Polyhedron_52_5_3 extends App {
             </ul>
 
 
-            <h4>Structure</h4>
+            <h4 id="structure">Structure</h4>
             <div>
             In this section, let us start from the centered cell 
             and see how the other cells are arranged, layer by layer.
@@ -154,7 +154,7 @@ class Polyhedron_52_5_3 extends App {
             </div>
             <ObservableEmbed name="{5/2,5,3}"/>
 
-            <h4>Vertex figure</h4>
+            <h4 id="vertex">Vertex figure</h4>
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_52_5_3/vertex_figure_polytope_52_5_3.png')} alt = 'static'/>

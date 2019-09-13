@@ -6,7 +6,6 @@ class PolytopeData extends App {
     super(props);
 
     this.state.content = (<div>
-        <h4>Data set for the 4D polytopes</h4>
         <div>
         When I created this website, I generated the data for the polytopes including the 120-cell, the 600-cell,
         and 10 star polytopes. It includes the coordinates of the vertices, and the definition of edges, faces, and cells.
@@ -82,7 +81,7 @@ class PolytopeData extends App {
     </div>)
     ;
 
-    this.state.contentHeader = (<span>Polytope data set</span>)
+    this.state.contentHeader = (<span>Polytope data set for the 4D polytopes</span>)
   }
 }
 

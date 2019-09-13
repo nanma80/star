@@ -125,6 +125,9 @@ class Summary4D extends App {
 
   componentDidMount() {
     this.drawChart();
+    if (window.ref.current !== null) { 
+      window.ref.current.scrollIntoView({block: "center"});
+    };
   }
 
 
@@ -132,7 +135,7 @@ class Summary4D extends App {
     super(props);
 
     this.state.content = (<div>
-        <h4>Relationship among the 120-cell and the 9 stellations</h4>
+        <h4 id="relationship">Relationship among the 120-cell and the 9 stellations</h4>
 
         <div>
         Among the ten star polytopes in 4D, nine can be constructed by stellating the 
@@ -184,7 +187,7 @@ class Summary4D extends App {
         at some point, it becomes the counterpart in the first generation.
         </div>
 
-        <h4>Categorized by edge arrangements</h4>
+        <h4 id="categorized-edge">Categorized by edge arrangements</h4>
 
         <div>
         If we only consider the edges of the polytopes and look at them as wireframes, just
@@ -279,7 +282,7 @@ class Summary4D extends App {
         </div>
 
 
-        <h4>Categorized by face arrangements</h4>
+        <h4 id="categorized-face">Categorized by face arrangements</h4>
 
         <div>
         If we only consider the faces of the polytopes but ignore the cells,

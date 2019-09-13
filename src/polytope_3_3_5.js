@@ -1,6 +1,6 @@
 import React from 'react';
 import App from './App';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import ObservableEmbed from "./observable_embed";
 
 class Polyhedron_3_3_5 extends App {
@@ -27,7 +27,7 @@ class Polyhedron_3_3_5 extends App {
             the <a href="http://eusebeia.dyndns.org/4d/600-cell" target="_blank" rel="noopener noreferrer">Eusebeia page</a>.
             </div>
 
-            <h4>Duality</h4>
+            <h4 id="duality">Duality</h4>
             <div>
             The 600-cell is the dual polytope of the <Link to='/Polytope_5_3_3'>120-cell</Link>.
             The Schläfli symbol {'{'}3, 3, 5{'}'} is the reverted list of
@@ -36,7 +36,7 @@ class Polyhedron_3_3_5 extends App {
             the edge centers and the face centers of the dual, respectively.
             </div>
 
-            <h4>Projection</h4>
+            <h4 id="projection">Projection</h4>
             <div>
             For the 120-cell, we looked at the cell-first projection. Because of the duality, a cell in the 120-cell is a vertex 
             in the 600-cell. We will look at the vertex-first projection of the 600-cell. The vertices of the 600-cell 
@@ -53,7 +53,7 @@ class Polyhedron_3_3_5 extends App {
 
 
 
-            <h4>Structure</h4>
+            <h4 id="structure">Structure</h4>
             <div>
             In this section, let us start from the centered vertex and see how the other cells are arranged, layer by layer.
 
@@ -180,7 +180,7 @@ class Polyhedron_3_3_5 extends App {
 
             <ObservableEmbed name="{3,3,5}"/>
 
-            <h4>Vertex figure</h4>
+            <h4 id="vertex">Vertex figure</h4>
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_3_3_5_cell600/vertex_figure_polytope_3_3_5_cell600.png')} alt = 'static'/>

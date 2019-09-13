@@ -1,6 +1,6 @@
 import React from 'react';
 import App from './App';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 class Polyhedron_3_5 extends App {
   constructor(props) {
@@ -27,7 +27,7 @@ class Polyhedron_3_5 extends App {
         </figure>
         </div>
         
-        <h4>Duality</h4>
+        <h4 id="duality">Duality</h4>
         <div>
         The regular icosahedron is the dual of the regular dodecahedron. It means the faces
         of one shape correspond to the vertices of the other. Specifically, if you place a
@@ -36,9 +36,9 @@ class Polyhedron_3_5 extends App {
         the icosahedron is {'{'}3, 5{'}'}. You can revert the Schläfli symbols to get the dual.
         </div>
 
-        <h4>The north pole</h4>
+        <h4 id="north">The north pole</h4>
         <div>
-        In the <Link to='/Polyhedron_5_3'>dodecahedron page</Link> we described the "north pole"
+        In the <Link to='/Polyhedron_5_3#north'>dodecahedron page</Link> we described the "north pole"
         as one of the face centers. The dual icosahedron will have a vertex at the "north pole".
         The north pole vertex has 5 adjacent vertices, which are on the northern hemisphere 
         with the same latitude. The 5 faces connecting these 6 vertices form a pentagonal pyramid.

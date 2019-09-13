@@ -1,6 +1,6 @@
 import React from 'react';
 import App from './App';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 class Polyhedron_5_3 extends App {
   constructor(props) {
@@ -20,7 +20,7 @@ class Polyhedron_5_3 extends App {
             <figcaption>Regular dodecahedron</figcaption>
         </figure>
         </div>
-        <h4>The north face</h4>
+        <h4 id="north">The north face</h4>
         <div>
         I think of the faces in the following way. 
         I call the direction of one of the face as "north". 
@@ -55,7 +55,7 @@ class Polyhedron_5_3 extends App {
         because they are viewed at an angle. The whole 2D image
         has a 5-fold rotational symmetry.
     	</div>
-        <h4>Vertex figure</h4>
+        <h4 id="vertex">Vertex figure</h4>
         <div className = "figure-div">
         <figure>
             <img src = {require('./images/Dodecahedron/pov_vertex_figure_Dodecahedron.png')} alt = 'static'/>
@@ -73,7 +73,7 @@ class Polyhedron_5_3 extends App {
         Regular polyhedra are required to have regular vertex figures.
         </div>
 
-        <h4>Notation</h4>
+        <h4 id="notation">Notation</h4>
         <div>
         The <a href="https://en.wikipedia.org/wiki/Schl%C3%A4fli_symbol" target="_blank" rel="noopener noreferrer">Schläfli symbol</a> of 
         the regular dodecahedron is {'{'}5, 3{'}'} because 

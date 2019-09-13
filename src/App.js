@@ -2,6 +2,7 @@ import React from "react";
 import Sidebar from "react-sidebar";
 import MaterialTitlePanel from "./material_title_panel";
 import SidebarContent from "./sidebar_content";
+import TableOfContents from "./table_of_contents";
 import './App.css';
 
 const styles = {
@@ -65,7 +66,9 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    window.ref.current.scrollIntoView({block: "center"});
+    if (window.ref.current !== null) { 
+      window.ref.current.scrollIntoView({block: "center"});
+    };
   }
 
 
@@ -98,10 +101,23 @@ class App extends React.Component {
             {this.state.content}
           </div>);
 
+    var h4Tags = content.props.children.props.children
+      .filter((item)=>{return item.type === 'h4'});
+    
+    var h4TagsMissingIds = content.props.children.props.children
+      .filter((item)=>{return item.type === 'h4' && item.props.id === undefined});
+
+    if(h4TagsMissingIds.length > 0) {
+      console.log("h4Tags missing id!");
+    }
+
+    var h4TagsProps = h4Tags.map((item) => {return [item.props.id, item.props.children]});
+
     return (
       <Sidebar {...sidebarProps}>
         <MaterialTitlePanel title={contentHeader}>
           <div>
+          <TableOfContents list={h4TagsProps}/>
           {content}
           {!this.state.docked && (
             <div style={styles.footer}>

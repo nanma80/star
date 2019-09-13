@@ -1,11 +1,14 @@
 import React from "react";
 import App from './App';
+import { HashLink as Link } from 'react-router-hash-link';
+// import { HashLink as Link } from 'react-router-hash-link';
 
 class Welcome extends App {
   constructor(props) {
     super(props);
 
     this.state.content = (<div>
+        <Link to="/summary_3d#categorized">Test link</Link>
     	<div>
     		In geometry, a <a href="https://en.wikipedia.org/wiki/Polytope" target="_blank" rel="noopener noreferrer">polytope</a> is 
             a polygon 

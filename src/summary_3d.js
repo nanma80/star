@@ -1,6 +1,7 @@
 import React from "react";
 import App from './App';
-import { Link } from 'react-router-dom';
+// import { HashLink as Link } from 'react-router-hash-link';
+import { HashLink as Link } from 'react-router-hash-link';
 import * as d3 from 'd3';
 import dagreD3 from 'dagre-d3';
 
@@ -86,6 +87,9 @@ class Summary3D extends App {
 
   componentDidMount() {
     this.drawChart();
+    if (window.ref.current !== null) { 
+      window.ref.current.scrollIntoView({block: "center"});
+    };
   }
 
 
@@ -93,7 +97,7 @@ class Summary3D extends App {
     super(props);
 
     this.state.content = (<div>
-        <h4>Relationship among the convex dodecahedron and the three stellations</h4>
+        <h4 id="relationship">Relationship among the convex dodecahedron and the three stellations</h4>
 
         <div>
         Before moving on to 4D, let us summarize the stellation process among 
@@ -218,7 +222,7 @@ class Summary3D extends App {
         non-regular faces, or non-regular vertex figures, or a compound.
         </div>
 
-        <h4>Categorized by edge arrangements</h4>
+        <h4 id="categorized">Categorized by edge arrangements</h4>
         <div>
         If we only consider the edges of the polyhedra, we see that the convex regular icosahedron and the great dodecahedron are the same.
         Their difference is in the faces. They share the same edge arrangement.

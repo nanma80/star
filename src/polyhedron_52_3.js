@@ -1,6 +1,6 @@
 import React from 'react';
 import App from './App';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 class Polyhedron_52_3 extends App {
   constructor(props) {
@@ -49,7 +49,7 @@ class Polyhedron_52_3 extends App {
 
 
 
-        <h4>Construction</h4>
+        <h4 id="construction">Construction</h4>
         <ul>
         <li>
         Stellation from a dodecahedron:
@@ -104,7 +104,7 @@ class Polyhedron_52_3 extends App {
 
 
 
-        <h4>Exploded view</h4>
+        <h4 id="exploded">Exploded view</h4>
         <div>
         Since all the faces on this star polyhedron overlap and intersect with each other, 
         it is easier to see the faces when we explode them. In this animation, 

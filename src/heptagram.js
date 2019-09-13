@@ -1,6 +1,6 @@
 import React from 'react';
 import App from './App';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 class Heptagram extends App {
   constructor(props) {
@@ -26,7 +26,7 @@ class Heptagram extends App {
 
             </div>
 
-            <h4>Two heptagrams</h4>
+            <h4 id="two">Two heptagrams</h4>
             <div>
             Unlike pentagram, which has a single shape, 
             there are two types of heptagrams. 
@@ -61,7 +61,7 @@ class Heptagram extends App {
             hyperbolic tessellations are out of scope of this website.
             </div>
 
-            <h4>Explosion</h4>
+            <h4 id="explosion">Explosion</h4>
             <div>
             We can "explode" the heptagram {'{'}7/3{'}'} by 
             moving its edges away from the center.
@@ -75,7 +75,7 @@ class Heptagram extends App {
             </figure>
             </div>
 
-            <h4>General star polygons</h4>
+            <h4 id="general">General star polygons</h4>
             <div>
             After going through the exercise of the heptagon, you can easily think of a general star polygon as {'{'}p/q{'}'} by
             starting from a regular p-gon, and connecting edges by skipping q-1 vertices. The only caveat is that when p and q 

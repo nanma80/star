@@ -81,7 +81,7 @@ class Polyhedron_3_3_5 extends App {
             icosahedron as the base and the north pole as the apex.
 
             This structure is analogous
-            to the pentagonal pyramid on top of the <Link to='/Polyhedron_3_5'>icosahedron</Link>. 
+            to the pentagonal pyramid on top of the <Link to='/Polyhedron_3_5#north'>icosahedron</Link>. 
             Since these cells surround a vertex, the icosahedron here is also the 
             vertex figure of the 600-cell. The 12 vertices of this icosahedron are the neighbors of the centered vertex.
             </div>

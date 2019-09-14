@@ -71,7 +71,7 @@ class Polyhedron_3_52_5 extends App {
             A different way to get the great icosahedral 120-cell, {'{'}3, 5/2, 5{'}'}, 
             is to stellate from the icosahedral 120-cell, <Link to='/Polytope_3_5_52'>{'{'}3, 5, 5/2{'}'}</Link>. Each cell of {'{'}3, 5, 5/2{'}'} is 
             an icosahedron. We can stellate each icosahedron to construct a great icosahedron 
-            as explained in <Link to='/Polyhedron_3_52'>this page</Link>. The result is this star polytope, the great icosahedral 120-cell.
+            as explained in <Link to='/Polyhedron_3_52#construction'>this page</Link>. The result is this star polytope, the great icosahedral 120-cell.
             </div>
 
             <div className = "figure-div">

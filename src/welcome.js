@@ -8,7 +8,6 @@ class Welcome extends App {
     super(props);
 
     this.state.content = (<div>
-        <Link to="/summary_3d#categorized">Test link</Link>
     	<div>
     		In geometry, a <a href="https://en.wikipedia.org/wiki/Polytope" target="_blank" rel="noopener noreferrer">polytope</a> is 
             a polygon 

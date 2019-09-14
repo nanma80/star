@@ -98,7 +98,7 @@ class Polyhedron_5_52 extends App {
         <li>
         Faceting from an icosahedron:
         The 12 vertices are the vertices of an icosahedron.
-        We first recall that in an <Link to='/Polyhedron_3_5'>icosahedron</Link>, 
+        We first recall that in an <Link to='/Polyhedron_3_5#north'>icosahedron</Link>, 
         if we think of a vertex as the north pole, there are 5 other
         vertices on the northern hemisphere with the same latitude. These 5 vertices form
         a pentagon. Each pentagon is a face of the great dodecahedron.

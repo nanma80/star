@@ -16,7 +16,7 @@ class Hexagram extends App {
             </div>
 
             <div>
-    		We can create generic star polygons {'{'}p/q{'}'}, as discussed in <Link to='/heptagram'>the previous page</Link>.
+    		We can create generic star polygons {'{'}p/q{'}'}, as discussed in <Link to='/heptagram#general'>the previous page</Link>.
             If p and q are not coprime, for example, {'{'}6/2{'}'}, we have degenerate cases.
             </div>
             <br/>

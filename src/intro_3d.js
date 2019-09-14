@@ -13,7 +13,7 @@ class Intro3D extends App {
         On these solids, the faces are identical regular 
         convex polygons and the vertex figures
         are also identical regular convex polygons. We will talk about the vertex figure 
-        in the page of the <Link to='/Polyhedron_5_3'>dodecahedron</Link>.
+        in the page of the <Link to='/Polyhedron_5_3#vertex'>dodecahedron</Link>.
         </div>
         <br/>
         <div>

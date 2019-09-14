@@ -7,8 +7,8 @@ class Polyhedron_52_5_3 extends App {
   constructor(props) {
     super(props);
 
-    this.state.content = (
-    	<div>
+    this.state.intro = (
+        <div>
             <div>
             The star polytope with 
             the Schläfli symbol {'{'}5/2, 5, 3{'}'} is
@@ -21,7 +21,11 @@ class Polyhedron_52_5_3 extends App {
             Each cell is a {'{'}5/2, 5{'}'}, aka the <Link to='/Polyhedron_52_5'>small stellated dodecahedron</Link>.
             There are 120 cells, 720 pentagrammic faces, 1200 edges, and 120 vertices in total.
             </div>
+        </div>
+        );
 
+    this.state.content = (
+    	<div>
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_52_5_3/pov_whole_polytope_52_5_3.png')} alt = 'static'/>

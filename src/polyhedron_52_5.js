@@ -5,11 +5,10 @@ import { HashLink as Link } from 'react-router-hash-link';
 class Polyhedron_52_5 extends App {
   constructor(props) {
     super(props);
-
-    this.state.content = (
-    	<div>
+    this.state.intro = (
         <div>
-    		The small stellated dodecahedron is one of the four regular
+        <div>
+            The small stellated dodecahedron is one of the four regular
             star polyhedra, known as the <a href="https://en.wikipedia.org/wiki/Kepler%E2%80%93Poinsot_polyhedron" target="_blank" rel="noopener noreferrer">Kepler–Poinsot polyhedra</a>.
             The faces of these polyhedra are identical regular polygons or star polygons, and 
             the vertex figures are identical regular polygons or star polygons.
@@ -26,6 +25,12 @@ class Polyhedron_52_5 extends App {
         polytopes don't have to satisfy the formula.
         The dual polyhedra is {'{'}5, 5/2{'}'}, aka the <Link to='/Polyhedron_5_52'>great dodecahedron</Link>.
         </div>
+        </div>
+        );
+
+    this.state.content = (
+    	<div>
+
 
         <div className = "figure-div">
         <figure>

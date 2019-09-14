@@ -6,14 +6,17 @@ class Polyhedron_5_3 extends App {
   constructor(props) {
     super(props);
 
-    this.state.content = (
+    this.state.intro = (
         <div>
-    	<div>
         Before going into star polyhedra, let us warm up with some non-star convex polyhedra.
-		The regular dodecahedron is one of the five regular convex 
+        The regular dodecahedron is one of the five regular convex 
         polyhedra (the <a href="https://en.wikipedia.org/wiki/Platonic_solid" target="_blank" rel="noopener noreferrer">Platonic solids</a>).
         There are 12 faces, each of which is a regular pentagon. Three faces meet at every vertex.
         </div>
+        );
+
+    this.state.content = (
+        <div>
         <div className = "figure-div">
         <figure>
             <img src = {require('./images/Dodecahedron/pov_whole_Dodecahedron.png')} alt = 'static'/>

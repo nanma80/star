@@ -96,12 +96,18 @@ class Summary3D extends App {
   constructor(props) {
     super(props);
 
+    this.state.intro = (
+        <div>
+        Before moving on to 4D, let us have a summary about the star polyhedra
+        and review the connections.
+        </div>
+        );
+
     this.state.content = (<div>
         <h4 id="relationship">Relationship among the convex dodecahedron and the three stellations</h4>
 
         <div>
-        Before moving on to 4D, let us summarize the stellation process among 
-        the four star polyhedra. Except for the great icosahedron, which is a 
+        Except for the great icosahedron, which is a 
         stellated icosahedron,
         the other 
         three polyhedra can be constructed by stellating the regular dodecahedron.

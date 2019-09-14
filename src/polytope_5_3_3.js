@@ -7,8 +7,8 @@ class Polyhedron_5_3_3 extends App {
   constructor(props) {
     super(props);
 
-    this.state.content = (
-    	<div>
+    this.state.intro = (
+        <div>
             <div>
             The 120-cell is a convex regular polytope in 4D. 
             The Schläfli symbol is {'{'}5, 3, 3{'}'}.
@@ -26,7 +26,11 @@ class Polyhedron_5_3_3 extends App {
             the <a href="https://en.wikipedia.org/wiki/120-cell" target="_blank" rel="noopener noreferrer">wikipedia page</a> and
             the <a href="http://eusebeia.dyndns.org/4d/120-cell" target="_blank" rel="noopener noreferrer">Eusebeia page</a>.
             </div>
+        </div>
+        );
 
+    this.state.content = (
+    	<div>
             <h4 id="projection">Projection</h4>
             <div>
             To understand the structure of the 4D polytopes, 

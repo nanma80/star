@@ -5,11 +5,10 @@ import { HashLink as Link } from 'react-router-hash-link';
 class Polyhedron_5_52 extends App {
   constructor(props) {
     super(props);
-
-    this.state.content = (
-    	<div>
+    this.state.intro = (
         <div>
-    		The great dodecahedron is one of the four regular
+        <div>
+            The great dodecahedron is one of the four regular
             star polyhedra, known as the <a href="https://en.wikipedia.org/wiki/Kepler%E2%80%93Poinsot_polyhedron" target="_blank" rel="noopener noreferrer">Kepler–Poinsot polyhedra</a>.
              The Schläfli symbol is {'{'}5, 5/2{'}'}. 
              Each face is a {'{'}5{'}'} (pentagon). Each
@@ -27,6 +26,12 @@ class Polyhedron_5_52 extends App {
         we know the structure of the vertex must be special. Actually the faces intersect
         around each vertex, making a star-like path.
         </div>
+
+        </div>
+        );
+
+    this.state.content = (
+    	<div>
 
         <br/>
         <div>

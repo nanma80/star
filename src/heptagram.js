@@ -5,6 +5,13 @@ import { HashLink as Link } from 'react-router-hash-link';
 class Heptagram extends App {
   constructor(props) {
     super(props);
+    this.state.intro = (
+            <div>
+                Unlike pentagram, which has a single shape, 
+                there are two types of heptagrams. 
+                The Schläfli symbols are {'{'}7/2{'}'}, and {'{'}7/3{'}'}.
+            </div>
+        );
 
     this.state.content = (
     	<div>
@@ -26,11 +33,8 @@ class Heptagram extends App {
 
             </div>
 
-            <h4 id="two">Two heptagrams</h4>
+            <h4 id="construction">Construction</h4>
             <div>
-            Unlike pentagram, which has a single shape, 
-            there are two types of heptagrams. 
-            The Schläfli symbols are {'{'}7/2{'}'}, and {'{'}7/3{'}'}.
             When we follow the construction methods, faceting or stellation, as for <Link to='/pentagram#construction'>pentagram</Link>, 
             we have more choices. 
             </div>

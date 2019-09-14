@@ -1,3 +1,11 @@
+.intro-div {
+  padding: 16px;
+}
+
+.content-divider {
+  clear: both;
+}
+
 .material-icons {
   vertical-align: -4px;
 }

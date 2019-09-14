@@ -7,8 +7,8 @@ class Polyhedron_52_3_3 extends App {
   constructor(props) {
     super(props);
 
-    this.state.content = (
-    	<div>
+    this.state.intro = (
+        <div>
            <div>
             The star polytope with 
             the Schläfli symbol {'{'}5/2, 3, 3{'}'} is
@@ -23,7 +23,11 @@ class Polyhedron_52_3_3 extends App {
             There are 120 cells, 720 faces, 1200 edges, and 600 vertices in total.
             It is the only Schläfli–Hess polytope with 600 vertices. All the others have 120.
             </div>
+        </div>
+        );
 
+    this.state.content = (
+    	<div>
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_52_3_3/pov_whole_polytope_52_3_3.png')} alt = 'static'/>

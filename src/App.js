@@ -20,7 +20,7 @@ const styles = {
   }
 };
 
-const mql = window.matchMedia(`(min-width: 800px)`);
+const mql = window.matchMedia(`(min-width: 750px)`);
 
 class App extends React.Component {
   constructor(props) {
@@ -29,6 +29,7 @@ class App extends React.Component {
     this.state = {
       docked: mql.matches,
       open: false,
+      intro: "",
       content: "default content",
       contentHeader: (<span> Star Polytopes </span>)
     };
@@ -97,9 +98,17 @@ class App extends React.Component {
       onSetOpen: this.onSetOpen
     };
 
+
     const content = (<div style={styles.content}>
             {this.state.content}
           </div>);
+
+    const intro = (
+        this.state.intro !== "" &&
+        <div style={styles.content}>
+            {this.state.intro}
+          </div>
+          );
 
     var h4Tags = content.props.children.props.children
       .filter((item)=>{return item.type === 'h4'});
@@ -117,7 +126,19 @@ class App extends React.Component {
       <Sidebar {...sidebarProps}>
         <MaterialTitlePanel title={contentHeader}>
           <div>
-          <TableOfContents list={h4TagsProps}/>
+            {this.state.docked && (<div>
+              <TableOfContents list={h4TagsProps} tableOfContentsOnSide={this.state.docked}/>
+              {intro}
+              </div>
+            )}
+            {!this.state.docked && (<div>
+              {intro}
+              <TableOfContents list={h4TagsProps} tableOfContentsOnSide={this.state.docked}/>
+              </div>
+            )}
+          </div>
+
+          <div className = "content-divider"/>
           {content}
           {!this.state.docked && (
             <div style={styles.footer}>
@@ -126,7 +147,6 @@ class App extends React.Component {
             </a>
             </div>
           )}
-          </div>
         </MaterialTitlePanel>
       </Sidebar>
     );

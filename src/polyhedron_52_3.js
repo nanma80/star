@@ -5,9 +5,8 @@ import { HashLink as Link } from 'react-router-hash-link';
 class Polyhedron_52_3 extends App {
   constructor(props) {
     super(props);
-
-    this.state.content = (
-    	<div>
+    this.state.intro = (
+        <div>
         <div>
             The great stellated dodecahedron is one of the four regular
             star polyhedra, known as the <a href="https://en.wikipedia.org/wiki/Kepler%E2%80%93Poinsot_polyhedron" target="_blank" rel="noopener noreferrer">Kepler–Poinsot polyhedra</a>.
@@ -27,6 +26,12 @@ class Polyhedron_52_3 extends App {
             The great one appears spikier than the small one. If the sizes of the pentagrams are the same, the faces on the great stellated
             dodecahedron will be closer to the center.
         </div>
+
+        </div>
+        );
+
+    this.state.content = (
+    	<div>
 
         <div className = "figure-div">
         <figure>

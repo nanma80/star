@@ -134,6 +134,14 @@ class Summary4D extends App {
   constructor(props) {
     super(props);
 
+    this.state.intro = (
+        <div>
+        After looking at the star polytopes individually,
+        let us have a summary about all of them,
+        and review the connections.
+        </div>
+        );
+
     this.state.content = (<div>
         <h4 id="relationship">Relationship among the 120-cell and the 9 stellations</h4>
 

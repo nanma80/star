@@ -1,9 +1,11 @@
 import React from "react";
 import { HashLink as Link } from 'react-router-hash-link';
+import './table_of_contents.css';
 
 class TableOfContents extends React.Component {
     render() {
-      
+      console.log(this.props.tableOfContentsOnSide);
+
       if (this.props.list.length === 0) {
         return (<div/>);
       } else {
@@ -17,13 +19,18 @@ class TableOfContents extends React.Component {
                 );
             }
           );
+        var className = "table-of-contents " 
+          + (
+            this.props.tableOfContentsOnSide 
+            ? "table-of-contents-on-side" 
+            : "table-of-contents-inline"
+            );
 
         return (
-            <div>
-            <br/>
-              <div>
+            <div className = {className}>
+              <span>
               Contents:
-              </div>
+              </span>
               <ul>
               {toc}
               </ul>

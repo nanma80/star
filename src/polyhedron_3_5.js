@@ -5,9 +5,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 class Polyhedron_3_5 extends App {
   constructor(props) {
     super(props);
-
-    this.state.content = (
-    	<div>
+    this.state.intro = (
         <div>
         The regular icosahedron is another one of the five regular convex 
         polyhedra (the <a href="https://en.wikipedia.org/wiki/Platonic_solid" target="_blank" rel="noopener noreferrer">Platonic solids</a>).
@@ -15,6 +13,10 @@ class Polyhedron_3_5 extends App {
         each face is a {'{'}3{'}'} (triangle), and each
         vertex figure is a {'{'}5{'}'} (pentagon).
         </div>
+        );
+
+    this.state.content = (
+    	<div>
 
         <div className = "figure-div">
         <figure>

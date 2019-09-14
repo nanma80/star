@@ -6,9 +6,8 @@ import ObservableEmbed from "./observable_embed";
 class Polyhedron_3_3_52 extends App {
   constructor(props) {
     super(props);
-
-    this.state.content = (
-    	<div>
+    this.state.intro = (
+        <div>
             <div>
             The star polytope with 
             the Schläfli symbol {'{'}3, 3, 5/2{'}'} is
@@ -22,7 +21,11 @@ class Polyhedron_3_3_52 extends App {
             Each cell is a {'{'}3, 3{'}'}, aka the tetrahedron.
             There are 600 cells, 1200 pentagonal faces, 720 edges, and 120 vertices in total.
             </div>
+        </div>
+        );
 
+    this.state.content = (
+    	<div>
             <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polytope_3_3_52/pov_whole_polytope_3_3_52.png')} alt = 'static'/>

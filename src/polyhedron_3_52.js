@@ -5,9 +5,8 @@ import { HashLink as Link } from 'react-router-hash-link';
 class Polyhedron_3_52 extends App {
   constructor(props) {
     super(props);
-
-    this.state.content = (
-    	<div>
+    this.state.intro = (
+        <div>
         <div>
             The great icosahedron is one of the four regular
             star polyhedra, known as the <a href="https://en.wikipedia.org/wiki/Kepler%E2%80%93Poinsot_polyhedron" target="_blank" rel="noopener noreferrer">Kepler–Poinsot polyhedra</a>.
@@ -28,6 +27,11 @@ class Polyhedron_3_52 extends App {
         the faces are different. 
         Therefore they are different solids.
         </div>
+        </div>
+        );
+
+    this.state.content = (
+    	<div>
 
         <div className = "figure-div">
         <figure>

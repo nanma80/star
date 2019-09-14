@@ -6,6 +6,16 @@ class Pentagram extends App {
   constructor(props) {
     super(props);
 
+    this.state.intro = (
+            <div>
+            A pentagram is a <a href="https://en.wikipedia.org/wiki/Star_polygon" target="_blank" rel="noopener noreferrer">star polygon</a>, 
+            and the simplest star polytope. Although everyone knows
+            what it looks like, people may disagree on the numbers of vertices and edges on a pentagram. 
+            In the context of star polytopes, we treat the pentagram as 
+            the first image below but not the second one. 
+            </div>
+        );
+
     this.state.content = (
     	<div>
             <div className = "figure-div">
@@ -18,20 +28,15 @@ class Pentagram extends App {
                 <img src = {require('./images/polygon/wrong_polygon_5_2.png')} alt = 'static'/>
                 <figcaption><strong>NOT</strong> the definition we use</figcaption>
             </figure>
+            </div>
 
+            <div className = "figure-div">
             <figure>
                 <img src = {require('./images/polygon/polygon_5_1.png')} alt = 'static'/>
                 <figcaption>Regular (convex) pentagon</figcaption>
             </figure>
             </div>
 
-            <h4 id="what">What is a pentagram?</h4>
-            <div>
-            A pentagram is a <a href="https://en.wikipedia.org/wiki/Star_polygon" target="_blank" rel="noopener noreferrer">star polygon</a>, 
-            and the simplest star polytope. Although everyone knows
-            what it looks like, people may disagree on the numbers of vertices and edges on a pentagram. 
-            In the context of star polytopes, we treat the pentagram as the first image above but not the second one. 
-            </div>
             <ul>
             <li>
             In the first image,

@@ -6,9 +6,8 @@ import ObservableEmbed from "./observable_embed";
 class Polyhedron_3_3_5 extends App {
   constructor(props) {
     super(props);
-
-    this.state.content = (
-    	<div>
+    this.state.intro = (
+        <div>
             <div>
             The 600-cell is another convex regular polytope in 4D. 
             The Schläfli symbol is {'{'}3, 3, 5{'}'}.
@@ -26,7 +25,11 @@ class Polyhedron_3_3_5 extends App {
             the <a href="https://en.wikipedia.org/wiki/600-cell" target="_blank" rel="noopener noreferrer">wikipedia page</a> and
             the <a href="http://eusebeia.dyndns.org/4d/600-cell" target="_blank" rel="noopener noreferrer">Eusebeia page</a>.
             </div>
+        </div>
+        );
 
+    this.state.content = (
+    	<div>
             <h4 id="duality">Duality</h4>
             <div>
             The 600-cell is the dual polytope of the <Link to='/Polytope_5_3_3'>120-cell</Link>.

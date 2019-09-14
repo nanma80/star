@@ -37,18 +37,22 @@ class Pentagram extends App {
             </figure>
             </div>
 
+            <h4 id="definition">Definition</h4>
+
             <ul>
             <li>
             In the first image,
             It has only 5 vertices on the outside. 
             There are 5 edges which intersect with each other. 
             However, we don't count the intersections as vertices of the pentagram. 
+            This is the definition of a pentagram that we will use in this website.
             </li>
             <li>
             We do <strong>not</strong> use the second image 
             as the definition here. That image has 10 vertices and 10 shorter edges.
             </li>
             </ul>
+
             <h4 id="self-intersecting">Self-intersecting</h4>
             <div>
             Using the first definition, the topological structure of 

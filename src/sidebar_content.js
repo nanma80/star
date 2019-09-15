@@ -115,8 +115,10 @@ const SidebarContent = props => {
         <SidebarContentRow path='/polytope_3_52_5' currentPath={props.currentPath} text="{3, 5/2, 5}"/>
         <SidebarContentRow path='/polytope_3_3_52' currentPath={props.currentPath} text="{3, 3, 5/2}"/>
         <SidebarContentRow path='/summary_4d' currentPath={props.currentPath} text="Summary of 4D star polytopes"/>
-        <SidebarContentRow path='/polytope_data' currentPath={props.currentPath} text="Polytope data set"/>
+        <SidebarContentRow path='/polytope_data' currentPath={props.currentPath} text="4D polytope data set"/>
 
+        <SidebarDividerRow text="nD"/>
+        <SidebarContentRow path='/complete_list' currentPath={props.currentPath} text="All regular star polytopes"/>
       </div>);
 
 

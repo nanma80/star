@@ -81,11 +81,23 @@ class Heptagram extends App {
 
             <h4 id="general">General star polygons</h4>
             <div>
-            After going through the exercise of the heptagon, you can easily think of a general star polygon as {'{'}p/q{'}'} by
-            starting from a regular p-gon, and connecting edges by skipping q-1 vertices. The only caveat is that when p and q 
+            After going through the exercise of the heptagon, you can easily think of 
+            a general star polygon as {'{'}p/q{'}'} by
+            starting from a regular p-gon, and connecting edges by skipping q-1 vertices. 
+            For example, the image below is {'{'}17/6{'}'}.
+            The only caveat is that when p and q 
             are not coprime, you come back to the starting vertex before creating p edges. 
             We will see an example of the <Link to='/hexagram'>hexagram</Link> in the next page.
             </div>
+
+            <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polygon/polygon_17_6.png')} alt = 'static'/>
+                <figcaption>{'{'}17/6{'}'}</figcaption>
+            </figure>
+            </div>
+
+
     	</div>
     	)
     ;

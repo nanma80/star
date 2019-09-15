@@ -31,6 +31,7 @@ import Polytope_3_3_52 from './polytope_3_3_52';
 import Polytope_52_3_3 from './polytope_52_3_3';
 import Summary4D from './summary_4d';
 import PolytopeData from './polytope_data';
+import CompleteList from './complete_list';
 
 ReactDOM.render(
   <HashRouter basename='/'>
@@ -63,6 +64,7 @@ ReactDOM.render(
         <Route path='/polytope_52_3_3' component={Polytope_52_3_3} />
         <Route path='/summary_4d' component={Summary4D} />
         <Route path='/polytope_data' component={PolytopeData} />
+        <Route path='/complete_list' component={CompleteList} />
      </Switch>
   </HashRouter>,
   document.getElementById('root')

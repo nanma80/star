@@ -81,7 +81,7 @@ class PolytopeData extends App {
     </div>)
     ;
 
-    this.state.contentHeader = (<span>Polytope data set for the 4D polytopes</span>)
+    this.state.contentHeader = (<span>4D polytope data set</span>)
   }
 }
 

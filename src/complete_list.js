@@ -12,7 +12,7 @@ class CompleteList extends App {
         So far we have seen some examples of 2D star polygons, 
         which can be easily generalized to an infinite collection.
         We also see 3D star polyhedra and 4D star polytopes. As 
-        H.S.M. Coxeter pointed out in his 
+        H. S. M. Coxeter pointed out in his 
         book, <a href="https://en.wikipedia.org/wiki/Regular_Polytopes_(book)" target="_blank" rel="noopener noreferrer"><i>Regular Polytopes</i></a>,
         there are no regular star polytopes
         in Euclidean space of five or higher dimensions.
@@ -79,7 +79,7 @@ class CompleteList extends App {
         </div>
         <br/>
         <div>
-        H.S.M. Coxeter showed in the paper <i>Regular Honeycombs in Hyperbolic Spaces</i>,
+        H. S. M. Coxeter showed in the paper <i>Regular Honeycombs in Hyperbolic Spaces</i>,
         that there are no star honeycombs in hyperbolic spaces of 3 or 5 or more dimensions.
         Therefore the 2D and 4D cases are the only ones in hyperbolic spaces.
         Here is a <a href="https://pdfs.semanticscholar.org/67fa/5c924fc515d05640308fe68f1d0974a3705c.pdf" target="_blank" rel="noopener noreferrer">copy</a> of the paper.

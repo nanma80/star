@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "009e945f281e1bb83cf6a1bc07ae40aa",
+    "revision": "2da16e41cc22abc5859ce226c5bf8cc4",
     "url": "/star/index.html"
   },
   {
-    "revision": "239170c1e541a5285c42",
-    "url": "/star/static/css/main.32cf4ae7.chunk.css"
+    "revision": "318d6bfd2214857644ee",
+    "url": "/star/static/css/main.c9cbfe4c.chunk.css"
   },
   {
-    "revision": "ac71ab267937e663a71c",
-    "url": "/star/static/js/2.afc7c5ec.chunk.js"
+    "revision": "80aa32e5ae59668a11ce",
+    "url": "/star/static/js/2.c1cb53bf.chunk.js"
   },
   {
-    "revision": "239170c1e541a5285c42",
-    "url": "/star/static/js/main.519af693.chunk.js"
+    "revision": "318d6bfd2214857644ee",
+    "url": "/star/static/js/main.cd9ae6be.chunk.js"
   },
   {
     "revision": "2898011e16a63222a549",
@@ -80,28 +80,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/star/static/media/pentagram_inside_outside_2.7157f790.png"
   },
   {
-    "revision": "51bfdab14781b85eb10f6543df5e71c8",
-    "url": "/star/static/media/polygon_5_1.51bfdab1.png"
+    "revision": "de66500b0a75a6865c31c140fc027b87",
+    "url": "/star/static/media/polygon_17_6.de66500b.png"
   },
   {
-    "revision": "7019d981aa25aba9e1189a02b7b590dd",
-    "url": "/star/static/media/polygon_5_2.7019d981.png"
+    "revision": "418ac37905e6fc9634a44578e5e06af1",
+    "url": "/star/static/media/polygon_5_1.418ac379.png"
   },
   {
-    "revision": "b587046d394c7e38df678d8317539387",
-    "url": "/star/static/media/polygon_6_2.b587046d.png"
+    "revision": "05532d2de5248ee25762f8c81cc318a0",
+    "url": "/star/static/media/polygon_5_2.05532d2d.png"
   },
   {
-    "revision": "49774c8581e6bc062a2b5d87316677bf",
-    "url": "/star/static/media/polygon_7_1.49774c85.png"
+    "revision": "8c2ba1e60b87382ac740431f6d548f2c",
+    "url": "/star/static/media/polygon_6_2.8c2ba1e6.png"
   },
   {
-    "revision": "7021b22f22e899952a4097361050ee4d",
-    "url": "/star/static/media/polygon_7_2.7021b22f.png"
+    "revision": "73736bffdb59358bf595f9ac7dd6f638",
+    "url": "/star/static/media/polygon_7_1.73736bff.png"
   },
   {
-    "revision": "79a2fa111d2ab67d61b4262c909e2d00",
-    "url": "/star/static/media/polygon_7_3.79a2fa11.png"
+    "revision": "33cbd59147c98ef6dbb7a53da2a37e35",
+    "url": "/star/static/media/polygon_7_2.33cbd591.png"
+  },
+  {
+    "revision": "0cac48f88147b1d047c162958db1259c",
+    "url": "/star/static/media/polygon_7_3.0cac48f8.png"
   },
   {
     "revision": "645b64dc206e9b23556e674be7e82bc8",

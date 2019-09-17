@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "647449cb590834902180c771c03c9400",
+    "revision": "a8dab2973464fc4c3e245f284d19ff35",
     "url": "/star/index.html"
   },
   {
-    "revision": "b06ae6739a98917ceafc",
-    "url": "/star/static/css/main.c9cbfe4c.chunk.css"
+    "revision": "398ca7fed22de8766cb9",
+    "url": "/star/static/css/main.36a724d5.chunk.css"
   },
   {
-    "revision": "80aa32e5ae59668a11ce",
-    "url": "/star/static/js/2.c1cb53bf.chunk.js"
+    "revision": "dc6321261caac13d25b1",
+    "url": "/star/static/js/2.eb653147.chunk.js"
   },
   {
-    "revision": "b06ae6739a98917ceafc",
-    "url": "/star/static/js/main.cc04ea6e.chunk.js"
+    "revision": "398ca7fed22de8766cb9",
+    "url": "/star/static/js/main.e4f8c201.chunk.js"
   },
   {
     "revision": "2898011e16a63222a549",
@@ -26,6 +26,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e6a96aea25b03458e1d2a3813eb106b5",
     "url": "/star/static/media/dodecahedron_faceting_pentagram.e6a96aea.png"
+  },
+  {
+    "revision": "b35676baaf9c40ed1dc56a6cd3665cbd",
+    "url": "/star/static/media/edge_exploded_GreatStellatedDodecahedron.b35676ba.gif"
+  },
+  {
+    "revision": "866d0887552ef058f64df79422ada33f",
+    "url": "/star/static/media/edge_exploded_SmallStellatedDodecahedron.866d0887.gif"
   },
   {
     "revision": "4d82e805fd7e2888a5e943a7a0755719",
@@ -634,6 +642,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e04ea24bd0582885c6ac61fd4923be4c",
     "url": "/star/static/media/stellated_icosahedron.e04ea24b.png"
+  },
+  {
+    "revision": "75d058bc89316bc17ae6957b971edc24",
+    "url": "/star/static/media/vertex_exploded_GreatDodecahedron.75d058bc.gif"
+  },
+  {
+    "revision": "6b3ecfeb7f796760ed49b2709b0980ca",
+    "url": "/star/static/media/vertex_exploded_GreatDodecahedron_centered_at_vertex.6b3ecfeb.gif"
+  },
+  {
+    "revision": "e4b64d53e2e67390a3cf5410ec94e0d5",
+    "url": "/star/static/media/vertex_exploded_GreatIcosahedron.e4b64d53.gif"
+  },
+  {
+    "revision": "9c0b13f97d734c7d9e853b5730f95141",
+    "url": "/star/static/media/vertex_exploded_GreatIcosahedron_centered_at_vertex.9c0b13f9.gif"
   },
   {
     "revision": "3be1bca5836b70c2381781c9111d7c76",

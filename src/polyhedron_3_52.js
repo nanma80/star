@@ -38,19 +38,12 @@ class Polyhedron_3_52 extends App {
             <img src = {require('./images/GreatIcosahedron/pov_whole_GreatIcosahedron.png')} alt = 'static'/>
             <figcaption>Great icosahedron</figcaption>
         </figure>
-        </div>
-
-        <div className = "figure-div">
         <figure>
             <img src = {require('./images/GreatIcosahedron/pov_highlight_face_GreatIcosahedron.png')} alt = 'static'/>
             <figcaption>Highlight a face {'{'}3{'}'}</figcaption>
         </figure>
-
-        <figure>
-            <img src = {require('./images/GreatIcosahedron/pov_vertex_figure_GreatIcosahedron.png')} alt = 'static'/>
-            <figcaption>Vertex figure</figcaption>
-        </figure>
         </div>
+
 
         <h4 id="construction">Construction</h4>
         <ul>
@@ -114,6 +107,36 @@ class Polyhedron_3_52 extends App {
             <figcaption>Great icosahedron, exploded view</figcaption>
         </figure>
         </div>
+
+
+        <h4 id="vertex">Vertex Figure</h4>
+        <div>
+        Five triangular faces meet at each vertex. The faces intersect
+        around each vertex, making a star-like path.
+        </div>
+
+        <div className = "figure-div">
+        <figure>
+            <img src = {require('./images/GreatIcosahedron/pov_vertex_figure_GreatIcosahedron.png')} alt = 'static'/>
+            <figcaption>Vertex figure: {'{'}5/2{'}'}</figcaption>
+        </figure>
+        </div>
+
+        <div>
+        Let's use the animations to see how the five faces are arranged around a vertex.
+        </div>
+
+        <div className = "figure-div">
+        <figure>
+            <img src = {require('./images/GreatIcosahedron/vertex_exploded_GreatIcosahedron_centered_at_vertex.gif')} alt = 'static'/>
+            <figcaption>The faces meeting at a vertex</figcaption>
+        </figure>
+        <figure>
+            <img src = {require('./images/GreatIcosahedron/vertex_exploded_GreatIcosahedron.gif')} alt = 'static'/>
+            <figcaption>The faces meeting at a vertex from a different angle</figcaption>
+        </figure>
+        </div>
+
 
     	</div>
     	)

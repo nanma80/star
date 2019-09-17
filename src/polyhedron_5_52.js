@@ -21,13 +21,6 @@ class Polyhedron_5_52 extends App {
         </div>
         <br/>
         <div>
-        Five pentagonal faces meet at each vertex. 
-        The internal angles of regular pentagons are 108°. Since 108° * 5 = 540° > 360°,
-        we know the structure of the vertex must be special. Actually the faces intersect
-        around each vertex, making a star-like path.
-        </div>
-        <br/>
-        <div>
         Although the edges of the great dodecahedron are identical to the edges of
         the <Link to='/Polyhedron_3_5'>regular icosahedron</Link>,
         the faces are different. 
@@ -44,16 +37,9 @@ class Polyhedron_5_52 extends App {
             <img src = {require('./images/GreatDodecahedron/pov_whole_GreatDodecahedron.png')} alt = 'static'/>
             <figcaption>Great dodecahedron</figcaption>
         </figure>
-        </div>
-
-        <div className = "figure-div">
         <figure>
             <img src = {require('./images/GreatDodecahedron/pov_highlight_face_GreatDodecahedron.png')} alt = 'static'/>
             <figcaption>Highlight a face {'{'}5{'}'}</figcaption>
-        </figure>
-        <figure>
-            <img src = {require('./images/GreatDodecahedron/pov_vertex_figure_GreatDodecahedron.png')} alt = 'static'/>
-            <figcaption>Vertex figure {'{'}5/2{'}'}</figcaption>
         </figure>
         </div>
 
@@ -131,6 +117,36 @@ class Polyhedron_5_52 extends App {
         <figure>
             <img src = {require('./images/GreatDodecahedron/exploded_GreatDodecahedron.gif')} alt = 'static'/>
             <figcaption>Great dodecahedron, exploded view</figcaption>
+        </figure>
+        </div>
+
+        <h4 id="vertex">Vertex Figure</h4>
+        <div>
+        Five pentagonal faces meet at each vertex. 
+        The internal angles of a regular pentagon are 108°. Since 108° * 5 = 540° > 360°,
+        we know the structure of the vertex must be special. Actually the faces intersect
+        around each vertex, making a star-like path.
+        </div>
+
+        <div className = "figure-div">
+        <figure>
+            <img src = {require('./images/GreatDodecahedron/pov_vertex_figure_GreatDodecahedron.png')} alt = 'static'/>
+            <figcaption>Vertex figure: {'{'}5/2{'}'}</figcaption>
+        </figure>
+        </div>
+
+        <div>
+        Let's use the animations to see how the five faces are arranged around a vertex.
+        </div>
+
+        <div className = "figure-div">
+        <figure>
+            <img src = {require('./images/GreatDodecahedron/vertex_exploded_GreatDodecahedron_centered_at_vertex.gif')} alt = 'static'/>
+            <figcaption>The faces meeting at a vertex</figcaption>
+        </figure>
+        <figure>
+            <img src = {require('./images/GreatDodecahedron/vertex_exploded_GreatDodecahedron.gif')} alt = 'static'/>
+            <figcaption>The faces meeting at a vertex from a different angle</figcaption>
         </figure>
         </div>
 

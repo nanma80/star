@@ -125,6 +125,18 @@ class Polyhedron_52_3 extends App {
         </figure>
         </div>
 
+        <div>
+        Let us focus on two adjacent faces and their common edge. In order for the faces
+        to meet at the edge, they intersect with each other.
+        </div>
+
+        <div className = "figure-div">
+        <figure>
+            <img src = {require('./images/GreatStellatedDodecahedron/edge_exploded_GreatStellatedDodecahedron.gif')} alt = 'static'/>
+            <figcaption>Two adjacent faces intersect to meet at an edge</figcaption>
+        </figure>
+        </div>
+
     	</div>
     	)
     ;

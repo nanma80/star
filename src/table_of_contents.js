@@ -4,8 +4,6 @@ import './table_of_contents.css';
 
 class TableOfContents extends React.Component {
     render() {
-      console.log(this.props.tableOfContentsOnSide);
-
       if (this.props.list.length === 0) {
         return (<div/>);
       } else {

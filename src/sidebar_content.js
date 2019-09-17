@@ -5,7 +5,7 @@ import MaterialTitlePanel from "./material_title_panel";
 
 const styles = {
     sidebar: {
-      width: 256
+      width: 300
     },
 
     sidebarLink: {
@@ -21,6 +21,14 @@ const styles = {
       color: "#757575",
       textDecoration: "none",
       backgroundColor: "#F0F0FF"
+    },
+
+    leftText: {
+      textAlign: "left"
+    },
+
+    rightText: {
+      float: "right"
     },
 
     divider: {
@@ -55,13 +63,13 @@ const SidebarContentRow = props => {
   if (props.currentPath.toLowerCase() === props.path.toLowerCase()){
     return (
         <Link to={props.path} style = {styles.activeSidebarLink}>
-            <span  ref={window.ref}>{props.text}</span>
+            <span ref={window.ref} style={styles.leftText}>{props.text}<span style={styles.rightText}>{props.rightText}</span></span>
         </Link>
       );
   } else {
     return (
         <Link to={props.path} style = {styles.sidebarLink}>
-            <span>{props.text}</span>
+            <span style={styles.leftText}>{props.text}<span style={styles.rightText}>{props.rightText}</span></span>
         </Link>
       );
   }
@@ -84,36 +92,36 @@ const SidebarContent = props => {
         <SidebarContentRow path='/' currentPath={props.currentPath} text="Welcome"/>
 
         <SidebarDividerRow text="2D"/>
-        <SidebarContentRow path='/pentagram' currentPath={props.currentPath} text="Pentagram"/>
-        <SidebarContentRow path='/heptagram' currentPath={props.currentPath} text="Heptagrams"/>
-        <SidebarContentRow path='/hexagram' currentPath={props.currentPath} text="Hexagram"/>
+        <SidebarContentRow path='/pentagram' currentPath={props.currentPath} text="Pentagram" rightText="{5/2}"/>
+        <SidebarContentRow path='/heptagram' currentPath={props.currentPath} text="Heptagrams" rightText="{7/2}, {7/3}"/>
+        <SidebarContentRow path='/hexagram' currentPath={props.currentPath} text="Hexagram" rightText="{6/2}"/>
         
         <SidebarDividerRow text="3D"/>
 
         <SidebarContentRow path='/intro_3d' currentPath={props.currentPath} text="Overview of star polyhedra"/>
-        <SidebarContentRow path='/polyhedron_5_3' currentPath={props.currentPath} text="Dodecahedron"/>
-        <SidebarContentRow path='/polyhedron_3_5' currentPath={props.currentPath} text="Icosahedron"/>
-        <SidebarContentRow path='/polyhedron_52_5' currentPath={props.currentPath} text="Small stellated dodecahedron"/>
-        <SidebarContentRow path='/polyhedron_5_52' currentPath={props.currentPath} text="Great dodecahedron"/>
-        <SidebarContentRow path='/polyhedron_52_3' currentPath={props.currentPath} text="Great stellated dodecahedron"/>
-        <SidebarContentRow path='/polyhedron_3_52' currentPath={props.currentPath} text="Great icosahedron"/>
+        <SidebarContentRow path='/polyhedron_5_3' currentPath={props.currentPath} text="Dodecahedron" rightText="{5, 3}"/>
+        <SidebarContentRow path='/polyhedron_3_5' currentPath={props.currentPath} text="Icosahedron" rightText="{3, 5}"/>
+        <SidebarContentRow path='/polyhedron_52_5' currentPath={props.currentPath} text="Small stellated dodecahedron" rightText="{5/2, 5}"/>
+        <SidebarContentRow path='/polyhedron_5_52' currentPath={props.currentPath} text="Great dodecahedron" rightText="{5, 5/2}"/>
+        <SidebarContentRow path='/polyhedron_52_3' currentPath={props.currentPath} text="Great stellated dodecahedron" rightText="{5/2, 3}"/>
+        <SidebarContentRow path='/polyhedron_3_52' currentPath={props.currentPath} text="Great icosahedron" rightText="{3, 5/2}"/>
         <SidebarContentRow path='/summary_3d' currentPath={props.currentPath} text="Summary of star polyhedra"/>
 
         <SidebarDividerRow text="4D"/>
         <SidebarContentRow path='/intro_4d' currentPath={props.currentPath} text="Overview of 4D star polytopes"/>
-        <SidebarContentRow path='/polytope_5_3_3' currentPath={props.currentPath} text="120-cell {5, 3, 3}"/>
-        <SidebarContentRow path='/polytope_3_3_5' currentPath={props.currentPath} text="600-cell {3, 3, 5}"/>
-        <SidebarContentRow path='/polytope_52_5_3' currentPath={props.currentPath} text="{5/2, 5, 3}"/>
-        <SidebarContentRow path='/polytope_5_52_5' currentPath={props.currentPath} text="{5, 5/2, 5}"/>
-        <SidebarContentRow path='/polytope_52_3_5' currentPath={props.currentPath} text="{5/2, 3, 5}"/>
-        <SidebarContentRow path='/polytope_3_5_52' currentPath={props.currentPath} text="{3, 5, 5/2}"/>
+        <SidebarContentRow path='/polytope_5_3_3' currentPath={props.currentPath} text="120-cell" rightText="{5, 3, 3}"/>
+        <SidebarContentRow path='/polytope_3_3_5' currentPath={props.currentPath} text="600-cell" rightText="{3, 3, 5}"/>
+        <SidebarContentRow path='/polytope_52_5_3' currentPath={props.currentPath} text="Small stellated 120-cell" rightText="{5/2, 5, 3}"/>
+        <SidebarContentRow path='/polytope_5_52_5' currentPath={props.currentPath} text="Great 120-cell" rightText="{5, 5/2, 5}"/>
+        <SidebarContentRow path='/polytope_52_3_5' currentPath={props.currentPath} text="Great stellated 120-cell" rightText="{5/2, 3, 5}"/>
+        <SidebarContentRow path='/polytope_3_5_52' currentPath={props.currentPath} text="Icosahedral 120-cell" rightText="{3, 5, 5/2}"/>
 
-        <SidebarContentRow path='/polytope_5_3_52' currentPath={props.currentPath} text="{5, 3, 5/2}"/>
-        <SidebarContentRow path='/polytope_52_5_52' currentPath={props.currentPath} text="{5/2, 5, 5/2}"/>
-        <SidebarContentRow path='/polytope_5_52_3' currentPath={props.currentPath} text="{5, 5/2, 3}"/>
-        <SidebarContentRow path='/polytope_52_3_3' currentPath={props.currentPath} text="{5/2, 3, 3}"/>
-        <SidebarContentRow path='/polytope_3_52_5' currentPath={props.currentPath} text="{3, 5/2, 5}"/>
-        <SidebarContentRow path='/polytope_3_3_52' currentPath={props.currentPath} text="{3, 3, 5/2}"/>
+        <SidebarContentRow path='/polytope_5_3_52' currentPath={props.currentPath} text="Grand 120-cell" rightText="{5, 3, 5/2}"/>
+        <SidebarContentRow path='/polytope_52_5_52' currentPath={props.currentPath} text="Grand stellated 120-cell" rightText="{5/2, 5, 5/2}"/>
+        <SidebarContentRow path='/polytope_5_52_3' currentPath={props.currentPath} text="Great grand 120-cell" rightText="{5, 5/2, 3}"/>
+        <SidebarContentRow path='/polytope_52_3_3' currentPath={props.currentPath} text="Great grand stellated 120..." rightText="{5/2, 3, 3}"/>
+        <SidebarContentRow path='/polytope_3_52_5' currentPath={props.currentPath} text="Great icosahedral 120-cell" rightText="{3, 5/2, 5}"/>
+        <SidebarContentRow path='/polytope_3_3_52' currentPath={props.currentPath} text="Grand 600-cell" rightText="{3, 3, 5/2}"/>
         <SidebarContentRow path='/summary_4d' currentPath={props.currentPath} text="Summary of 4D star polytopes"/>
         <SidebarContentRow path='/polytope_data' currentPath={props.currentPath} text="4D polytope data set"/>
 

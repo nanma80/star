@@ -12,6 +12,7 @@ const styles = {
     padding: 8
   },
   content: {
+    textAlign: "justify",
     padding: "16px"
   },
   footer: {
@@ -126,27 +127,29 @@ class App extends React.Component {
       <Sidebar {...sidebarProps}>
         <MaterialTitlePanel title={contentHeader}>
           <div>
-            {this.state.docked && (<div>
-              <TableOfContents list={h4TagsProps} tableOfContentsOnSide={this.state.docked}/>
-              {intro}
-              </div>
-            )}
-            {!this.state.docked && (<div>
-              {intro}
-              <TableOfContents list={h4TagsProps} tableOfContentsOnSide={this.state.docked}/>
-              </div>
+            <div>
+              {this.state.docked && (<div>
+                <TableOfContents list={h4TagsProps} tableOfContentsOnSide={this.state.docked}/>
+                {intro}
+                </div>
+              )}
+              {!this.state.docked && (<div>
+                {intro}
+                <TableOfContents list={h4TagsProps} tableOfContentsOnSide={this.state.docked}/>
+                </div>
+              )}
+            </div>
+
+            <div className = "content-divider"/>
+            {content}
+            {!this.state.docked && (
+              <div style={styles.footer}>
+              <a onClick={this.toggleOpen} href="/#" >
+                Open menu
+              </a>
+            </div>
             )}
           </div>
-
-          <div className = "content-divider"/>
-          {content}
-          {!this.state.docked && (
-            <div style={styles.footer}>
-            <a onClick={this.toggleOpen} href="/#" >
-              Open menu
-            </a>
-            </div>
-          )}
         </MaterialTitlePanel>
       </Sidebar>
     );

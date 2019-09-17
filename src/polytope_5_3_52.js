@@ -252,10 +252,13 @@ class Polyhedron_5_3_52 extends App {
             As the animation above shows, five cells surround an edge. 
             Similar to <Link to='/Polytope_3_5_52#edge'>{'{'}3, 5, 5/2{'}'}</Link>,
             each cell covers 2/5 of the circle
-            around the edge. Each cell doesn't share a face with the closest neighbor but
-            with a cell with a longer distance. This is analogous to 
-            the adjacency of vertices on
-            a pentagram. Indeed, the edge figure is a pentagram, {'{'}5/2{'}'}.
+            around the edge. All the five cells cover the edges by two 
+            rounds as opposed to the normal one round.
+
+            Each cell doesn't share a face with the closest neighbor but
+            with a cell with a longer distance. 
+            When we connect the centers on the adjacent cells that share faces,
+            we get a pentagram, {'{'}5/2{'}'}.
             </div>
     	</div>
     	)

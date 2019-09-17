@@ -183,13 +183,13 @@ class Polyhedron_5_3_3 extends App {
             <div>
             Similar to the vertex figure describing how cells surround a vertex, we can also talk about
             the <a href="https://en.wikipedia.org/wiki/Vertex_figure#Edge_figure" target="_blank" rel="noopener noreferrer">edge figure</a>.
-            It describes how cells surround an edge. It can be seem from the last number of the Schläfli symbol.
+            It is a 2D polygon describing how cells surround an edge. It can be seem from the last number of the Schläfli symbol.
+            Technically, the edge figure is the vertex figure of the vertex figure.
             </div>
             <br/>
             <div>
             The Schläfli symbol of the 120-cell is {'{'}5, 3, 3{'}'}. The edge figure is {'{'}3{'}'}, a triangle.
-            As the animation above shows, three cells surround an edge as the vertices of 
-            an equilateral triangle.
+            If you connect the centers of the three cells incident to the given edge, you get this equilateral triangle.
             </div>
     	</div>
     	)

@@ -220,6 +220,19 @@ class Polyhedron_5_52_3 extends App {
             The 12 cells meeting at the north pole are the cells in Layer 4.
             </div>
 
+            <h4 id="edge">Edge figure</h4>
+            <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_5_52_3/edge_explode_polytope_5_52_3_layers_1_1.gif')} alt = 'static'/>
+                <figcaption>Cells meeting at an edge</figcaption>
+            </figure>
+            </div>
+
+            <div>
+            Since the Schläfli symbol is {'{'}5, 5/2, 3{'}'},
+            the edge figure is a triangle, {'{'}3{'}'}.
+            As the animation above shows, three cells surround an edge. 
+            </div>
     	</div>
     	)
     ;

@@ -199,6 +199,23 @@ class Polyhedron_3_3_5 extends App {
             The vertex figure of the 600-cell can be directly seen in the first layer of the cells. See the figure 
             above for a wireframe view of it.
             </div>
+
+            <h4 id="edge">Edge figure</h4>
+            <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_3_3_5_cell600/edge_explode_polytope_3_3_5_cell600_layers_1_1.gif')} alt = 'static'/>
+                <figcaption>Cells meeting at an edge</figcaption>
+            </figure>
+            </div>
+
+            <div>
+            The Schläfli symbol of the 600-cell is {'{'}3, 3, 5{'}'}. 
+            The edge figure is {'{'}5{'}'}, a pentagon.
+            As the animation above shows, five cells surround an edge as 
+            the vertices of 
+            a regular pentagon.
+            </div>
+
     	</div>
     	)
     ;

@@ -118,6 +118,26 @@ class Polyhedron_5_52_5 extends App {
             </li>
             </ul>
 
+            <h4 id="intersecting">Intersecting cells</h4>
+            <div>
+            Each pair of adjacent cells in 120-cell corresponds to a pair of 
+            adjacent cells in this star polytope. Here, the cells intersect 
+            with each other and
+            parts of the cells go into each other. However, they still meet at a pentagonal face,
+            which shares the same center with a pentagonal face in the 120-cell.
+
+            In this animation, we show the common face using red edges, and explode the two
+            adjacent cells away from each other.
+            </div>
+            <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_5_52_5/face_explode_polytope_5_52_5_layers_1_1.gif')} alt = 'static'/>
+                <figcaption>Adjacent cells intersect with each other and meet on a face
+                </figcaption>
+            </figure>
+            </div>
+
+
 
             <h4 id="structure">Structure</h4>
             <div>
@@ -125,14 +145,6 @@ class Polyhedron_5_52_5 extends App {
 
             All the cells here directly correspond to the cells of the 120-cell. They have the same layers of 1, 12, 20, 12, and 30 cells
             in the northern hemisphere and the equator.
-            </div>
-            <br/>
-            <div>
-            Each pair of adjacent cells in 120-cell corresponds to a pair of 
-            adjacent cells in this star polytope. Here, the cells intersect 
-            with each other and
-            parts of the cells go into each other. However, they still meet at a pentagonal face,
-            which shares the same center with a pentagonal face in the 120-cell.
             </div>
 
             <div className = "figure-div">
@@ -188,6 +200,23 @@ class Polyhedron_5_52_5 extends App {
             The 12 cells meeting at the north pole are the Layer 2 cells.
             </div>
 
+            <h4 id="edge">Edge figure</h4>
+            <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_5_52_5/edge_explode_polytope_5_52_5_layers_1_1.gif')} alt = 'static'/>
+                <figcaption>Cells meeting at an edge</figcaption>
+            </figure>
+            </div>
+
+            <div>
+            Since the Schläfli symbol is {'{'}5, 5/2, 5{'}'},
+            the edge figure is {'{'}5{'}'}.
+            As the animation above shows, five cells surround an edge as 
+            the vertices of 
+            a regular pentagon. Remember the faces of a cell are in the cell
+            rather than on the outside.
+            Each cell only covers 1/5 of all the directions around the edge.
+            </div>
     	</div>
     	)
     ;

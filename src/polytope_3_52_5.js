@@ -192,6 +192,23 @@ class Polyhedron_3_52_5 extends App {
             which has 12 intersecting pentagrams.
             The 12 cells meeting at the north pole are the cells from Layer 4.
             </div>
+
+            <h4 id="edge">Edge figure</h4>
+            <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_3_52_5/edge_explode_polytope_3_52_5_layers_1_1.gif')} alt = 'static'/>
+                <figcaption>Cells meeting at an edge</figcaption>
+            </figure>
+            </div>
+
+            <div>
+            Since the Schläfli symbol is {'{'}3, 5/2, 5{'}'},
+            the edge figure is a pentagon, {'{'}5{'}'}.
+            As the animation above shows, five cells surround an edge. 
+            Remember the faces of each cell is deep inside the cell.
+            In this projection, the closest cells indeed share a face, and they 
+            are topologically adjacent.
+            </div>
     	</div>
     	)
     ;

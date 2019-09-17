@@ -181,6 +181,24 @@ class Polyhedron_3_5_52 extends App {
             The 12 cells meeting at the north pole are the Layer 2 cells. 
             </div>
 
+            <h4 id="edge">Edge figure</h4>
+            <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_3_5_52/edge_explode_polytope_3_5_52_layers_1_1.gif')} alt = 'static'/>
+                <figcaption>Cells meeting at an edge</figcaption>
+            </figure>
+            </div>
+
+            <div>
+            Since the Schläfli symbol is {'{'}3, 5, 5/2{'}'},
+            the edge figure is {'{'}5/2{'}'}.
+            As the animation above shows, five cells surround an edge. 
+            Each cell covers 2/5 of the circle
+            around the edge. Each cell doesn't share a face with the closest neighbor but
+            with a cell with a longer distance. This is analogous to 
+            the adjacency of vertices on
+            a pentagram. Indeed, the edge figure is a pentagram, {'{'}5/2{'}'}.
+            </div>
     	</div>
     	)
     ;

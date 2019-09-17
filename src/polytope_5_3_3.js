@@ -156,8 +156,8 @@ class Polyhedron_5_3_3 extends App {
             </div>
 
             <div>
-            The definition of the vertex figure for a 4D polytope is similar to the one for 3D polyhedra, as we introduced in 
-            the <Link to='/Polyhedron_5_3'>dodecahedron page</Link>. We use a hyperplane to slice off a vertex 
+            The definition of the <a href="https://en.wikipedia.org/wiki/Vertex_figure" target="_blank" rel="noopener noreferrer">vertex figure</a> for a 4D polytope is similar to the one for 3D polyhedra, as we introduced in 
+            the <Link to='/Polyhedron_5_3#vertex'>dodecahedron page</Link>. We use a hyperplane to slice off a vertex 
             of the polytope to truncate the nearby cells and
             create a new polyhedron. This new polyhedron is the vertex figure.
             </div>
@@ -170,6 +170,26 @@ class Polyhedron_5_3_3 extends App {
             One can directly get the Schläfli symbol of the vertex figure from the last two numbers {'{'}3, 3{'}'} from
             the Schläfli
             symbol of the whole polytope, {'{'}5, 3, 3{'}'}.
+            </div>
+
+            <h4 id="edge">Edge figure</h4>
+            <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_5_3_3_cell120/edge_explode_polytope_5_3_3_cell120_layers_1_1.gif')} alt = 'static'/>
+                <figcaption>Cells meeting at an edge</figcaption>
+            </figure>
+            </div>
+
+            <div>
+            Similar to the vertex figure describing how cells surround a vertex, we can also talk about
+            the <a href="https://en.wikipedia.org/wiki/Vertex_figure#Edge_figure" target="_blank" rel="noopener noreferrer">edge figure</a>.
+            It describes how cells surround an edge. It can be seem from the last number of the Schläfli symbol.
+            </div>
+            <br/>
+            <div>
+            The Schläfli symbol of the 120-cell is {'{'}5, 3, 3{'}'}. The edge figure is {'{'}3{'}'}, a triangle.
+            As the animation above shows, three cells surround an edge as the vertices of 
+            an equilateral triangle.
             </div>
     	</div>
     	)

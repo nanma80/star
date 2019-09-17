@@ -241,6 +241,20 @@ class Polyhedron_52_3_3 extends App {
             It would still be very hard to see the layers 
             in that projection.
             </div>
+
+            <h4 id="edge">Edge figure</h4>
+            <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_52_3_3/edge_explode_polytope_52_3_3_layers_1_1.gif')} alt = 'static'/>
+                <figcaption>Cells meeting at an edge</figcaption>
+            </figure>
+            </div>
+
+            <div>
+            Since the Schläfli symbol is {'{'}5/2, 3, 3{'}'},
+            the edge figure is a triangle, {'{'}3{'}'}.
+            As the animation above shows, three cells surround an edge. 
+            </div>
     	</div>
     	)
     ;

@@ -106,6 +106,28 @@ class Polyhedron_52_3_5 extends App {
             </li>
             </ul>
 
+            <h4 id="intersecting">Intersecting cells</h4>
+            <div>
+            Each pair of adjacent cells in 120-cell corresponds to a pair of 
+            adjacent cells in this star polytope. Here, the pair of cells intersect 
+            with each other heavily and
+            the tips go into each other. Some tips even 
+            cross the other one and go out from the other side.
+            However, they still meet at a pentagrammic face,
+            which shares the center with a pentagonal face in the 120-cell.
+
+            In this animation, we show the common face using red edges, and explode the two
+            adjacent cells away from each other.
+            </div>
+            <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_52_3_5/face_explode_polytope_52_3_5_layers_1_1.gif')} alt = 'static'/>
+                <figcaption>Adjacent cells intersect with each other and meet on a face
+                </figcaption>
+            </figure>
+            </div>
+
+
 
             <h4 id="structure">Structure</h4>
             <div>
@@ -113,14 +135,6 @@ class Polyhedron_52_3_5 extends App {
 
             All the cells here directly correspond to the cells of the 120-cell. They have the same layers of 1, 12, 20, 12, and 30 cells
             in the northern hemisphere and the equator.
-            </div>
-            <br/>
-            <div>
-            Each pair of adjacent cells in 120-cell corresponds to a pair of 
-            adjacent cells in this star polytope. Here, the pair of cells intersect 
-            with each other and
-            the tips go into each other. However, they still meet at a pentagrammic face,
-            which shares the center with a pentagonal face in the 120-cell.
             </div>
 
             <div className = "figure-div">
@@ -133,10 +147,7 @@ class Polyhedron_52_3_5 extends App {
                 <figcaption>Exploded view: Layer 3</figcaption>
             </figure>
             </div>
-            Each cell is spiky, and they cross each other heavily when they meet. 
-            The adjacent cells 
-            touch each other on the pentagrammic faces. The adjacency relation is as same as 
-            the 120-cell. Each Layer 2 cell touches the center "north cell". Two adjacent 
+            Each Layer 2 cell touches the center "north cell". Two adjacent 
             Layer 2 cells also touch each other. In the animation of exploded Layer 2, you
             can see two tips pointing towards us. When the cells meet, these two tips touch
             and create a thicker tip.
@@ -177,6 +188,22 @@ class Polyhedron_52_3_5 extends App {
             From the Schläfli symbol we know the vertex figure is {'{'}3, 5{'}'}.
             Each triangular face corresponds to a tip of the cell, which is
             a trigular prism. The 20 cells meeting at the north pole are the Layer 3 cells.
+            </div>
+
+            <h4 id="edge">Edge figure</h4>
+            <div className = "figure-div">
+            <figure>
+                <img src = {require('./images/polytope_52_3_5/edge_explode_polytope_52_3_5_layers_1_1.gif')} alt = 'static'/>
+                <figcaption>Cells meeting at an edge</figcaption>
+            </figure>
+            </div>
+
+            <div>
+            Since the Schläfli symbol is {'{'}5/2, 3, 5{'}'},
+            the edge figure is {'{'}5{'}'}.
+            As the animation above shows, five cells surround an edge as 
+            the vertices of 
+            a regular pentagon.
             </div>
     	</div>
     	)

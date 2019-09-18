@@ -76,7 +76,7 @@ class Welcome extends App {
 	</div>)
     ;
 
-    this.state.contentHeader = (<span> Visualize star polytopes </span>)
+    this.state.contentHeader = (<span> Regular star polytopes </span>)
   }
 }
 

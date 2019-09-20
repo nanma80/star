@@ -7,8 +7,9 @@ class Hyperbolic_72_7 extends App {
     super(props);
     this.state.intro = (<div>
         <div>
-        Let us talk about star tilings in the hyperbolic plane. We drew analogy between {'{'}7, 3{'}'}
-        and {'{'}5, 3{'}'}, and between {'{'}3, 7{'}'} and {'{'}3, 5{'}'}, in the last two pages.
+        Let us talk about star tilings in the hyperbolic plane. We drew analogy 
+        between {'{'}7, 3{'}'} and {'{'}5, 3{'}'}, 
+        and between {'{'}3, 7{'}'} and {'{'}3, 5{'}'}, in the last two pages.
         Similar to the stellation and faceting process of the dodecahedron and the icosahedron, 
         we can construct star tilings {'{'}7/2, 7{'}'} and {'{'}7, 7/2{'}'}.
         </div>
@@ -20,8 +21,7 @@ class Hyperbolic_72_7 extends App {
         the <Link to='/Polyhedron_52_5'>small stellated
         dodecahedron {'{'}5/2, 5{'}'}</Link>.
 
-        See 
-        the <a href="https://en.wikipedia.org/wiki/Order-7_heptagrammic_tiling" target="_blank" rel="noopener noreferrer">Wikipedia
+        See the <a href="https://en.wikipedia.org/wiki/Order-7_heptagrammic_tiling" target="_blank" rel="noopener noreferrer">Wikipedia
         page</a> for more information.
 
         </div>
@@ -36,8 +36,7 @@ class Hyperbolic_72_7 extends App {
         the Poincaré 
         disk model of {'{'}7/2, 7{'}'}. I'm highlighting a face at the center.
         Different faces intersect with each other. The adjacent faces do share edges.
-        I find it very helpful to shrink each face. I make each face smaller keeping
-        the location of its center.
+        I find it very helpful to shrink the faces to see them individually. 
         </div>
         <div className = "figure-div">
         <figure>
@@ -46,7 +45,7 @@ class Hyperbolic_72_7 extends App {
         </figure>
         <figure>
             <img src = {require('./images/h_72_7/h_72_7_shrink.gif')} alt = 'static'/>
-            <figcaption>Shrinking faces to show the individual faces</figcaption>
+            <figcaption>Shrinking the faces to show the individual faces</figcaption>
         </figure>
         </div>
 
@@ -54,10 +53,8 @@ class Hyperbolic_72_7 extends App {
         <div>
         Here is
         the Hyperboloid 
-        model. I like this view because we can see the star shape in 3D. Each heptagrammic 
-        face is on a plane. This can be constructed by extending the edges
-        of <Link to='/hyperbolic_7_3'>{'{'}7, 3{'}'}</Link> until
-        they meet for the first time.
+        model. I like this view because we can see the non-convex shape in 3D. Each heptagrammic 
+        face is on a plane.
         </div>
 
         <div className = "figure-div">
@@ -66,18 +63,18 @@ class Hyperbolic_72_7 extends App {
             <figcaption>Hyperboloid model of {'{'}7/2, 7{'}'}</figcaption>
         </figure>
         <figure>
-            <img src = {require('./images/h_72_7/highlightCenter_topView_hyperboloid.png')} alt = 'static'/>
+            <img src = {require('./images/h_72_7/highlightCenter_hyperboloid.png')} alt = 'static'/>
             <figcaption>highlighting a face</figcaption>
         </figure>
         </div>
 
         <div>
-        The analogy between this shape and the <Link to='/Polyhedron_52_5'>small stellated
+        The analogy between {'{'}7/2, 7{'}'} and the <Link to='/Polyhedron_52_5'>small stellated
         dodecahedron {'{'}5/2, 5{'}'}</Link> is most obvious by looking into a face.
         </div>
         <div className = "figure-div">
         <figure>
-            <img src = {require('./images/h_72_7/highlightCenter_hyperboloid.png')} alt = 'static'/>
+            <img src = {require('./images/h_72_7/highlightCenter_topView_hyperboloid.png')} alt = 'static'/>
             <figcaption>A face on {'{'}7/2, 7{'}'}</figcaption>
         </figure>
         <figure>
@@ -91,18 +88,18 @@ class Hyperbolic_72_7 extends App {
         <li>
         Stellation from {'{'}7, 3{'}'}:
 
-        For each heptagonal face {'{'}7{'}'}, we extend the edges until they meet for the
-        first time to construct heptagram {'{'}7/2{'}'}. Then, we have {'{'}7/2, 7{'}'}.
-
+        For each heptagonal face {'{'}7{'}'} on <Link to='/hyperbolic_7_3'>{'{'}7, 3{'}'}</Link>, we extend the edges until they meet for the
+        first time to construct heptagram {'{'}7/2{'}'} (blue). Then, we have {'{'}7/2, 7{'}'}.
 
         <div className = "figure-div">
         <figure>
-            <img src = {require('./images/h_7_3/static.png')} alt = 'static'/>
-            <figcaption>{'{'}7, 3{'}'}</figcaption>
+            <img src = {require('./images/h_7_3/stellation_1.png')} alt = 'static'/>
+            <figcaption>Stellation in the Poincaré disk model</figcaption>
         </figure>
+
         <figure>
-            <img src = {require('./images/h_72_7/static.png')} alt = 'static'/>
-            <figcaption>Stellate heptagons to construct {'{'}7/2, 7{'}'}</figcaption>
+            <img src = {require('./images/h_7_3/stellated_1_hyperboloid.png')} alt = 'static'/>
+            <figcaption>Stellation in the hyperboloid model</figcaption>
         </figure>
         </div>
 
@@ -112,15 +109,21 @@ class Hyperbolic_72_7 extends App {
         <li>
         Faceting from {'{'}3, 7{'}'}:
 
-        The outside edges of seven faces around a vertex form a heptagon. Connect each
+        The outside edges of seven faces around a vertex form a heptagon (yellow). Connect each
         vertex to its distance-2 neighbor to construct a heptagram {'{'}7/2{'}'}. 
         Then, we have {'{'}7/2, 7{'}'}.
 
-        <div><strong>
-        [ Images to add:
-        1. {'{3, 7}'}, highlight the heptagon, connect vertices to get a heptagram.
-        ]       
-        </strong></div> 
+        <div className = "figure-div">
+        <figure>
+            <img src = {require('./images/h_3_7/facet_2.png')} alt = 'static'/>
+            <figcaption>Faceting to create a face</figcaption>
+        </figure>
+        <figure>
+            <img src = {require('./images/h_3_7/facet_2_hyperboloid.png')} alt = 'static'/>
+            <figcaption>Faceting in the hyperboloid model</figcaption>
+        </figure>
+
+        </div>
 
 
         </li>

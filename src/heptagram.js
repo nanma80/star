@@ -59,10 +59,9 @@ class Heptagram extends App {
             <div>
             Although the heptagrams are not used as faces of any 3D or 4D regular star 
             polytope, {'{'}7/2{'}'} can be seen in 
-            tessellations in the hyperbolic plane. It appears as faces 
-            of <a href="https://en.wikipedia.org/wiki/Order-7_heptagrammic_tiling" target="_blank" rel="noopener noreferrer">{'{'}7/2, 7{'}'}</a> and as vertex figures of the dual 
-            tessellation <a href="https://en.wikipedia.org/wiki/Heptagrammic-order_heptagonal_tiling"  target="_blank" rel="noopener noreferrer">{'{'}7, 7/2{'}'}</a>. The
-            hyperbolic tessellations are out of scope of this website.
+            tilings in the hyperbolic plane. It appears as faces 
+            of <Link to='/hyperbolic_72_7'>{'{'}7/2, 7{'}'}</Link> and as vertex figures of the dual 
+            tiling <Link to='/hyperbolic_7_72'>{'{'}7, 7/2{'}'}</Link>.
             </div>
 
             <h4 id="explosion">Explosion</h4>

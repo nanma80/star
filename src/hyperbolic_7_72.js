@@ -36,7 +36,7 @@ class Hyperbolic_7_72 extends App {
 
         The centers of adjacent faces that do share edges are far away.
 
-        Again, we shrink faces to locate the faces.
+        Again, we shrink faces to see them individually.
         </div>
         <div className = "figure-div">
         <figure>
@@ -53,7 +53,7 @@ class Hyperbolic_7_72 extends App {
         <div>
         Here is
         the Hyperboloid 
-        model, on which we can see the star shape in 3D. 
+        model, on which we can see the non-convex shape in 3D. 
 
         Each heptagonal
         face is on a plane. The other faces can cross a face to go to the other side. 
@@ -65,7 +65,7 @@ class Hyperbolic_7_72 extends App {
             <figcaption>Hyperboloid model of {'{'}7, 7/2{'}'}</figcaption>
         </figure>
         <figure>
-            <img src = {require('./images/h_7_72/highlightCenter_topView_hyperboloid.png')} alt = 'static'/>
+            <img src = {require('./images/h_7_72/highlightCenter_hyperboloid.png')} alt = 'static'/>
             <figcaption>highlighting a face</figcaption>
         </figure>
         </div>
@@ -76,7 +76,7 @@ class Hyperbolic_7_72 extends App {
         </div>
         <div className = "figure-div">
         <figure>
-            <img src = {require('./images/h_7_72/highlightCenter_hyperboloid.png')} alt = 'static'/>
+            <img src = {require('./images/h_7_72/highlightCenter_topView_hyperboloid.png')} alt = 'static'/>
             <figcaption>A face on {'{'}7, 7/2{'}'}</figcaption>
         </figure>
         <figure>
@@ -90,27 +90,32 @@ class Hyperbolic_7_72 extends App {
         <li>
         Stellation from {'{'}7, 3{'}'}:
         From {'{'}7, 3{'}'}, we first construct <Link to='/hyperbolic_72_7'>{'{'}7/2, 7{'}'}</Link>.
-        For each heptagrammic face {'{'}7/2{'}'}, we take the convex hull
-        to construct a heptagon {'{'}7{'}'}. Then, we have {'{'}7, 7/2{'}'}.
+        For each heptagrammic face {'{'}7/2{'}'} (purple), we take the convex hull
+        to construct a heptagon {'{'}7{'}'} (yellow). Then, we have {'{'}7, 7/2{'}'}.
 
-        This is the second stellation of {'{'}7, 3{'}'}.
 
         <div className = "figure-div">
         <figure>
-            <img src = {require('./images/h_72_7/static.png')} alt = 'static'/>
-            <figcaption>Highlighting a face on {'{'}7/2, 7{'}'}</figcaption>
-        </figure>
-        <figure>
-            <img src = {require('./images/h_7_72/static.png')} alt = 'static'/>
-            <figcaption>Take convex hull to construct {'{'}7, 7/2{'}'}</figcaption>
+            <img src = {require('./images/h_72_7/stellation_1.png')} alt = 'static'/>
+            <figcaption>Stellating from {'{'}7/2, 7{'}'}</figcaption>
         </figure>
         </div>
 
-        <div><strong>
-        [ Images to add:
-        1. heptagon -> heptagram -> heptagon
-        ]       
-        </strong></div> 
+        This is the second stellation of {'{'}7, 3{'}'}. Below are the images showing the two-step stellation 
+        process from {'{'}7, 3{'}'} to {'{'}7, 7/2{'}'} via the blue heptagram.
+
+        <div className = "figure-div">
+        <figure>
+            <img src = {require('./images/h_7_3/stellation_2.png')} alt = 'static'/>
+            <figcaption>Two step stellation from {'{'}7, 3{'}'}</figcaption>
+        </figure>
+
+        <figure>
+            <img src = {require('./images/h_7_3/stellated_2_hyperboloid.png')} alt = 'static'/>
+            <figcaption>Two step stellation in the hyperboloid model</figcaption>
+        </figure>
+        </div>
+
         </li>
         <li>
         Faceting from {'{'}3, 7{'}'}:
@@ -120,18 +125,43 @@ class Hyperbolic_7_72 extends App {
 
         <div className = "figure-div">
         <figure>
-            <img src = {require('./images/h_3_7/static.png')} alt = 'static'/>
-            <figcaption>{'{'}3, 7{'}'}</figcaption>
+            <img src = {require('./images/h_3_7/facet_1.png')} alt = 'static'/>
+            <figcaption>Use the heptagon from {'{'}3, 7{'}'} as a face</figcaption>
         </figure>
         <figure>
-            <img src = {require('./images/h_7_72/static.png')} alt = 'static'/>
-            <figcaption>Use the heptagon as a face to construct {'{'}7, 7/2{'}'}</figcaption>
+            <img src = {require('./images/h_3_7/facet_1_hyperboloid.png')} alt = 'static'/>
+            <figcaption>Use the heptagon from {'{'}3, 7{'}'} in the hyperboloid model</figcaption>
         </figure>
         </div>
 
         </li>
         </ul>
 
+        <h4 id="categorized-edge">Edge arrangement</h4>
+
+        <div>
+        If we ignore the faces and only focus on the
+        edges, the wireframes of {'{'}3, 7{'}'} and {'{'}7, 7/2{'}'} are the same.
+        </div>
+
+        <div className = "figure-div">
+        <figure>
+            <img src = {require('./images/h_3_7/wireframe_hyperboloid.png')} alt = 'static'/>
+            <figcaption>The common wireframe shared by {'{'}3, 7{'}'} and {'{'}7, 7/2{'}'}</figcaption>
+        </figure>
+        </div>
+
+        <div className = "figure-div">
+        <figure>
+            <img src = {require('./images/h_3_7/hyperboloid.png')} alt = 'static'/>
+            <figcaption>Hyperboloid model of {'{'}3, 7{'}'}</figcaption>
+        </figure>
+
+        <figure>
+            <img src = {require('./images/h_7_72/hyperboloid.png')} alt = 'static'/>
+            <figcaption>Hyperboloid model of {'{'}7, 7/2{'}'}</figcaption>
+        </figure>
+        </div>
         </div>
         )
 

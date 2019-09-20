@@ -32,18 +32,24 @@ class Hyperbolic_3_7 extends App {
             <img src = {require('./images/h_3_7/static.png')} alt = 'static'/>
             <figcaption>Poincaré disk model of {'{'}3, 7{'}'}</figcaption>
         </figure>
+        <figure>
+            <img src = {require('./images/h_3_7/facet_1.png')} alt = 'static'/>
+            <figcaption>7 faces in the center form a heptagon</figcaption>
+        </figure>
+
         </div>
 
         <div>
-        Note that combining the 7 faces in the center, we get a heptagon on the outside. 
+        Combining the 7 faces in the center, we get a heptagon on the outside. 
         This is analogous to the
         pentagonal pyramid on top of an icosahedron.
         </div>
 
+
         <h4 id="hyperboloid">Hyperboloid model</h4>
         <div>
         Here is the hyperboloid model. Again, all the triangles are equilateral triangles in the 
-        hyperboloid model, or, Minkowski space.
+        hyperboloid model.
         <div className = "figure-div">
         <figure>
             <img src = {require('./images/h_3_7/hyperboloid.png')} alt = 'static'/>

@@ -11,12 +11,15 @@ class Hyperbolic_7_3 extends App {
         a cube can be viewed as a partition of a sphere into six patches of 
         rounded squares. Therefore, it is a tessellation, or tiling, of the sphere.
         All the polytopes we've talked about so far have a finite number of faces.
-
+        </div>
+        <br/>
+        <div>
         We can extend the definition of polytopes to include tessellations using
-        infinitely many faces. We can consider tiling of an Euclidean plane using squares, 
+        infinitely many faces. We can consider tiling the Euclidean plane using squares, 
         or triangles, or hexagons.
-        We can also talk about tilings of the hyperbolic plane. Tessellations exist
-        in higher dimensions. 
+        We can also tile the hyperbolic plane. Tessellations exist
+        in higher dimensions. Grammatically, I think the faces should be called "tiles". However,
+        in this website, I will keep calling them faces to keep the consistency with polytopes.
         </div>
         <br/>
         <div>

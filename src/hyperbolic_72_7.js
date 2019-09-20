@@ -45,7 +45,7 @@ class Hyperbolic_72_7 extends App {
         </figure>
         <figure>
             <img src = {require('./images/h_72_7/h_72_7_shrink.gif')} alt = 'static'/>
-            <figcaption>Shrinking the faces to show the individual faces</figcaption>
+            <figcaption>Shrinking the faces</figcaption>
         </figure>
         </div>
 

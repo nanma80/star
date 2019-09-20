@@ -72,6 +72,19 @@ class Welcome extends App {
             <figcaption>4D: grand 120-cell, Layer 3</figcaption>
         </figure>
 
+        <div className = "figure-div">
+        <figure>
+            <img src = {require('./images/polytope_3_3_52/polytope_3_3_52_diff_shapes_layers_1_8.gif')} alt = 'static'/>
+            <figcaption>4D: transition between two polytopes</figcaption>
+        </figure>
+        <figure>
+            <img src = {require('./images/h_72_7/h_72_7_shrink.gif')} alt = 'static'/>
+            <figcaption>Hyperbolic star tiling</figcaption>
+        </figure>
+
+        </div>
+
+
         </div>
 	</div>)
     ;

@@ -124,6 +124,9 @@ const SidebarContent = props => {
         <SidebarContentRow path='/polytope_3_3_52' currentPath={props.currentPath} text="Grand 600-cell" rightText="{3, 3, 5/2}"/>
         <SidebarContentRow path='/summary_4d' currentPath={props.currentPath} text="Summary of 4D star polytopes"/>
         <SidebarContentRow path='/polytope_data' currentPath={props.currentPath} text="4D polytope data set"/>
+        
+        <SidebarDividerRow text="Hyperbolic"/>
+        <SidebarContentRow path='/hyperbolic_7_3' currentPath={props.currentPath} text="Heptagonal tiling" rightText="{7, 3}"/>
 
         <SidebarDividerRow text="nD"/>
         <SidebarContentRow path='/complete_list' currentPath={props.currentPath} text="All regular star polytopes"/>

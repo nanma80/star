@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f879896c279ea34d877345ca8e36a328",
+    "revision": "e103747b56c0d5e9920ddf75b2990696",
     "url": "/star/index.html"
   },
   {
-    "revision": "afbd4dd5006d24bcf9ef",
-    "url": "/star/static/css/main.70b7bbaf.chunk.css"
+    "revision": "9c21628d924fb2c44f84",
+    "url": "/star/static/css/main.596f1b9f.chunk.css"
   },
   {
-    "revision": "91ecd2d1438f4a339343",
-    "url": "/star/static/js/2.1cae5440.chunk.js"
+    "revision": "9e6fee926f626c6095d2",
+    "url": "/star/static/js/2.de174341.chunk.js"
   },
   {
-    "revision": "afbd4dd5006d24bcf9ef",
-    "url": "/star/static/js/main.4ad8a796.chunk.js"
+    "revision": "9c21628d924fb2c44f84",
+    "url": "/star/static/js/main.befad4d6.chunk.js"
   },
   {
     "revision": "2898011e16a63222a549",
@@ -120,6 +120,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/star/static/media/face_explode_polytope_5_52_5_layers_1_1.fd24b3c2.gif"
   },
   {
+    "revision": "e4c8044cdf1455e06346e5a8c640d1f1",
+    "url": "/star/static/media/facet_1.e4c8044c.png"
+  },
+  {
+    "revision": "841169d64eef00f4cff44e94fe9d09d4",
+    "url": "/star/static/media/facet_1_hyperboloid.841169d6.png"
+  },
+  {
+    "revision": "e46ef2d7fcb6f298bc21d03772edf91a",
+    "url": "/star/static/media/facet_2.e46ef2d7.png"
+  },
+  {
+    "revision": "40c5d302f6b997772cc412853d630596",
+    "url": "/star/static/media/facet_2_hyperboloid.40c5d302.png"
+  },
+  {
     "revision": "fd96124b5d840b3599f62314c1cb51db",
     "url": "/star/static/media/h_72_7_shrink.fd96124b.gif"
   },
@@ -132,20 +148,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/star/static/media/h_7_72_shrink.8a21657d.gif"
   },
   {
-    "revision": "56dbafb1d062cb08bbb518453771f0ef",
-    "url": "/star/static/media/highlightCenter_hyperboloid.56dbafb1.png"
+    "revision": "1260f82a10b3017dddbc8b65ea50be2e",
+    "url": "/star/static/media/highlightCenter_hyperboloid.1260f82a.png"
   },
   {
-    "revision": "7ef368fb66799997daf40f6bbfa7e244",
-    "url": "/star/static/media/highlightCenter_hyperboloid.7ef368fb.png"
+    "revision": "79213154eb977d9c2151400fe2ce883b",
+    "url": "/star/static/media/highlightCenter_hyperboloid.79213154.png"
   },
   {
-    "revision": "3b561a7f6ebf8e556d0533ee8ddeeab9",
-    "url": "/star/static/media/highlightCenter_topView_hyperboloid.3b561a7f.png"
+    "revision": "b687e5e8b58f34912d789db1b7b058b6",
+    "url": "/star/static/media/highlightCenter_topView_hyperboloid.b687e5e8.png"
   },
   {
-    "revision": "9fc13af3c293ecf21dc241099ae81bbc",
-    "url": "/star/static/media/highlightCenter_topView_hyperboloid.9fc13af3.png"
+    "revision": "e3adb820a6a4601e64fd0352f9d42d7b",
+    "url": "/star/static/media/highlightCenter_topView_hyperboloid.e3adb820.png"
   },
   {
     "revision": "0f71323cc2026a4ac398b1349a84f0be",
@@ -744,6 +760,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/star/static/media/static.b1455441.png"
   },
   {
+    "revision": "410b5e8449739f5d924cb383cb48c76b",
+    "url": "/star/static/media/stellated_1_hyperboloid.410b5e84.png"
+  },
+  {
+    "revision": "4b5b409efe6dd92a074e76036e18aff0",
+    "url": "/star/static/media/stellated_2_hyperboloid.4b5b409e.png"
+  },
+  {
     "revision": "dd34bf06cd5cfad7fe29d1e709da837d",
     "url": "/star/static/media/stellated_dodecahedron.dd34bf06.png"
   },
@@ -762,6 +786,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e04ea24bd0582885c6ac61fd4923be4c",
     "url": "/star/static/media/stellated_icosahedron.e04ea24b.png"
+  },
+  {
+    "revision": "b6d0835d0e4fffb7107dda37b3637025",
+    "url": "/star/static/media/stellation_1.b6d0835d.png"
+  },
+  {
+    "revision": "e4a9f184abd74ca1f280163d7ef2a421",
+    "url": "/star/static/media/stellation_1.e4a9f184.png"
+  },
+  {
+    "revision": "bbeb81d9be91b45a0d50a2cc4d04ca75",
+    "url": "/star/static/media/stellation_2.bbeb81d9.png"
   },
   {
     "revision": "75d058bc89316bc17ae6957b971edc24",
@@ -826,6 +862,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "01e6403545ac6da54ab8f1690b1309b1",
     "url": "/star/static/media/vertex_figure_polytope_5_52_5.01e64035.png"
+  },
+  {
+    "revision": "26b1383f0263e87782e2c3b82b4d26f9",
+    "url": "/star/static/media/wireframe_hyperboloid.26b1383f.png"
   },
   {
     "revision": "7fb4f8a24bab3ac1e73ce6b7e5a53b26",

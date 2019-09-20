@@ -69,7 +69,7 @@ class PolytopeData extends App {
         </ul>
         </div>
 
-        The Wolfram scripts I used to created the images are all
+        The Wolfram scripts I used to created the star polytope images are all
         in <a href="https://github.com/nanma80/star-polytope" target="_blank" rel="noopener noreferrer">this Github 
         repo</a>. This website 
         is hosted by Github Pages 

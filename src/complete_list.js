@@ -28,7 +28,9 @@ class CompleteList extends App {
             Here is the complete list of regular star polytopes, in the Euclidean spaces of <strong>all</strong> dimensions:
             <ul>
             <li>
-            2D: {'{'}p/q{'}'}, where p and q are coprime integers, p >= 5, 2 {'<='} q {'<'} p/2.
+            2D: {'{'}p/q{'}'}, where p and q are coprime integers, p >= 5, 2 {'<='} q {'<'} p/2. 
+            See the <Link to='/heptagram#general'>heptagram page</Link> for
+            some discussion.
             We require q {'<'} p/2 because if q is between p/2 and p, {'{'}p/q{'}'} is equivalent 
             to {'{'}p/(p-q){'}'}.
             </li>
@@ -58,9 +60,12 @@ class CompleteList extends App {
             <ul>
             <li>
             2D hyperbolic plane: {'{'}m/2, m{'}'} and {'{'}m, m/2{'}'}, 
-            where m is any odd integer with m >= 7. For an even m, {'{'}m/2{'}'} is 
-            not even a polygon, but a compound. For m = 5, the shapes exist. But they
-            are not in the hyperbolic plane. They are star polyhedra that we already covered.
+            where m is any odd integer with m >= 7. 
+            See <Link to='/hyperbolic_72_7'>{'{'}7/2, 7{'}'}</Link> and <Link to='/hyperbolic_7_72'>{'{'}7, 7/2{'}'}</Link> for m = 7.
+            For an even m, {'{'}m/2{'}'} is 
+            not even a polygon, but a compound. For m = 5, the shapes exist, but they
+            are not in the hyperbolic plane. 
+            They are star polyhedra <Link to='/polyhedron_52_5'>{'{'}5/2, 5{'}'}</Link> and <Link to='/polyhedron_5_52'>{'{'}5, 5/2{'}'}</Link>.
             </li>
             <li>
             4D hyperbolic space: four star 
@@ -70,7 +75,8 @@ class CompleteList extends App {
             5{'}'}, {'{'}5, 5/2, 5, 3{'}'}.
             You can see some detailed information <a href="https://en.wikipedia.org/wiki/List_of_regular_polytopes_and_compounds#Star_tessellations_of_hyperbolic_4-space" target="_blank" rel="noopener noreferrer">
             here</a>. They use some of
-            the 4D polytopes we discussed here as building blocks.
+            the 4D polytopes we discussed here as building blocks. 
+            I don't have any idea about how to visualize them.
             </li>
             </ul>
         </div>

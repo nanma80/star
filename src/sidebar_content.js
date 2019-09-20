@@ -53,7 +53,8 @@ const styles = {
     dividerText: { 
       color: "#757575",
       textDecoration: "none",
-      background:"#fff"
+      background:"#fff",
+      padding: "0px 10px 0px 10px"
     }
 };
 
@@ -127,6 +128,9 @@ const SidebarContent = props => {
         
         <SidebarDividerRow text="Hyperbolic"/>
         <SidebarContentRow path='/hyperbolic_7_3' currentPath={props.currentPath} text="Heptagonal tiling" rightText="{7, 3}"/>
+        <SidebarContentRow path='/hyperbolic_3_7' currentPath={props.currentPath} text="Order-7 triangular tiling" rightText="{3, 7}"/>
+        <SidebarContentRow path='/hyperbolic_72_7' currentPath={props.currentPath} text="Order-7 heptagrammic tiling" rightText="{7/2, 7}"/>
+        <SidebarContentRow path='/hyperbolic_7_72' currentPath={props.currentPath} text="Heptagrammic-order heptag..." rightText="{7, 7/2}"/>
 
         <SidebarDividerRow text="nD"/>
         <SidebarContentRow path='/complete_list' currentPath={props.currentPath} text="All regular star polytopes"/>

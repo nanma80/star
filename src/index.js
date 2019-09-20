@@ -34,6 +34,9 @@ import Summary4D from './summary_4d';
 import CompleteList from './complete_list';
 
 import Hyperbolic_7_3 from './hyperbolic_7_3';
+import Hyperbolic_3_7 from './hyperbolic_3_7';
+import Hyperbolic_72_7 from './hyperbolic_72_7';
+import Hyperbolic_7_72 from './hyperbolic_7_72';
 
 
 ReactDOM.render(
@@ -69,6 +72,9 @@ ReactDOM.render(
         <Route path='/polytope_data' component={PolytopeData} />
         <Route path='/complete_list' component={CompleteList} />
         <Route path='/hyperbolic_7_3' component={Hyperbolic_7_3} />
+        <Route path='/hyperbolic_3_7' component={Hyperbolic_3_7} />
+        <Route path='/hyperbolic_72_7' component={Hyperbolic_72_7} />
+        <Route path='/hyperbolic_7_72' component={Hyperbolic_7_72} />
      </Switch>
   </HashRouter>,
   document.getElementById('root')

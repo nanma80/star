@@ -15,7 +15,8 @@ class CompleteList extends App {
         H. S. M. Coxeter pointed out in his 
         book, <a href="https://en.wikipedia.org/wiki/Regular_Polytopes_(book)" target="_blank" rel="noopener noreferrer"><i>Regular Polytopes</i></a>,
         there are no regular star polytopes
-        in Euclidean spaces of five or higher dimensions.
+        in Euclidean spaces of five or higher dimensions. We also see 
+        star tilings in the hyperbolic plane.
         </div>
         </div>
         );
@@ -40,30 +41,26 @@ class CompleteList extends App {
             as shown in the <Link to='/intro_4d'>4D section</Link> of this website. 
             </li>
             </ul>
+
+            <br/>
+            <div>
+            Although honeycombs (tessellations/tilings in 2D)
+            exist in Euclidean spaces, there
+            is no <strong>star</strong> honeycombs in 
+            Euclidean spaces of any dimension.
+            </div>
         </div>
 
-        <h4 id="honeycomb">Regular star honeycombs</h4>
+        <h4 id="honeycomb">Hyperbolic spaces</h4>
         <div>
-        If you are really hungry for more star polytopes, you will have to
-        generalize and relax the definition of polytopes. We can view tessellations
-        of a plane, or honeycombs of space, as special polytopes with infinite faces.
-        Think of a plane tiled by infinitely many hexagons, or space filled by cubes.
-        Unfortunately, although tessellations and honeycombs exist, there
-        is no <strong>star</strong> honeycombs in Euclidean spaces of any dimension.
-        </div>
-
-        <br/>
-        <div>
-        When you go a bit further to the hyperbolic spaces,
-        you can find some star honeycombs:
+        In hyperbolic spaces,
+        we can find some star honeycombs:
             <ul>
             <li>
             2D hyperbolic plane: {'{'}m/2, m{'}'} and {'{'}m, m/2{'}'}, 
-            where m is any odd integer with m >= 7. Examples for m = 7
-            are <a href="https://en.wikipedia.org/wiki/Order-7_heptagrammic_tiling" target="_blank" rel="noopener noreferrer">{'{'}7/2, 
-            7{'}'}</a> and <a href="https://en.wikipedia.org/wiki/Heptagrammic-order_heptagonal_tiling"  target="_blank" rel="noopener noreferrer">{'{'}7, 
-            7/2{'}'}</a>.
-
+            where m is any odd integer with m >= 7. For an even m, {'{'}m/2{'}'} is 
+            not even a polygon, but a compound. For m = 5, the shapes exist. But they
+            are not in the hyperbolic plane. They are star polyhedra that we already covered.
             </li>
             <li>
             4D hyperbolic space: four star 

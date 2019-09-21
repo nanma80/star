@@ -36,6 +36,7 @@ class Welcome extends App {
         <div>
             We will start from the 2D star polygons like the pentagram. Then we will
             introduce generalizations of the pentagram in 3D and 4D spaces.
+            We will discuss star tilings in the Hyperbolic plane.
             I am not trying to make it a rigorous tutorial about these shapes, but rather
             a gallery of pictures with some explanations. The goal is to help us 
             to intuitively understand their
@@ -49,7 +50,7 @@ class Welcome extends App {
         </div>
         <br/>
         <div>
-            Here is a sneak peek of 3D and 4D shapes that you will read about.
+            Here is a sneak peek of 3D, 4D star polytopes and hyperbolic tilings that you will read about.
         </div>
         <div className = "figure-div">
         <figure>
@@ -71,6 +72,7 @@ class Welcome extends App {
             <img src = {require('./images/polytope_5_3_52/polytope_5_3_52_layers_3_3.gif')} alt = 'static'/>
             <figcaption>4D: grand 120-cell, Layer 3</figcaption>
         </figure>
+        </div>
 
         <div className = "figure-div">
         <figure>
@@ -81,11 +83,9 @@ class Welcome extends App {
             <img src = {require('./images/h_72_7/h_72_7_shrink.gif')} alt = 'static'/>
             <figcaption>Hyperbolic star tiling</figcaption>
         </figure>
-
         </div>
 
 
-        </div>
 	</div>)
     ;
 

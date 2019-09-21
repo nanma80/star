@@ -7,19 +7,31 @@ class Hyperbolic_7_3 extends App {
     super(props);
     this.state.intro = (<div>
         <div>
-        Polytopes can be described as tessellations of spaces. For example, 
-        a cube can be viewed as a partition of a sphere into six patches of 
+        Polytopes can be described 
+        as <a href="https://en.wikipedia.org/wiki/Tessellation" target="_blank" rel="noopener noreferrer">tessellations</a> of 
+        spaces. For example, 
+        if you blow up a cube so that it becomes spherical,
+        it can be viewed as a partition of a sphere into six patches of 
         rounded squares. Therefore, it is a tessellation, or tiling, of the sphere.
-        All the polytopes we've talked about so far have a finite number of faces.
+        All the polytopes we've talked about so far have a finite number of faces 
+        and can be viewed as tessellations of bounded spaces including 
+        spheres and hyperspheres.
         </div>
         <br/>
         <div>
         We can extend the definition of polytopes to include tessellations using
-        infinitely many faces. We can consider tiling the Euclidean plane using squares, 
+        infinitely many faces covering unbounded spaces.
+        We can consider tiling the Euclidean plane using squares, 
         or triangles, or hexagons.
-        We can also tile the hyperbolic plane. Tessellations exist
-        in higher dimensions. Grammatically, I think the faces should be called "tiles". However,
+        We can also use polygons to tile the hyperbolic plane. 
+        Grammatically, I think the faces should be called "tiles". However,
         in this website, I will keep calling them faces to keep the consistency with polytopes.
+        </div>
+        <br/>
+        <div>
+        Tessellations exist
+        in all dimensions. The generic term for tessellations in any dimension
+        is <a href="https://en.wikipedia.org/wiki/Honeycomb_(geometry)" target="_blank" rel="noopener noreferrer">honeycomb</a>. 
         </div>
         <br/>
         <div>

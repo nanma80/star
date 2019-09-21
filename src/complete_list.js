@@ -11,12 +11,10 @@ class CompleteList extends App {
         <div>
         So far we have seen some examples of 2D star polygons, 
         which can be easily generalized to an infinite family.
-        We also see 3D star polyhedra and 4D star polytopes. As 
-        H. S. M. Coxeter pointed out in his 
-        book, <a href="https://en.wikipedia.org/wiki/Regular_Polytopes_(book)" target="_blank" rel="noopener noreferrer"><i>Regular Polytopes</i></a>,
-        there are no regular star polytopes
-        in Euclidean spaces of five or higher dimensions. We also see 
-        star tilings in the hyperbolic plane.
+        We also see 3D star polyhedra and 4D star polytopes. 
+        We also see 
+        star tilings in the hyperbolic plane. Let us enumerate all 
+        the regular star polytopes and star honeycombs.
         </div>
         </div>
         );
@@ -43,12 +41,17 @@ class CompleteList extends App {
             as shown in the <Link to='/intro_4d'>4D section</Link> of this website. 
             </li>
             </ul>
-
             <br/>
             <div>
-            Although honeycombs (tessellations/tilings in 2D)
-            exist in Euclidean spaces, there
-            is no <strong>star</strong> honeycombs in 
+            As 
+            H. S. M. Coxeter pointed out in his 
+            book, <a href="https://en.wikipedia.org/wiki/Regular_Polytopes_(book)" target="_blank" rel="noopener noreferrer"><i>Regular Polytopes</i></a>,
+            there are no regular star polytopes
+            in Euclidean spaces of five or higher dimensions. 
+
+            Although <a href="https://en.wikipedia.org/wiki/Honeycomb_(geometry)" target="_blank" rel="noopener noreferrer">honeycombs</a> exist
+            in Euclidean spaces, there
+            are no <strong>star</strong> honeycombs in 
             Euclidean spaces of any dimension.
             </div>
         </div>
@@ -56,7 +59,7 @@ class CompleteList extends App {
         <h4 id="honeycomb">Hyperbolic spaces</h4>
         <div>
         In hyperbolic spaces,
-        we can find some star honeycombs:
+        we can find the following star honeycombs:
             <ul>
             <li>
             2D hyperbolic plane: {'{'}m/2, m{'}'} and {'{'}m, m/2{'}'}, 

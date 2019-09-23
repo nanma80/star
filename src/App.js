@@ -4,6 +4,7 @@ import MaterialTitlePanel from "./material_title_panel";
 import SidebarContent from "./sidebar_content";
 import TableOfContents from "./table_of_contents";
 import './App.css';
+import ReactGA from 'react-ga';
 
 const styles = {
   contentHeaderMenuLink: {
@@ -23,6 +24,13 @@ const styles = {
 
 const mql = window.matchMedia(`(min-width: 750px)`);
 
+const trackPage = (page) => {
+    ReactGA.set({
+      page
+    });
+    ReactGA.pageview(page);
+  };
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -38,6 +46,7 @@ class App extends React.Component {
     this.mediaQueryChanged = this.mediaQueryChanged.bind(this);
     this.toggleOpen = this.toggleOpen.bind(this);
     this.onSetOpen = this.onSetOpen.bind(this);
+    ReactGA.initialize('UA-51262438-1');
   }
 
   componentWillMount() {
@@ -67,7 +76,19 @@ class App extends React.Component {
     }
   }
 
+  componentWillReceiveProps(nextProps) {
+      const currentPage = this.props.location.pathname;
+      const nextPage = nextProps.location.pathname;
+
+      if (currentPage !== nextPage) {
+        trackPage(nextPage);
+      }
+  }
+
   componentDidMount() {
+    const page = this.props.location.pathname;
+    trackPage(page);
+
     if (window.ref.current !== null) { 
       window.ref.current.scrollIntoView({block: "center"});
     };

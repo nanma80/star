@@ -69,7 +69,11 @@ class App extends React.Component {
   }
 
   toggleOpen(ev) {
-    this.setState({ open: !this.state.open });
+    if (mql.matches) {
+      this.setState({ docked: !this.state.docked });
+    } else {
+      this.setState({ open: !this.state.open });
+    }
 
     if (ev) {
       ev.preventDefault();
@@ -100,15 +104,13 @@ class App extends React.Component {
 
     const contentHeader = (
       <span>
-        {!this.state.docked && (
-          <a
-            onClick={this.toggleOpen}
-            href="/#"
-            style={styles.contentHeaderMenuLink}
-          >
-          <i className="material-icons">menu</i>
-          </a>
-        )}
+        <a
+          onClick={this.toggleOpen}
+          href="/#"
+          style={styles.contentHeaderMenuLink}
+        >
+        <i className="material-icons">menu</i>
+        </a>
         {this.state.contentHeader}
       </span>
     );
@@ -143,33 +145,32 @@ class App extends React.Component {
     }
 
     var h4TagsProps = h4Tags.map((item) => {return [item.props.id, item.props.children]});
+    var tocOnSide = mql.matches;
 
     return (
       <Sidebar {...sidebarProps}>
         <MaterialTitlePanel title={contentHeader}>
           <div>
             <div>
-              {this.state.docked && (<div>
-                <TableOfContents list={h4TagsProps} tableOfContentsOnSide={this.state.docked}/>
+              {tocOnSide && (<div>
+                <TableOfContents list={h4TagsProps} tableOfContentsOnSide={tocOnSide}/>
                 {intro}
                 </div>
               )}
-              {!this.state.docked && (<div>
+              {!tocOnSide && (<div>
                 {intro}
-                <TableOfContents list={h4TagsProps} tableOfContentsOnSide={this.state.docked}/>
+                <TableOfContents list={h4TagsProps} tableOfContentsOnSide={tocOnSide}/>
                 </div>
               )}
             </div>
 
             <div className = "content-divider"/>
             {content}
-            {!this.state.docked && (
-              <div style={styles.footer}>
+            <div style={styles.footer}>
               <a onClick={this.toggleOpen} href="/#" >
-                Open menu
+                Toggle Menu
               </a>
             </div>
-            )}
           </div>
         </MaterialTitlePanel>
       </Sidebar>

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/star/static/css/main.dd93a036.chunk.css",
+    "main.css": "/star/static/css/main.490efd88.chunk.css",
     "main.js": "/star/static/js/main.38e53719.chunk.js",
     "main.js.map": "/star/static/js/main.38e53719.chunk.js.map",
     "runtime~main.js": "/star/static/js/runtime~main.81a9ca3b.js",
@@ -8,9 +8,9 @@
     "static/js/2.8e718e1c.chunk.js": "/star/static/js/2.8e718e1c.chunk.js",
     "static/js/2.8e718e1c.chunk.js.map": "/star/static/js/2.8e718e1c.chunk.js.map",
     "index.html": "/star/index.html",
-    "precache-manifest.f3a94bacf821673bf97dc7d7026eb3ea.js": "/star/precache-manifest.f3a94bacf821673bf97dc7d7026eb3ea.js",
+    "precache-manifest.155ce7f5515fb4d25488f43666364d0f.js": "/star/precache-manifest.155ce7f5515fb4d25488f43666364d0f.js",
     "service-worker.js": "/star/service-worker.js",
-    "static/css/main.dd93a036.chunk.css.map": "/star/static/css/main.dd93a036.chunk.css.map",
+    "static/css/main.490efd88.chunk.css.map": "/star/static/css/main.490efd88.chunk.css.map",
     "static/media/dodecahedron_faceting_2.png": "/star/static/media/dodecahedron_faceting_2.f8788be7.png",
     "static/media/dodecahedron_faceting_pentagram.png": "/star/static/media/dodecahedron_faceting_pentagram.e6a96aea.png",
     "static/media/edge_explode_polytope_3_3_52_layers_1_1.gif": "/star/static/media/edge_explode_polytope_3_3_52_layers_1_1.294a9a7f.gif",

@@ -37,7 +37,7 @@ import Hyperbolic_7_3 from './hyperbolic_7_3';
 import Hyperbolic_3_7 from './hyperbolic_3_7';
 import Hyperbolic_72_7 from './hyperbolic_72_7';
 import Hyperbolic_7_72 from './hyperbolic_7_72';
-
+import HiddenTest from './hidden_test';
 
 ReactDOM.render(
   <HashRouter basename='/'>
@@ -75,6 +75,7 @@ ReactDOM.render(
         <Route path='/hyperbolic_3_7' component={Hyperbolic_3_7} />
         <Route path='/hyperbolic_72_7' component={Hyperbolic_72_7} />
         <Route path='/hyperbolic_7_72' component={Hyperbolic_7_72} />
+        <Route path='/hidden_test' component={HiddenTest} />
      </Switch>
   </HashRouter>,
   document.getElementById('root')

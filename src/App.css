@@ -48,6 +48,19 @@
 .App-link {
   color: #61dafb;
 }
+ 
+.vzome-container {
+  height: 300px;
+  min-height: 400px;
+  max-height: 60vh;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-width: medium;
+  border-radius: 10px;
+  border: solid
+}
 
 @keyframes App-logo-spin {
   from {

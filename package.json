@@ -16,7 +16,8 @@
     "react-router-dom": "^5.0.1",
     "react-router-hash-link": "^1.2.2",
     "react-scripts": "3.0.1",
-    "react-sidebar": "^3.0.2"
+    "react-sidebar": "^3.0.2",
+    "react-vzome": "file:local_modules/react-vzome-0.1.0.tgz"
   },
   "scripts": {
     "start": "react-scripts start",

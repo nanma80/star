@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/star/static/css/main.dd93a036.chunk.css",
-    "main.js": "/star/static/js/main.b15eaab9.chunk.js",
-    "main.js.map": "/star/static/js/main.b15eaab9.chunk.js.map",
+    "main.js": "/star/static/js/main.4f29532a.chunk.js",
+    "main.js.map": "/star/static/js/main.4f29532a.chunk.js.map",
     "runtime~main.js": "/star/static/js/runtime~main.81a9ca3b.js",
     "runtime~main.js.map": "/star/static/js/runtime~main.81a9ca3b.js.map",
     "static/js/2.31e7baae.chunk.js": "/star/static/js/2.31e7baae.chunk.js",
     "static/js/2.31e7baae.chunk.js.map": "/star/static/js/2.31e7baae.chunk.js.map",
     "index.html": "/star/index.html",
-    "precache-manifest.87db3658c33f9128669d88941f182962.js": "/star/precache-manifest.87db3658c33f9128669d88941f182962.js",
+    "precache-manifest.bc28d468f1637c8dd2343c4a08cc0e88.js": "/star/precache-manifest.bc28d468f1637c8dd2343c4a08cc0e88.js",
     "service-worker.js": "/star/service-worker.js",
     "static/css/main.dd93a036.chunk.css.map": "/star/static/css/main.dd93a036.chunk.css.map",
     "static/media/dodecahedron_faceting_2.png": "/star/static/media/dodecahedron_faceting_2.f8788be7.png",

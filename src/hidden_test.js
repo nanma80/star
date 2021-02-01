@@ -9,13 +9,17 @@ class HiddenTest extends App {
     this.state.content = (<div>
         <h4 id="test">Test title</h4>
         <div>
-        Before the url viewer
+        From a local vZome file
         </div>
         <div className="vzome-container" >
-        <UrlViewer url="./120_cell.vZome" />
+        <UrlViewer url="vZome/120_cell.vZome" />
         </div>
+
         <div>
-        After the url viewer
+        From a remote url
+        </div>
+        <div className="vzome-container" >
+        <UrlViewer url="https://raw.githubusercontent.com/nanma80/compound-polytopes/master/data/vZome/compound_75_8_cells_in_600_cell_vertex_first.vZome" />
         </div>
     </div>)
     ;

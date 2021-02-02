@@ -50,13 +50,11 @@
 }
  
 .vzome-container {
-  height: 300px;
-  min-height: 400px;
-  max-height: 60vh;
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  height: 500px;
+  min-height: 500px;
+  max-height: 90vh;
+  margin-top: 5px;
+  margin-bottom: 5px;
   border-width: medium;
   border-radius: 10px;
   border: solid

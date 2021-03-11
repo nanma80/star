@@ -6,6 +6,7 @@
   "dependencies": {
     "@nanma80/exploding-4d-star-polytopes": "https://api.observablehq.com/@nanma80/exploding-4d-star-polytopes.tgz?v=3",
     "@observablehq/runtime": "^4.4.1",
+    "@vzome/react-vzome": "^0.9.5",
     "d3": "^5.12.0",
     "dagre": "^0.8.4",
     "dagre-d3": "^0.6.3",
@@ -16,8 +17,7 @@
     "react-router-dom": "^5.0.1",
     "react-router-hash-link": "^1.2.2",
     "react-scripts": "3.0.1",
-    "react-sidebar": "^3.0.2",
-    "react-vzome": "file:local_modules/react-vzome-0.1.0.tgz"
+    "react-sidebar": "^3.0.2"
   },
   "scripts": {
     "start": "react-scripts start",

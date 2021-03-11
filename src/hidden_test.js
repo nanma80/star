@@ -1,6 +1,6 @@
 import React from "react";
 import App from './App';
-import { UrlViewer } from 'react-vzome';
+import { UrlViewer } from '@vzome/react-vzome';
 
 class HiddenTest extends App {
   constructor(props) {
